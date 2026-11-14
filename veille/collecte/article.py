@@ -56,6 +56,7 @@ class Article:
     titre_origine: str | None = None
     media_url: str | None = None  # site annoncé par Google News, pour contrôler la résolution
     groupe: str | None = None  # identifiant du premier article traitant le même fait
+    vu_le: str | None = None  # première observation par la collecte (fenêtre des éditions)
 
     @property
     def id(self) -> str:

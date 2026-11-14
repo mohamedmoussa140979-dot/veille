@@ -1,0 +1,84 @@
+name: edition
+
+# Synthèses : matin (07:30 Tunis), soir (18:30), week-end (09:30). Crons en UTC = heure de Tunis − 1 h.
+# L'archive Pages est publiée une fois par édition (jamais à chaque collecte).
+on:
+  schedule:
+    - cron: "30 6 * * 1-5"
+    - cron: "30 17 * * 1-5"
+    - cron: "30 8 * * 0,6"
+  workflow_dispatch:
+    inputs:
+      type:
+        description: "Type d'édition (auto = selon l'heure)"
+        type: choice
+        options: [auto, matin, soir, weekend]
+        default: auto
+      heures:
+        description: "Forcer la fenêtre aux N dernières heures (vide = fenêtre normale)"
+        type: string
+        default: ""
+
+concurrency:
+  group: veille-edition
+  cancel-in-progress: false
+
+jobs:
+  edition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write # écriture de l'édition sur la branche data
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Édition
+        env:
+          PYTHONUNBUFFERED: "1"
+          EDITION_SCHEDULE: ${{ github.event.schedule }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TG_TOKEN_VEILLE: ${{ secrets.TG_TOKEN_VEILLE }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CLAUDE_PLAFOND_USD_MOIS: ${{ vars.CLAUDE_PLAFOND_USD_MOIS }}
+        run: >-
+          python -m veille.edition --type ${{ inputs.type || 'auto' }}
+          ${{ inputs.heures && format('--heures {0}', inputs.heures) || '' }}
+
+  pages:
+    needs: edition
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: data
+          path: _data
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Construire l'archive
+        run: python -m veille.edition.site _data _site
+      - uses: actions/configure-pages@v6.0.0
+      - uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: _site
+      - id: deploiement
+        uses: actions/deploy-pages@v5.0.1

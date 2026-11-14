@@ -53,7 +53,8 @@ def essai_alerte(client, journal) -> int:
 
 
 def main(argv: list[str]) -> int:
-    sys.stdout.reconfigure(encoding="utf-8")  # console Windows : cp1252 par défaut
+    if hasattr(sys.stdout, "reconfigure"):  # absent sous la capture de pytest
+        sys.stdout.reconfigure(encoding="utf-8")
     a_blanc = "--a-blanc" in argv
     journal = Journal.depuis_env()
     params = charger_parametres()

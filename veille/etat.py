@@ -267,6 +267,9 @@ class EtatLocal:
         self.dossier = Path(dossier)
         self.dossier.mkdir(parents=True, exist_ok=True)
 
+    def ouvrir(self) -> EtatLocal:
+        return self
+
     def synchroniser(self) -> EtatLocal:
         return self
 
