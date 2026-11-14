@@ -109,3 +109,84 @@ def test_site_sans_edition_reste_valide(tmp_path):
     archive.construire_site([], tmp_path, date(2026, 11, 17))
     assert "Aucune édition" in (tmp_path / "index.html").read_text(encoding="utf-8")
     assert json.loads((tmp_path / "recherche.json").read_text(encoding="utf-8")) == []
+
+
+# --- V3 : tableaux des chapitres 3 et 4 -------------------------------------------------
+
+
+def edition_avec_marches():
+    from tests.test_marches import bourse, taux, yahoo_complet
+    from veille.marches import tableaux
+
+    marches = {
+        "chiffres": tableaux.chiffres(bourse(), yahoo_complet(), taux()),
+        "tableaux": {
+            "bourse-entreprises": tableaux.tableau_bourse(bourse()),
+            "international": tableaux.tableau_international(yahoo_complet(), taux()),
+        },
+    }
+    from tests.test_edition import ARTICLES, CLASSEMENT_OK, MAINTENANT, FauxIa, redaction
+    from veille.edition.fenetre import fichier_et_id
+    from veille.edition.generation import produire_edition
+    from veille.journal import Journal
+
+    ident, type_ = fichier_et_id("matin", MAINTENANT)
+    return produire_edition(
+        ia=FauxIa(CLASSEMENT_OK, redaction()), articles=ARTICLES, type_enregistre=type_,
+        ident=ident, maintenant=MAINTENANT, journal=Journal(sortie=lambda _: None), marches=marches,
+    )  # fmt: skip
+
+
+def test_edition_avec_tableaux_et_quatre_chiffres_valide_le_contrat():
+    from veille.edition.modele import valider_edition
+
+    ed = edition_avec_marches()
+    valider_edition(ed)
+    assert [c["valeur"] for c in ed["chiffres"]] == [
+        18989.99,
+        3.3639,
+        ed["chiffres"][2]["valeur"],
+        7.0,
+    ]
+    tableaux_ = {c["cle"]: c["tableau"] for c in ed["chapitres"]}
+    assert tableaux_["bourse-entreprises"]["seance"] == "2026-11-13"
+    assert tableaux_["international"]["lignes"][0]["cle"] == "brent"
+    assert tableaux_["eco-tunisie"] is None
+
+
+def test_message_telegram_contient_les_tableaux():
+    m = message.construire_message(edition_avec_marches())
+    assert "Bourse de Tunis · séance du 13/11/2026" in m and "TUNINDEX" in m and "▲ Hausses" in m
+    assert "Matières premières" in m and "MASI —" in m and "EUR/TND (BCT)" in m
+    assert equilibre(m)
+
+
+def test_archive_affiche_les_tableaux_avec_liens_et_tirets(tmp_path):
+    archive.construire_site([edition_avec_marches()], tmp_path, date(2026, 11, 17))
+    p = (tmp_path / "editions" / "2026-11-17-matin.html").read_text(encoding="utf-8")
+    assert '<table class="tab">' in p and "Depuis le 1er janvier" in p and "Instrument" in p
+    assert "+0,79 %" in p and "<td>—</td>" in p  # MASI sans source : tiret
+    assert 'rel="noopener noreferrer"' in p
+
+
+def test_chapitre_sans_sujet_garde_son_tableau_mais_pas_les_autres():
+    ed = edition_avec_marches()
+    assert "international" in [c["cle"] for c in ed["chapitres"]]
+    from tests.test_edition import ARTICLES, MAINTENANT, FauxIa
+    from tests.test_marches import taux, yahoo_complet
+    from veille.edition.generation import produire_edition
+    from veille.journal import Journal
+    from veille.marches import tableaux
+
+    seul = {"tableaux": {"international": tableaux.tableau_international(yahoo_complet(), taux())}}
+    cl = {"articles": [{"id": "a1", "chapitre": "eco-tunisie", "sujet": "x", "importance": 2}]}
+    red = {
+        "essentiel": [{"texte": "T", "sujets": ["s1"]}],
+        "sujets": [{"cle": "s1", "titre": "T", "texte": "X"}],
+    }
+    e = produire_edition(ia=FauxIa(cl, red), articles=ARTICLES[:1], type_enregistre="matin", ident="2026-11-17-matin",
+                         maintenant=MAINTENANT, journal=Journal(sortie=lambda _: None), marches=seul)  # fmt: skip
+    assert [(c["cle"], len(c["sujets"])) for c in e["chapitres"]] == [
+        ("eco-tunisie", 1),
+        ("international", 0),
+    ]

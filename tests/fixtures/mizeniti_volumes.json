@@ -1,0 +1,41 @@
+{
+ "au": "2026-11-13",
+ "seances": [
+  {
+   "d": "2026-11-11",
+   "titres": 705579,
+   "valeurs_echangees": 61,
+   "valeurs_cotees": 61,
+   "volumes_connus": 61,
+   "capitaux": 24240506170,
+   "capitaux_connus": 61,
+   "capitaux_estimes": 0,
+   "titres_avec_blocs": 1705579,
+   "transactions": 2054
+  },
+  {
+   "d": "2026-11-12",
+   "titres": 513827,
+   "valeurs_echangees": 59,
+   "valeurs_cotees": 59,
+   "volumes_connus": 59,
+   "capitaux": 74107976300,
+   "capitaux_connus": 59,
+   "capitaux_estimes": 0,
+   "titres_avec_blocs": 4266532,
+   "transactions": 1921
+  },
+  {
+   "d": "2026-11-13",
+   "titres": 1394880,
+   "valeurs_echangees": 60,
+   "valeurs_cotees": 60,
+   "volumes_connus": 60,
+   "capitaux": 20743022760,
+   "capitaux_connus": 60,
+   "capitaux_estimes": 0,
+   "titres_avec_blocs": 1394880,
+   "transactions": 1724
+  }
+ ]
+}

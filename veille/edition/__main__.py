@@ -31,6 +31,7 @@ from veille.etat import EtatGit, EtatLocal
 from veille.http import Client
 from veille.ia import ErreurIa, Ia
 from veille.journal import Journal
+from veille.marches import mizeniti, tableaux, yahoo
 from veille.telegram import envoyer
 
 NOMS = {"matin": "du matin", "soir": "du soir", "weekend": "du week-end"}
@@ -42,6 +43,23 @@ def url_pages() -> str | None:
         return None
     proprietaire, nom = depot.split("/", 1)
     return f"https://{proprietaire.lower()}.github.io/{nom}/"
+
+
+def donnees_marches(client, params: dict, journal: Journal) -> dict | None:
+    """Chiffres et tableaux des chapitres 3 et 4 ; une panne ne bloque jamais l'édition."""
+    try:
+        bourse, taux = mizeniti.charger(client, params["marches"]["mizeniti_url"], journal)
+        internationaux = yahoo.lire_internationaux(client, journal)
+        return {
+            "chiffres": tableaux.chiffres(bourse, internationaux, taux),
+            "tableaux": {
+                "bourse-entreprises": tableaux.tableau_bourse(bourse),
+                "international": tableaux.tableau_international(internationaux, taux),
+            },
+        }
+    except Exception as exc:  # noqa: BLE001 - édition sans tableaux plutôt que pas d'édition
+        journal.avertir("marches_indisponibles", journal.masquer(str(exc))[:160])
+        return None
 
 
 def option(argv: list[str], nom: str) -> str | None:
@@ -97,6 +115,7 @@ def main(argv: list[str]) -> int:
         edition = produire_edition(
             ia=ia, articles=articles, type_enregistre=enregistre, ident=ident,
             maintenant=maintenant, journal=journal,
+            marches=donnees_marches(client, params, journal),
         )  # fmt: skip
     except AucuneActualite as exc:
         journal.avertir("edition_vide", str(exc), edition=ident)
