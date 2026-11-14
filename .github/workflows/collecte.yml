@@ -10,6 +10,11 @@ on:
     # Sam–dim : 09:15 et 18:15 (Tunis)
     - cron: "15 8,17 * * 0,6"
   workflow_dispatch:
+    inputs:
+      essai_alerte:
+        description: "Envoyer seulement deux alertes d'exemple sur Telegram (rien n'est collecté)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write # nécessaire pour écrire l'état sur la branche data
@@ -36,4 +41,4 @@ jobs:
           TG_TOKEN_VEILLE: ${{ secrets.TG_TOKEN_VEILLE }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python -m veille.collecte
+        run: python -m veille.collecte ${{ inputs.essai_alerte && '--essai-alerte' || '' }}

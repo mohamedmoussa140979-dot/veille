@@ -42,9 +42,9 @@ def test_meme_article_meme_cle_malgre_www_slash_et_suivi():
 
 
 def test_lien_traduit_forme_translate_goog():
-    u = lien_traduit("https://www.reuters.com/markets/tunisia-2026", "en", False)
+    u = lien_traduit("https://www.techcabal.com/markets/tunisia-2026", "en", False)
     assert u == (
-        "https://www-reuters-com.translate.goog/markets/tunisia-2026"
+        "https://www-techcabal-com.translate.goog/markets/tunisia-2026"
         "?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr"
     )
 
@@ -62,6 +62,8 @@ def test_pas_de_lien_traduit_pour_francais_payant_google_news_et_domaines_bloque
     assert lien_traduit("https://news.google.com/rss/articles/xyz", "en", False) is None
     assert lien_traduit("https://www.ft.com/content/1", "en", False) is None
     assert lien_traduit("https://www.finextra.com/news/1", "en", False) is None
+    assert lien_traduit("https://www.reuters.com/world/x", "en", False) is None  # HTTP 400 constaté
+    assert lien_traduit("https://www.marketwatch.com/story/x", "en", False) is None
 
 
 def test_lien_de_repli():

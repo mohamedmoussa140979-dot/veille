@@ -8,8 +8,13 @@ from urllib.parse import quote, urlsplit
 
 from veille.http import ErreurReseau
 
+# Hôtes sans lien traduit. Les cinq premiers viennent de l'ancien script AWB. reuters.com et
+# marketwatch.com : `translate.goog` répond HTTP 400, y compris par la forme de repli
+# (constat du 14/11/2026, lot V1) ; à réévaluer, un lien mort est pire qu'un lien absent.
 DOMAINES_SANS_TRADUCTION = re.compile(
-    r"(^|\.)(finextra\.com|ft\.com|wsj\.com|bloomberg\.com|americanbanker\.com)$", re.I
+    r"(^|\.)(finextra\.com|ft\.com|wsj\.com|bloomberg\.com|americanbanker\.com|"
+    r"reuters\.com|marketwatch\.com)$",
+    re.I,
 )
 _ARABE = re.compile(r"[؀-ۿ]")
 BATCHEXECUTE = "https://news.google.com/_/DotsSplashUi/data/batchexecute"
