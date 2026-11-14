@@ -6,7 +6,7 @@ Tout est décrit dans `docs/` : règles du chantier (`00-regles-chantier.md`), s
 
 ## État
 
-Lots V0 (socle), V1 (collecte et alertes) et V2 (synthèses) livrés (bilans dans `docs/bilans/`). Les workflows de marchés, d'AWB et de santé arrivent avec les lots V3 à V5. Archive publique : https://mohamedmoussa140979-dot.github.io/veille/
+Lots V0 (socle), V1 (collecte et alertes), V2 (synthèses) et V3 (marchés) livrés (bilans dans `docs/bilans/`). Les workflows d'AWB et de santé arrivent avec les lots V4 et V5. Archive publique : https://mohamedmoussa140979-dot.github.io/veille/
 
 ## Ce que fait chaque workflow
 
@@ -18,6 +18,8 @@ Lots V0 (socle), V1 (collecte et alertes) et V2 (synthèses) livrés (bilans dan
 
 | `edition` | planifié (heure de Tunis) : lun–ven 07:30 (matin) et 18:30 (soir), sam–dim 09:30 (week-end) ; manuel possible | Classe et rédige la synthèse avec l'IA (Gemini, Claude en secours), écrit `editions/AAAA-MM-JJ-matin|soir.json` sur `data`, envoie le message 🌅/🌆 et publie l'archive sur GitHub Pages. Entrées manuelles : `type` (auto, matin, soir, weekend), `heures` (fenêtre forcée) |
 
+| `marches` | planifié (heure de Tunis, jours ouvrés) : 17:20 point Bourse, 18:20 nouvel essai si la séance du jour n'est pas encore publiée, 22:45 clôture internationale ; manuel possible | Point 📈 : Bourse de Tunis (TUNINDEX, indice Banques, trois plus fortes hausses et baisses, capitaux) lue chez Mizeniti en lecture seule ; clôture internationale (Yahoo Finance) et cours BCT. Entrées manuelles : `point`, `essai`, `jour` (essai avec un jour imposé, sans anti-doublon) |
+
 Relancer un essai depuis un terminal :
 
 ```bash
@@ -25,6 +27,7 @@ gh workflow run smoke.yml -R mohamedmoussa140979-dot/veille
 gh workflow run collecte.yml -R mohamedmoussa140979-dot/veille
 gh workflow run collecte.yml -R mohamedmoussa140979-dot/veille -f essai_alerte=true
 gh workflow run edition.yml -R mohamedmoussa140979-dot/veille -f type=matin -f heures=24
+gh workflow run marches.yml -R mohamedmoussa140979-dot/veille -f point=bourse -f essai=2 -f jour=2026-11-13
 ```
 
 Essai local sur de vraies pages, sans Git ni Telegram (état dans `_etat_local/`) :
@@ -62,6 +65,8 @@ Sur la branche `data` : `articles/AAAA-MM-JJ.jsonl` (articles du jour), `state/s
 - `config/parametres.yaml` : modèle et tarifs de secours Claude, plafond, pauses Gemini, essais HTTP, plage silencieuse des alertes.
 - `config/sources.yaml` : liste des sources (remplie au lot V1). Pour ajouter une source : une entrée avec `id`, `nom`, `url`, `type`, `chapitre`, `langue`, `alerte`, `payant`, `actif`.
 - `config/exclusions.yaml` : mots exclus (lot V1).
+- `config/jours_feries.yaml` : jours sans séance à la Bourse de Tunis (aucun point 📈). Fêtes à date fixe seulement : les fêtes religieuses mobiles sont à ajouter chaque année.
+- `config/parametres.yaml` (`marches.mizeniti_url`) : adresse du Worker `marche-lecture` de Mizeniti, lu en lecture seule.
 
 ## Secrets du dépôt
 
