@@ -12,6 +12,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 from veille.edition.modele import RUBRIQUES
+from veille.marches.formats import date_courte, nombre, signe
 
 NOMS_EDITION = {"matin": "🌅 Matin", "soir": "🌆 Soir"}
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre",
@@ -28,6 +29,7 @@ h2{font-size:1.1rem;margin:1.6em 0 .5em;padding-left:.6em;border-left:4px solid 
 .sujet h3{font-size:1rem;margin:0 0 .3em}.sujet p{margin:.3em 0}.liens{font-size:.9rem;color:var(--doux)}
 .menage{font-size:.92rem;margin:.4em 0}.pastille{font-size:.72rem;border:1px solid var(--ligne);border-radius:4px;padding:0 4px;margin-left:3px;color:var(--doux)}
 nav a{margin-right:.8em}input[type=search]{width:100%;padding:10px;font-size:1rem;border:1px solid var(--ligne);border-radius:8px;background:var(--carte);color:var(--texte)}
+table.tab{width:100%;border-collapse:collapse;font-size:.92rem}table.tab th,table.tab td{text-align:right;padding:5px 6px;border-bottom:1px solid var(--ligne)}table.tab th:first-child,table.tab td:first-child{text-align:left}
 ul.liste{list-style:none;padding:0}ul.liste li{padding:8px 0;border-bottom:1px solid var(--ligne)}
 """
 
@@ -79,6 +81,53 @@ def _liens(ids: list[str], articles: dict[str, dict]) -> str:
     return " · ".join(morceaux)
 
 
+def _libelle(ligne: dict) -> str:
+    if ligne.get("source_url"):
+        return f'<a href="{_e(ligne["source_url"])}" rel="noopener noreferrer">{_e(ligne["libelle"])}</a>'
+    return _e(ligne["libelle"])
+
+
+def _ligne_tableau(ligne: dict, decimales: int = 2, annee: bool = False) -> str:
+    cellules = [
+        f"<td>{_libelle(ligne)}</td>",
+        f"<td>{_e(nombre(ligne['valeur'], decimales))}</td>",
+        f"<td>{_e(signe(ligne.get('variation_pct')))}</td>",
+    ]
+    if annee:
+        cellules.append(f"<td>{_e(signe(ligne.get('variation_annee_pct')))}</td>")
+    return "<tr>" + "".join(cellules) + "</tr>"
+
+
+def tableau_html(chapitre: str, t: dict) -> str:
+    """Tableau fixe des chapitres 3 (Bourse) et 4 (marchés internationaux) ; « — » si absent."""
+    if chapitre == "bourse-entreprises":
+        tete = f"{t['titre']} · séance du {date_courte(t['seance'])}" + (
+            " (provisoire)" if t.get("provisoire") else ""
+        )
+        lignes = "".join(_ligne_tableau(x, annee=True) for x in t["lignes"])
+        html_ = (
+            f'<div class="carte"><p class="meta">{_e(tete)}</p><table class="tab"><thead><tr>'
+            "<th>Indice</th><th>Valeur</th><th>Jour</th><th>Depuis le 1er janvier</th></tr></thead>"
+            f"<tbody>{lignes}</tbody></table>"
+        )
+        for titre, cle in (("Plus fortes hausses", "hausses"), ("Plus fortes baisses", "baisses")):
+            if t.get(cle):
+                corps = "".join(_ligne_tableau(x, 3) for x in t[cle])
+                html_ += (
+                    f'<p class="meta">{titre}</p><table class="tab"><tbody>{corps}</tbody></table>'
+                )
+        return html_ + "</div>"
+    lignes = "".join(
+        _ligne_tableau(x, 4 if x["cle"] in ("eurusd", "eur_tnd", "usd_tnd") else 2)
+        for x in t["lignes"]
+    )
+    return (
+        f'<div class="carte"><p class="meta">{_e(t["titre"])}</p><table class="tab"><thead><tr>'
+        "<th>Instrument</th><th>Valeur</th><th>Variation</th></tr></thead>"
+        f"<tbody>{lignes}</tbody></table></div>"
+    )
+
+
 def page_edition(ed: dict) -> str:
     articles = ed["articles"]
     corps = [
@@ -93,6 +142,8 @@ def page_edition(ed: dict) -> str:
         )
     for c in ed["chapitres"]:
         corps.append(f"<h2>{_e(c['titre'])}</h2>")
+        if c.get("tableau"):
+            corps.append(tableau_html(c["cle"], c["tableau"]))
         for s in c["sujets"]:
             rub = RUBRIQUES.get(s.get("rubrique") or "")
             etiquette = f' <span class="pastille">{_e(rub)}</span>' if rub else ""

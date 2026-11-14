@@ -28,6 +28,7 @@ def env(tmp_path, monkeypatch):
     monkeypatch.setenv("TG_CHAT_ID", "42")
     monkeypatch.setenv("GITHUB_REPOSITORY", "Proprietaire/veille")
     monkeypatch.delenv("EDITION_SCHEDULE", raising=False)
+    monkeypatch.setattr(cli, "donnees_marches", lambda *a, **k: None)  # pas de réseau en test
     lignes = [json.dumps(a | {"vu_le": "2026-11-17T05:00:00+01:00"}) for a in ARTICLES]
     etat.ajouter_lignes("articles/2026-11-17.jsonl", lignes)
     return etat, envoyes, monkeypatch

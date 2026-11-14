@@ -54,7 +54,7 @@
           "tableau": {"type": ["array", "object", "null"]},
           "sujets": {
             "type": "array",
-            "minItems": 1,
+            "minItems": 0,
             "maxItems": 5,
             "items": {
               "type": "object",

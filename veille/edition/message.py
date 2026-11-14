@@ -5,6 +5,7 @@ from __future__ import annotations
 import html
 
 from veille.edition.modele import RUBRIQUES
+from veille.marches.points import lignes_tableau
 from veille.telegram import echapper
 
 
@@ -36,6 +37,8 @@ def construire_message(edition: dict, url_edition: str | None = None) -> str:
         )
     for chapitre in edition["chapitres"]:
         lignes = [f"<b>{echapper(chapitre['titre'])}</b>"]
+        if chapitre.get("tableau"):
+            lignes += lignes_tableau(chapitre["cle"], chapitre["tableau"])
         for s in chapitre["sujets"]:
             rubrique = RUBRIQUES.get(s.get("rubrique") or "")
             etiquette = f" <i>({echapper(rubrique)})</i>" if rubrique else ""

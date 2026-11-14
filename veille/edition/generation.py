@@ -72,8 +72,13 @@ def produire_edition(
     ident: str,
     maintenant: datetime,
     journal: Journal,
+    marches: dict | None = None,
 ) -> dict:
-    """Édition conforme au schéma v1 (lève `AucuneActualite` ou `EditionInvalide`)."""
+    """Édition conforme au schéma v1 (lève `AucuneActualite` ou `EditionInvalide`).
+
+    `marches` (lot V3) : {"chiffres": [...], "tableaux": {chapitre: tableau}} ; sans lui, les
+    quatre chiffres valent `null` et les chapitres n'ont pas de tableau.
+    """
     if not articles:
         raise AucuneActualite("aucun article dans la fenêtre")
     par_id = {a["id"]: a for a in articles}
@@ -109,8 +114,11 @@ def produire_edition(
                 ligne["rubrique"] = s["rubrique"]
                 ligne["impact_menage"] = (r or {}).get("impact_menage") or None
             du_chapitre.append(ligne)
-        if du_chapitre:
-            chapitres.append({"cle": cle, "titre": titre, "tableau": None, "sujets": du_chapitre})
+        tableau = ((marches or {}).get("tableaux") or {}).get(cle)
+        if du_chapitre or tableau:  # un chapitre sans sujet garde son tableau fixe
+            chapitres.append(
+                {"cle": cle, "titre": titre, "tableau": tableau, "sujets": du_chapitre}
+            )
 
     par_cle = {s["cle"]: s for s in sujets}
     essentiel = []
@@ -154,7 +162,8 @@ def produire_edition(
         "edition": type_enregistre,
         "genere_le": temps.en_tunis(maintenant).replace(microsecond=0).isoformat(),
         "modele": modele,
-        "chiffres": [
+        "chiffres": (marches or {}).get("chiffres")
+        or [
             {**c, "valeur": None, "variation_pct": None, "source_url": None, "au": None}
             for c in CHIFFRES_VIDES
         ],

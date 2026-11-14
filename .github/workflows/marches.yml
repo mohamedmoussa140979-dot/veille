@@ -1,0 +1,56 @@
+name: marches
+
+# Points 📈 (spec § 5) : Bourse de Tunis à 17:20, nouvel essai à 18:20 si la séance du jour n'est pas
+# encore publiée par Mizeniti ; clôture internationale à 22:45 (heure de Tunis = UTC + 1 h).
+on:
+  schedule:
+    - cron: "20 16 * * 1-5"
+    - cron: "20 17 * * 1-5"
+    - cron: "45 21 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      point:
+        description: "Point à envoyer"
+        type: choice
+        options: [bourse, international]
+        default: bourse
+      essai:
+        description: "Essai (2 = annonce « non encore publiée » si besoin)"
+        type: choice
+        options: ["1", "2"]
+        default: "2"
+      jour:
+        description: "Essai : jour imposé AAAA-MM-JJ (ignore week-end et anti-doublon ; vide = normal)"
+        type: string
+        default: ""
+
+permissions:
+  contents: write # état et journal sur la branche data
+
+concurrency:
+  group: veille-marches
+  cancel-in-progress: false
+
+jobs:
+  marches:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Point marché
+        env:
+          PYTHONUNBUFFERED: "1"
+          MARCHES_SCHEDULE: ${{ github.event.schedule }}
+          TG_TOKEN_VEILLE: ${{ secrets.TG_TOKEN_VEILLE }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: >-
+          python -m veille.marches
+          ${{ inputs.point && format('--point {0} --essai {1}', inputs.point, inputs.essai) || '' }}
+          ${{ inputs.jour && format('--jour {0}', inputs.jour) || '' }}

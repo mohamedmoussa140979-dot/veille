@@ -58,6 +58,9 @@ def valider_edition(edition: dict) -> None:
     inconnus = sorted({a for a in references if a not in articles})
     if inconnus:
         raise EditionInvalide(f"articles cités mais absents : {', '.join(inconnus)}")
+    for c in edition["chapitres"]:
+        if not c["sujets"] and not c["tableau"]:
+            raise EditionInvalide(f"chapitre {c['cle']} vide : ni sujet ni tableau")
     ordre = [c for c, _ in CHAPITRES]
     cles = [c["cle"] for c in edition["chapitres"]]
     if cles != sorted(cles, key=ordre.index):

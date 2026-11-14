@@ -84,3 +84,44 @@ def message_international(tableau: dict, taux: dict) -> str:
         )
     lignes.append("\nSources : Yahoo Finance, BCT (cours moyens)")
     return "\n".join(lignes)
+
+
+def _element(ligne: dict) -> str:
+    """« Brent 95,84 (+0,02 %) » avec lien vers la source ; tiret si la donnée est absente."""
+    if ligne["valeur"] is None:
+        return f"{echapper(ligne['libelle'])} —"
+    decimales = 4 if ligne.get("cle") in ("eurusd", "eur_tnd", "usd_tnd") else 2
+    return (
+        f"{_lien(ligne['libelle'], ligne.get('source_url'))} {nombre(ligne['valeur'], decimales)} "
+        f"({signe(ligne.get('variation_pct'))})"
+    )
+
+
+GROUPES_INTERNATIONAL = [
+    ("Matières premières", ("brent", "gaz", "or", "ble")),
+    ("Indices", ("sp500", "eurostoxx50", "cac40", "masi")),
+    ("Devises", ("eurusd", "eur_tnd", "usd_tnd")),
+]
+
+
+def lignes_tableau(chapitre: str, tableau: dict) -> list[str]:
+    """Lignes HTML du tableau fixe d'un chapitre (3 : Bourse ; 4 : marchés internationaux)."""
+    if chapitre == "bourse-entreprises":
+        entete = f"<i>{echapper(tableau['titre'])} · séance du {date_courte(tableau['seance'])}"
+        entete += " (provisoire)</i>" if tableau.get("provisoire") else "</i>"
+        lignes = [entete]
+        for ligne in tableau["lignes"]:
+            annee = ligne.get("variation_annee_pct")
+            suite = f" · depuis le 1er janvier {signe(annee)}" if annee is not None else ""
+            lignes.append(f"• {_element(ligne)}{suite}")
+        for fleche, cle in (("▲ Hausses", "hausses"), ("▼ Baisses", "baisses")):
+            if tableau.get(cle):
+                lignes.append(f"{fleche} : " + " · ".join(_element(v) for v in tableau[cle]))
+        return lignes
+    par_cle = {ligne["cle"]: ligne for ligne in tableau["lignes"]}
+    lignes = [f"<i>{echapper(tableau['titre'])}</i>"]
+    for nom, cles in GROUPES_INTERNATIONAL:
+        lignes.append(
+            f"• {nom} : " + " · ".join(_element(par_cle[c]) for c in cles if c in par_cle)
+        )
+    return lignes
