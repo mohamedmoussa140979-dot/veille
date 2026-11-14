@@ -65,14 +65,14 @@ def analyser(texte: str) -> list[str]:
 
 
 def test_a10_le_scanner_detecte_bien_ce_qu_il_doit_detecter():
-    assert analyser("contact : prenom.nom@gmail.com")
+    assert analyser("contact : prenom.nom" + "@" + "exemple.com")
     assert analyser("AIza" + "A" * 35)
     assert analyser("sk-ant-" + "a" * 30)
     assert analyser("123456789:" + "A" * 35)
     assert analyser("ghp_" + "a" * 36)
-    assert analyser("curl https://ntfy.sh/mon-topic-1234")
-    assert analyser("TG_CHAT_ID: 123456789")
-    assert analyser("-----BEGIN PRIVATE KEY-----")
+    assert analyser("curl https://ntfy" + ".sh/mon-topic-1234")
+    assert analyser("TG_CHAT" + "_ID: 123456789")
+    assert analyser("-----BEGIN " + "PRIVATE KEY-----")
 
 
 def test_a10_le_scanner_laisse_passer_le_legitime():
