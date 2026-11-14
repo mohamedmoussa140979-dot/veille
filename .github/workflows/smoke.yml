@@ -1,0 +1,39 @@
+name: smoke
+
+# Essai réel du socle, déclenché à la main : branche data, Gemini, Claude, Telegram.
+on:
+  workflow_dispatch:
+    inputs:
+      tester_claude:
+        description: "Faire un appel Claude minimal (quelques millièmes de dollar)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # nécessaire pour écrire sur la branche data
+
+concurrency:
+  group: veille-smoke
+  cancel-in-progress: false
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Essai réel
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TG_TOKEN_VEILLE: ${{ secrets.TG_TOKEN_VEILLE }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CLAUDE_PLAFOND_USD_MOIS: ${{ vars.CLAUDE_PLAFOND_USD_MOIS }}
+        run: python -m veille.smoke ${{ inputs.tester_claude && '--claude' || '' }}

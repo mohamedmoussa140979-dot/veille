@@ -1,0 +1,4 @@
+# Liste des sources (spec § 6.2). Remplie au lot V1.
+# Champs : id, nom, url, type (rss|html-generique|bct|ins|cmf|bvmt|google-news),
+# chapitre, langue, alerte (true|false), payant (true|false), actif (true|false).
+sources: []

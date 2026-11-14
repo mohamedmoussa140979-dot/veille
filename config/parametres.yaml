@@ -1,0 +1,17 @@
+# Paramètres du socle. Aucune donnée personnelle ni secret ici.
+claude:
+  # Secours uniquement (spec § 7). Prix en USD par million de tokens, à vérifier
+  # sur la page de tarifs d'Anthropic si le modèle change.
+  modele: claude-sonnet-5-5
+  prix_entree_usd_par_mtok: 2.0
+  prix_sortie_usd_par_mtok: 10.0
+  plafond_usd_mois: 5.0        # surchargé par la variable CLAUDE_PLAFOND_USD_MOIS
+  max_tokens: 8000
+gemini:
+  attentes_s: [10, 30, 60]     # pauses entre les tours complets de modèles
+  max_modeles: 6
+http:
+  essais: 3
+  delai_hote_s: 1.0
+alertes:
+  plage_silencieuse: {debut: "22:00", fin: "07:00"}   # heure de Tunis
