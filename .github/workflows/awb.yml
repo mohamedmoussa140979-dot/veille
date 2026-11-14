@@ -1,0 +1,35 @@
+name: awb
+
+# Veille AWB (spec § 5) : tous les jours à 08:30 et 18:30 (heure de Tunis = UTC + 1 h).
+on:
+  schedule:
+    - cron: "30 7,17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write # état et journal sur la branche data
+
+concurrency:
+  group: veille-awb
+  cancel-in-progress: false
+
+jobs:
+  awb:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Veille AWB
+        env:
+          PYTHONUNBUFFERED: "1"
+          TG_TOKEN_VEILLE: ${{ secrets.TG_TOKEN_VEILLE }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MYMEMORY_MAIL: ${{ secrets.MYMEMORY_MAIL }}
+        run: python -m veille.awb

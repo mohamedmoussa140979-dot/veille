@@ -1,0 +1,224 @@
+# Veille AWB (lot V4) : reprise de la configuration de veille_awb.py (ancien dépôt veille-awb).
+# Sujets : AWB (Attijariwafa bank et filiales), TN (secteur bancaire tunisien), SOUV (risque souverain,
+# français-anglais puis arabe), TECH (cas d'usage technologiques : GDELT + Finextra).
+# `motif` : l'article doit le contenir ; `motif_et` : et aussi ceci (sujets SOUV). `poids` des requêtes et
+# `signaux` alimentent le score ; sous `seuil`, l'article n'est pas envoyé. Expressions régulières, sans casse.
+
+seuil_defaut: 8
+fenetre_h: 48
+fenetre_evenement_h: 72
+max_envois: 30
+sujets:
+- tag: 🟦 AWB
+  locales:
+  - - fr
+    - MA
+    - MA:fr
+  - - ar
+    - MA
+    - MA:ar
+  - - fr
+    - FR
+    - FR:fr
+  - - fr
+    - TN
+    - TN:fr
+  - - en
+    - US
+    - US:en
+  motif: attijari|التجاري وفا|وفا بنك|wafasalaf|wafacash|wafa assurance|el kettani
+  requetes:
+    '"Attijariwafa bank"': 10
+    '"Attijariwafa"': 8
+    '"التجاري وفا بنك"': 10
+    '"Attijari bank" Tunisie': 9
+    '"Attijariwafa bank Europe"': 7
+    '"Wafa Assurance"': 6
+    '"Wafasalaf"': 5
+    '"Wafacash"': 5
+    '"CBAO" Attijariwafa': 6
+    '"Mohamed El Kettani"': 9
+- tag: 🟨 TN
+  locales:
+  - - fr
+    - TN
+    - TN:fr
+  - - ar
+    - TN
+    - TN:ar
+  - - fr
+    - FR
+    - FR:fr
+  motif: \bbiat\b|amen bank|banque de tunisie|\bbna\b|banque nationale agricole|\bstb\b|societe tunisienne de banque|\bbh
+    bank\b|banque de l.habitat|\buib\b|\bubci\b|arab tunisian|\batb\b|zitouna|al ?baraka|wifak|qnb|banque centrale
+    de tunisie|\bbct\b|secteur bancaire tunisien|aptbef|بنك|البنك
+  requetes:
+    '"BIAT" Tunisie': 8
+    '"Amen Bank"': 8
+    '"Banque de Tunisie"': 8
+    '"Banque Nationale Agricole" OR "BNA Bank" Tunisie': 8
+    '"Societe Tunisienne de Banque" OR "STB Bank"': 8
+    '"BH Bank" OR "Banque de l''Habitat" Tunisie': 8
+    '"UIB" Tunisie': 7
+    '"UBCI" Tunisie': 7
+    '"Arab Tunisian Bank"': 7
+    '"Banque Zitouna" OR "Zitouna Bank"': 7
+    '"Al Baraka Bank" Tunisie': 6
+    '"Wifak Bank"': 6
+    '"QNB Tunisie"': 6
+    '"Banque Centrale de Tunisie"': 9
+    '"secteur bancaire tunisien"': 8
+    '"البنك المركزي التونسي"': 9
+- tag: 🟩 SOUV
+  locales:
+  - - fr
+    - FR
+    - FR:fr
+  - - en
+    - US
+    - US:en
+  motif: tunisi|maroc|moroc|égypt|egypt|algéri|algeri|liby|mauritani|côte d.ivoire|ivoir|cameroun|cameroon|sénégal|senegal|gabon|turqu|turkey|türkiye
+  requetes:
+    Tunisie notation souveraine OR FMI OR eurobond: 9
+    Maroc notation souveraine OR "taux directeur" OR eurobond: 8
+    Egypte notation souveraine OR FMI OR eurobond: 8
+    Algérie "dette publique" OR "déficit budgétaire" OR inflation: 7
+    Libye "banque centrale" OR "réserves de change": 6
+    Mauritanie FMI OR "dette publique" OR notation: 6
+    '"Côte d''Ivoire" eurobond OR notation OR FMI': 8
+    Cameroun FMI OR "dette publique" OR notation: 7
+    Sénégal eurobond OR FMI OR notation OR "dette publique": 8
+    Gabon eurobond OR notation OR "dette publique": 7
+    Turquie "taux directeur" OR "politique monétaire" OR inflation: 8
+    Egypt sovereign rating OR IMF programme: 7
+    Turkey central bank policy rate: 7
+    Senegal OR Gabon OR Cameroon sovereign rating: 7
+  seuil: 13
+  motif_et: fitch|moody|s&p|standard & poor|notation|rating|outlook|\bfmi\b|\bimf\b|eurobond|sukuk|obligation souveraine|sovereign|spread|\bcds\b|taux
+    directeur|policy rate|politique monétaire|monetary policy|banque centrale|central bank|inflation|déficit budgétaire|budget
+    deficit|dette publique|public debt|défaut|default|restructuration|restructuring|balance des paiements|réserves
+    de change|foreign reserves|dévaluation
+- tag: 🟩 SOUV
+  locales:
+  - - ar
+    - EG
+    - EG:ar
+  - - ar
+    - TN
+    - TN:ar
+  motif: تونس|مغرب|\bمصر\b|مصري|جزائر|ليبي|موريتاني|ساحل العاج|كوت ديفوار|كاميرون|سنغال|غابون|تركي
+  requetes:
+    تونس "التصنيف السيادي" OR "صندوق النقد الدولي": 9
+    المغرب "التصنيف الائتماني" OR "السياسة النقدية": 8
+    مصر "صندوق النقد الدولي" OR "سندات دولية": 8
+    الجزائر "الدين العام" OR "التضخم": 7
+    ليبيا "البنك المركزي" OR "احتياطي النقد": 6
+    موريتانيا "صندوق النقد الدولي" OR "الدين العام": 6
+    تركيا "سعر الفائدة" OR "السياسة النقدية": 8
+    السنغال OR الكاميرون OR الغابون "صندوق النقد الدولي": 6
+  seuil: 16
+  motif_et: التصنيف السيادي|التصنيف الائتماني|صندوق النقد|سندات دولية|سندات سيادية|صكوك|السياسة النقدية|سعر الفائدة|نسبة
+    الفائدة|البنك المركزي|التضخم|الدين العام|عجز الميزانية|احتياطي النقد|العملة الصعبة|تخفيض قيمة|فيتش|موديز
+- tag: 🟪 TECH
+  locales: []
+  motif: bank|banking|finance|financial|payment|paiement|fintech|insurance|assurance|lending|credit|treasury|capital
+    market|banque|crédit|marché|deposit|dépôt|transaction|wallet|settlement|clearing|custody|tokeni[sz]|stablecoin|\bcbdc\b|\bmnbc\b|blockchain|ledger|core
+    banking|\bkyc\b|\baml\b|fraud|fraude|trading|exchange|remittance|virement|compensation|\bpix\b|\bupi\b|swift|iso
+    ?20022|neobank|néobanque|jpmorgan|goldman|citigroup|\bhsbc\b|\bbnp\b|santander|\bdbs\b|\becb\b|\bbce\b|\bfed\b|\bboe\b|\bbis\b|\bmas\b|\bfca\b|\bocc\b
+  requetes: {}
+  seuil: 18
+  fenetre_h: 24
+  gdelt:
+    (tokenised OR tokenized OR "tokenized deposits") AND bank: 9
+    (CBDC OR "digital euro") AND (pilot OR launch OR regulation): 9
+    stablecoin AND (bank OR licence OR regulator): 9
+    '"open banking" AND (regulation OR mandate OR launch)': 8
+    '"core banking" AND (migration OR replatform)': 8
+    (AI OR "artificial intelligence") AND bank AND (deployed OR pilot OR scrapped): 8
+    '"instant payments" AND (rollout OR mandate)': 8
+    '"ISO 20022" AND (migration OR deadline)': 7
+  flux:
+  - nom: Finextra
+    url: https://www.finextra.com/rss/headlines.aspx
+    poids: 9
+bruit:
+- offre d.emploi
+- recrutement
+- recrute
+- stage rémunéré
+- horaires d.ouverture
+- code promo
+- jeu concours
+- tombola
+- agence la plus proche
+- guichet automatique
+- coupe du monde
+- championnat
+- demi-finale
+- cours du bitcoin
+- prix du bitcoin
+- bitcoin atteint
+- meilleures cryptos
+- comment investir
+- guide d.achat
+- parrainage
+- وظائف
+- توظيف
+- كأس العالم
+- مباراة
+sources_exclues: pr ?newswire|business ?wire|globe ?newswire|ein ?presswire|accesswire|prweb|openpr|newsfile|issuewire|analytics
+  ?insight|cryptopolitan|bitcoinist|coinpedia|ambcrypto|benzinga|zacks|simply ?wall|investing|marketbeat|medium|linkedin|substack|blogspot|newsbtc|u\.?today|coingape|crypto
+  ?news|the ?daily ?hodl|zerohedge
+sources_qualite: finextra|american ?banker|banking ?dive|the ?banker|financial ?times|reuters|bloomberg|wall ?street
+  ?journal|the ?economist|techcrunch|sifted|rest ?of ?world|nikkei|mit ?technology ?review|ieee|bank ?for ?international|fintech
+  ?futures|the ?paypers|payments ?dive|central ?banking|risk\.net|coindesk|ledger ?insights|the ?block
+publicite: \bproud to\b|is pleased to|announces? (?:a )?(?:strategic )?partnership|named a leader|magic quadrant|forrester
+  wave|wins? award|award-winning|top \d+|best \d+|\d+ ways|\d+ things|\d+ trends|what is |how to |the future of|thought
+  leader|sponsored|webinar|white ?paper|ebook|register now|join us|unveils new|expands partnership|predictions for
+  \d{4}|guide to|publi-?rédactionnel
+signaux:
+  résultat|bénéfice|PNB|RBE|coût du risque|dividende: 5
+  AMMC|CMF|note d.information|émission obligataire|augmentation de capital|OPA|OPV: 6
+  Fitch|Moody.s|S&P|notation|rating|outlook|فيتش|موديز|التصنيف: 6
+  acquisition|cession|prise de participation|filiale|rachat: 5
+  nomination|conseil d.administration|directoire|démission: 4
+  Bank Al-Maghrib|BCT|BCEAO|régulateur|sanction|amende: 5
+  cyber|fraude|litige|procès|enquête: 6
+  \bFMI\b|\bIMF\b|صندوق النقد: 6
+  eurobond|sukuk|صكوك|سندات دولية: 6
+  taux directeur|policy rate|نسبة الفائدة|سعر الفائدة: 6
+  défaut|default|restructuration|restructuring|rééchelonnement: 7
+  spread|\bCDS\b|dévaluation|تخفيض قيمة: 6
+  levée de fonds|funding round|series [ABCD]\b|licorne|unicorn: 5
+  ? agrément|licen[cs]e|sandbox|cadre réglementaire|regulatory framework|approv(?:e|es|ed|al)|authoris|authoriz|greenlight|mandate|directive|consultation|\bbans?\b|\bfined?\b|sanction
+  : 6
+  open banking|\bMNBC\b|\bCBDC\b|digital euro|digital pound|paiement instantané|instant payment: 6
+  failure|abandon(?:s|ed)?|scrap(?:s|ped)?|shelv|halts?|pauses?|outage|post-?mortem|lessons|delays?: 6
+  go(?:es)? live|went live|in production|roll(?:s|ed)? out|case study: 5
+  tokeni[sz]|stablecoin|settlement|custody|distributed ledger|smart contract: 6
+  processed \d|handles \d|\d[\d ,.]*(?:million|billion|\bbn\b) transactions|adoption rate|active users: 5
+  chief (?:ai|data|digital|technolog\w+|information) officer|\bcaio\b: 4
+  fund ?rais|valuation|\$\d+ ?(?:m|bn|billion|million): 5
+evenements:
+  acteurs:
+    moody: moody|موديز
+    fitch: fitch|فيتش
+    sp: \bs ?p\b|standard poor
+    fmi: \bfmi\b|\bimf\b|صندوق النقد
+    bceao: bceao
+    beac: \bbeac\b
+    bam: bank al maghrib
+    bct: \bbct\b|banque centrale de tunisie
+    tcmb: banque centrale turque|turkish central bank
+  pays:
+    tn: tunisi|تونس
+    ma: maroc|moroc|مغرب
+    eg: egypt|égypt|مصر
+    dz: alger|algéri|جزائر
+    ly: liby|ليبي
+    mr: mauritani|موريتاني
+    ci: ivoir|côte d ivoire
+    cm: cameroun|cameroon|كاميرون
+    sn: sénégal|senegal|سنغال
+    ga: gabon|غابون
+    tr: turqu|turkey|تركي
