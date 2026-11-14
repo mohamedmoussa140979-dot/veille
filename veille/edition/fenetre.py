@@ -22,6 +22,18 @@ def type_pour(maintenant: datetime) -> str:
     return "matin" if t.hour < 13 else "soir"
 
 
+CRONS = {
+    "30 6 * * 1-5": "matin",  # 07:30 à Tunis
+    "30 17 * * 1-5": "soir",  # 18:30
+    "30 8 * * 0,6": "weekend",  # 09:30
+}
+
+
+def type_depuis_cron(cron: str) -> str | None:
+    """Type d'édition lié à l'horaire du workflow (fiable même si GitHub retarde l'exécution)."""
+    return CRONS.get((cron or "").strip())
+
+
 def fichier_et_id(type_edition: str, maintenant: datetime) -> tuple[str, str]:
     """(identifiant, type enregistré). Le week-end s'enregistre comme `matin` (le contrat ne
     connaît que `matin` et `soir`)."""
