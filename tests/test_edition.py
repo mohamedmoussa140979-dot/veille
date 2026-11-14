@@ -343,3 +343,9 @@ def test_classement_renvoye_comme_tableau_seul_est_accepte():
     ed, _ = produire(ia=FauxIa(tableau_seul, redaction()))
     valider_edition(ed)
     assert len(ed["chapitres"]) == 4
+
+
+def test_le_prompt_ecarte_la_finance_personnelle():
+    from veille.edition.prompts import LIGNE_EDITORIALE
+
+    assert "Finance personnelle" in LIGNE_EDITORIALE and "hors-ligne" in LIGNE_EDITORIALE

@@ -12,6 +12,8 @@ LIGNE ÉDITORIALE
 marchés, technologie à fort impact sur les économies, les entreprises ou les ménages.
 - Exclu : sport, arts et culture, guerres et conflits, politique, faits divers, catastrophes \
 naturelles, people, santé grand public. Un article exclu reçoit le chapitre « hors-ligne ».
+- Finance personnelle et vie pratique (retraite, épargne ou immobilier des particuliers, conseils \
+à un lecteur) : « hors-ligne », sauf fait macroéconomique ou réglementaire.
 - Cas limite : un fait politique ou un conflit à effet économique direct (loi de finances, droits \
 de douane, sanctions, choc pétrolier) est GARDÉ et traité sous l'angle économique.
 

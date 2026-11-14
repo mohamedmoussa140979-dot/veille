@@ -58,7 +58,7 @@ sources:
   # --- International --------------------------------------------------------------------
   - {id: le-monde-economie, nom: "Le Monde · Économie", url: "https://www.lemonde.fr/economie/rss_full.xml", type: rss, chapitre: international, langue: fr, alerte: false, payant: true, actif: true}
   - {id: france24-eco, nom: "France 24 · Éco et tech", url: "https://www.france24.com/fr/%C3%A9co-tech/rss", type: rss, chapitre: international, langue: fr, alerte: false, payant: false, actif: true}
-  - {id: marketwatch, nom: MarketWatch, url: "https://feeds.content.dowjones.io/public/rss/mw_topstories", type: rss, chapitre: international, langue: en, alerte: false, payant: false, actif: true}
+  - {id: marketwatch, nom: "MarketWatch · Market Pulse", url: "https://feeds.content.dowjones.io/public/rss/mw_marketpulse", type: rss, chapitre: international, langue: en, alerte: false, payant: false, actif: true}
   - {id: reuters-tunisie, nom: Reuters, url: "https://news.google.com/rss/search?q=site:reuters.com+Tunisia&hl=en&gl=US&ceid=US:en", type: google-news, chapitre: international, langue: en, alerte: false, payant: false, actif: true}
   - {id: bloomberg-tunisie, nom: Bloomberg, url: "https://news.google.com/rss/search?q=site:bloomberg.com+Tunisia&hl=en&gl=US&ceid=US:en", type: google-news, chapitre: international, langue: en, alerte: false, payant: true, actif: true}
   - {id: ft-tunisie, nom: Financial Times, url: "https://news.google.com/rss/search?q=site:ft.com+Tunisia&hl=en&gl=US&ceid=US:en", type: google-news, chapitre: international, langue: en, alerte: false, payant: true, actif: true}
