@@ -40,7 +40,8 @@ RÈGLES
 minuscules et tirets) ; des faits différents reçoivent des identifiants différents.
 - Les articles hors ligne éditoriale reçoivent le chapitre « hors-ligne ». Tu peux aussi les omettre.
 - N'invente aucun identifiant : utilise uniquement ceux de la liste.
-- Réponds uniquement par un JSON conforme au schéma demandé."""
+- Réponds uniquement par UN OBJET JSON de cette forme (pas un tableau seul) :
+{"articles": [{"id": "a1b2c3", "chapitre": "eco-tunisie", "rubrique": "presse", "sujet": "taux-directeur", "importance": 2}]}"""
 
 CONSIGNE_REDACTION = """Tu reçois des SUJETS déjà classés par chapitre, avec leurs articles (identifiant, \
 source, titre, résumé). Rédige la synthèse.
@@ -56,7 +57,10 @@ point cite les clés des sujets (« sujets ») qu'il résume. Il y a toujours un
 - Pour chaque article non francophone listé dans « a_traduire », donne son titre en français \
 (« titres_fr »), fidèle au titre d'origine.
 - Tu cites uniquement les clés de sujets et les identifiants d'articles fournis.
-- Réponds uniquement par un JSON conforme au schéma demandé."""
+- Réponds uniquement par UN OBJET JSON de cette forme :
+{"essentiel": [{"texte": "…", "sujets": ["s1", "s2"]}],
+ "sujets": [{"cle": "s1", "titre": "…", "texte": "…", "impact_menage": null}],
+ "titres_fr": [{"id": "a1b2c3", "titre": "…"}]}"""
 
 _CLES = [c for c, _ in CHAPITRES]
 
@@ -121,6 +125,11 @@ SCHEMA_REDACTION = {
         },
     },
 }
+
+
+def normaliser_classement(donnees):
+    """Gemini renvoie parfois la liste seule : on la remet dans l'objet attendu."""
+    return {"articles": donnees} if isinstance(donnees, list) else donnees
 
 
 def _court(texte: str, n: int) -> str:

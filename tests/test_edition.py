@@ -41,9 +41,12 @@ class FauxIa:
         self.reponses = list(reponses)
         self.prompts = []
 
-    def generer_json(self, prompt, schema, *, systeme=None):
+    def generer_json(self, prompt, schema, *, systeme=None, normaliser=None):
         self.prompts.append(prompt)
-        return Resultat("", "gemini", "gemini-test", donnees=self.reponses.pop(0), essais=1)
+        donnees = self.reponses.pop(0)
+        if normaliser:
+            donnees = normaliser(donnees)
+        return Resultat("", "gemini", "gemini-test", donnees=donnees, essais=1)
 
 
 def journal():
@@ -332,3 +335,11 @@ def test_charger_articles_selon_vu_le_puis_publie_le(tmp_path):
     debut = datetime.fromisoformat("2026-11-16T18:30:00+01:00")
     ids = [a["id"] for a in charger_articles(etat, debut, MAINTENANT)]
     assert sorted(ids) == ["dedans", "sans_vu_le"]  # « dedans » : vu_le fait foi, pas la date 00:00
+
+
+def test_classement_renvoye_comme_tableau_seul_est_accepte():
+    """Constat réel (Gemini, 14/11) : la liste est renvoyée sans l'objet {"articles": …}."""
+    tableau_seul = CLASSEMENT_OK["articles"]
+    ed, _ = produire(ia=FauxIa(tableau_seul, redaction()))
+    valider_edition(ed)
+    assert len(ed["chapitres"]) == 4
