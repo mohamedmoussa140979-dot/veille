@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mohamedmoussa140979-dot.github.io/veille/schema/edition.v1.json",
+  "title": "Édition de la veille économique (contrat avec Mizeniti), version 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "id", "date", "edition", "genere_le", "modele", "chiffres", "essentiel", "chapitres", "articles"],
+  "properties": {
+    "version": {"const": 1},
+    "id": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}-(matin|soir)$"},
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "edition": {"enum": ["matin", "soir"]},
+    "genere_le": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(Z|[+-]\\d{2}:\\d{2})$"},
+    "modele": {"type": "string", "minLength": 1},
+    "chiffres": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["cle", "libelle", "valeur", "variation_pct", "source_url", "au"],
+        "properties": {
+          "cle": {"type": "string", "minLength": 1},
+          "libelle": {"type": "string", "minLength": 1},
+          "valeur": {"type": ["number", "null"]},
+          "variation_pct": {"type": ["number", "null"]},
+          "source_url": {"type": ["string", "null"]},
+          "au": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}
+        }
+      }
+    },
+    "essentiel": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["texte", "articles"],
+        "properties": {
+          "texte": {"type": "string", "minLength": 1},
+          "articles": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+        }
+      }
+    },
+    "chapitres": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["cle", "titre", "tableau", "sujets"],
+        "properties": {
+          "cle": {"enum": ["eco-tunisie", "bourse-entreprises", "international", "afrique", "technologie"]},
+          "titre": {"type": "string", "minLength": 1},
+          "tableau": {"type": ["array", "object", "null"]},
+          "sujets": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 5,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["titre", "texte", "articles"],
+              "properties": {
+                "rubrique": {"enum": ["reglementation", "notations", "statistiques", "presse", null]},
+                "titre": {"type": "string", "minLength": 1},
+                "texte": {"type": "string", "minLength": 1},
+                "impact_menage": {"type": ["string", "null"]},
+                "articles": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+              }
+            }
+          }
+        }
+      }
+    },
+    "articles": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["titre", "source", "url", "url_traduite", "publie_le", "langue", "payant"],
+        "properties": {
+          "titre": {"type": "string", "minLength": 1},
+          "titre_origine": {"type": ["string", "null"]},
+          "source": {"type": "string", "minLength": 1},
+          "url": {"type": "string", "pattern": "^https?://"},
+          "url_traduite": {"type": ["string", "null"]},
+          "publie_le": {"type": ["string", "null"]},
+          "langue": {"enum": ["fr", "en", "ar"]},
+          "payant": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

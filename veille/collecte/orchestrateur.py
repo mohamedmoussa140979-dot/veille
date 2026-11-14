@@ -188,6 +188,7 @@ def collecter(
     rapport.nouveaux = len(a_ecrire)
     for a in a_ecrire:  # nouveauté : date d'observation si la page ne donne pas de date
         a.publie_le = a.publie_le or maintenant.isoformat()
+        a.vu_le = temps.en_tunis(maintenant).isoformat()
     for sid in premieres:
         if stats.get(sid, {}).get("dernier_ok") == maintenant.isoformat():
             stats[sid]["premier_passage"] = maintenant.isoformat()
