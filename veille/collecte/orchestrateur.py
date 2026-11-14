@@ -43,6 +43,13 @@ class Rapport:
     resolutions_echec: int = 0
 
 
+def _recent(a: Article, maintenant: datetime) -> bool:
+    """Publié depuis moins de 24 h (fenêtre de démarrage d'une source)."""
+    return (
+        bool(a.publie_le) and maintenant - datetime.fromisoformat(a.publie_le) <= BASELINE_FENETRE
+    )
+
+
 def _jour(instant: datetime) -> str:
     return temps.en_tunis(instant).date().isoformat()
 
@@ -79,8 +86,15 @@ def _recolter(sources, client, journal, maintenant, stats, rapport) -> list[Arti
     return articles
 
 
-def _resoudre_liens(articles, client, journal, cache, maintenant, rapport) -> list[Article]:
-    """Remplace les liens Google News par l'URL réelle ; un lien non résolu écarte l'article."""
+def _resoudre_liens(
+    articles, client, journal, cache, maintenant, rapport, premieres=frozenset()
+) -> list[Article]:
+    """Remplace les liens Google News par l'URL réelle ; un lien non résolu écarte l'article.
+
+    Au premier passage d'une source, un article plus ancien que la fenêtre de démarrage n'est pas
+    résolu (inutile et coûteux) : on mémorise son identifiant comme « vu » (URL vide), pour qu'il
+    ne soit jamais pris pour une nouveauté aux passages suivants.
+    """
     gardes, restantes = [], MAX_RESOLUTIONS
     for a in articles:
         if not est_google_news(a.url):
@@ -88,8 +102,11 @@ def _resoudre_liens(articles, client, journal, cache, maintenant, rapport) -> li
             continue
         ident = _ident_gnews(a.url)
         if ident in cache:
-            a.url = cache[ident][0]
-            gardes.append(a)
+            if cache[ident][0]:  # URL vide = déjà vu et volontairement ignoré
+                a.url = cache[ident][0]
+                gardes.append(a)
+        elif ident and a.source_id in premieres and not _recent(a, maintenant):
+            cache[ident] = ["", _jour(maintenant)]
         elif ident and restantes > 0:
             restantes -= 1
             reel = resoudre_google_news(client, a.url, journal)
@@ -131,7 +148,7 @@ def collecter(
         for a in articles
         if not a.publie_le or maintenant - datetime.fromisoformat(a.publie_le) <= AGE_MAX
     ]
-    articles = _resoudre_liens(articles, client, journal, cache_gn, maintenant, rapport)
+    articles = _resoudre_liens(articles, client, journal, cache_gn, maintenant, rapport, premieres)
 
     nouveaux: list[Article] = []
     ids_du_passage: set[str] = set()

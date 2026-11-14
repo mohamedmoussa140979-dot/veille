@@ -108,6 +108,30 @@ def test_cmf_titre_arabe_detecte():
     assert any(a.langue == "fr" for a in articles[1:])
 
 
+def test_cmf_etats_financiers_titre_compose_et_lien_pdf():
+    s = source(
+        "cmf-etats",
+        "cmf",
+        "https://www.cmf.tn/?q=consultation-des-tats-financier-des-soci-t-s-faisant-ape",
+    )
+    articles = lire(s, charger("cmf_etats_financiers.html"))
+    assert len(articles) == 3
+    a = articles[0]
+    assert a.titre.startswith("SICAV L") and "Etats financiers intermédiaires au 30/09" in a.titre
+    assert a.titre.endswith("2026") or "2026" in a.titre
+    assert a.url.startswith("https://www.cmf.tn/sites/default/files/pdfs/")  # le PDF
+    assert a.publie_le == "2026-11-13T00:00:00+01:00"
+
+
+def test_cmf_indicateurs_d_activite():
+    s = source("cmf-indic", "cmf", "https://www.cmf.tn/?q=indicateurs-d-activit-")
+    articles = lire(s, charger("cmf_indicateurs.html"))
+    assert len(articles) == 3
+    a = articles[0]
+    assert a.titre == "TUNISAIR – 3 eme trimestre 2026"
+    assert a.publie_le == "2026-11-13T15:30:00+01:00"
+
+
 # --- BVMT -------------------------------------------------------------------------------
 
 

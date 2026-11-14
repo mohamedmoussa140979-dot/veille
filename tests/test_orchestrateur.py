@@ -315,6 +315,9 @@ def test_liens_google_news_resolus_une_seule_fois_et_traduits(tmp_path):
         assert a["langue"] == "en" and a["url_traduite"].startswith("https://media")
         assert ".translate.goog/" in a["url_traduite"] and "_x_tr_tl=fr" in a["url_traduite"]  # A12
         assert a["titre_origine"] == a["titre"]
+    # articles plus vieux que la fenêtre de démarrage : non résolus, mémorisés (URL vide)
+    cache = etat.lire_json("state/gnews.json")
+    assert any(v[0] == "" for v in cache.values()) and any(v[0] for v in cache.values())
     # second passage : tout est en cache, aucune nouvelle résolution, aucune nouveauté
     client.appels.clear()
     rapport, _ = lancer(client, etat, FEV.replace(hour=20), sources=(src,), envoyes=[])
