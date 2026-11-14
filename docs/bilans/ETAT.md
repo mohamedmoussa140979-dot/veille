@@ -5,7 +5,11 @@ Dernière mise à jour : 14/11/2026
 **V0 — socle : clos** (bilan : `V0-bilan.md`).
 **V1 — collecte et alertes : clos** (fusionné dans `main`, essai réel vert ; bilan : `V1-bilan.md`). La collecte tourne désormais aux horaires du § 5 de la spec. Restent à constater par le porteur : le rendu des alertes d'essai sur le téléphone et la première vraie alerte BCT ou CMF.
 
-**Lot en cours : V2 — synthèses** (branche `v2-syntheses`, inventaire à écrire).
+**V2 — synthèses : clos** (fusionné dans `main`, essai réel vert ; bilan : `V2-bilan.md`). Les éditions tournent aux horaires du § 5.
+
+**Phase 2 possible** : le fichier d'édition (`schema/edition.v1.json`) est livré et valide sur la branche `data` (`editions/`). La phase 2 (Actualités dans Mizeniti) se lance dans `pfm-platform` avec son propre prompt.
+
+**Lot en cours : V3 — marchés** (inventaire à écrire).
 
 ## Lots
 
@@ -13,8 +17,8 @@ Dernière mise à jour : 14/11/2026
 |---|---|
 | V0 socle | clos |
 | V1 collecte et alertes | clos |
-| V2 synthèses | en cours |
-| V3 marchés | à faire |
+| V2 synthèses | clos |
+| V3 marchés | en cours |
 | V4 AWB | à faire |
 | V5 santé et bascule | à faire |
 

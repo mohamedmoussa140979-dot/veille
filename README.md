@@ -6,7 +6,7 @@ Tout est décrit dans `docs/` : règles du chantier (`00-regles-chantier.md`), s
 
 ## État
 
-Lots V0 (socle) et V1 (collecte et alertes) livrés (bilans dans `docs/bilans/`). Les workflows de synthèse, de marchés, d'AWB et de santé arrivent avec les lots V2 à V5.
+Lots V0 (socle), V1 (collecte et alertes) et V2 (synthèses) livrés (bilans dans `docs/bilans/`). Les workflows de marchés, d'AWB et de santé arrivent avec les lots V3 à V5. Archive publique : https://mohamedmoussa140979-dot.github.io/veille/
 
 ## Ce que fait chaque workflow
 
@@ -16,12 +16,15 @@ Lots V0 (socle) et V1 (collecte et alertes) livrés (bilans dans `docs/bilans/`)
 | `smoke` | manuel (`Actions` → `smoke` → *Run workflow*) | Essai réel : branche `data`, Gemini, Claude, Telegram. Case « tester_claude » : un appel Claude minimal (quelques millièmes de dollar) |
 | `collecte` | planifié (heure de Tunis) : lun–ven 07:15, 09:15, 11:15, 13:15, 15:15, 17:15, 20:15 ; sam–dim 09:15 et 18:15 ; manuel possible | Lit les 49 sources, résout les liens, filtre, déduplique, écrit les articles du jour sur `data`, envoie les alertes 🔔 (plage silencieuse 22:00–07:00 : envoi groupé à 07:00). Case « essai_alerte » : envoie deux alertes d'exemple et ne collecte rien |
 
+| `edition` | planifié (heure de Tunis) : lun–ven 07:30 (matin) et 18:30 (soir), sam–dim 09:30 (week-end) ; manuel possible | Classe et rédige la synthèse avec l'IA (Gemini, Claude en secours), écrit `editions/AAAA-MM-JJ-matin|soir.json` sur `data`, envoie le message 🌅/🌆 et publie l'archive sur GitHub Pages. Entrées manuelles : `type` (auto, matin, soir, weekend), `heures` (fenêtre forcée) |
+
 Relancer un essai depuis un terminal :
 
 ```bash
 gh workflow run smoke.yml -R mohamedmoussa140979-dot/veille
 gh workflow run collecte.yml -R mohamedmoussa140979-dot/veille
 gh workflow run collecte.yml -R mohamedmoussa140979-dot/veille -f essai_alerte=true
+gh workflow run edition.yml -R mohamedmoussa140979-dot/veille -f type=matin -f heures=24
 ```
 
 Essai local sur de vraies pages, sans Git ni Telegram (état dans `_etat_local/`) :
