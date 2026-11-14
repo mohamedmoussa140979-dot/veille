@@ -251,21 +251,7 @@ def collecter(
         else:
             rapport.alertes_envoyees = len(en_attente)
             envoyees = {a["id"] for a in en_attente}
-            etat.transaction(
-                "data: alertes envoyées",
-                lambda tx: tx.ecrire(
-                    "state/alertes_en_attente.json",
-                    _json(
-                        [
-                            a
-                            for a in json.loads(
-                                tx.lire("state/alertes_en_attente.json", "[]") or "[]"
-                            )
-                            if a["id"] not in envoyees
-                        ]
-                    ),
-                ),
-            )
+            etat.transaction("data: alertes envoyées", _purger_envoyees(envoyees, jour))
             rapport.alertes_en_attente = 0
 
     journal.info(
@@ -283,3 +269,19 @@ def collecter(
 
 def _json(valeur) -> str:
     return json.dumps(valeur, ensure_ascii=False, sort_keys=True, separators=(",", ":")) + "\n"
+
+
+def _purger_envoyees(envoyees: set[str], jour: str):
+    """Retire les alertes envoyées de la file et les compte pour le message du dimanche (V5)."""
+
+    def appliquer(tx) -> None:
+        file = json.loads(tx.lire("state/alertes_en_attente.json", "[]") or "[]")
+        tx.ecrire(
+            "state/alertes_en_attente.json", _json([a for a in file if a["id"] not in envoyees])
+        )
+        stats = json.loads(tx.lire("state/alertes_stats.json", "{}") or "{}")
+        stats[jour] = stats.get(jour, 0) + len(envoyees)
+        recents = sorted(stats)[-90:]  # trois mois suffisent
+        tx.ecrire("state/alertes_stats.json", _json({k: stats[k] for k in recents}))
+
+    return appliquer

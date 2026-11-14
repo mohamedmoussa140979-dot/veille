@@ -19,6 +19,7 @@ ENTETES = {
     "marches": "📈 Marchés",
     "awb": "🏦 AWB",
     "sante": "⚠️ Santé",
+    "sante_ok": "✅ Semaine complète",
     "test": "🧪 Test",
 }
 
