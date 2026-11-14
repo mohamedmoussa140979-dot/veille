@@ -35,6 +35,7 @@ SCHEMA_SOURCES = {
                     "alerte": {"type": "boolean"},
                     "payant": {"type": "boolean"},
                     "actif": {"type": "boolean"},
+                    "filtre": {"type": "boolean"},  # facultatif ; false = exemptée du filtre
                 },
             },
         }
@@ -67,12 +68,38 @@ def charger_sources(chemin: Path = RACINE / "config" / "sources.yaml") -> list[d
     return donnees["sources"]
 
 
-def charger_exclusions(chemin: Path = RACINE / "config" / "exclusions.yaml") -> list[str]:
+def _liste_de_textes(valeur: Any, nom: str, chemin: Path) -> list[str]:
+    valeur = valeur or []
+    if not isinstance(valeur, list) or not all(isinstance(m, str) and m.strip() for m in valeur):
+        raise ErreurConfig(f"{chemin} : {nom} doit être une liste de textes non vides")
+    return valeur
+
+
+def charger_regles_filtre(chemin: Path = RACINE / "config" / "exclusions.yaml") -> dict:
+    """Règles du filtre éditorial : `mots_exclus` (par catégorie), exceptions, segments d'URL."""
     donnees = _lire_yaml(chemin) or {}
-    mots = donnees.get("mots_exclus") or []
-    if not all(isinstance(m, str) and m.strip() for m in mots):
-        raise ErreurConfig(f"{chemin} : mots_exclus doit être une liste de textes non vides")
-    return mots
+    mots = donnees.get("mots_exclus") or {}
+    if isinstance(mots, list):  # forme simple : une liste plate
+        mots = {"exclus": mots}
+    if not isinstance(mots, dict):
+        raise ErreurConfig(f"{chemin} : mots_exclus doit être une liste ou un dictionnaire")
+    return {
+        "mots_exclus": {
+            cat: _liste_de_textes(liste, f"mots_exclus.{cat}", chemin)
+            for cat, liste in mots.items()
+        },
+        "expressions_conservees": _liste_de_textes(
+            donnees.get("expressions_conservees"), "expressions_conservees", chemin
+        ),
+        "segments_url_exclus": _liste_de_textes(
+            donnees.get("segments_url_exclus"), "segments_url_exclus", chemin
+        ),
+    }
+
+
+def charger_exclusions(chemin: Path = RACINE / "config" / "exclusions.yaml") -> list[str]:
+    """Tous les mots exclus, à plat."""
+    return [m for liste in charger_regles_filtre(chemin)["mots_exclus"].values() for m in liste]
 
 
 def charger_parametres(chemin: Path = RACINE / "config" / "parametres.yaml") -> dict:

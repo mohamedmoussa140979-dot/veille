@@ -1,4 +1,74 @@
-# Liste des sources (spec § 6.2). Remplie au lot V1.
-# Champs : id, nom, url, type (rss|html-generique|bct|ins|cmf|bvmt|google-news),
-# chapitre, langue, alerte (true|false), payant (true|false), actif (true|false).
-sources: []
+# Liste des sources (spec § 6.2). Reprise de monitor.py (44 sources) et brief.py, avec les
+# corrections de la spec § 6.1 et de l'inventaire V1 (docs/bilans/V1-inventaire.md).
+#
+# Champs : id, nom, url, type (rss | html-generique | bct | ins | cmf | bvmt | google-news),
+#   chapitre (eco-tunisie | bourse-entreprises | international | afrique | technologie),
+#   langue (fr | en | ar), alerte (true = 🔔 immédiate), payant (true = 🔒, pas de lien traduit),
+#   actif, et facultatif : filtre (false = exemptée du filtre éditorial).
+#
+# Pour ajouter une source : copier une entrée de même type, changer id, nom, url. Pour en
+# désactiver une : actif: false. Les identifiants sont stables (l'état s'y réfère).
+
+sources:
+  # --- Régulateurs et institutions tunisiennes ------------------------------------------
+  - {id: bct-actualites, nom: BCT, url: "https://www.bct.gov.tn/bct/siteprod/index.jsp", type: bct, chapitre: eco-tunisie, langue: fr, alerte: true, payant: false, actif: true, filtre: false}
+  - {id: bct-circulaires, nom: "BCT · Circulaires", url: "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=226", type: bct, chapitre: eco-tunisie, langue: fr, alerte: true, payant: false, actif: true, filtre: false}
+  - {id: ins, nom: INS, url: "https://www.ins.tn/communique-de-presse", type: ins, chapitre: eco-tunisie, langue: fr, alerte: false, payant: false, actif: true, filtre: false}
+  - {id: cmf-accueil, nom: CMF, url: "https://www.cmf.tn/", type: cmf, chapitre: bourse-entreprises, langue: fr, alerte: false, payant: false, actif: true, filtre: false}
+  - {id: cmf-avis, nom: "CMF · Avis et décisions", url: "https://www.cmf.tn/?q=avis-et-d-cisions-du-cmf", type: cmf, chapitre: bourse-entreprises, langue: fr, alerte: true, payant: false, actif: true, filtre: false}
+  - {id: cmf-visas-creance, nom: "CMF · Visas titres de créance", url: "https://www.cmf.tn/?q=visas-accord-s-par-le-cmf", type: cmf, chapitre: bourse-entreprises, langue: fr, alerte: true, payant: false, actif: true, filtre: false}
+  - {id: cmf-visas-capital, nom: "CMF · Visas capital", url: "https://www.cmf.tn/?q=visas-capital", type: cmf, chapitre: bourse-entreprises, langue: fr, alerte: true, payant: false, actif: true, filtre: false}
+  - {id: cmf-communiques-societes, nom: "CMF · Communiqués des sociétés", url: "https://www.cmf.tn/?q=informations-des-soci-t-s", type: cmf, chapitre: bourse-entreprises, langue: fr, alerte: false, payant: false, actif: true, filtre: false}
+  - {id: cmf-etats-financiers, nom: "CMF · États financiers", url: "https://www.cmf.tn/?q=consultation-des-tats-financier-des-soci-t-s-faisant-ape", type: cmf, chapitre: bourse-entreprises, langue: fr, alerte: false, payant: false, actif: true, filtre: false}
+  - {id: cmf-indicateurs-activite, nom: "CMF · Indicateurs d'activité", url: "https://www.cmf.tn/?q=indicateurs-d-activit-", type: cmf, chapitre: bourse-entreprises, langue: fr, alerte: false, payant: false, actif: true, filtre: false}
+  - {id: bvmt-avis, nom: "BVMT · Avis et décisions", url: "https://tunis-stockexchange.com/avis-decisions", type: bvmt, chapitre: bourse-entreprises, langue: fr, alerte: false, payant: false, actif: true, filtre: false}
+  - {id: bvmt-publications, nom: "BVMT · Publications des sociétés", url: "https://tunis-stockexchange.com/publications-societes", type: bvmt, chapitre: bourse-entreprises, langue: fr, alerte: false, payant: false, actif: true, filtre: false}
+
+  # --- Agences de notation et institutions (flux Google News, alertes pour les agences) ---
+  - {id: moodys-tunisie, nom: "Moody's · Tunisie", url: "https://news.google.com/rss/search?q=Moody's+Tunisia+rating&hl=en&gl=US&ceid=US:en", type: google-news, chapitre: eco-tunisie, langue: en, alerte: true, payant: false, actif: true, filtre: false}
+  - {id: sp-tunisie, nom: "S&P · Tunisie", url: "https://news.google.com/rss/search?q=%22S%26P+Global%22+Tunisia&hl=en&gl=US&ceid=US:en", type: google-news, chapitre: eco-tunisie, langue: en, alerte: true, payant: false, actif: true, filtre: false}
+  - {id: fitch-tunisie, nom: "Fitch · Tunisie", url: "https://news.google.com/rss/search?q=Fitch+Ratings+Tunisia&hl=en&gl=US&ceid=US:en", type: google-news, chapitre: eco-tunisie, langue: en, alerte: true, payant: false, actif: true, filtre: false}
+  - {id: fmi-tunisie, nom: "FMI · Tunisie", url: "https://news.google.com/rss/search?q=site:imf.org+Tunisia&hl=en&gl=US&ceid=US:en", type: google-news, chapitre: eco-tunisie, langue: en, alerte: false, payant: false, actif: true, filtre: false}
+  - {id: banque-mondiale-tunisie, nom: "Banque mondiale · Tunisie", url: "https://news.google.com/rss/search?q=site:banquemondiale.org+Tunisie&hl=fr&gl=TN&ceid=TN:fr", type: google-news, chapitre: eco-tunisie, langue: fr, alerte: false, payant: false, actif: true, filtre: false}
+  - {id: ocde-tunisie, nom: "OCDE · Tunisie", url: "https://news.google.com/rss/search?q=site:oecd.org+Tunisie+OR+Tunisia&hl=fr&gl=TN&ceid=TN:fr", type: google-news, chapitre: eco-tunisie, langue: fr, alerte: false, payant: false, actif: true, filtre: false}
+  - {id: bad-tunisie, nom: "BAD · Tunisie", url: "https://news.google.com/rss/search?q=site:afdb.org+Tunisia+OR+Tunisie&hl=fr&gl=TN&ceid=TN:fr", type: google-news, chapitre: afrique, langue: fr, alerte: false, payant: false, actif: true, filtre: false}
+
+  # --- Presse économique tunisienne -----------------------------------------------------
+  - {id: business-news, nom: Business News, url: "https://www.businessnews.com.tn/feed", type: rss, chapitre: eco-tunisie, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: economiste-maghrebin, nom: "L'Économiste Maghrébin", url: "https://www.leconomistemaghrebin.com/feed/", type: rss, chapitre: eco-tunisie, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: kapitalis, nom: Kapitalis, url: "https://kapitalis.com/tunisie/feed/", type: rss, chapitre: eco-tunisie, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: la-presse, nom: La Presse, url: "https://www.lapresse.tn/feed/", type: rss, chapitre: eco-tunisie, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: wmc, nom: Web Manager Center, url: "https://www.webmanagercenter.com/", type: html-generique, chapitre: eco-tunisie, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: tunisie-numerique, nom: Tunisie Numérique, url: "https://www.tunisienumerique.com/", type: html-generique, chapitre: eco-tunisie, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: magazine-entreprise, nom: Entreprises Magazine, url: "https://www.entreprises-magazine.com", type: html-generique, chapitre: eco-tunisie, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: managers, nom: Managers, url: "https://managers.tn/", type: html-generique, chapitre: eco-tunisie, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: tap, nom: TAP, url: "https://www.tap.info.tn/fr", type: html-generique, chapitre: eco-tunisie, langue: fr, alerte: false, payant: false, actif: true}
+  # ilboursa et Tustex : sources d'articles de presse (liste validée V28). L'interdit V42 porte sur
+  # les données de Bourse (cours, indices), pas sur ces articles : à confirmer par le porteur.
+  - {id: tustex, nom: Tustex, url: "https://www.tustex.com/", type: html-generique, chapitre: bourse-entreprises, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: ilboursa, nom: ilboursa, url: "https://news.google.com/rss/search?q=site:ilboursa.com&hl=fr&gl=TN&ceid=TN:fr", type: google-news, chapitre: bourse-entreprises, langue: fr, alerte: false, payant: false, actif: true}
+
+  # --- Afrique --------------------------------------------------------------------------
+  - {id: african-manager, nom: African Manager, url: "https://africanmanager.com/feed/", type: rss, chapitre: afrique, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: agence-ecofin, nom: Agence Ecofin, url: "https://news.google.com/rss/search?q=site:agenceecofin.com+Tunisie&hl=fr&gl=TN&ceid=TN:fr", type: google-news, chapitre: afrique, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: financial-afrik, nom: Financial Afrik, url: "https://news.google.com/rss/search?q=site:financialafrik.com+Tunisie&hl=fr&gl=TN&ceid=TN:fr", type: google-news, chapitre: afrique, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: jeune-afrique, nom: Jeune Afrique, url: "https://news.google.com/rss/search?q=site:jeuneafrique.com+Tunisie&hl=fr&gl=TN&ceid=TN:fr", type: google-news, chapitre: afrique, langue: fr, alerte: false, payant: true, actif: true}
+  - {id: sikafinance, nom: Sika Finance, url: "https://news.google.com/rss/search?q=site:sikafinance.com&hl=fr&gl=TN&ceid=TN:fr", type: google-news, chapitre: afrique, langue: fr, alerte: false, payant: false, actif: true}
+
+  # --- International --------------------------------------------------------------------
+  - {id: le-monde-economie, nom: "Le Monde · Économie", url: "https://www.lemonde.fr/economie/rss_full.xml", type: rss, chapitre: international, langue: fr, alerte: false, payant: true, actif: true}
+  - {id: france24-eco, nom: "France 24 · Éco et tech", url: "https://www.france24.com/fr/%C3%A9co-tech/rss", type: rss, chapitre: international, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: marketwatch, nom: MarketWatch, url: "https://feeds.content.dowjones.io/public/rss/mw_topstories", type: rss, chapitre: international, langue: en, alerte: false, payant: false, actif: true}
+  - {id: reuters-tunisie, nom: Reuters, url: "https://news.google.com/rss/search?q=site:reuters.com+Tunisia&hl=en&gl=US&ceid=US:en", type: google-news, chapitre: international, langue: en, alerte: false, payant: false, actif: true}
+  - {id: bloomberg-tunisie, nom: Bloomberg, url: "https://news.google.com/rss/search?q=site:bloomberg.com+Tunisia&hl=en&gl=US&ceid=US:en", type: google-news, chapitre: international, langue: en, alerte: false, payant: true, actif: true}
+  - {id: ft-tunisie, nom: Financial Times, url: "https://news.google.com/rss/search?q=site:ft.com+Tunisia&hl=en&gl=US&ceid=US:en", type: google-news, chapitre: international, langue: en, alerte: false, payant: true, actif: true}
+  - {id: la-tribune, nom: La Tribune, url: "https://news.google.com/rss/search?q=site:latribune.fr+Tunisie&hl=fr&gl=TN&ceid=TN:fr", type: google-news, chapitre: international, langue: fr, alerte: false, payant: false, actif: true}
+  - {id: le-monde-tunisie, nom: "Le Monde · Tunisie", url: "https://news.google.com/rss/search?q=site:lemonde.fr+Tunisie&hl=fr&gl=TN&ceid=TN:fr", type: google-news, chapitre: international, langue: fr, alerte: false, payant: true, actif: true}
+  - {id: rfi-tunisie, nom: RFI, url: "https://news.google.com/rss/search?q=site:rfi.fr+Tunisie&hl=fr&gl=TN&ceid=TN:fr", type: google-news, chapitre: international, langue: fr, alerte: false, payant: false, actif: true}
+
+  # --- Technologie ----------------------------------------------------------------------
+  - {id: finextra, nom: Finextra, url: "https://www.finextra.com/rss/headlines.aspx", type: rss, chapitre: technologie, langue: en, alerte: false, payant: false, actif: true}
+  - {id: techcabal, nom: TechCabal, url: "https://techcabal.com/feed/", type: rss, chapitre: technologie, langue: en, alerte: false, payant: false, actif: true}
+  - {id: wamda, nom: Wamda, url: "https://www.wamda.com/feed", type: rss, chapitre: technologie, langue: en, alerte: false, payant: false, actif: true}
+  - {id: rest-of-world, nom: Rest of World, url: "https://restofworld.org/feed/latest/", type: rss, chapitre: technologie, langue: en, alerte: false, payant: false, actif: true}
+  - {id: sifted, nom: Sifted, url: "https://sifted.eu/feed", type: rss, chapitre: technologie, langue: en, alerte: false, payant: false, actif: true}

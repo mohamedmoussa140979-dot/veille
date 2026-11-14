@@ -130,16 +130,19 @@ class Client:
         for tentative in range(total):
             self._attendre_hote(hote)
             try:
-                if not verifier_ssl:
-                    kw["verify"] = False
-                reponse = self.session.request(methode, url, **kw)
-            except requests.exceptions.SSLError as exc:
-                derniere_erreur = exc
-                if ssl_repli and verifier_ssl:
+                try:
+                    reponse = self.session.request(methode, url, **kw)
+                except requests.exceptions.SSLError:
+                    if not (ssl_repli and verifier_ssl):
+                        raise
+                    # repli explicite : même essai, sans vérifier le certificat (n'use pas d'essai)
                     verifier_ssl = False
+                    kw["verify"] = False
                     if self.journal:
                         self.journal.avertir("http_ssl_repli", "certificat invalide", hote=hote)
-                    continue  # nouvel essai immédiat, sans vérification du certificat
+                    reponse = self.session.request(methode, url, **kw)
+            except requests.exceptions.SSLError as exc:
+                derniere_erreur = exc
                 break  # un certificat invalide ne se corrige pas en réessayant
             except (requests.ConnectionError, requests.Timeout) as exc:
                 derniere_erreur = exc

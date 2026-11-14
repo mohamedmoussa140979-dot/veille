@@ -61,6 +61,20 @@ class Transaction:
             existant += "\n"
         self.ecrire(chemin, existant + "".join(ligne.rstrip("\n") + "\n" for ligne in lignes))
 
+    def lister(self, dossier: str) -> list[str]:
+        """Chemins des fichiers d'un dossier de la branche, écritures en attente comprises."""
+        _chemin_sur(dossier)
+        base = self._racine / dossier
+        noms = (
+            {f"{dossier}/{f.name}" for f in base.glob("*") if f.is_file()}
+            if base.is_dir()
+            else set()
+        )
+        for chemin, contenu in self._ecritures.items():
+            if chemin.startswith(dossier + "/"):
+                noms.add(chemin) if contenu is not None else noms.discard(chemin)
+        return sorted(noms)
+
     def appliquer(self) -> None:
         for chemin, contenu in self._ecritures.items():
             fichier = self._racine / chemin
@@ -244,3 +258,40 @@ class EtatGit:
 
     def ajouter_lignes(self, chemin: str, lignes: list[str], message: str | None = None) -> bool:
         return self.transaction(message or f"data: {chemin}", lambda tx: tx.ajouter(chemin, lignes))
+
+
+class EtatLocal:
+    """État dans un dossier, sans Git : tests et essais à blanc (même interface qu'EtatGit)."""
+
+    def __init__(self, dossier: str | Path):
+        self.dossier = Path(dossier)
+        self.dossier.mkdir(parents=True, exist_ok=True)
+
+    def synchroniser(self) -> EtatLocal:
+        return self
+
+    def lire(self, chemin: str, defaut: str | None = None) -> str | None:
+        _chemin_sur(chemin)
+        fichier = self.dossier / chemin
+        return fichier.read_text(encoding="utf-8") if fichier.is_file() else defaut
+
+    def lire_json(self, chemin: str, defaut: Any = None) -> Any:
+        brut = self.lire(chemin)
+        return json.loads(brut) if brut else copy.deepcopy(defaut)
+
+    def transaction(self, message: str, fonction: Callable[[Transaction], None]) -> bool:
+        tx = Transaction(self.dossier)
+        fonction(tx)
+        tx.appliquer()
+        return True
+
+    def modifier_json(self, chemin, fonction, *, defaut, message=None) -> bool:
+        def appliquer(tx: Transaction) -> None:
+            brut = tx.lire(chemin)
+            nouveau = fonction(json.loads(brut) if brut else copy.deepcopy(defaut))
+            tx.ecrire(chemin, json.dumps(nouveau, ensure_ascii=False, sort_keys=True) + "\n")
+
+        return self.transaction(message or chemin, appliquer)
+
+    def ajouter_lignes(self, chemin: str, lignes: list[str], message: str | None = None) -> bool:
+        return self.transaction(message or chemin, lambda tx: tx.ajouter(chemin, lignes))

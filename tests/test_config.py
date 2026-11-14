@@ -28,8 +28,10 @@ sources:
 
 
 def test_les_fichiers_du_depot_sont_valides():
-    assert charger_sources(RACINE / "config" / "sources.yaml") == []
-    assert charger_exclusions(RACINE / "config" / "exclusions.yaml") == []
+    sources = charger_sources(RACINE / "config" / "sources.yaml")
+    assert isinstance(sources, list)
+    mots = charger_exclusions(RACINE / "config" / "exclusions.yaml")
+    assert "football" in mots and "gaza" in mots
     p = charger_parametres(RACINE / "config" / "parametres.yaml")
     assert p["claude"]["plafond_usd_mois"] == 5.0
     assert p["claude"]["modele"].startswith("claude-")
@@ -66,3 +68,24 @@ def test_plafond_non_numerique_refuse(monkeypatch):
     monkeypatch.setenv("CLAUDE_PLAFOND_USD_MOIS", "beaucoup")
     with pytest.raises(ErreurConfig, match="CLAUDE_PLAFOND_USD_MOIS"):
         charger_parametres(RACINE / "config" / "parametres.yaml")
+
+
+def test_liste_de_sources_du_depot():
+    sources = charger_sources(RACINE / "config" / "sources.yaml")
+    ids = {s["id"] for s in sources}
+    assert len(sources) >= 45
+    # corrections de la spec § 6.1 : Macsa et Tunisie Valeurs retirés, irbe7 jamais présent
+    assert not [
+        s for s in sources if any(m in s["url"] for m in ("macsa", "tunisievaleurs", "irbe7"))
+    ]
+    # BCT : lecteur dédié sur index.jsp + circulaires ; l'ancienne page en 404 est retirée
+    assert {"bct-actualites", "bct-circulaires"} <= ids
+    assert not [s for s in sources if s["url"].endswith("bct/siteprod/actualites.jsp")]
+    # alertes : régulateurs et agences de notation seulement
+    alertes = {s["id"] for s in sources if s["alerte"]}
+    assert {"bct-actualites", "bct-circulaires", "cmf-avis", "fitch-tunisie"} <= alertes
+    assert not {"business-news", "ins", "bvmt-avis"} & alertes
+    # tout article en anglais doit venir d'une source déclarée en anglais (lien traduit)
+    assert all(s["langue"] == "en" for s in sources if s["id"] in {"reuters-tunisie", "finextra"})
+    # sources payantes : pastille 🔒, jamais de lien traduit
+    assert {"ft-tunisie", "bloomberg-tunisie"} <= {s["id"] for s in sources if s["payant"]}

@@ -4,7 +4,9 @@ Dernière mise à jour : 14/11/2026
 
 **V0 — socle : clos** (fusionné dans `main`, essai réel vert ; rendu Telegram à regarder sur le téléphone, voir `V0-bilan.md`).
 
-**Lot en cours : V1 — collecte et alertes** (inventaire à écrire, branche `v1-collecte`).
+**Lot en cours : V1 — collecte et alertes** (branche `v1-collecte`, inventaire écrit : `V1-inventaire.md`).
+
+**Arrêt : une décision du porteur est nécessaire avant d'écrire la résolution des liens Google News** (critère A12). Les liens actuels ne se décodent plus hors ligne ; la seule méthode qui résolve est un appel non documenté de Google, que le contrôle d'autorisation a refusé. Voir la question posée dans la conversation. Le reste de V1 (lecteurs, filtre, déduplication, alertes, workflow) ne dépend pas de cette décision et reprend dès la réponse.
 
 ## Changements du lot V0
 

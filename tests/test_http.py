@@ -155,6 +155,13 @@ def test_repli_ssl_explicite_et_journalise():
     assert j.avec_niveau("avertissement")[0]["code"] == "http_ssl_repli"
 
 
+def test_repli_ssl_fonctionne_meme_avec_un_seul_essai():
+    session = FausseSession([requests.exceptions.SSLError("certificat"), FausseReponse(200)])
+    c = Client(session=session, sleep=lambda _: None, essais=1)
+    assert c.get("https://tap.info.tn/", ssl_repli=True).status_code == 200
+    assert session.appels[1][2]["verify"] is False
+
+
 def test_ssl_sans_repli_est_une_erreur():
     session = FausseSession([requests.exceptions.SSLError("certificat")])
     c = Client(session=session, sleep=lambda _: None, essais=1)
