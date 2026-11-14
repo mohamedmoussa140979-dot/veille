@@ -15,3 +15,6 @@ http:
   delai_hote_s: 1.0
 alertes:
   plage_silencieuse: {debut: "22:00", fin: "07:00"}   # heure de Tunis
+marches:
+  # Données de Bourse et taux BCT : Worker « marche-lecture » de Mizeniti, en lecture seule (V42).
+  mizeniti_url: https://marche-lecture.mizeniti2026-9b1.workers.dev

@@ -1,0 +1,110 @@
+{
+ "id": "change",
+ "libelle": "Cours moyens interbancaires en dinar tunisien (compte et comptant)",
+ "source": "BCT",
+ "url_source": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+ "convention": "dinars tunisiens pour `unite` unités de devise",
+ "jour": "2026-11-12",
+ "maj": "2026-11-14",
+ "devises": [
+  {
+   "code": "EUR",
+   "libelle": "Euro",
+   "unite": 1,
+   "cours": 3.3639,
+   "precedent": 3.3664,
+   "jour_precedent": "2026-11-11",
+   "variation_pct": -0.07
+  },
+  {
+   "code": "USD",
+   "libelle": "Dollar des USA",
+   "unite": 1,
+   "cours": 3.0335,
+   "precedent": 3.0248,
+   "jour_precedent": "2026-11-11",
+   "variation_pct": 0.29
+  },
+  {
+   "code": "GBP",
+   "libelle": "Livre sterling",
+   "unite": 1,
+   "cours": 3.9918,
+   "precedent": 3.9935,
+   "jour_precedent": "2026-11-11",
+   "variation_pct": -0.04
+  },
+  {
+   "code": "CHF",
+   "libelle": "Franc suisse",
+   "unite": 10,
+   "cours": 36.1331,
+   "precedent": 36.1425,
+   "jour_precedent": "2026-11-11",
+   "variation_pct": -0.03
+  },
+  {
+   "code": "CAD",
+   "libelle": "Dollar canadien",
+   "unite": 1,
+   "cours": 2.1143,
+   "precedent": 2.1108,
+   "jour_precedent": "2026-11-11",
+   "variation_pct": 0.17
+  },
+  {
+   "code": "SAR",
+   "libelle": "Riyal saoudien",
+   "unite": 10,
+   "cours": 8.0199,
+   "precedent": 8.0089,
+   "jour_precedent": "2026-11-11",
+   "variation_pct": 0.14
+  },
+  {
+   "code": "AED",
+   "libelle": "Dirham des EAU",
+   "unite": 10,
+   "cours": 8.1953,
+   "precedent": 8.1843,
+   "jour_precedent": "2026-11-11",
+   "variation_pct": 0.13
+  },
+  {
+   "code": "JPY",
+   "libelle": "Yen japonais",
+   "unite": 1000,
+   "cours": 18.843,
+   "precedent": 18.8386,
+   "jour_precedent": "2026-11-11",
+   "variation_pct": 0.02
+  },
+  {
+   "code": "MAD",
+   "libelle": "Dirham marocain",
+   "unite": 10,
+   "cours": 3.0637,
+   "precedent": 3.0677,
+   "jour_precedent": "2026-11-11",
+   "variation_pct": -0.13
+  },
+  {
+   "code": "DZD",
+   "libelle": "Dinar algérien",
+   "unite": 10,
+   "cours": 0.2199,
+   "precedent": 0.2201,
+   "jour_precedent": "2026-11-11",
+   "variation_pct": -0.09
+  },
+  {
+   "code": "LYD",
+   "libelle": "Dinar libyen",
+   "unite": 1,
+   "cours": 0.4667,
+   "precedent": 0.4674,
+   "jour_precedent": "2026-11-11",
+   "variation_pct": -0.15
+  }
+ ]
+}

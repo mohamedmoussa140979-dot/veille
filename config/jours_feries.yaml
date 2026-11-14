@@ -1,0 +1,14 @@
+# Jours sans séance à la Bourse de Tunis : aucun point 📈 ce jour-là (spec § 6.4).
+# Fêtes à date fixe ; les fêtes religieuses mobiles (Aïd, Nouvel An hégirien, Mouled) sont à
+# compléter chaque année. Sans cela, le point de 18:20 annonce « séance non encore publiée ».
+jours_feries:
+  - "2026-12-17"  # Fête de la Révolution
+  - "2027-01-01"
+  - "2027-01-14"
+  - "2027-03-20"
+  - "2027-04-09"
+  - "2027-05-01"
+  - "2027-07-25"
+  - "2027-08-13"
+  - "2027-10-15"
+  - "2027-12-17"

@@ -1,0 +1,31 @@
+{
+ "id": "tmm",
+ "libelle": "Taux moyen du marché monétaire (TMM)",
+ "source": "BCT",
+ "url_source": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+ "periodicite": "mensuelle",
+ "unite": "pourcentage annuel",
+ "maj": "2026-11-14",
+ "derniere": {
+  "periode": "2026-10",
+  "valeur": 7.0
+ },
+ "points": [
+  [
+   "2026-07",
+   6.99
+  ],
+  [
+   "2026-08",
+   7.0
+  ],
+  [
+   "2026-09",
+   7.0
+  ],
+  [
+   "2026-10",
+   7.0
+  ]
+ ]
+}

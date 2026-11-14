@@ -1,0 +1,99 @@
+{
+ "chart": {
+  "result": [
+   {
+    "meta": {
+     "currency": "USD",
+     "symbol": "BZ=F",
+     "exchangeName": "NYM",
+     "fullExchangeName": "NY Mercantile",
+     "instrumentType": "FUTURE",
+     "firstTradeDate": 1185768000,
+     "regularMarketTime": 1794607170,
+     "hasPrePostMarketData": false,
+     "gmtoffset": -18000,
+     "timezone": "EST",
+     "exchangeTimezoneName": "America/New_York",
+     "regularMarketPrice": 95.84,
+     "regularMarketChangePercent": 0.021,
+     "fulldayPrice": 95.84,
+     "fulldayChange": 0.02,
+     "fulldayChangePercent": 0.021,
+     "fiftyTwoWeekHigh": 126.1,
+     "fiftyTwoWeekLow": 58.72,
+     "regularMarketDayHigh": 97.12,
+     "regularMarketDayLow": 95.07,
+     "regularMarketVolume": 22079,
+     "longName": "Brent Crude Oil Last Day Financial Futures",
+     "shortName": "Brent Crude Oil Last Day Financ",
+     "chartPreviousClose": 95.82,
+     "previousClose": 95.82,
+     "scale": 3,
+     "priceHint": 2,
+     "currentTradingPeriod": {
+      "pre": {
+       "timezone": "EST",
+       "end": 1794546000,
+       "start": 1794546000,
+       "gmtoffset": -18000
+      },
+      "regular": {
+       "timezone": "EST",
+       "end": 1794632340,
+       "start": 1794546000,
+       "gmtoffset": -18000
+      },
+      "post": {
+       "timezone": "EST",
+       "end": 1794632340,
+       "start": 1794632340,
+       "gmtoffset": -18000
+      }
+     },
+     "tradingPeriods": [
+      [
+       {
+        "timezone": "EST",
+        "end": 1794632340,
+        "start": 1794546000,
+        "gmtoffset": -18000
+       }
+      ]
+     ],
+     "dataGranularity": "1m",
+     "range": "1d",
+     "validRanges": [
+      "1d",
+      "5d",
+      "1mo",
+      "3mo",
+      "6mo",
+      "1y",
+      "2y",
+      "5y",
+      "10y",
+      "ytd",
+      "max"
+     ]
+    },
+    "timestamp": [
+     1794632160,
+     1794632220,
+     1794632280
+    ],
+    "indicators": {
+     "quote": [
+      {
+       "close": [
+        null,
+        null,
+        null
+       ]
+      }
+     ]
+    }
+   }
+  ],
+  "error": null
+ }
+}
