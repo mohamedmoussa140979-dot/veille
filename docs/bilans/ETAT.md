@@ -2,7 +2,9 @@
 
 Dernière mise à jour : 14/11/2026
 
-**Lot en cours : V0 — socle** (fusionné dans `main`). **Arrêt : essai réel Telegram en échec (« chat not found »), en attente du porteur.** Bilan : `V0-bilan.md`.
+**V0 — socle : clos** (fusionné dans `main`, essai réel vert ; rendu Telegram à regarder sur le téléphone, voir `V0-bilan.md`).
+
+**Lot en cours : V1 — collecte et alertes** (inventaire à écrire, branche `v1-collecte`).
 
 ## Changements du lot V0
 
@@ -17,7 +19,7 @@ Dernière mise à jour : 14/11/2026
 | 7 | `config` (chargement + validation) ; tests du dépôt (rien sur `main`, scan de secrets) — A9, A10 | fait |
 | 8 | Workflows `tests` (sur push) et `smoke` (manuel), README | fait |
 | 9 | CI verte sur un vrai runner (hypothèse H5) | fait |
-| 10 | Fusion dans `main`, essai réel `smoke`, bilan | fait, sauf Telegram (H3) : à rejouer après correction |
+| 10 | Fusion dans `main`, essai réel `smoke`, bilan | fait |
 
 ## Lots suivants
 

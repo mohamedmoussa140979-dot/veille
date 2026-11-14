@@ -20,7 +20,7 @@ Rien de `budgetpilot_alerts.py`, `principe.py`, ntfy.
 |---|---|---|---|
 | H1 | La clé Gemini liste des modèles `generateContent` depuis un runner GitHub | Workflow `smoke` | **Confirmée** : 12 modèles retenus ; les trois plus récents répondaient 503, le 4e a répondu |
 | H2 | Le jeton du workflow peut créer et pousser la branche `data` (paramètre « workflows en écriture ») | Workflow `smoke` | **Confirmée** : branche créée, état écrit puis relu, journal écrit |
-| H3 | Telegram accepte nos messages HTML découpés | Workflow `smoke` + réception sur le téléphone | **Non vérifiée** : « chat not found » (identifiant de discussion ou démarrage du bot), voir bilan |
+| H3 | Telegram accepte nos messages HTML découpés | Workflow `smoke` + réception sur le téléphone | **Confirmée côté API** après « Démarrer » du porteur : message court et message long en 4 parties acceptés, sans repli texte brut (1re exécution : « chat not found », bot non démarré). Rendu sur téléphone à confirmer |
 | H4 | La clé Anthropic est valide ; la forme de la requête de secours est acceptée | `GET /v1/models` + un appel minimal | **Confirmée** : HTTP 200 ; appel accepté (`output_config.effort`, `anthropic-version: 2023-06-01`) ; coût mesuré 0,000086 $ |
 | H5 | Python 3.12 et le cache pip sont disponibles sur le runner | Workflow `tests` | **Confirmée** : ruff, ruff format et pytest verts sur runner Ubuntu |
 

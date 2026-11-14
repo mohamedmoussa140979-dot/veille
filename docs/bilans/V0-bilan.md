@@ -1,7 +1,7 @@
 # Bilan — V0 socle — 14/11/2026
 
 ## En une phrase
-Le socle (HTTP, Telegram, IA Gemini puis Claude, état sur `data`, journal, configuration) est livré, testé et fusionné dans `main` ; l'essai réel est vert partout sauf Telegram, qui répond « chat not found » : c'est le seul point ouvert.
+Le socle (HTTP, Telegram, IA Gemini puis Claude, état sur `data`, journal, configuration) est livré, testé, fusionné dans `main` et vert sur un vrai runner ; il ne reste que la lecture des messages sur votre téléphone, que je ne peux pas constater.
 
 ## Fait
 - Module commun `veille/` : `http`, `telegram`, `ia`, `etat`, `journal`, `temps`, `config`, plus `smoke` (essai réel).
@@ -25,11 +25,12 @@ Workflow `smoke`, exécution 43643023661, case « tester_claude » cochée. Cons
 - **État sur `data`** : branche créée, écriture puis relecture identiques. Contenu constaté : `state/smoke.json`, `state/claude.json`, `sante/2026-11.jsonl`.
 - **Gemini** : 12 modèles découverts et classés. Les trois plus récents ont répondu 503 « high demand », le quatrième (`gemini-3.6-flash`) a répondu : le repli entre modèles, qui manquait aux anciens scripts, a servi en conditions réelles.
 - **Claude** : clé valide (`GET /v1/models` : 200) ; appel minimal accepté ; 23 tokens en entrée, 4 en sortie, 0,000086 $ ; compteur du mois écrit sur `data`.
-- **Telegram** : **échec**, `HTTP 400 Bad Request: chat not found` dès le premier message. Le jeton du bot est accepté (pas de 401) ; c'est l'identifiant de discussion qui n'est pas reconnu. Le code a réagi comme prévu (erreur claire, aucun secret dans le journal).
-- Aucun secret n'apparaît dans le journal du workflow.
+- **Telegram, première exécution** : échec `HTTP 400 chat not found` (le bot n'avait pas encore reçu « Démarrer » du porteur). Le code a réagi comme prévu : erreur claire, aucun secret dans le journal.
+- **Telegram, seconde exécution** (43643870973, sans l'appel Claude) : après « Démarrer », message court accepté (1 partie) et message long accepté en **4 parties**, sans repli en texte brut : Telegram a accepté notre HTML découpé (H3 confirmée côté API).
+- Aucun secret n'apparaît dans les journaux des workflows.
 
 ## Non vérifié
-- **Réception sur Telegram** et découpage réel d'un long message (A6 est vérifié par tests, pas encore côté Telegram) : bloqué par « chat not found ».
+- **Rendu sur le téléphone** (gras, liens cliquables, ordre des parties) : l'API a accepté les messages, mais seul le porteur voit le résultat (voir ci-dessous).
 - **Mode JSON de Gemini** (`responseMimeType`) avec un vrai appel : le `smoke` n'utilise pas le mode JSON. Il sera exercé en V2.
 - **Relais Claude lors d'une vraie panne Gemini** : vérifié par simulation uniquement.
 - Alerte santé à 80 % du plafond : lot V5.
@@ -47,11 +48,11 @@ Workflow `smoke`, exécution 43643023661, case « tester_claude » cochée. Cons
 - `smoke` a envoyé la requête Claude minimale (0,000086 $) pour valider la forme de l'appel.
 
 ## À regarder sur le téléphone (cinq points au plus)
-Après correction de l'identifiant de discussion et un nouvel essai `smoke` :
+Messages envoyés par la seconde exécution du `smoke` (vers 22:40, heure de Tunis) :
 1. Un message « 🧪 Test » court est arrivé.
-2. Un second message « 🧪 Test (1/N) » à « (N/N) » est arrivé en plusieurs parties, dans l'ordre.
+2. Quatre messages « 🧪 Test (1/4) » à « (4/4) » sont arrivés, dans l'ordre.
 3. Dans ce message, les titres sont en gras et les liens « Lien de l'article … » sont cliquables, suivis de « (FR) ».
 4. Aucune balise brute (`<b>`, `<a …>`) n'est visible dans le texte.
 
 ## Suite
-Arrêt sur Telegram (une question au porteur). Une fois l'essai Telegram vert : V0 est clos et V1 (collecte et alertes) commence.
+V0 est clos. V1 (collecte et alertes) commence.
