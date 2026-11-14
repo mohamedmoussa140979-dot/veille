@@ -88,13 +88,13 @@ La liste validée est celle des scripts actuels (`monitor.py` : 44 sources ; `br
 | INS | **Lecteur dédié** sur `https://www.ins.tn/communique-de-presse` : titre, date (`jj-mm-aaaa`), résumé d'une ligne, lien `/publication/…` (vérifié le 14/11). Ajouter `https://www.ins.tn/calendar` pour l'agenda. |
 | CMF (7 pages) et BVMT (3 pages) | Fonctionnent (61 à 124 articles par page en 34 jours). Reprendre tels quels. |
 | Macsa, Tunisie Valeurs | Retirés (0 article en 34 jours). |
-| Flux RSS du brief | Lecture par `feedparser` (tolérant) ; URL encodées (France24 : `%C3%A9`) ; WSJ (0 article) remplacé par un flux marchés qui répond. |
+| Flux RSS du brief | Lecture par `feedparser` (tolérant) ; URL encodées ; WSJ (0 article) remplacé par un flux marchés qui répond. **Constats du 14/11 (inventaire V1)** : le flux de Web Manager Center (`/feed/`) et celui de Tunisie Numérique (`/feed/`) renvoient la page d'accueil HTML à un client automatisé, ce n'est pas un problème de lecteur XML : ces deux sites passent en `html-generique` sur leur page d'accueil (comme l'ancien `monitor.py`). France24 : la rubrique a été renommée, l'adresse du flux est `https://www.france24.com/fr/%C3%A9co-tech/rss` (l'ancienne `/fr/économie/rss` boucle en redirections). |
 | irbe7 (cours BVMT) | **Abandonné (V42).** Aucun usage, même en repli. Remplacé par le § 6.4. |
 | Yahoo Finance (`query1.finance.yahoo.com`) | API non officielle : garder, mais avec contrôle de santé dédié et repli (tiret affiché). |
 | Traduction AWB | Services gratuits non officiels (Google « gtx », MyMemory) : garder, contrôle de santé dédié. |
 
 ### 6.2 Configuration
-Phase 1 : `config/sources.yaml` dans le dépôt. Pour chaque source : `id`, `nom`, `url`, `type` (`rss` | `html-generique` | `bct` | `ins` | `cmf` | `bvmt` | `google-news`), `chapitre` par défaut, `langue`, `alerte` (oui/non), `payant` (oui/non, pastille 🔒), `actif`.
+Phase 1 : `config/sources.yaml` dans le dépôt. Pour chaque source : `id`, `nom`, `url`, `type` (`rss` | `html-generique` | `bct` | `ins` | `cmf` | `bvmt` | `google-news`), `chapitre` par défaut, `langue`, `alerte` (oui/non), `payant` (oui/non, pastille 🔒), `actif`, et, facultatif, `filtre` (oui par défaut ; `non` exempte la source du filtre éditorial, pour les régulateurs, agences de notation et institutions, comme `SITES_EXEMPTES` dans l'ancien `monitor.py`).
 
 Phase 2 : la même structure est lue depuis l'API du back-office Mizeniti ; le fichier local reste le repli si l'API ne répond pas.
 
