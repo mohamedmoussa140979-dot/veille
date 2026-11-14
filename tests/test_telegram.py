@@ -88,7 +88,8 @@ def test_contenu_conserve_pour_un_long_message_realiste():
         blocs.append(
             f'<b>Chapitre {i}</b>\n• <a href="https://exemple.tn/a/{i}?utm=1&amp;b=2">'
             f"Titre de l'article numéro {i} sur l'économie</a> (FR)\n"
-            + "Phrase rédigée par l'IA. " * 8
+            + "Phrase rédigée par l'IA. "
+            * 8
         )
     message = "\n\n".join(blocs)
     morceaux = decouper(message, 4096)

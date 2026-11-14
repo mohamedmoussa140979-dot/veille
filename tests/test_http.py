@@ -86,9 +86,7 @@ def test_essais_epuises_sur_statut_renvoie_la_derniere_reponse():
 
 
 def test_erreur_de_connexion_reessayee_puis_ErreurReseau():
-    c, s, pauses = client(
-        [requests.ConnectionError("boum"), requests.Timeout("lent")], essais=2
-    )
+    c, s, pauses = client([requests.ConnectionError("boum"), requests.Timeout("lent")], essais=2)
     with pytest.raises(ErreurReseau):
         c.get("https://exemple.tn/")
     assert len(s.appels) == 2
@@ -167,7 +165,9 @@ def test_ssl_sans_repli_est_une_erreur():
 def test_le_message_d_erreur_ne_contient_pas_le_secret():
     j = Journal(sortie=lambda _: None)
     j.enregistrer_secret("123456:TOKEN-SECRET")
-    session = FausseSession([requests.ConnectionError("échec https://api/bot123456:TOKEN-SECRET/x")])
+    session = FausseSession(
+        [requests.ConnectionError("échec https://api/bot123456:TOKEN-SECRET/x")]
+    )
     c = Client(session=session, sleep=lambda _: None, essais=1, journal=j)
     with pytest.raises(ErreurReseau) as e:
         c.post("https://api.telegram.org/bot123456:TOKEN-SECRET/sendMessage")
