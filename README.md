@@ -6,7 +6,7 @@ Tout est décrit dans `docs/` : règles du chantier (`00-regles-chantier.md`), s
 
 ## État
 
-Lots V0 (socle), V1 (collecte et alertes), V2 (synthèses) et V3 (marchés) livrés (bilans dans `docs/bilans/`). Les workflows d'AWB et de santé arrivent avec les lots V4 et V5. Archive publique : https://mohamedmoussa140979-dot.github.io/veille/
+Les six lots V0 à V5 sont livrés (bilans dans `docs/bilans/`). Le dépôt remplace `sitemoussam`, `veille-bfi`, `veille-awb` et `veille-tunisie` ; leur retrait (archivage) reste à faire par le porteur après une semaine de fonctionnement (voir « Bascule »). Archive publique : https://mohamedmoussa140979-dot.github.io/veille/
 
 ## Ce que fait chaque workflow
 
@@ -20,6 +20,9 @@ Lots V0 (socle), V1 (collecte et alertes), V2 (synthèses) et V3 (marchés) livr
 
 | `marches` | planifié (heure de Tunis, jours ouvrés) : 17:20 point Bourse, 18:20 nouvel essai si la séance du jour n'est pas encore publiée, 22:45 clôture internationale ; manuel possible | Point 📈 : Bourse de Tunis (TUNINDEX, indice Banques, trois plus fortes hausses et baisses, capitaux) lue chez Mizeniti en lecture seule ; clôture internationale (Yahoo Finance) et cours BCT. Entrées manuelles : `point`, `essai`, `jour` (essai avec un jour imposé, sans anti-doublon) |
 
+| `awb` | planifié : tous les jours 08:30 et 18:30 (heure de Tunis) ; manuel possible | Veille AWB : Attijariwafa bank et filiales, secteur bancaire tunisien, risque souverain, cas d'usage technologiques (Google News, GDELT, Finextra) ; articles notés, regroupés par événement, titres traduits en français ; un message 🏦 groupé (rien s'il n'y a rien de nouveau) |
+| `sante` | planifié : tous les jours à 21:00 (heure de Tunis) ; manuel possible | Contrôle de santé : sources muettes, workflows en échec ou arrêtés, éditions manquantes, secours Claude utilisé ou plafond à 80 %, Yahoo et traduction AWB sans donnée, Bourse de Mizeniti périmée. Message ⚠️ seulement en cas d'anomalie ; le dimanche, message « ✅ Semaine complète » sinon. Case `dimanche` pour simuler |
+
 Relancer un essai depuis un terminal :
 
 ```bash
@@ -28,6 +31,8 @@ gh workflow run collecte.yml -R mohamedmoussa140979-dot/veille
 gh workflow run collecte.yml -R mohamedmoussa140979-dot/veille -f essai_alerte=true
 gh workflow run edition.yml -R mohamedmoussa140979-dot/veille -f type=matin -f heures=24
 gh workflow run marches.yml -R mohamedmoussa140979-dot/veille -f point=bourse -f essai=2 -f jour=2026-11-13
+gh workflow run awb.yml -R mohamedmoussa140979-dot/veille
+gh workflow run sante.yml -R mohamedmoussa140979-dot/veille -f dimanche=true
 ```
 
 Essai local sur de vraies pages, sans Git ni Telegram (état dans `_etat_local/`) :
@@ -65,6 +70,7 @@ Sur la branche `data` : `articles/AAAA-MM-JJ.jsonl` (articles du jour), `state/s
 - `config/parametres.yaml` : modèle et tarifs de secours Claude, plafond, pauses Gemini, essais HTTP, plage silencieuse des alertes.
 - `config/sources.yaml` : liste des sources (remplie au lot V1). Pour ajouter une source : une entrée avec `id`, `nom`, `url`, `type`, `chapitre`, `langue`, `alerte`, `payant`, `actif`.
 - `config/exclusions.yaml` : mots exclus (lot V1).
+- `config/awb.yaml` : sujets, requêtes, poids, seuils et signaux de la veille AWB (reprise de `veille_awb.py`).
 - `config/jours_feries.yaml` : jours sans séance à la Bourse de Tunis (aucun point 📈). Fêtes à date fixe seulement : les fêtes religieuses mobiles sont à ajouter chaque année.
 - `config/parametres.yaml` (`marches.mizeniti_url`) : adresse du Worker `marche-lecture` de Mizeniti, lu en lecture seule.
 
@@ -80,3 +86,15 @@ python -m venv .venv && .venv/Scripts/pip install -r requirements-dev.txt   # Wi
 ```
 
 Les tests n'ont pas le droit d'ouvrir une connexion réseau (garde-fou dans `tests/conftest.py`).
+
+## En cas de panne
+
+1. **Un message ⚠️ Santé arrive** : chaque ligne dit quoi regarder et quoi faire (ouvrir la page d'une source, relancer un workflow, relever le plafond Claude).
+2. **Plus aucun message** : ouvrir l'onglet *Actions* du dépôt. Si les exécutions n'apparaissent pas ou sont refusées, vérifier le compte `mohamedmoussa140979-dot` (facturation, quota Actions, verrouillage). Le contrôle de santé de 21:00 tourne sur ce même compte : une panne GitHub complète ne peut pas prévenir elle-même.
+3. **Une édition manque** : `gh workflow run edition.yml -R mohamedmoussa140979-dot/veille -f type=matin -f heures=24` (ou `soir`, `weekend`).
+4. **Une source ne répond plus** : la mettre en pause (`actif: false`) dans `config/sources.yaml`, ou corriger son adresse.
+5. **Secrets** : `GEMINI_API_KEY`, `ANTHROPIC_API_KEY`, `TG_TOKEN_VEILLE`, `TG_CHAT_ID` ; ne jamais les écrire dans le dépôt.
+
+## Bascule et retrait de l'existant
+
+Le dépôt tourne seul à partir du 14/11/2026 (les anciens dépôts sont bloqués par le verrou du compte principal). Après **sept jours de fonctionnement réel**, un bilan de la semaine (éditions produites, alertes, sources muettes, consommation Claude) est à produire ; le porteur archive alors lui-même `sitemoussam`, `veille-bfi`, `veille-awb` et `veille-tunisie` (Settings → Archive) et peut les supprimer ensuite. Ce dépôt ne supprime ni n'archive aucun dépôt. Les anciens sites Pages disparaissent avec les dépôts ; l'ancienne adresse `veille-tunisie` n'est pas redirigée.
