@@ -3,45 +3,45 @@
  "id": "2026-11-15-matin",
  "date": "2026-11-15",
  "edition": "matin",
- "genere_le": "2026-11-15T00:25:02+01:00",
- "modele": "gemini-3.5-flash",
+ "genere_le": "2026-11-15T00:47:53+01:00",
+ "modele": "gemini-3.6-flash",
  "chiffres": [
   {
    "cle": "tunindex",
    "libelle": "TUNINDEX",
-   "valeur": null,
-   "variation_pct": null,
-   "source_url": null,
-   "au": null
+   "valeur": 18989.99,
+   "variation_pct": 0.79,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-13"
   },
   {
    "cle": "eur_tnd_bct",
    "libelle": "EUR/TND (BCT)",
-   "valeur": null,
-   "variation_pct": null,
-   "source_url": null,
-   "au": null
+   "valeur": 3.3639,
+   "variation_pct": -0.07,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-12"
   },
   {
    "cle": "brent",
    "libelle": "Brent",
-   "valeur": null,
-   "variation_pct": null,
-   "source_url": null,
-   "au": null
+   "valeur": 95.84,
+   "variation_pct": 0.02,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-13"
   },
   {
    "cle": "tmm",
    "libelle": "TMM",
-   "valeur": null,
+   "valeur": 7.0,
    "variation_pct": null,
-   "source_url": null,
-   "au": null
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
   }
  ],
  "essentiel": [
   {
-   "texte": "La Tunisie enregistre un déficit commercial supérieur à 23 milliards de dinars malgré une hausse de 14,4 % des investissements directs étrangers, tandis que le projet de budget 2027 alloue 12,53 milliards de dinars au développement.",
+   "texte": "La Tunisie enregistre une hausse de 14,4 % des investissements internationaux et prévoit une progression de 7,6 % des dépenses de développement en 2027, malgré un déficit commercial dépassant 23 milliards de dinars.",
    "articles": [
     "271981ac16ef",
     "cfa30f5150bf",
@@ -49,7 +49,17 @@
    ]
   },
   {
-   "texte": "Une défaillance majeure des infrastructures de contrôle aérien aux États-Unis a entraîné l'annulation de plus de 17 000 vols et suscité des revendications budgétaires.",
+   "texte": "Le gouvernement tunisien prépare la révision du Code de l'investissement et intensifie la coopération économique avec le Qatar et le Ghana.",
+   "articles": [
+    "26a4134c586d",
+    "948a3a5c404c",
+    "f846a03eff82",
+    "5e70f888fc3f",
+    "578c07772118"
+   ]
+  },
+  {
+   "texte": "Une panne majeure des équipements obsolètes du contrôle aérien américain paralyse l'espace aérien et entraîne des milliers d'annulations de vols.",
    "articles": [
     "95ae177eb064",
     "1799c3cefac6",
@@ -59,7 +69,7 @@
    ]
   },
   {
-   "texte": "L'affaire Nvidia provoque des divisions au sein du gouvernement américain et s'invite dans les négociations sur l'IA avec Pékin, qui s'appuie sur Huawei pour développer ses semi-conducteurs.",
+   "texte": "Le scandale Nvidia provoque des tensions au sommet de l'État américain, tandis que la Chine accélère son plan d'autosuffisance en puces via Huawei.",
    "articles": [
     "4fdb7f174338",
     "07d1eb9153fb",
@@ -68,12 +78,9 @@
    ]
   },
   {
-   "texte": "La Tunisie prépare la révision de son Code de l'investissement et la restructuration d'entreprises publiques, pendant que le TABC s'associe au Qatar pour opérer en Afrique.",
+   "texte": "Microsoft rétablit l'ensemble de ses services cloud après une panne informatique mondiale de plus de 24 heures.",
    "articles": [
-    "26a4134c586d",
-    "f846a03eff82",
-    "5e70f888fc3f",
-    "578c07772118"
+    "0b814450de3a"
    ]
   }
  ],
@@ -84,8 +91,8 @@
    "tableau": null,
    "sujets": [
     {
-     "titre": "Révision du Code de l'investissement en Tunisie",
-     "texte": "Le ministère de l'Économie prépare une révision du Code de l'investissement ainsi qu'une cartographie numérique des opportunités d'affaires. En parallèle, les services ministériels poursuivent la simplification des démarches administratives.",
+     "titre": "Révision du Code de l'investissement et numérisation des opportunités",
+     "texte": "Le ministère de l'Économie et de la Planification prépare une réforme du Code de l'investissement couplée à une cartographie numérique nationale des opportunités d'affaires. Ce projet s'accompagne d'un allègement des démarches administratives pour les investisseurs.",
      "articles": [
       "5e70f888fc3f",
       "578c07772118"
@@ -94,8 +101,8 @@
      "impact_menage": null
     },
     {
-     "titre": "Creusement du déficit commercial tunisien à fin octobre 2026",
-     "texte": "Le déficit commercial de la Tunisie franchit la barre des 23 milliards de dinars au terme des dix premiers mois de l'année 2026.",
+     "titre": "Le déficit commercial franchit les 23 milliards de dinars à fin octobre 2026",
+     "texte": "La balance commerciale de la Tunisie affiche un solde négatif de plus de 23 milliards de dinars à l'issue des dix premiers mois de l'année 2026.",
      "articles": [
       "271981ac16ef"
      ],
@@ -103,8 +110,8 @@
      "impact_menage": null
     },
     {
-     "titre": "Progression de 14,4 % des investissements directs étrangers",
-     "texte": "Selon la FIPA, les investissements internationaux en Tunisie ont atteint 3 014,2 millions de dinars à la fin du mois de septembre 2026, enregistrant une hausse de 14,4 % sur un an.",
+     "titre": "Progression de 14,4 % des investissements internationaux à fin septembre 2026",
+     "texte": "Selon la FIPA, les flux d'investissements internationaux vers la Tunisie ont atteint 3 014,2 millions de dinars au cours des neuf premiers mois de 2026. Cela représente une hausse de 14,4 % par rapport à la même période de l'année précédente.",
      "articles": [
       "cfa30f5150bf"
      ],
@@ -112,8 +119,8 @@
      "impact_menage": null
     },
     {
-     "titre": "Dépenses de développement dans le projet de budget 2027",
-     "texte": "Le projet de budget de l'État pour 2027 alloue 12 530 millions de dinars aux dépenses de développement, marquant une hausse de 7,6 % par rapport à l'année 2026.",
+     "titre": "12 530 MD alloués aux dépenses de développement dans le projet de budget 2027",
+     "texte": "Le projet de loi de finances pour 2027 réserve 12 530 millions de dinars aux dépenses de développement, marquant une progression de 7,6 % sur un an. L'information a été précisée par la ministre des Finances Michket Slama Khaldi.",
      "articles": [
       "4baac2c32808"
      ],
@@ -121,8 +128,8 @@
      "impact_menage": null
     },
     {
-     "titre": "Restructuration en cours de trois entreprises publiques",
-     "texte": "Le gouvernement poursuit la mise en œuvre de programmes de restructuration pour trois entreprises publiques afin de renforcer leur situation financière et d'assurer leur pérennité.",
+     "titre": "Poursuite de la restructuration de trois entreprises publiques",
+     "texte": "Le gouvernement poursuit ses plans de redressement ciblant trois entreprises publiques afin de rétablir leur santé financière et soutenir leurs capacités de production. Cette démarche vise à pérenniser leurs activités opérationnelles.",
      "articles": [
       "f846a03eff82"
      ],
@@ -134,20 +141,90 @@
   {
    "cle": "bourse-entreprises",
    "titre": "Bourse, entreprises et acteurs économiques",
-   "tableau": null,
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-13",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 18989.99,
+      "variation_pct": 0.79,
+      "variation_annee_pct": 41.19,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14427.85,
+      "variation_pct": 0.96,
+      "variation_annee_pct": 49.21,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "tpr",
+      "libelle": "TPR",
+      "valeur": 13.39,
+      "variation_pct": 4.28,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tgh",
+      "libelle": "TAWASOL",
+      "valeur": 0.78,
+      "variation_pct": 4.0,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "dh",
+      "libelle": "DELICE HOLDING",
+      "valeur": 19.45,
+      "variation_pct": 3.46,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "bte",
+      "libelle": "BTE (ADP)",
+      "valeur": 5.4,
+      "variation_pct": -4.42,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "city",
+      "libelle": "CITY CARS",
+      "valeur": 20.45,
+      "variation_pct": -2.39,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "bna",
+      "libelle": "BANQUE NATIONALE AGRICOLE",
+      "valeur": 19.6,
+      "variation_pct": -0.91,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
    "sujets": [
     {
-     "titre": "Légère baisse du chiffre d'affaires de Tunisair sur neuf mois",
-     "texte": "Les revenus de la compagnie nationale Tunisair ont reculé de 1,2 % sur les neuf premiers mois de 2026 pour s'établir à 1 254 millions de dinars.",
+     "titre": "Baisse de 1,2 % des revenus de Tunisair sur neuf mois",
+     "texte": "Les revenus de la compagnie aérienne nationale Tunisair se sont établis à 1 254 millions de dinars à la fin du troisième trimestre 2026. Ce chiffre marque un repli de 1,2 % par rapport aux 1 270 millions de dinars enregistrés un an plus tôt.",
      "articles": [
       "5f381595833b"
-     ]
-    },
-    {
-     "titre": "Mobilisation environnementale d'Orange Digital Center",
-     "texte": "Les jeunes participants au programme SuperCodeurs d'Orange Digital Center se sont engagés dans des projets orientés vers la protection de l'environnement.",
-     "articles": [
-      "f67a0a4e1e93"
      ]
     }
    ]
@@ -155,11 +232,114 @@
   {
    "cle": "international",
    "titre": "Économie et marchés internationaux",
-   "tableau": null,
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 95.84,
+      "unite": "USD le baril",
+      "variation_pct": 0.02,
+      "au": "2026-11-13",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.23,
+      "unite": "USD par MMBtu",
+      "variation_pct": -3.29,
+      "au": "2026-11-13",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3886.3,
+      "unite": "USD l'once",
+      "variation_pct": 0.03,
+      "au": "2026-11-13",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 593.25,
+      "unite": "cents le boisseau",
+      "variation_pct": 1.54,
+      "au": "2026-11-13",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7561.67,
+      "unite": "points",
+      "variation_pct": -0.4,
+      "au": "2026-11-13",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 6386.86,
+      "unite": "points",
+      "variation_pct": -0.19,
+      "au": "2026-11-13",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 8368.91,
+      "unite": "points",
+      "variation_pct": 0.09,
+      "au": "2026-11-13",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.1028,
+      "unite": "",
+      "variation_pct": -0.28,
+      "au": "2026-11-13",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3639,
+      "unite": "dinars",
+      "variation_pct": -0.07,
+      "au": "2026-11-12",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0335,
+      "unite": "dinars",
+      "variation_pct": 0.29,
+      "au": "2026-11-12",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
    "sujets": [
     {
-     "titre": "Interruption massive du trafic aérien aux États-Unis",
-     "texte": "Une défaillance des systèmes de contrôle aérien a contraint la FAA à suspendre tous les départs aux États-Unis, provoquant plus de 17 000 annulations de vols.",
+     "titre": "Interruption majeure du trafic aérien aux États-Unis après une panne système",
+     "texte": "Une défaillance des équipements du contrôle aérien américain a contraint la FAA à suspendre les départs sur l'ensemble du territoire, provoquant des milliers d'annulations de vols. Les autorités prévoient une reprise progressive des opérations sur plusieurs jours.",
      "articles": [
       "95ae177eb064",
       "1799c3cefac6",
@@ -169,30 +349,30 @@
      ]
     },
     {
-     "titre": "Débats sur le financement des retraites aux États-Unis",
-     "texte": "Des parlementaires américains proposent d'éliminer le plafond d'imposition pour financer la Sécurité sociale. Les résultats des élections de mi-mandat pourraient être décisifs pour l'avenir des régimes de retraite et de santé.",
+     "titre": "Relance du débat sur les 35 heures au Sénat français",
+     "texte": "La discussion autour du projet de budget de la Sécurité sociale pour 2027 réintroduit la question des 35 heures au sein de la haute assemblée française.",
+     "articles": [
+      "ebb2a98bfb49"
+     ]
+    },
+    {
+     "titre": "Débats aux États-Unis sur le financement de la Sécurité sociale",
+     "texte": "Le sénateur Bernie Sanders propose de lever le plafond des cotisations pour imposer davantage les hauts revenus et pérenniser la Sécurité sociale. Par ailleurs, les élections de mi-mandat pourraient renforcer la prise en charge des politiques d'assurance maladie et de dépendance.",
      "articles": [
       "bfae604bbda2",
       "3ebaa109e4f2"
      ]
     },
     {
-     "titre": "Sous-évaluation du marché des seniors par les entreprises américaines",
-     "texte": "Les entreprises américaines sous-estiment considérablement l'impact économique et le pouvoir d'achat des personnes âgées de 50 ans et plus.",
+     "titre": "Évaluation sous-estimée du poids économique des séniors aux États-Unis",
+     "texte": "Le marché américain sous-évalue considérablement l'impact économique généré par la tranche de population âgée de 50 ans et plus.",
      "articles": [
       "c88fb66ee11b"
      ]
     },
     {
-     "titre": "Débat sénatorial sur le temps de travail en France",
-     "texte": "Les discussions autour du budget 2027 de la Sécurité sociale réouvrent les débats sur le dispositif des 35 heures au Sénat français.",
-     "articles": [
-      "ebb2a98bfb49"
-     ]
-    },
-    {
-     "titre": "Règles d'exonération sur les plus-values immobilières",
-     "texte": "En France, les salariés faisant l'objet d'une rupture de leur contrat de travail peuvent bénéficier d'une exonération d'impôt sur la plus-value lors de la vente d'une résidence sous certaines conditions.",
+     "titre": "Conditions d'exonération de la plus-value immobilière lors d'un départ d'entreprise",
+     "texte": "Une rupture du contrat de travail peut ouvrir droit à une exonération d'impôt sur la plus-value de cession d'un logement sous réserve du respect de certaines conditions juridiques.",
      "articles": [
       "c4cab8e54805"
      ]
@@ -205,38 +385,38 @@
    "tableau": null,
    "sujets": [
     {
-     "titre": "Engagement de la BAD pour l'autonomie financière de l'Afrique",
-     "texte": "La Banque africaine de développement cherche des leviers pour réduire la dépendance du continent à l'égard des financements extérieurs.",
+     "titre": "Rôle de la BAD dans le financement du développement africain",
+     "texte": "La Banque africaine de développement cherche à réduire la dépendance financière du continent vis-à-vis des bailleurs extérieurs pour financer ses projets de développement.",
      "articles": [
       "2fbd974a6778"
      ]
     },
     {
-     "titre": "Partenariat d'affaires entre la Tunisie et le Qatar pour l'Afrique",
-     "texte": "Le Conseil d'affaires tuniso-africain a signé un accord avec le Forum d'affaires qatari pour développer des projets d'investissement et stimuler le commerce en Afrique.",
+     "titre": "Partenariat stratégique entre la Tunisie et le Qatar pour l'investissement en Afrique",
+     "texte": "Le Conseil d'affaires tuniso-africain a conclu un accord de partenariat avec le Forum d'affaires qatari. Cette initiative vise à intensifier les échanges commerciaux et stimuler les investissements conjoints vers le continent africain.",
      "articles": [
       "26a4134c586d"
      ]
     },
     {
-     "titre": "Feuille de route conjointe entre la Tunisie et le Ghana",
-     "texte": "Les diplomates tunisiens et ghanéens ont convenu de mettre en place un programme d'action stratégique pour renforcer la coopération économique bilatérale.",
+     "titre": "Programme de coopération bilatérale entre la Tunisie et le Ghana",
+     "texte": "Les gouvernements tunisien et ghanéen ont convenu de mettre en place un programme d'action conjoint visant à consolider leurs relations économiques et sectorielles.",
      "articles": [
       "948a3a5c404c"
      ]
     },
     {
-     "titre": "Actualités de l'activité économique africaine",
-     "texte": "Le groupe Dangote lance un projet majeur en Namibie, tandis que des échéances politiques s'organisent au Cameroun.",
+     "titre": "Le sésame, moteur économique des producteurs d'Odienné en Côte d'Ivoire",
+     "texte": "La culture du sésame s'impose comme un levier de développement économique majeur pour les agriculteurs de la région d'Odienné.",
      "articles": [
-      "1eb3f03ed31a"
+      "ef6ea526fa5d"
      ]
     },
     {
-     "titre": "Développement de la culture du sésame en Côte d'Ivoire",
-     "texte": "À Odienné, la production de sésame s'impose comme un levier stratégique de croissance économique pour les agriculteurs locaux.",
+     "titre": "Positionnement du Gabon sur la scène environnementale",
+     "texte": "Le Gabon multiplie les initiatives pour s'imposer comme un acteur leader en matière de diplomatie et d'économie environnementale.",
      "articles": [
-      "ef6ea526fa5d"
+      "260fdd00a157"
      ]
     }
    ]
@@ -247,8 +427,8 @@
    "tableau": null,
    "sujets": [
     {
-     "titre": "Crise politique et diplomatique autour de Nvidia",
-     "texte": "Le scandale impliquant l'ancien dirigeant de Nvidia fragilise l'unité du gouvernement américain et s'invite dans les discussions de sécurité technologique avec la Chine.",
+     "titre": "Crise politique et tensions sino-américaines autour du dossier Nvidia",
+     "texte": "La démission du patron de Nvidia et les soupçons d'espionnage technologique créent des dissensions au sein de l'administration américaine. Le sujet s'invite également au sommet de l'Apec dans les discussions bilatérales relatives à la sécurité de l'IA.",
      "articles": [
       "07d1eb9153fb",
       "3cc776eaba62",
@@ -256,31 +436,31 @@
      ]
     },
     {
-     "titre": "Rôle central de Huawei dans la stratégie technologique chinoise",
-     "texte": "Pékin s'appuie sur le groupe Huawei et ses 114 000 chercheurs pour guider l'effort national visant l'autosuffisance en semi-conducteurs.",
+     "titre": "Huawei au cœur de la stratégie chinoise d'autosuffisance en semi-conducteurs",
+     "texte": "La Chine s'appuie sur le groupe Huawei, fort de 114 000 chercheurs et développeurs, pour combler son retard technologique et mener sa politique d'indépendance industrielle dans les puces électroniques.",
      "articles": [
       "4fdb7f174338"
      ]
     },
     {
-     "titre": "Rétablissement des services de Microsoft après une panne",
-     "texte": "Microsoft a annoncé la remise en service complète d'Outlook, Teams et Copilot après une panne globale de 24 heures touchant 74 pays.",
-     "articles": [
-      "0b814450de3a"
-     ]
-    },
-    {
-     "titre": "Mise en garde contre le risque sécuritaire des lunettes connectées",
-     "texte": "Des universitaires alertent sur les dangers de la surveillance de masse qu'entraîne l'usage généralisé des lunettes intelligentes munies de micros et de caméras.",
+     "titre": "Inquiétudes sur la protection de la vie privée face aux lunettes connectées",
+     "texte": "Des chercheurs dénoncent l'absence de réglementation européenne stricte face au risque de surveillance généralisée induit par la commercialisation de lunettes équipées de caméras et de microphones.",
      "articles": [
       "930d748f5487"
      ]
     },
     {
-     "titre": "Réorientation stratégique du modèle d'affaires d'AyaHQ",
-     "texte": "Après des échecs initiaux, AyaHQ a réorienté son activité vers la formation d'entrepreneurs, l'incubation et la gestion de résidences physiques.",
+     "titre": "Reconversion d'AyaHQ en incubateur et structure d'accompagnement",
+     "texte": "Après avoir testé plusieurs modèles dans les paiements et le recrutement, AyaHQ s'est réorientée vers un modèle d'accompagnement de fondateurs de startups comprenant des programmes de résidence physique.",
      "articles": [
       "ea5c47ecea06"
+     ]
+    },
+    {
+     "titre": "Rétablissement complet des services cloud et logiciels de Microsoft",
+     "texte": "Microsoft annonce la résolution totale d'une panne de plus de 24 heures qui a perturbé ses applications Outlook, Teams et Copilot à l'échelle mondiale.",
+     "articles": [
+      "0b814450de3a"
      ]
     }
    ]
@@ -314,12 +494,12 @@
    "langue": "fr",
    "payant": false
   },
-  "1eb3f03ed31a": {
-   "titre": "Paul Biya mobilise le RDPC, Dangote lance un méga projet en Namibie, Gadi Eizenkot aux portes du pouvoir… Les 5 infos qu’il ne fallait pas manquer",
+  "260fdd00a157": {
+   "titre": "Gabon, une puissance environnementale à l’initiative",
    "source": "Jeune Afrique",
-   "url": "https://www.jeuneafrique.com/1861338/politique/paul-biya-mobilise-le-rdpc-dangote-lance-un-mega-projet-en-namibie-gadi-eizenkot-aux-portes-du-pouvoir-les-5-infos-quil-ne-fallait-pas-manquer/",
+   "url": "https://www.jeuneafrique.com/brandcontent/1861549/gabon-une-puissance-environnementale-a-linitiative/",
    "url_traduite": null,
-   "publie_le": "2026-11-14T08:37:54+01:00",
+   "publie_le": "2026-11-14T01:37:10+01:00",
    "langue": "fr",
    "payant": true
   },
@@ -369,7 +549,7 @@
    "payant": false
   },
   "3ebaa109e4f2": {
-   "titre": "Les retraités devraient être les grands bénéficiaires des élections de mi-mandat",
+   "titre": "Les retraités pourraient être les grands gagnants des élections de mi-mandat : « Les Démocrates détiendront tous les leviers clés concernant le vieillissement et les politiques publiques »",
    "source": "MarketWatch",
    "url": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
    "url_traduite": null,
@@ -469,7 +649,7 @@
    "payant": false
   },
   "bfae604bbda2": {
-   "titre": "Voici comment Bernie Sanders veut maintenir la solvabilité de la Sécurité sociale « pour des générations »",
+   "titre": "Voici comment Bernie Sanders souhaite garantir la solvabilité de la Sécurité sociale « pour des générations »",
    "source": "MarketWatch",
    "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
    "url_traduite": null,
@@ -488,7 +668,7 @@
    "payant": true
   },
   "c88fb66ee11b": {
-   "titre": "L'erreur à mille milliards de dollars des entreprises américaines sur la retraite",
+   "titre": "L'erreur à mille milliards de dollars des entreprises américaines concernant la retraite",
    "source": "MarketWatch",
    "url": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
    "url_traduite": null,
@@ -516,7 +696,7 @@
    "payant": false
   },
   "ea5c47ecea06": {
-   "titre": "Comment AyaHQ a transformé une startup en échec en une entreprise de formation de fondateurs",
+   "titre": "Comment AyaHQ a transformé une startup défaillante en une entreprise d'accompagnement de fondateurs",
    "source": "TechCabal",
    "url": "https://techcabal.com/2026/11/14/day-1-1000-of-ayahq/",
    "url_traduite": "https://techcabal-com.translate.goog/2026/11/14/day-1-1000-of-ayahq/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
@@ -540,15 +720,6 @@
    "url": "https://www.rfi.fr/fr/podcasts/un-jour-au-village/20261114-le-s%C3%A9same-un-tremplin-%C3%A9conomique-pour-les-producteurs-locaux-%C3%A0-odienn%C3%A9-en-c%C3%B4te-d-ivoire",
    "url_traduite": null,
    "publie_le": "2026-11-14T07:00:28+01:00",
-   "langue": "fr",
-   "payant": false
-  },
-  "f67a0a4e1e93": {
-   "titre": "Vidéo – Les SuperCodeurs d’Orange Digital Center mobilisés pour la planète : les enfants relèvent le défi !",
-   "source": "Business News",
-   "url": "https://businessnews.com.tn/2026/11/14/video-les-supercodeurs-dorange-digital-center-mobilises-pour-la-planete-les-enfants-relevent-le-defi/1428742/",
-   "url_traduite": null,
-   "publie_le": "2026-11-14T18:50:25+01:00",
    "langue": "fr",
    "payant": false
   },
