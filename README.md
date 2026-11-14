@@ -6,7 +6,7 @@ Tout est décrit dans `docs/` : règles du chantier (`00-regles-chantier.md`), s
 
 ## État
 
-Lot V0 (socle) livré (voir `docs/bilans/V0-bilan.md`). Lot V1 (collecte et alertes) en cours. Les workflows de collecte, de synthèse, de marchés, d'AWB et de santé arrivent avec les lots V1 à V5.
+Lots V0 (socle) et V1 (collecte et alertes) livrés (bilans dans `docs/bilans/`). Les workflows de synthèse, de marchés, d'AWB et de santé arrivent avec les lots V2 à V5.
 
 ## Ce que fait chaque workflow
 
@@ -14,13 +14,29 @@ Lot V0 (socle) livré (voir `docs/bilans/V0-bilan.md`). Lot V1 (collecte et aler
 |---|---|---|
 | `tests` | à chaque `push` (hors branche `data`) | `ruff` + `pytest`, sans réseau |
 | `smoke` | manuel (`Actions` → `smoke` → *Run workflow*) | Essai réel : branche `data`, Gemini, Claude, Telegram. Case « tester_claude » : un appel Claude minimal (quelques millièmes de dollar) |
+| `collecte` | planifié (heure de Tunis) : lun–ven 07:15, 09:15, 11:15, 13:15, 15:15, 17:15, 20:15 ; sam–dim 09:15 et 18:15 ; manuel possible | Lit les 49 sources, résout les liens, filtre, déduplique, écrit les articles du jour sur `data`, envoie les alertes 🔔 (plage silencieuse 22:00–07:00 : envoi groupé à 07:00). Case « essai_alerte » : envoie deux alertes d'exemple et ne collecte rien |
 
 Relancer un essai depuis un terminal :
 
 ```bash
 gh workflow run smoke.yml -R mohamedmoussa140979-dot/veille
-gh workflow run smoke.yml -R mohamedmoussa140979-dot/veille -f tester_claude=true
+gh workflow run collecte.yml -R mohamedmoussa140979-dot/veille
+gh workflow run collecte.yml -R mohamedmoussa140979-dot/veille -f essai_alerte=true
 ```
+
+Essai local sur de vraies pages, sans Git ni Telegram (état dans `_etat_local/`) :
+
+```bash
+.venv/Scripts/python -m veille.collecte --a-blanc
+```
+
+### Ajouter, modifier ou désactiver une source
+
+Dans `config/sources.yaml` : copier une entrée de même type, changer `id`, `nom`, `url`. Type `rss` si le site publie un flux, `html-generique` sinon ; `google-news` pour un flux de recherche Google News. `alerte: true` pour une alerte immédiate, `payant: true` pour la pastille 🔒 (pas de lien traduit), `langue` en `fr`, `en` ou `ar`, `actif: false` pour la mettre en pause, `filtre: false` pour l'exempter du filtre éditorial. Le premier passage d'une nouvelle source mémorise ses articles sans envoyer d'alerte. Les mots exclus se modifient dans `config/exclusions.yaml`.
+
+### Lire l'état de la collecte
+
+Sur la branche `data` : `articles/AAAA-MM-JJ.jsonl` (articles du jour), `state/sources.json` (dernière lecture et erreurs de chaque source), `sante/AAAA-MM.jsonl` (avertissements et erreurs), `state/alertes_en_attente.json` (alertes de nuit ou non envoyées).
 
 ## Le socle (`veille/`)
 

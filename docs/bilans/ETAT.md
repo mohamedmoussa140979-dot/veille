@@ -2,27 +2,25 @@
 
 Dernière mise à jour : 14/11/2026
 
-**V0 — socle : clos** (fusionné dans `main`, essai réel vert ; rendu Telegram à regarder sur le téléphone, voir `V0-bilan.md`).
+**V0 — socle : clos** (bilan : `V0-bilan.md`).
+**V1 — collecte et alertes : clos** (fusionné dans `main`, essai réel vert ; bilan : `V1-bilan.md`). La collecte tourne désormais aux horaires du § 5 de la spec. Restent à constater par le porteur : le rendu des alertes d'essai sur le téléphone et la première vraie alerte BCT ou CMF.
 
-**Lot en cours : V1 — collecte et alertes** (branche `v1-collecte`, inventaire écrit : `V1-inventaire.md`).
+**Lot en cours : V2 — synthèses** (branche `v2-syntheses`, inventaire à écrire).
 
-**Arrêt : une décision du porteur est nécessaire avant d'écrire la résolution des liens Google News** (critère A12). Les liens actuels ne se décodent plus hors ligne ; la seule méthode qui résolve est un appel non documenté de Google, que le contrôle d'autorisation a refusé. Voir la question posée dans la conversation. Le reste de V1 (lecteurs, filtre, déduplication, alertes, workflow) ne dépend pas de cette décision et reprend dès la réponse.
+## Lots
 
-## Changements du lot V0
+| Lot | État |
+|---|---|
+| V0 socle | clos |
+| V1 collecte et alertes | clos |
+| V2 synthèses | en cours |
+| V3 marchés | à faire |
+| V4 AWB | à faire |
+| V5 santé et bascule | à faire |
 
-| # | Changement | État |
-|---|---|---|
-| 1 | Squelette : `pyproject`, dépendances épinglées, `.gitignore`, `.gitattributes`, `config/` | fait |
-| 2 | `journal` (masquage des secrets, événements), `temps` (heure de Tunis) | fait |
-| 3 | `http` (délais, nouveaux essais, en-têtes, encodage des URL) | fait |
-| 4 | `telegram` (en-têtes, découpage, repli texte brut) — A6 | fait |
-| 5 | `etat` (branche `data`, transactions, reprise sur conflit) — A9 | fait |
-| 6 | `ia` (Gemini → Claude, plafond, compteur, JSON validé) — A7 | fait |
-| 7 | `config` (chargement + validation) ; tests du dépôt (rien sur `main`, scan de secrets) — A9, A10 | fait |
-| 8 | Workflows `tests` (sur push) et `smoke` (manuel), README | fait |
-| 9 | CI verte sur un vrai runner (hypothèse H5) | fait |
-| 10 | Fusion dans `main`, essai réel `smoke`, bilan | fait |
+## Points ouverts à connaître
 
-## Lots suivants
-
-V1 collecte et alertes · V2 synthèses · V3 marchés · V4 AWB · V5 santé et bascule.
+- Finextra répond 403 aux serveurs GitHub : anomalie visible dans `sante/` sur `data` ; même blocage attendu pour V4 (AWB).
+- `translate.goog` répond 400 pour Reuters et MarketWatch : pas de lien « FR » pour ces deux hôtes.
+- `ilboursa` et Tustex gardés comme sources d'articles (à confirmer par le porteur).
+- MarketWatch remplace WSJ ; flux orienté finance personnelle, à filtrer par le classement IA.
