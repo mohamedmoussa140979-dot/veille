@@ -1,2 +1,270 @@
-# Mots exclus (spec § 3), appliqués au titre et au résumé avant tout appel IA. Rempli au lot V1.
-mots_exclus: []
+# Ligne éditoriale (spec § 3) : mots exclus, appliqués au titre ET au résumé avant tout appel IA.
+# Texte comparé sans accents, en minuscules, sur des mots entiers. Modifiable sans toucher au code.
+# Reprise des listes de l'ancien monitor.py (sport, guerre, arts), complétées pour les faits divers,
+# catastrophes naturelles, people et quelques équivalents anglais. La politique n'est PAS filtrée ici :
+# le cas limite « politique à effet économique direct » est tranché par le classement de l'IA.
+
+mots_exclus:
+  sport:
+    - football
+    - foot
+    - basketball
+    - basket-ball
+    - basket
+    - handball
+    - volley-ball
+    - volleyball
+    - rugby
+    - athletisme
+    - natation
+    - cyclisme
+    - judo
+    - boxe
+    - marathon
+    - jeux olympiques
+    - olympique
+    - olympiques
+    - championnat
+    - championnats
+    - ligue des champions
+    - coupe du monde
+    - coupe d'afrique
+    - coupe de tunisie
+    - supercoupe
+    - derby
+    - mercato
+    - penalty
+    - buteur
+    - gardien de but
+    - attaquant
+    - milieu de terrain
+    - selectionneur
+    - entraineur
+    - arbitre
+    - mi-temps
+    - tacle
+    - equipe nationale
+    - ballon d'or
+    - fifa
+    - uefa
+    - caf
+    - ftf
+    - esperance sportive
+    - esperance de tunis
+    - club africain
+    - etoile du sahel
+    - stade tunisien
+    - us monastir
+    - cs sfaxien
+    - ca bizertin
+    - joueur
+    - joueurs
+    - match
+    - matchs
+    - matches
+    - sportif
+    - sportifs
+    - sportive
+    - athlete
+    - athletes
+    - jeux mediterraneens
+    - medaille
+    - medailles
+    - demi-finale
+    - quart de finale
+    - selection nationale
+    - sport
+    - soccer
+    - olympics
+    - tennis
+    - nba
+    - nfl
+  guerre:
+    - guerre
+    - guerres
+    - conflit arme
+    - offensive
+    - bombardement
+    - bombardements
+    - bombarde
+    - missile
+    - missiles
+    - roquette
+    - roquettes
+    - frappe aerienne
+    - frappes aeriennes
+    - cessez-le-feu
+    - treve
+    - belligerant
+    - milice
+    - milices
+    - djihadiste
+    - djihadistes
+    - terroriste
+    - terroristes
+    - attentat
+    - attentats
+    - insurrection
+    - coup d'etat
+    - junte
+    - genocide
+    - massacre
+    - soldat
+    - soldats
+    - armee israelienne
+    - tsahal
+    - hamas
+    - hezbollah
+    - houthis
+    - gaza
+    - cisjordanie
+    - airstrike
+    - airstrikes
+    - war
+    - wars
+    - ceasefire
+  arts:
+    - cinema
+    - cinematographique
+    - cinematographiques
+    - film
+    - films
+    - court-metrage
+    - long-metrage
+    - documentaire
+    - realisateur
+    - realisatrice
+    - actrice
+    - comedien
+    - comedienne
+    - casting
+    - tournage
+    - bande-annonce
+    - box-office
+    - netflix
+    - oscars
+    - festival
+    - festivals
+    - jcc
+    - journees cinematographiques
+    - festival de carthage
+    - theatre
+    - spectacle
+    - spectacles
+    - piece de theatre
+    - opera
+    - chorale
+    - concert de
+    - musicien
+    - musicienne
+    - chanteur
+    - chanteuse
+    - album
+    - albums
+    - clip
+    - danse
+    - danseur
+    - danseuse
+    - peintre
+    - peinture
+    - sculpteur
+    - sculpture
+    - artiste
+    - artistes
+    - artistique
+    - artistiques
+    - beaux-arts
+    - arts plastiques
+    - oeuvre d'art
+    - galerie d'art
+    - exposition artistique
+    - vernissage
+    - biennale
+    - musee
+    - musees
+    - patrimoine culturel
+    - culturel
+    - culturelle
+    - culturels
+    - culturelles
+    - ministere de la culture
+    - romancier
+    - poete
+    - poesie
+    - litteraire
+    - salon du livre
+    - movie
+    - movies
+  faits_divers:
+    - fait divers
+    - faits divers
+    - meurtre
+    - assassinat
+    - homicide
+    - braquage
+    - cambriolage
+    - agression
+    - accident de la route
+    - noyade
+  catastrophes:
+    - seisme
+    - tremblement de terre
+    - ouragan
+    - tsunami
+    - eruption volcanique
+    - earthquake
+    - hurricane
+  people:
+    - people
+    - celebrite
+    - celebrites
+    - paparazzi
+    - mariage de
+
+# Expressions qui contiennent un mot exclu mais restent économiques : l'article est conservé.
+expressions_conservees:
+  - guerre commerciale
+  - guerre des prix
+  - guerre tarifaire
+  - guerre economique
+  - guerre des monnaies
+  - guerre des devises
+  - guerre froide
+  - guerre des talents
+  - guerre de l'energie
+  - offensive commerciale
+  - offensive marketing
+  - conflit d'interets
+  - club de paris
+  - transfert de fonds
+  - transferts des tunisiens
+  - coupe budgetaire
+  - coupes budgetaires
+  - credit scoring
+  - trade war
+  - price war
+
+# Segments d'URL qui désignent une rubrique exclue.
+segments_url_exclus:
+  - /sport
+  - /sports
+  - /football
+  - /foot/
+  - /basket
+  - /handball
+  - /volley
+  - /athletisme
+  - /tennis/
+  - /rugby
+  - /cyclisme
+  - /jeux-olympiques
+  - /ligue-1
+  - /ligue1
+  - /mondial-
+  - /can-20
+  - /culture
+  - /cinema
+  - /arts/
+  - /art/
+  - /musique
+  - /spectacles

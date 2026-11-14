@@ -28,8 +28,10 @@ sources:
 
 
 def test_les_fichiers_du_depot_sont_valides():
-    assert charger_sources(RACINE / "config" / "sources.yaml") == []
-    assert charger_exclusions(RACINE / "config" / "exclusions.yaml") == []
+    sources = charger_sources(RACINE / "config" / "sources.yaml")
+    assert isinstance(sources, list)
+    mots = charger_exclusions(RACINE / "config" / "exclusions.yaml")
+    assert "football" in mots and "gaza" in mots
     p = charger_parametres(RACINE / "config" / "parametres.yaml")
     assert p["claude"]["plafond_usd_mois"] == 5.0
     assert p["claude"]["modele"].startswith("claude-")
