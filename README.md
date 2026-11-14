@@ -6,7 +6,7 @@ Tout est décrit dans `docs/` : règles du chantier (`00-regles-chantier.md`), s
 
 ## État
 
-Lot V0 (socle) en cours de livraison. Les workflows de collecte, de synthèse, de marchés, d'AWB et de santé arrivent avec les lots V1 à V5.
+Lot V0 (socle) livré ; l'essai réel Telegram reste à rejouer (voir `docs/bilans/V0-bilan.md`). Les workflows de collecte, de synthèse, de marchés, d'AWB et de santé arrivent avec les lots V1 à V5.
 
 ## Ce que fait chaque workflow
 
