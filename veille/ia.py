@@ -398,16 +398,39 @@ class Ia:
         self.journal.avertir("claude_secours_utilise", "Gemini en échec", modele=resultat.modele)
         return resultat
 
-    def generer_json(self, prompt: str, schema: dict, *, systeme: str | None = None) -> Resultat:
-        """JSON validé contre `schema` ; un JSON invalide donne un seul nouvel essai."""
+    def generer_json(
+        self,
+        prompt: str,
+        schema: dict,
+        *,
+        systeme: str | None = None,
+        normaliser: Callable[[Any], Any] | None = None,
+    ) -> Resultat:
+        """JSON validé contre `schema` ; un JSON invalide donne un seul nouvel essai.
+
+        `normaliser` corrige une forme équivalente mais inattendue avant validation (constat du
+        14/11 : Gemini renvoie parfois la liste seule au lieu de l'objet qui l'enveloppe).
+        """
         demande = prompt
         derniere = ""
         for essai in (1, 2):
             resultat = self.generer(demande, systeme=systeme, json_mode=True)
             try:
                 donnees = extraire_json(resultat.texte)
+                if normaliser:
+                    donnees = normaliser(donnees)
                 jsonschema.validate(donnees, schema)
-            except (ValueError, jsonschema.ValidationError) as exc:
+            except jsonschema.ValidationError as exc:
+                # message court : le message natif recopie toute la donnée invalide
+                chemin = "/".join(str(p) for p in exc.absolute_path) or "racine"
+                derniere = f"champ {chemin} : contrainte « {exc.validator} » non respectée"
+                self.journal.avertir("ia_json_invalide", derniere, essai=essai)
+                demande = (
+                    f"{prompt}\n\nTa réponse précédente n'était pas conforme au schéma "
+                    f"({derniere}). Réponds uniquement par un JSON valide, de la forme demandée."
+                )
+                continue
+            except ValueError as exc:
                 derniere = str(exc).splitlines()[0][:200]
                 self.journal.avertir("ia_json_invalide", derniere, essai=essai)
                 demande = (

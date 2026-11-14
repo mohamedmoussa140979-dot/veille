@@ -390,3 +390,29 @@ def test_aucun_secret_dans_les_evenements():
         g.generer("x")
     assert "CLE-GEMINI-SECRETE" not in str(e.value)
     assert "CLE-GEMINI-SECRETE" not in json.dumps(j.evenements)
+
+
+def test_normaliser_corrige_une_forme_equivalente_sans_nouvel_essai():
+    g, c, _ = gemini([liste_modeles("gemini-3-flash"), gemini_ok('[{"id": "a1"}]')])
+    schema = {
+        "type": "object",
+        "required": ["articles"],
+        "properties": {"articles": {"type": "array"}},
+    }
+    res = Ia(g, None, journal()).generer_json(
+        "x", schema, normaliser=lambda d: {"articles": d} if isinstance(d, list) else d
+    )
+    assert res.donnees == {"articles": [{"id": "a1"}]} and res.essais == 1
+
+
+def test_message_d_erreur_de_schema_court_sans_recopier_la_donnee():
+    enorme = json.dumps({"autre": ["x" * 50] * 200})
+    g, c, _ = gemini([liste_modeles("gemini-3-flash"), gemini_ok(enorme), gemini_ok(enorme)])
+    j = journal()
+    with pytest.raises(ErreurIa) as e:
+        Ia(g, None, j).generer_json("x", SCHEMA)
+    assert len(str(e.value)) < 200 and "xxxxx" not in str(e.value)
+    second_prompt = c.appels[-1]["json"]["contents"][0]["parts"][0]["text"]
+    assert (
+        len(second_prompt) < 400 and "xxxxx" not in second_prompt
+    )  # la demande de reprise reste courte

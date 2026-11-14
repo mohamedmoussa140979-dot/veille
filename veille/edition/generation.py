@@ -28,6 +28,7 @@ def _classer(ia, articles: list[dict], journal: Journal) -> tuple[list[dict], st
         prompts.prompt_classement(articles),
         prompts.SCHEMA_CLASSEMENT,
         systeme=prompts.LIGNE_EDITORIALE,
+        normaliser=prompts.normaliser_classement,
     )
     inconnus = 0
     sujets: dict[tuple[str, str], dict] = {}
