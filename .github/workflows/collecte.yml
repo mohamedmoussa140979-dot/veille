@@ -15,12 +15,22 @@ on:
         description: "Envoyer seulement deux alertes d'exemple sur Telegram (rien n'est collecté)"
         type: boolean
         default: false
+      source_test:
+        description: "Mode test (déclenché par Mizeniti) : id d'UNE source à lire ; aucune alerte, aucun état modifié, résultat renvoyé au Worker"
+        type: string
+        default: ""
+      demande_id:
+        description: "Mode test : identifiant de la demande du back-office (rattache le résultat)"
+        type: string
+        default: ""
 
 permissions:
   contents: write # nécessaire pour écrire l'état sur la branche data
 
+# Un essai de source n'écrit rien : il a son propre groupe et ne fait jamais annuler une collecte
+# planifiée en attente.
 concurrency:
-  group: veille-collecte
+  group: ${{ inputs.source_test && format('veille-collecte-test-{0}', inputs.demande_id) || 'veille-collecte' }}
   cancel-in-progress: false
 
 jobs:
@@ -41,4 +51,9 @@ jobs:
           TG_TOKEN_VEILLE: ${{ secrets.TG_TOKEN_VEILLE }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Pilotage depuis Mizeniti (AC3). Les entrées passent par l'environnement, jamais
+          # recopiées dans la commande (pas d'injection de shell).
+          VEILLE_CONFIG_TOKEN: ${{ secrets.VEILLE_CONFIG_TOKEN }}
+          SOURCE_TEST: ${{ inputs.source_test }}
+          DEMANDE_ID: ${{ inputs.demande_id }}
         run: python -m veille.collecte ${{ inputs.essai_alerte && '--essai-alerte' || '' }}

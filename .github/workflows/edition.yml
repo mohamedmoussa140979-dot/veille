@@ -47,6 +47,9 @@ jobs:
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CLAUDE_PLAFOND_USD_MOIS: ${{ vars.CLAUDE_PLAFOND_USD_MOIS }}
+          # Pilotage depuis Mizeniti (AC3) : configuration lue, édition envoyée à l'application.
+          VEILLE_CONFIG_TOKEN: ${{ secrets.VEILLE_CONFIG_TOKEN }}
+          MIZENITI_INGEST_TOKEN: ${{ secrets.MIZENITI_INGEST_TOKEN }}
         run: >-
           python -m veille.edition --type ${{ inputs.type || 'auto' }}
           ${{ inputs.heures && format('--heures {0}', inputs.heures) || '' }}

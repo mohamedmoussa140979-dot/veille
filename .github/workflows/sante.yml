@@ -39,4 +39,5 @@ jobs:
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CLAUDE_PLAFOND_USD_MOIS: ${{ vars.CLAUDE_PLAFOND_USD_MOIS }}
+          VEILLE_CONFIG_TOKEN: ${{ secrets.VEILLE_CONFIG_TOKEN }} # mêmes sources et plafond que la collecte
         run: python -m veille.sante ${{ inputs.dimanche && '--dimanche' || '' }}
