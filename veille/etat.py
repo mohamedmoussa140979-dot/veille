@@ -208,6 +208,16 @@ class EtatGit:
         self._synchroniser()
         return self
 
+    def lister(self, dossier: str) -> list[str]:
+        """Chemins des fichiers d'un dossier de l'état (ex. `editions/2026-11-17-matin.json`)."""
+        _chemin_sur(dossier)
+        base = self.dossier / dossier
+        return (
+            sorted(f"{dossier}/{f.name}" for f in base.glob("*") if f.is_file())
+            if base.is_dir()
+            else []
+        )
+
     # -- écriture ----------------------------------------------------------------------
 
     def transaction(self, message: str, fonction: Callable[[Transaction], None]) -> bool:
@@ -269,6 +279,16 @@ class EtatLocal:
 
     def ouvrir(self) -> EtatLocal:
         return self
+
+    def lister(self, dossier: str) -> list[str]:
+        """Chemins des fichiers d'un dossier de l'état (ex. `editions/2026-11-17-matin.json`)."""
+        _chemin_sur(dossier)
+        base = self.dossier / dossier
+        return (
+            sorted(f"{dossier}/{f.name}" for f in base.glob("*") if f.is_file())
+            if base.is_dir()
+            else []
+        )
 
     def synchroniser(self) -> EtatLocal:
         return self

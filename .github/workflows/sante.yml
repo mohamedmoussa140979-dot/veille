@@ -1,0 +1,42 @@
+name: sante
+
+# Contrôle de santé (spec § 10) : tous les jours à 21:00 (heure de Tunis = UTC + 1 h) et à la demande.
+# Message ⚠️ seulement en cas d'anomalie ; le dimanche, message « ✅ Semaine complète » sinon.
+on:
+  schedule:
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+    inputs:
+      dimanche:
+        description: "Simuler le contrôle du dimanche (message de la semaine)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # journal de santé sur la branche data
+  actions: read # liste des exécutions de workflows (tâche non exécutée ou en échec)
+
+concurrency:
+  group: veille-sante
+  cancel-in-progress: false
+
+jobs:
+  sante:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - name: Contrôle de santé
+        env:
+          PYTHONUNBUFFERED: "1"
+          TG_TOKEN_VEILLE: ${{ secrets.TG_TOKEN_VEILLE }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CLAUDE_PLAFOND_USD_MOIS: ${{ vars.CLAUDE_PLAFOND_USD_MOIS }}
+        run: python -m veille.sante ${{ inputs.dimanche && '--dimanche' || '' }}

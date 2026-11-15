@@ -139,6 +139,9 @@ def test_nouvelle_publication_bct_declenche_une_alerte(tmp_path):
     assert len(envoyes) == 1 and envoyes[0][0] == "alerte"
     assert "Taux directeur" in envoyes[0][1] and "actualites.jsp?id=1290" in envoyes[0][1]
     assert etat.lire_json("state/alertes_en_attente.json") == []
+    assert etat.lire_json("state/alertes_stats.json") == {
+        "2026-11-14": 1
+    }  # compteur du dimanche (V5)
     assert [a["titre"][:12] for a in lignes(etat, "2026-11-14")] == ["Taux directe"]
     assert (
         lignes(etat, "2026-11-14")[0]["vu_le"] == "2026-11-14T10:00:00+01:00"
