@@ -217,3 +217,28 @@ def test_sources_locales_actives_absentes_du_document_sont_signalees_en_informat
     assert len(absentes) == 1 and absentes[0]["niveau"] == "info"
     assert "bct-circulaires" in absentes[0]["message"]  # présente en local, pas dans le document
     assert "bct-actualites" not in absentes[0]["message"].split(":", 1)[1]
+
+
+def test_expressions_conservees_et_segments_url_restent_lus_depuis_les_fichiers_locaux():
+    """Le document ne porte que `mots_exclus` : le reste du filtre vient de config/exclusions.yaml."""
+    from veille.collecte.article import Article
+    from veille.collecte.filtre import Filtre
+
+    d = doc(ligne_editoriale={"mots_exclus": {"conflits": ["guerre"], "sport": ["football"]}})
+    cfg, _, _ = charger([FausseReponse(200, json_=d)])
+    assert cfg.origine == "distante"
+    assert cfg.regles_filtre["mots_exclus"] == {"conflits": ["guerre"], "sport": ["football"]}
+    assert "guerre commerciale" in cfg.regles_filtre["expressions_conservees"]
+    assert "/sport" in cfg.regles_filtre["segments_url_exclus"]
+
+    filtre = Filtre(cfg.regles_filtre)
+
+    def art(titre, url="https://a.tn/economie/1"):
+        return Article(source_id="x", source="X", titre=titre, url=url)
+
+    # mot exclu du document : l'article est rejeté
+    assert filtre.motif_rejet(art("La guerre au Soudan s'étend"), {}).startswith("conflits")
+    # expression conservée locale : l'article économique reste gardé malgré « guerre »
+    assert filtre.motif_rejet(art("Guerre commerciale : de nouveaux droits de douane"), {}) is None
+    # segment d'URL exclu local : toujours appliqué
+    assert filtre.motif_rejet(art("Un titre neutre", "https://a.tn/sport/12"), {}) is not None
