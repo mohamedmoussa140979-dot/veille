@@ -49,3 +49,4 @@
 {"t": "2026-11-15T01:03:38.665770+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "gtx : HTTP 429", "ctx": {}}
 {"t": "2026-11-15T01:03:40.106074+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "gtx : HTTP 429", "ctx": {}}
 {"t": "2026-11-15T01:03:41.331162+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "gtx : HTTP 429", "ctx": {}}
+{"t": "2026-11-15T01:06:51.699540+01:00", "niveau": "info", "code": "sante_controle", "message": "1 anomalie(s)", "ctx": {"editions": "1", "alertes": "0"}}
