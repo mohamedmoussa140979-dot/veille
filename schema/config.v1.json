@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mohamedmoussa140979-dot/veille/schema/config.v1.json",
+  "title": "Document de configuration de la veille, version 1",
+  "description": "Servi par GET /veille/config (Worker actualites) ; contrat : contrat-pilotage-veille.md, paragraphe 1. Heures de Tunis, format HH:mm. Les champs inconnus sont tolérés (ignorés) ; un changement de forme passe par `version`. Le `type` d'une source n'est volontairement pas une énumération ici : une source d'un type inconnu est ignorée et signalée par la veille, sans invalider tout le document.",
+  "type": "object",
+  "required": ["version", "sources", "horaires", "ligne_editoriale", "parametres"],
+  "properties": {
+    "version": { "const": 1 },
+    "genere_le": { "type": "string", "minLength": 1 },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "nom", "url", "type", "chapitre", "langue", "alerte", "payant", "actif"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "maxLength": 80 },
+          "nom": { "type": "string", "minLength": 1, "maxLength": 200 },
+          "url": { "type": "string", "pattern": "^https?://", "maxLength": 2000 },
+          "type": { "type": "string", "minLength": 1, "maxLength": 40 },
+          "chapitre": {
+            "enum": ["eco-tunisie", "bourse-entreprises", "international", "afrique", "technologie"]
+          },
+          "langue": { "enum": ["fr", "en", "ar"] },
+          "alerte": { "type": "boolean" },
+          "payant": { "type": "boolean" },
+          "actif": { "type": "boolean" },
+          "filtre": { "type": "boolean" },
+          "selecteur": { "type": ["string", "null"], "maxLength": 500 }
+        }
+      }
+    },
+    "horaires": {
+      "type": "object",
+      "required": ["collectes", "editions", "plage_silencieuse"],
+      "properties": {
+        "collectes": {
+          "type": "object",
+          "required": ["ouvres", "weekend"],
+          "properties": {
+            "ouvres": { "type": "array", "items": { "$ref": "#/$defs/heure" } },
+            "weekend": { "type": "array", "items": { "$ref": "#/$defs/heure" } }
+          }
+        },
+        "editions": {
+          "type": "object",
+          "required": ["matin", "soir", "weekend"],
+          "properties": {
+            "matin": { "$ref": "#/$defs/heure" },
+            "soir": { "$ref": "#/$defs/heure" },
+            "weekend": { "$ref": "#/$defs/heure" }
+          }
+        },
+        "plage_silencieuse": {
+          "type": "object",
+          "required": ["debut", "fin"],
+          "properties": {
+            "debut": { "$ref": "#/$defs/heure" },
+            "fin": { "$ref": "#/$defs/heure" }
+          }
+        }
+      }
+    },
+    "ligne_editoriale": {
+      "type": "object",
+      "required": ["mots_exclus"],
+      "properties": {
+        "mots_exclus": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1, "maxLength": 100 }
+          }
+        }
+      }
+    },
+    "parametres": {
+      "type": "object",
+      "required": ["conservation_mois", "plafond_claude_usd_mois"],
+      "properties": {
+        "conservation_mois": { "type": "integer", "minimum": 1, "maximum": 60 },
+        "plafond_claude_usd_mois": { "type": "number", "minimum": 0 }
+      }
+    }
+  },
+  "$defs": {
+    "heure": { "type": "string", "pattern": "^([01][0-9]|2[0-3]):[0-5][0-9]$" }
+  }
+}

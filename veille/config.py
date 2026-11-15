@@ -36,6 +36,7 @@ SCHEMA_SOURCES = {
                     "payant": {"type": "boolean"},
                     "actif": {"type": "boolean"},
                     "filtre": {"type": "boolean"},  # facultatif ; false = exemptée du filtre
+                    "selecteur": {"type": ["string", "null"]},  # facultatif ; html-generique
                 },
             },
         }
@@ -111,3 +112,12 @@ def charger_parametres(chemin: Path = RACINE / "config" / "parametres.yaml") -> 
         except ValueError as exc:
             raise ErreurConfig(f"CLAUDE_PLAFOND_USD_MOIS n'est pas un nombre : {brut!r}") from exc
     return p
+
+
+def plafond_claude_usd(params: dict) -> float:
+    """Plafond mensuel de Claude. Le document distant (back-office) l'emporte quand il a été lu ;
+    sinon la variable du dépôt CLAUDE_PLAFOND_USD_MOIS, puis `parametres.yaml`."""
+    cfg = params["claude"]
+    if cfg.get("plafond_source") == "distante":
+        return float(cfg["plafond_usd_mois"])
+    return float(os.environ.get("CLAUDE_PLAFOND_USD_MOIS") or cfg["plafond_usd_mois"])

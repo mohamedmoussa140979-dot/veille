@@ -18,3 +18,8 @@ alertes:
 marches:
   # Données de Bourse et taux BCT : Worker « marche-lecture » de Mizeniti, en lecture seule (V42).
   mizeniti_url: https://marche-lecture.mizeniti2026-9b1.workers.dev
+mizeniti:
+  # Worker « actualites » de Mizeniti (recette) : document de configuration lu par la veille
+  # (GET /veille/config), réception des éditions (POST /actualites/ingest) et des résultats
+  # de test de source (POST /veille/resultat-test). Aucune constante en dur dans le code.
+  actualites_url: https://pfm-actualites-recette.abt-mohamed-moussa.workers.dev
