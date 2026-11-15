@@ -209,3 +209,11 @@ def test_le_plafond_distant_l_emporte_sur_la_variable_du_depot(monkeypatch):
 
 def test_minutes():
     assert minutes("07:15") == 435 and minutes("00:00") == 0
+
+
+def test_sources_locales_actives_absentes_du_document_sont_signalees_en_information():
+    cfg, journal, _ = charger([FausseReponse(200, json_=DOCUMENT)])
+    absentes = [e for e in journal.evenements if e["code"] == "config_sources_locales_absentes"]
+    assert len(absentes) == 1 and absentes[0]["niveau"] == "info"
+    assert "bct-circulaires" in absentes[0]["message"]  # présente en local, pas dans le document
+    assert "bct-actualites" not in absentes[0]["message"].split(":", 1)[1]

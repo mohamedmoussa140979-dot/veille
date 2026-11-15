@@ -227,6 +227,14 @@ def charger_configuration(client, params: dict, journal: Journal, *, token: str 
         )
         locale.raison_repli = raison
         return locale
+    distantes = {x["id"] for x in configuration.sources}
+    absentes = sorted(x["id"] for x in locale.sources_actives if x["id"] not in distantes)
+    if absentes:  # le document fait foi : ces sources locales actives ne seront pas collectées
+        journal.info(
+            "config_sources_locales_absentes",
+            f"{len(absentes)} source(s) active(s) des fichiers locaux absente(s) du document : "
+            + ", ".join(absentes)[:300],
+        )
     actives = len(configuration.sources_actives)
     journal.info(
         "config_distante",

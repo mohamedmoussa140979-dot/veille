@@ -76,7 +76,7 @@ Sur la branche `data` : `articles/AAAA-MM-JJ.jsonl` (articles du jour), `state/s
 
 ## Secrets du dépôt
 
-`GEMINI_API_KEY`, `ANTHROPIC_API_KEY`, `TG_TOKEN_VEILLE`, `TG_CHAT_ID` (posés par le porteur). Variable facultative : `CLAUDE_PLAFOND_USD_MOIS` (Settings → Variables). Aucun secret, e-mail ni identifiant personnel dans le dépôt (contrôlé par `tests/test_depot.py`).
+`GEMINI_API_KEY`, `ANTHROPIC_API_KEY`, `TG_TOKEN_VEILLE`, `TG_CHAT_ID` (posés par le porteur). Pilotage depuis Mizeniti (AC3) : `MIZENITI_INGEST_TOKEN` (envoi des éditions) et `VEILLE_CONFIG_TOKEN` (lecture de la configuration, résultats de test) ; absents, la veille fonctionne comme avant (fichiers locaux, pas d'envoi). Variable facultative : `CLAUDE_PLAFOND_USD_MOIS` (Settings → Variables). Aucun secret, e-mail ni identifiant personnel dans le dépôt (contrôlé par `tests/test_depot.py`).
 
 ## Développer en local
 
@@ -98,3 +98,12 @@ Les tests n'ont pas le droit d'ouvrir une connexion réseau (garde-fou dans `tes
 ## Bascule et retrait de l'existant
 
 Le dépôt tourne seul à partir du 14/11/2026 (les anciens dépôts sont bloqués par le verrou du compte principal). Après **sept jours de fonctionnement réel**, un bilan de la semaine (éditions produites, alertes, sources muettes, consommation Claude) est à produire ; le porteur archive alors lui-même `sitemoussam`, `veille-bfi`, `veille-awb` et `veille-tunisie` (Settings → Archive) et peut les supprimer ensuite. Ce dépôt ne supprime ni n'archive aucun dépôt. Les anciens sites Pages disparaissent avec les dépôts ; l'ancienne adresse `veille-tunisie` n'est pas redirigée.
+
+
+## Pilotage depuis Mizeniti (AC3)
+
+Contrat : `contrat-pilotage-veille.md` (dépôt `pfm-platform`, `docs/chantier-veille/`). Bilan du lot : `docs/bilans/AC3-veille-bilan.md`.
+
+- **Configuration** (`veille/config_distante.py`, schéma `schema/config.v1.json`) : à chaque collecte, édition et contrôle de santé, `GET <mizeniti.actualites_url>/veille/config` avec `VEILLE_CONFIG_TOKEN`. Le document valide remplace les sources, les mots exclus, la plage silencieuse et le plafond Claude ; **repli sur `config/*.yaml`** (jeton absent, réseau, 404, 5xx, délai de 10 s, version inconnue, validation) avec l'événement de santé `config_distante_repli`. Les fichiers locaux restent la référence de repli et de test.
+- **Envoi des éditions** (`veille/edition/envoi.py`) : après l'écriture d'une édition, `POST …/actualites/ingest` avec `MIZENITI_INGEST_TOKEN`. Sans jeton : sauté. Un échec n'empêche ni Telegram ni l'archive ; il remonte au contrôle de santé (`ingest_echec`).
+- **Mode test d'une source** : `collecte.yml` accepte `source_test` (id) et `demande_id` ; ne lit que cette source, aucune alerte, aucun état, puis `POST …/veille/resultat-test`. Essai local : `.venv/Scripts/python -m veille.collecte --source-test bct-actualites`.
