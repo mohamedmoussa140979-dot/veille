@@ -3,8 +3,8 @@
  "id": "2026-11-15-matin",
  "date": "2026-11-15",
  "edition": "matin",
- "genere_le": "2026-11-15T00:47:53+01:00",
- "modele": "gemini-3.6-flash",
+ "genere_le": "2026-11-15T10:13:50+01:00",
+ "modele": "gemini-3.7-flash",
  "chiffres": [
   {
    "cle": "tunindex",
@@ -41,46 +41,36 @@
  ],
  "essentiel": [
   {
-   "texte": "La Tunisie enregistre une hausse de 14,4 % des investissements internationaux et prévoit une progression de 7,6 % des dépenses de développement en 2027, malgré un déficit commercial dépassant 23 milliards de dinars.",
+   "texte": "La dégradation commerciale de la Tunisie se poursuit avec un déficit dépassant 23 milliards de dinars à fin octobre 2026, bien que les recettes touristiques aient franchi 7,15 milliards de dinars et que les investissements extérieurs affichent une progression de 14,4 % à fin septembre.",
    "articles": [
+    "a511d34d970c",
+    "2d053caecf5a",
+    "96ff252621fe",
     "271981ac16ef",
-    "cfa30f5150bf",
-    "4baac2c32808"
+    "cfa30f5150bf"
    ]
   },
   {
-   "texte": "Le gouvernement tunisien prépare la révision du Code de l'investissement et intensifie la coopération économique avec le Qatar et le Ghana.",
+   "texte": "Une défaillance d'équipements vétustes lors du remplacement de câbles a provoqué l'annulation de plus de 17 000 vols en deux jours aux États-Unis, mettant en lumière la vulnérabilité du réseau aérien.",
    "articles": [
-    "26a4134c586d",
-    "948a3a5c404c",
-    "f846a03eff82",
-    "5e70f888fc3f",
-    "578c07772118"
-   ]
-  },
-  {
-   "texte": "Une panne majeure des équipements obsolètes du contrôle aérien américain paralyse l'espace aérien et entraîne des milliers d'annulations de vols.",
-   "articles": [
+    "f351fe627822",
+    "b6c96cc9513f",
+    "f9a7c16641d8",
     "95ae177eb064",
-    "1799c3cefac6",
-    "b2504db94769",
-    "305ab37c68c6",
-    "d8a2ff7f6bc1"
+    "1799c3cefac6"
    ]
   },
   {
-   "texte": "Le scandale Nvidia provoque des tensions au sommet de l'État américain, tandis que la Chine accélère son plan d'autosuffisance en puces via Huawei.",
+   "texte": "La Tunisie et la BERD ont finalisé un accord de financement de 50 millions d'euros alloué à la réalisation d'une centrale solaire.",
+   "articles": [
+    "953ec513df05"
+   ]
+  },
+  {
+   "texte": "Pékin s'appuie sur Huawei et ses équipes de recherche pour développer ses puces d'intelligence artificielle, alors que les enjeux de sécurité technologique domineront la rencontre entre Donald Trump et Xi Jinping à l'Apec.",
    "articles": [
     "4fdb7f174338",
-    "07d1eb9153fb",
-    "3cc776eaba62",
-    "ac0a8e12eb3e"
-   ]
-  },
-  {
-   "texte": "Microsoft rétablit l'ensemble de ses services cloud après une panne informatique mondiale de plus de 24 heures.",
-   "articles": [
-    "0b814450de3a"
+    "07d1eb9153fb"
    ]
   }
  ],
@@ -91,18 +81,28 @@
    "tableau": null,
    "sujets": [
     {
-     "titre": "Révision du Code de l'investissement et numérisation des opportunités",
-     "texte": "Le ministère de l'Économie et de la Planification prépare une réforme du Code de l'investissement couplée à une cartographie numérique nationale des opportunités d'affaires. Ce projet s'accompagne d'un allègement des démarches administratives pour les investisseurs.",
+     "titre": "Hausse de 14,4 % des investissements extérieurs en Tunisie",
+     "texte": "Les investissements internationaux en Tunisie ont atteint 3 014,2 millions de dinars à la fin du mois de septembre 2026 selon la FIPA. Ce niveau traduit une croissance de 14,4 % par rapport aux neuf premiers mois de 2025.",
      "articles": [
-      "5e70f888fc3f",
-      "578c07772118"
+      "a511d34d970c",
+      "cfa30f5150bf"
      ],
-     "rubrique": "reglementation",
+     "rubrique": "statistiques",
      "impact_menage": null
     },
     {
-     "titre": "Le déficit commercial franchit les 23 milliards de dinars à fin octobre 2026",
-     "texte": "La balance commerciale de la Tunisie affiche un solde négatif de plus de 23 milliards de dinars à l'issue des dix premiers mois de l'année 2026.",
+     "titre": "Progression des recettes touristiques tunisiennes à fin octobre 2026",
+     "texte": "Les revenus générés par le tourisme ont atteint 7,152 milliards de dinars sur les dix premiers mois de 2026. D'après le ministère de tutelle, ces recettes s'inscrivent en hausse de 3,4 % sur un an et de 25,1 % comparativement à l'exercice 2019.",
+     "articles": [
+      "2d053caecf5a",
+      "96ff252621fe"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Le déficit commercial tunisien franchit le seuil des 23 milliards de dinars",
+     "texte": "Le solde négatif de la balance commerciale de la Tunisie a excédé les 23 milliards de dinars à l'issue du mois d'octobre 2026.",
      "articles": [
       "271981ac16ef"
      ],
@@ -110,30 +110,22 @@
      "impact_menage": null
     },
     {
-     "titre": "Progression de 14,4 % des investissements internationaux à fin septembre 2026",
-     "texte": "Selon la FIPA, les flux d'investissements internationaux vers la Tunisie ont atteint 3 014,2 millions de dinars au cours des neuf premiers mois de 2026. Cela représente une hausse de 14,4 % par rapport à la même période de l'année précédente.",
+     "titre": "Appel au boycott de la filière de la tomate de transformation à Nabeul",
+     "texte": "La fédération régionale des producteurs de tomates de Nabeul préconise une suspension de la production pour la prochaine saison. La profession alerte sur l'accumulation d'importants volumes d'invendus, conjuguée à une hausse des coûts et une réduction des marges.",
      "articles": [
-      "cfa30f5150bf"
-     ],
-     "rubrique": "statistiques",
-     "impact_menage": null
-    },
-    {
-     "titre": "12 530 MD alloués aux dépenses de développement dans le projet de budget 2027",
-     "texte": "Le projet de loi de finances pour 2027 réserve 12 530 millions de dinars aux dépenses de développement, marquant une progression de 7,6 % sur un an. L'information a été précisée par la ministre des Finances Michket Slama Khaldi.",
-     "articles": [
-      "4baac2c32808"
-     ],
-     "rubrique": "statistiques",
-     "impact_menage": null
-    },
-    {
-     "titre": "Poursuite de la restructuration de trois entreprises publiques",
-     "texte": "Le gouvernement poursuit ses plans de redressement ciblant trois entreprises publiques afin de rétablir leur santé financière et soutenir leurs capacités de production. Cette démarche vise à pérenniser leurs activités opérationnelles.",
-     "articles": [
-      "f846a03eff82"
+      "f638b2386403",
+      "2b8c858863e9"
      ],
      "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Réformes sociales annoncées dans le projet budgétaire 2027",
+     "texte": "Le budget 2027 intègre des chantiers structurels portant sur la sécurité sociale. Il prévoit également une refonte des mécanismes de soutien destinés aux personnes en situation de handicap.",
+     "articles": [
+      "a0142204d3c3"
+     ],
+     "rubrique": "statistiques",
      "impact_menage": null
     }
    ]
@@ -221,10 +213,24 @@
    },
    "sujets": [
     {
-     "titre": "Baisse de 1,2 % des revenus de Tunisair sur neuf mois",
-     "texte": "Les revenus de la compagnie aérienne nationale Tunisair se sont établis à 1 254 millions de dinars à la fin du troisième trimestre 2026. Ce chiffre marque un repli de 1,2 % par rapport aux 1 270 millions de dinars enregistrés un an plus tôt.",
+     "titre": "Financement BERD de 50 millions d'euros pour une centrale solaire",
+     "texte": "La Tunisie a officialisé avec la BERD une convention de prêt de 50 millions d'euros. Les fonds sont alloués à l'édification d'une nouvelle infrastructure de production d'énergie solaire.",
      "articles": [
-      "5f381595833b"
+      "953ec513df05"
+     ]
+    },
+    {
+     "titre": "Extension de l'offre technologique de Mattel en Mauritanie",
+     "texte": "Mattel, filiale de Tunisie Telecom, a mis en service un réseau 5G ainsi qu'un nouveau centre de données. L'opérateur a également enrichi son écosystème avec l'offre de paiement mobile Mattel Money.",
+     "articles": [
+      "3a83cb5b069d"
+     ]
+    },
+    {
+     "titre": "Mise au point de nextProtein après les perturbations à Menzel Bouzelfa",
+     "texte": "L'entreprise nextProtein a communiqué des éclaircissements à propos d'événements survenus sur ses installations le 21 octobre dernier à Menzel Bouzelfa.",
+     "articles": [
+      "2dcbe2edb7ed"
      ]
     }
    ]
@@ -338,43 +344,42 @@
    },
    "sujets": [
     {
-     "titre": "Interruption majeure du trafic aérien aux États-Unis après une panne système",
-     "texte": "Une défaillance des équipements du contrôle aérien américain a contraint la FAA à suspendre les départs sur l'ensemble du territoire, provoquant des milliers d'annulations de vols. Les autorités prévoient une reprise progressive des opérations sur plusieurs jours.",
+     "titre": "Paralysie du trafic aérien aux États-Unis sur fond d'infrastructures vétustes",
+     "texte": "Plus de 17 000 liaisons aériennes ont été déprogrammées en l'espace de deux jours sur le sol américain à la suite d'un arrêt technique des systèmes de gestion des départs. L'incident est survenu lors d'opérations de rénovation portant sur des câblages en cuivre vieillissants.",
      "articles": [
+      "f351fe627822",
+      "b6c96cc9513f",
+      "f9a7c16641d8",
       "95ae177eb064",
-      "1799c3cefac6",
-      "b2504db94769",
-      "305ab37c68c6",
-      "d8a2ff7f6bc1"
+      "1799c3cefac6"
      ]
     },
     {
-     "titre": "Relance du débat sur les 35 heures au Sénat français",
-     "texte": "La discussion autour du projet de budget de la Sécurité sociale pour 2027 réintroduit la question des 35 heures au sein de la haute assemblée française.",
+     "titre": "Téhéran juge inopérantes les mesures de rétorsion économique américaines",
+     "texte": "Le ministre des Finances iranien a qualifié d'inefficaces les menaces formulées par Washington à l'encontre de son économie. Il a affirmé que les flux d'exportations du pays demeuraient maintenus malgré les pressions.",
      "articles": [
-      "ebb2a98bfb49"
+      "e36437425dca"
      ]
     },
     {
-     "titre": "Débats aux États-Unis sur le financement de la Sécurité sociale",
-     "texte": "Le sénateur Bernie Sanders propose de lever le plafond des cotisations pour imposer davantage les hauts revenus et pérenniser la Sécurité sociale. Par ailleurs, les élections de mi-mandat pourraient renforcer la prise en charge des politiques d'assurance maladie et de dépendance.",
+     "titre": "Recul de la performance économique française par rapport à l'Europe",
+     "texte": "L'économie française enregistre un rythme d'expansion parmi les plus modestes de l'Union européenne sur l'année en cours. Cette décélération fait désormais glisser son produit intérieur brut par tête en deçà du niveau moyen européen.",
      "articles": [
-      "bfae604bbda2",
-      "3ebaa109e4f2"
+      "16d6d676fe49"
      ]
     },
     {
-     "titre": "Évaluation sous-estimée du poids économique des séniors aux États-Unis",
-     "texte": "Le marché américain sous-évalue considérablement l'impact économique généré par la tranche de population âgée de 50 ans et plus.",
+     "titre": "Sous-évaluation du poids des seniors dans les entreprises américaines",
+     "texte": "Selon une analyse financière, le monde des affaires américain appréhende mal la portée économique des personnes âgées de 50 ans et plus dans la planification des retraites.",
      "articles": [
       "c88fb66ee11b"
      ]
     },
     {
-     "titre": "Conditions d'exonération de la plus-value immobilière lors d'un départ d'entreprise",
-     "texte": "Une rupture du contrat de travail peut ouvrir droit à une exonération d'impôt sur la plus-value de cession d'un logement sous réserve du respect de certaines conditions juridiques.",
+     "titre": "Réapparition du débat sur les 35 heures au Sénat français",
+     "texte": "Dans le cadre de l'examen du projet budgétaire de la sécurité sociale pour 2027, les sénateurs ont rouvert les discussions relatives au temps de travail hebdomadaire.",
      "articles": [
-      "c4cab8e54805"
+      "ebb2a98bfb49"
      ]
     }
    ]
@@ -385,38 +390,38 @@
    "tableau": null,
    "sujets": [
     {
-     "titre": "Rôle de la BAD dans le financement du développement africain",
-     "texte": "La Banque africaine de développement cherche à réduire la dépendance financière du continent vis-à-vis des bailleurs extérieurs pour financer ses projets de développement.",
+     "titre": "Interrogations sur le rôle de la BAD dans l'autonomie financière africaine",
+     "texte": "Les initiatives de la Banque africaine de développement sont examinées sous l'angle de leur aptitude à limiter la dépendance de l'Afrique vis-à-vis des bailleurs extérieurs.",
      "articles": [
       "2fbd974a6778"
      ]
     },
     {
-     "titre": "Partenariat stratégique entre la Tunisie et le Qatar pour l'investissement en Afrique",
-     "texte": "Le Conseil d'affaires tuniso-africain a conclu un accord de partenariat avec le Forum d'affaires qatari. Cette initiative vise à intensifier les échanges commerciaux et stimuler les investissements conjoints vers le continent africain.",
+     "titre": "Déplacement de Cyril Ramaphosa aux États-Unis axé sur les technologies",
+     "texte": "Le président sud-africain s'est rendu aux États-Unis avec l'objectif de capter des capitaux auprès des grands groupes technologiques, malgré des relations bilatérales tendues avec Donald Trump.",
      "articles": [
-      "26a4134c586d"
+      "04581ad9749c"
      ]
     },
     {
-     "titre": "Programme de coopération bilatérale entre la Tunisie et le Ghana",
-     "texte": "Les gouvernements tunisien et ghanéen ont convenu de mettre en place un programme d'action conjoint visant à consolider leurs relations économiques et sectorielles.",
+     "titre": "Opportunités accrues sur la finance transfrontalière Afrique-Europe",
+     "texte": "Le dirigeant de la structure IYU fait part du potentiel d'expansion significatif que recèlent les transactions et flux de capitaux entre les marchés européens et africains.",
      "articles": [
-      "948a3a5c404c"
+      "605b654ab39c"
      ]
     },
     {
-     "titre": "Le sésame, moteur économique des producteurs d'Odienné en Côte d'Ivoire",
-     "texte": "La culture du sésame s'impose comme un levier de développement économique majeur pour les agriculteurs de la région d'Odienné.",
+     "titre": "Retrait du projet d'introduction à Londres pour Dangote Cement",
+     "texte": "Le fabricant de ciment nigérian Dangote Cement a officialisé l'abandon de son projet d'admission sur la place boursière de Londres.",
      "articles": [
-      "ef6ea526fa5d"
+      "bf287ecb5d50"
      ]
     },
     {
-     "titre": "Positionnement du Gabon sur la scène environnementale",
-     "texte": "Le Gabon multiplie les initiatives pour s'imposer comme un acteur leader en matière de diplomatie et d'économie environnementale.",
+     "titre": "Affaiblissement du rand sud-africain face au dollar",
+     "texte": "La devise de l'Afrique du Sud a fléchi sous le double effet de l'appréciation de la monnaie américaine et d'indicateurs macroéconomiques locaux inférieurs aux attentes.",
      "articles": [
-      "260fdd00a157"
+      "53af5e261e7b"
      ]
     }
    ]
@@ -427,46 +432,53 @@
    "tableau": null,
    "sujets": [
     {
-     "titre": "Crise politique et tensions sino-américaines autour du dossier Nvidia",
-     "texte": "La démission du patron de Nvidia et les soupçons d'espionnage technologique créent des dissensions au sein de l'administration américaine. Le sujet s'invite également au sommet de l'Apec dans les discussions bilatérales relatives à la sécurité de l'IA.",
-     "articles": [
-      "07d1eb9153fb",
-      "3cc776eaba62",
-      "ac0a8e12eb3e"
-     ]
-    },
-    {
-     "titre": "Huawei au cœur de la stratégie chinoise d'autosuffisance en semi-conducteurs",
-     "texte": "La Chine s'appuie sur le groupe Huawei, fort de 114 000 chercheurs et développeurs, pour combler son retard technologique et mener sa politique d'indépendance industrielle dans les puces électroniques.",
+     "titre": "Huawei au centre de la stratégie chinoise dans les semi-conducteurs d'IA",
+     "texte": "Pour conquérir son indépendance technologique face aux restrictions internationales, la Chine s'appuie sur Huawei. Le groupe concentre plus de la moitié de ses 208 000 salariés dans les départements de recherche et développement.",
      "articles": [
       "4fdb7f174338"
      ]
     },
     {
-     "titre": "Inquiétudes sur la protection de la vie privée face aux lunettes connectées",
-     "texte": "Des chercheurs dénoncent l'absence de réglementation européenne stricte face au risque de surveillance généralisée induit par la commercialisation de lunettes équipées de caméras et de microphones.",
+     "titre": "Nvidia au cœur des pourparlers sino-américains sur l'IA lors de l'Apec",
+     "texte": "Les chefs d'État américain et chinois se réunissent lors du sommet de l'Apec pour tenter d'établir un dialogue sur la sécurité entourant l'intelligence artificielle. Les discussions se déroulent dans un climat assombri par les contentieux concernant les semi-conducteurs de Nvidia.",
      "articles": [
-      "930d748f5487"
+      "07d1eb9153fb"
      ]
     },
     {
-     "titre": "Reconversion d'AyaHQ en incubateur et structure d'accompagnement",
-     "texte": "Après avoir testé plusieurs modèles dans les paiements et le recrutement, AyaHQ s'est réorientée vers un modèle d'accompagnement de fondateurs de startups comprenant des programmes de résidence physique.",
+     "titre": "Levée de 300 millions de dollars par la jeune pousse LangChain",
+     "texte": "L'éditeur d'infrastructures de développement dédiées aux agents d'intelligence artificielle LangChain a bouclé un tour de table financier de 300 millions de dollars.",
      "articles": [
-      "ea5c47ecea06"
+      "3426b22bbeb5"
      ]
     },
     {
-     "titre": "Rétablissement complet des services cloud et logiciels de Microsoft",
-     "texte": "Microsoft annonce la résolution totale d'une panne de plus de 24 heures qui a perturbé ses applications Outlook, Teams et Copilot à l'échelle mondiale.",
+     "titre": "Première récupération réussie de l'étage supérieur de Starship par SpaceX",
+     "texte": "SpaceX a récupéré pour la première fois l'étage supérieur de son lanceur lourd Starship après un périple de 14 rotations orbitales.",
      "articles": [
-      "0b814450de3a"
+      "68d81f604a8e"
+     ]
+    },
+    {
+     "titre": "Ateliers de programmation écologique chez Orange Digital Center",
+     "texte": "Orange Digital Center a organisé une session de formation au code informatique ciblant les enfants afin de les sensibiliser aux problématiques environnementales.",
+     "articles": [
+      "f67a0a4e1e93"
      ]
     }
    ]
   }
  ],
  "articles": {
+  "04581ad9749c": {
+   "titre": "Brouillé avec Donald Trump, Cyril Ramaphosa en visite aux États-Unis pour tenter de séduire les géants de la tech",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1861424/politique/brouille-avec-donald-trump-cyril-ramaphosa-en-visite-aux-etats-unis-pour-tenter-de-seduire-les-geants-de-la-tech/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T08:33:05+01:00",
+   "langue": "fr",
+   "payant": true
+  },
   "07d1eb9153fb": {
    "titre": "L'affaire Nvidia s'invite dans les discussions sur la sécurité de l'IA entre la Chine et les États-Unis",
    "source": "France 24 · Éco et tech",
@@ -476,14 +488,14 @@
    "langue": "fr",
    "payant": false
   },
-  "0b814450de3a": {
-   "titre": "Panne de Microsoft : le géant américain affirme que ses services sont entièrement rétablis",
-   "source": "France 24 · Éco et tech",
-   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261114-les-services-de-microsoft-sont-quasiment-r%C3%A9tablis-l-entreprise-se-dit-profond%C3%A9ment-d%C3%A9sol%C3%A9e",
+  "16d6d676fe49": {
+   "titre": "Le lent déclin économique de la France face au reste de l’Europe",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/15/le-lent-declin-economique-de-la-france-face-au-reste-de-l-europe_6810984_3234.html",
    "url_traduite": null,
-   "publie_le": "2026-11-14T07:19:17+01:00",
+   "publie_le": "2026-11-15T06:15:07+01:00",
    "langue": "fr",
-   "payant": false
+   "payant": true
   },
   "1799c3cefac6": {
    "titre": "Avions cloués au sol aux États-Unis : une panne historique qui révèle les failles du contrôle aérien",
@@ -491,24 +503,6 @@
    "url": "https://businessnews.com.tn/2026/11/14/avions-cloues-au-sol-aux-etats-unis-une-panne-historique-qui-revele-les-failles-du-controle-aerien/1428711/",
    "url_traduite": null,
    "publie_le": "2026-11-14T11:11:00+01:00",
-   "langue": "fr",
-   "payant": false
-  },
-  "260fdd00a157": {
-   "titre": "Gabon, une puissance environnementale à l’initiative",
-   "source": "Jeune Afrique",
-   "url": "https://www.jeuneafrique.com/brandcontent/1861549/gabon-une-puissance-environnementale-a-linitiative/",
-   "url_traduite": null,
-   "publie_le": "2026-11-14T01:37:10+01:00",
-   "langue": "fr",
-   "payant": true
-  },
-  "26a4134c586d": {
-   "titre": "La Tunisie introduit le Qatar en Afrique !",
-   "source": "African Manager",
-   "url": "https://africanmanager.com/tunisie-qatar-un-partenariat-pour-dynamiser-les-investissements-en-afrique/",
-   "url_traduite": null,
-   "publie_le": "2026-11-14T09:39:51+01:00",
    "langue": "fr",
    "payant": false
   },
@@ -521,6 +515,33 @@
    "langue": "fr",
    "payant": false
   },
+  "2b8c858863e9": {
+   "titre": "À Nabeul, les producteurs de tomates menacent de boycotter la campagne agricole",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/14/a-nabeul-les-producteurs-de-tomates-menacent-de-boycotter-la-campagne-agricole/1428715/",
+   "url_traduite": null,
+   "publie_le": "2026-11-14T12:05:30+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2d053caecf5a": {
+   "titre": "Tourisme en Tunisie : 7,152 milliards de dinars de recettes à fin octobre 2026",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/15/tourisme-en-tunisie-7152-milliards-de-dinars-de-recettes-a-fin-octobre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T08:50:36+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2dcbe2edb7ed": {
+   "titre": "nextProtein publie une mise au point après les événements du 21 octobre à Menzel Bouzelfa",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-actualites-des-societes/nextprotein-publie-une-mise-au-point-apres-les-evenements-du-21-octobre-a-menzel-bouzelfa",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T08:58:11.935071+00:00",
+   "langue": "fr",
+   "payant": false
+  },
   "2fbd974a6778": {
    "titre": "Financement du développement : la BAD réussira-t-elle à réduire la dépendance de l’Afrique ?",
    "source": "Jeune Afrique",
@@ -530,40 +551,21 @@
    "langue": "fr",
    "payant": true
   },
-  "305ab37c68c6": {
-   "titre": "Suspension des vols aux Etats-Unis : une panne géante que l’administration Trump cherche déjà à politiser",
-   "source": "Le Monde · Économie",
-   "url": "https://www.lemonde.fr/economie/article/2026/11/14/aux-etats-unis-apres-la-suspension-des-vols-l-administration-trump-politise-cette-panne-geante-et-reclame-50-milliards-de-dollars_6809689_3234.html",
+  "3426b22bbeb5": {
+   "titre": "LangChain lève 300 millions de dollars : les infrastructures d’agents IA séduisent les investisseurs",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/15/577131/langchain-leve-300-millions-de-dollars-les-infrastructures-dagents-ia-seduisent-les-investisseurs/",
    "url_traduite": null,
-   "publie_le": "2026-11-14T06:00:20+01:00",
-   "langue": "fr",
-   "payant": true
-  },
-  "3cc776eaba62": {
-   "titre": "Le scandale Nvidia fissure le gouvernement Trump",
-   "source": "African Manager",
-   "url": "https://africanmanager.com/le-scandale-nvidia-fissure-le-gouvernement-trump/",
-   "url_traduite": null,
-   "publie_le": "2026-11-14T09:27:00+01:00",
+   "publie_le": "2026-11-15T08:58:11.935071+00:00",
    "langue": "fr",
    "payant": false
   },
-  "3ebaa109e4f2": {
-   "titre": "Les retraités pourraient être les grands gagnants des élections de mi-mandat : « Les Démocrates détiendront tous les leviers clés concernant le vieillissement et les politiques publiques »",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
+  "3a83cb5b069d": {
+   "titre": "Mattel (Mauritanie): La filiale de Tunisie Telecom lance la 5G, un nouveau Data Center et Mattel Money",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-actualites-des-societes/mattel-mauritanie-la-filiale-de-tunisie-telecom-lance-la-5g-un-nouveau-data-center-et-mattel-money",
    "url_traduite": null,
-   "publie_le": "2026-11-14T18:50:00+01:00",
-   "langue": "en",
-   "payant": false,
-   "titre_origine": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’"
-  },
-  "4baac2c32808": {
-   "titre": "12 530 MDT alloués aux dépenses de développement",
-   "source": "African Manager",
-   "url": "https://africanmanager.com/12-530-mdt-alloues-aux-depenses-de-developpement/",
-   "url_traduite": null,
-   "publie_le": "2026-11-14T09:41:26+01:00",
+   "publie_le": "2026-11-15T08:58:11.935071+00:00",
    "langue": "fr",
    "payant": false
   },
@@ -576,48 +578,40 @@
    "langue": "fr",
    "payant": true
   },
-  "578c07772118": {
-   "titre": "Abdelhafidh annonce la révision du Code de l’investissement",
-   "source": "African Manager",
-   "url": "https://africanmanager.com/abdelhafidh-annonce-la-revision-du-code-de-linvestissement/",
+  "53af5e261e7b": {
+   "titre": "Le rand sud-africain recule, pénalisé par la fermeté du dollar et des données locales moroses",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/africa/south-african-rand-steady-ahead-jobs-data-2026-11-10/",
    "url_traduite": null,
-   "publie_le": "2026-11-14T09:28:24+01:00",
+   "publie_le": "2026-11-10T07:37:18+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "South African rand slides as stronger dollar, weak domestic data weigh"
+  },
+  "605b654ab39c": {
+   "titre": "Georges Ferré, IYU : « Il y a un vrai marché de finance transfrontalière entre l’Afrique et l’Europe »",
+   "source": "La Tribune",
+   "url": "https://www.latribune.fr/article/afrique/15006835528391/georges-ferre-iyu-il-y-a-un-vrai-marche-de-finance-transfrontaliere-entre-l-afrique-et-l-europe",
+   "url_traduite": null,
+   "publie_le": "2026-11-13T08:43:55+01:00",
    "langue": "fr",
    "payant": false
   },
-  "5e70f888fc3f": {
-   "titre": "Abdelhafidh annonce la révision du Code de l’investissement",
-   "source": "African Manager",
-   "url": "https://africanmanager.com/abdelhafidh-annonce-la-revision-du-code-de-linvestissement-2/",
+  "68d81f604a8e": {
+   "titre": "SpaceX parvient pour la première fois à récupérer l’étage supérieur de sa mégafusée Starship après 14 orbites",
+   "source": "Le Monde.fr",
+   "url": "https://www.lemonde.fr/sciences/article/2026/11/15/spacex-parvient-a-recuperer-l-etage-superieur-de-sa-megafusee-starship-apres-14-orbites_6810742_1650684.html",
    "url_traduite": null,
-   "publie_le": "2026-11-14T09:32:04+01:00",
-   "langue": "fr",
-   "payant": false
-  },
-  "5f381595833b": {
-   "titre": "Tunisair : Les revenus en légère baisse de 1,2%, à 1254 MDT",
-   "source": "African Manager",
-   "url": "https://africanmanager.com/tunisair-les-revenus-en-legere-baisse-de-12-a-1254-mdt/",
-   "url_traduite": null,
-   "publie_le": "2026-11-14T09:43:10+01:00",
-   "langue": "fr",
-   "payant": false
-  },
-  "930d748f5487": {
-   "titre": "Lunettes connectées : « Où est donc l’Europe, qui aime tant se présenter comme la championne mondiale de la protection de la vie privée ? »",
-   "source": "Le Monde · Économie",
-   "url": "https://www.lemonde.fr/idees/article/2026/11/14/lunettes-connectees-ou-est-donc-l-europe-qui-aime-tant-se-presenter-comme-la-championne-mondiale-de-la-protection-de-la-vie-privee_6810448_3232.html",
-   "url_traduite": null,
-   "publie_le": "2026-11-14T17:00:18+01:00",
+   "publie_le": "2026-11-15T01:26:48+01:00",
    "langue": "fr",
    "payant": true
   },
-  "948a3a5c404c": {
-   "titre": "Tunisie-Ghana : Un programme d’action commun pour le bilatéral",
-   "source": "African Manager",
-   "url": "https://africanmanager.com/tunisie-ghana-un-programme-daction-commun-pour-renforcer-la-cooperation-bilaterale/",
+  "953ec513df05": {
+   "titre": "La Tunisie et la BERD signent un financement de 50 millions d’euros pour une centrale solaire",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/la-tunisie-et-la-berd-signent-un-financement-de-50-millions-deuros-pour-une-centrale-solaire_65662",
    "url_traduite": null,
-   "publie_le": "2026-11-14T09:39:32+01:00",
+   "publie_le": "2026-11-12T07:57:55+01:00",
    "langue": "fr",
    "payant": false
   },
@@ -630,45 +624,53 @@
    "langue": "fr",
    "payant": true
   },
-  "ac0a8e12eb3e": {
-   "titre": "L’affaire Nvidia tourne à la crise politique pour Donald Trump",
-   "source": "Le Monde · Économie",
-   "url": "https://www.lemonde.fr/international/article/2026/11/14/aux-etats-unis-l-affaire-nvidia-tourne-a-la-crise-politique-pour-donald-trump_6809696_3210.html",
-   "url_traduite": null,
-   "publie_le": "2026-11-14T06:00:42+01:00",
-   "langue": "fr",
-   "payant": true
-  },
-  "b2504db94769": {
-   "titre": "La FAA suspend tous les vols au départ des aéroports américains en raison de « circonstances exceptionnelles » non spécifiées",
+  "96ff252621fe": {
+   "titre": "Les recettes touristiques dépassent 7 milliards DT à fin octobre 2026",
    "source": "African Manager",
-   "url": "https://africanmanager.com/la-faa-suspend-tous-les-vols-au-depart-des-aeroports-americains-en-raison-de-circonstances-exceptionnelles-non-specifiees/",
+   "url": "https://africanmanager.com/les-recettes-touristiques-depassent-7-milliards-dt-a-fin-octobre-2026/",
    "url_traduite": null,
-   "publie_le": "2026-11-14T08:32:06+01:00",
+   "publie_le": "2026-11-15T07:20:45+01:00",
    "langue": "fr",
    "payant": false
   },
-  "bfae604bbda2": {
-   "titre": "Voici comment Bernie Sanders souhaite garantir la solvabilité de la Sécurité sociale « pour des générations »",
-   "source": "MarketWatch",
-   "url": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+  "a0142204d3c3": {
+   "titre": "Budget 2027 : Réforme de la sécurité sociale et refonte de la prise en charge des personnes handicapées",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20803426-budget-2027",
    "url_traduite": null,
-   "publie_le": "2026-11-14T18:50:00+01:00",
-   "langue": "en",
-   "payant": false,
-   "titre_origine": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’"
-  },
-  "c4cab8e54805": {
-   "titre": "La plus-value immobilière est-elle exonérée en cas de départ volontaire de l’entreprise ?",
-   "source": "Le Monde · Économie",
-   "url": "https://www.lemonde.fr/argent/article/2026/11/14/la-plus-value-immobiliere-est-elle-exoneree-en-cas-de-depart-volontaire-de-l-entreprise_6809690_1657007.html",
-   "url_traduite": null,
-   "publie_le": "2026-11-14T06:00:30+01:00",
+   "publie_le": "2026-11-15T08:58:11.935071+00:00",
    "langue": "fr",
-   "payant": true
+   "payant": false
+  },
+  "a511d34d970c": {
+   "titre": "17 Actualités Tunisie : les investissements étrangers en hausse de 14,4 % à fin septembre 2026 Il y a 28 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-les-investissements-etrangers-en-hausse-de-144-a-fin-septembre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T08:58:11.935071+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b6c96cc9513f": {
+   "titre": "Black-out dans le ciel américain | L’IA au banc des accusés…",
+   "source": "Kapitalis",
+   "url": "https://kapitalis.com/tunisie/2026/11/15/black-out-dans-le-ciel-americain-lia-au-banc-des-accuses/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T09:53:39+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "bf287ecb5d50": {
+   "titre": "Nigeria : Dangote Cement abandonne son projet de cotation à Londres",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/nigeria-dangote-cement-abandonne-son-projet-de-cotation-a-londres_65633",
+   "url_traduite": null,
+   "publie_le": "2026-11-10T17:37:12+01:00",
+   "langue": "fr",
+   "payant": false
   },
   "c88fb66ee11b": {
-   "titre": "L'erreur à mille milliards de dollars des entreprises américaines concernant la retraite",
+   "titre": "L'erreur à mille milliards de dollars des entreprises américaines sur la retraite",
    "source": "MarketWatch",
    "url": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
    "url_traduite": null,
@@ -686,24 +688,14 @@
    "langue": "fr",
    "payant": false
   },
-  "d8a2ff7f6bc1": {
-   "titre": "Des vols toujours annulés aux États-Unis malgré la réouverture de l'espace aérien",
-   "source": "France 24 · Éco et tech",
-   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261114-etats-unis-suspension-des-vols-reouverture-espace-aerien-faa",
+  "e36437425dca": {
+   "titre": "Le ministre iranien des Finances : Les menaces américaines contre l’économie sont « inefficaces »",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/le-ministre-iranien-des-finances-les-menaces-americaines-contre-leconomie-sont-inefficaces/",
    "url_traduite": null,
-   "publie_le": "2026-11-14T03:42:17+01:00",
+   "publie_le": "2026-11-15T08:29:31+01:00",
    "langue": "fr",
    "payant": false
-  },
-  "ea5c47ecea06": {
-   "titre": "Comment AyaHQ a transformé une startup défaillante en une entreprise d'accompagnement de fondateurs",
-   "source": "TechCabal",
-   "url": "https://techcabal.com/2026/11/14/day-1-1000-of-ayahq/",
-   "url_traduite": "https://techcabal-com.translate.goog/2026/11/14/day-1-1000-of-ayahq/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
-   "publie_le": "2026-11-14T13:00:20+01:00",
-   "langue": "en",
-   "payant": false,
-   "titre_origine": "How AyaHQ turned a failed startup into a founder-building business"
   },
   "ebb2a98bfb49": {
    "titre": "Budget de la « Sécu » 2027 : le retour du débat sur les 35 heures au Sénat",
@@ -714,21 +706,39 @@
    "langue": "fr",
    "payant": true
   },
-  "ef6ea526fa5d": {
-   "titre": "Un jour au village - Le sésame: un tremplin économique pour les producteurs locaux à Odienné, en Côte d'Ivoire",
-   "source": "RFI",
-   "url": "https://www.rfi.fr/fr/podcasts/un-jour-au-village/20261114-le-s%C3%A9same-un-tremplin-%C3%A9conomique-pour-les-producteurs-locaux-%C3%A0-odienn%C3%A9-en-c%C3%B4te-d-ivoire",
+  "f351fe627822": {
+   "titre": "États-Unis : plus de 1.000 vols annulés dimanche, le chaos aérien se poursuit.",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/15/etats-unis-plus-de-1-000-vols-annules-dimanche-le-chaos-aerien-se-poursuit/1428765/",
    "url_traduite": null,
-   "publie_le": "2026-11-14T07:00:28+01:00",
+   "publie_le": "2026-11-15T09:53:56+01:00",
    "langue": "fr",
    "payant": false
   },
-  "f846a03eff82": {
-   "titre": "Trois entreprises publiques en cours de restructuration",
+  "f638b2386403": {
+   "titre": "Nabeul appelle au boycott de la culture des tomates",
    "source": "African Manager",
-   "url": "https://africanmanager.com/trois-entreprises-publiques-en-cours-de-restructuration/",
+   "url": "https://africanmanager.com/nabeul-appel-a-boycotter-la-culture-des-tomates-pour-la-prochaine-saison/",
    "url_traduite": null,
-   "publie_le": "2026-11-14T09:35:51+01:00",
+   "publie_le": "2026-11-14T14:22:33+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f67a0a4e1e93": {
+   "titre": "Vidéo – Les SuperCodeurs d’Orange Digital Center mobilisés pour la planète : les enfants relèvent le défi !",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/14/video-les-supercodeurs-dorange-digital-center-mobilises-pour-la-planete-les-enfants-relevent-le-defi/1428742/",
+   "url_traduite": null,
+   "publie_le": "2026-11-14T18:50:25+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f9a7c16641d8": {
+   "titre": "USA : Pagaille aérienne au lendemain d’une panne sur des infrastructures vétustes",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/usa-pagaille-aerienne-au-lendemain-dune-panne-sur-des-infrastructures-vetustes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T08:32:56+01:00",
    "langue": "fr",
    "payant": false
   }
