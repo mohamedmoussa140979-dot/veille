@@ -4,6 +4,9 @@ Sans option : état sur la branche `data`, alertes sur Telegram (workflow `colle
 --a-blanc : état dans `_etat_local/`, aucun envoi Telegram (essai local sur de vraies pages).
 --essai-alerte : envoie deux alertes d'exemple (immédiate, puis différée de nuit) sur Telegram,
                  sans rien collecter ni écrire : pour vérifier le rendu sur le téléphone.
+--source-test ID [--demande-id X] : mode test d'une source (variables SOURCE_TEST et DEMANDE_ID
+                 acceptées, pour le workflow) : lit cette seule source, aucune alerte, aucun état,
+                 puis envoie le résultat au Worker (veille.collecte.essai_source).
 """
 
 from __future__ import annotations
@@ -13,6 +16,7 @@ import os
 import sys
 
 from veille import temps
+from veille.collecte import essai_source
 from veille.collecte.alertes import construire_message
 from veille.collecte.filtre import Filtre
 from veille.collecte.liens import lien_traduit
@@ -53,6 +57,10 @@ def essai_alerte(client, journal) -> int:
     return 0
 
 
+def option(argv: list[str], nom: str) -> str | None:
+    return argv[argv.index(nom) + 1] if nom in argv and argv.index(nom) + 1 < len(argv) else None
+
+
 def main(argv: list[str]) -> int:
     if hasattr(sys.stdout, "reconfigure"):  # absent sous la capture de pytest
         sys.stdout.reconfigure(encoding="utf-8")
@@ -66,6 +74,11 @@ def main(argv: list[str]) -> int:
     )
     if "--essai-alerte" in argv:
         return essai_alerte(client, journal)
+    source_test = option(argv, "--source-test") or os.environ.get("SOURCE_TEST") or None
+    if source_test:  # mode test : cette source seulement, ni alerte ni état, résultat au Worker
+        config = charger_configuration(client, params, journal)
+        demande = option(argv, "--demande-id") or os.environ.get("DEMANDE_ID") or None
+        return essai_source.lancer(source_test, demande, config, client, journal, params)
     etat = (
         EtatLocal("_etat_local")
         if a_blanc
