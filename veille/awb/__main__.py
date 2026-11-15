@@ -50,7 +50,7 @@ def main(argv: list[str]) -> int:
     params = charger_parametres()
     client = Client(journal=journal, essais=params["http"]["essais"], delai_hote=0.5)
     client_gnews = Client(journal=journal, essais=2, delai_hote=0.4)
-    client_gdelt = Client(journal=journal, essais=1, delai_hote=5.2)  # GDELT : 1 requête / 5 s
+    client_gdelt = Client(journal=journal, essais=1, delai_hote=8.0)  # GDELT : 1 requête par 5 s au plus
     etat = (
         EtatLocal("_etat_local")
         if a_blanc
