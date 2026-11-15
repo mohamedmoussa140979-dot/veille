@@ -91,7 +91,9 @@ def controle_taches(runs: list[dict], maintenant: datetime) -> list[Anomalie]:
             )
         for r in des_runs:
             recent = maintenant - datetime.fromisoformat(r["created_at"]) <= timedelta(hours=24)
-            if recent and r.get("conclusion") == "failure":
+            # seules les tâches planifiées comptent : un essai manuel raté n'est pas une panne
+            planifiee = r.get("event", "schedule") == "schedule"
+            if recent and planifiee and r.get("conclusion") == "failure":
                 anomalies.append(
                     Anomalie(
                         f"tache_en_echec:{nom}:{r['id']}",

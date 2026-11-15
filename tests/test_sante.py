@@ -124,6 +124,15 @@ def test_un_echec_ancien_de_plus_de_24_heures_n_est_pas_signale():
     )
 
 
+def test_un_essai_manuel_en_echec_n_est_pas_une_panne_de_tache_planifiee():
+    manuel = run("edition", 1, "failure", id_=8) | {"event": "workflow_dispatch"}
+    planifie = run("edition", 1, "failure", id_=9) | {"event": "schedule"}
+    assert controle.controle_taches(runs_sains() + [manuel], MARDI_21H) == []
+    assert codes(controle.controle_taches(runs_sains() + [planifie], MARDI_21H)) == [
+        "tache_en_echec:edition:9"
+    ]
+
+
 def test_workflow_jamais_execute_signale():
     assert "tache_muette:marches" in codes(
         controle.controle_taches([r for r in runs_sains() if r["name"] != "marches"], MARDI_21H)
