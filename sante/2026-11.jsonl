@@ -74,3 +74,4 @@
 {"t": "2026-11-15T19:03:54.978372+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
 {"t": "2026-11-15T19:04:17.331375+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 403", "ctx": {"flux": "Finextra"}}
 {"t": "2026-11-15T19:04:18.018839+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 5, \"flux\": 1}", "ctx": {}}
+{"t": "2026-11-15T21:33:53.771771+01:00", "niveau": "info", "code": "sante_controle", "message": "0 anomalie(s)", "ctx": {"editions": "1", "alertes": "0"}}
