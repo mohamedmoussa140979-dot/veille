@@ -17,7 +17,8 @@ from veille.collecte.alertes import construire_message
 from veille.collecte.filtre import Filtre
 from veille.collecte.liens import lien_traduit
 from veille.collecte.orchestrateur import collecter
-from veille.config import charger_parametres, charger_regles_filtre, charger_sources
+from veille.config import charger_parametres
+from veille.config_distante import charger_configuration
 from veille.etat import EtatGit, EtatLocal
 from veille.http import Client
 from veille.journal import Journal
@@ -70,7 +71,8 @@ def main(argv: list[str]) -> int:
         if a_blanc
         else EtatGit.depuis_environnement(journal=journal).ouvrir()
     )
-    sources = [s for s in charger_sources() if s["actif"]]
+    config = charger_configuration(client, params, journal)
+    sources = config.sources_actives
     token = None if a_blanc else os.environ.get("TG_TOKEN_VEILLE")
     chat_id = None if a_blanc else os.environ.get("TG_CHAT_ID")
     if not a_blanc and not (token and chat_id):
@@ -81,10 +83,11 @@ def main(argv: list[str]) -> int:
         client=client,
         journal=journal,
         etat=etat,
-        filtre=Filtre(charger_regles_filtre()),
+        filtre=Filtre(config.regles_filtre),
         maintenant=temps.maintenant(),
         token=token,
         chat_id=chat_id,
+        plage_silencieuse=config.plage_silencieuse,
     )
 
     r = rapport

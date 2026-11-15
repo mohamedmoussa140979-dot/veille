@@ -21,11 +21,30 @@ def _domaine(url: str) -> str:
     return urlsplit(url).netloc.lower().removeprefix("www.")
 
 
+def _liens(soupe, selecteur: str | None):
+    """Tous les liens de la page, ou seulement ceux compris dans le sélecteur CSS de la source
+    (champ facultatif du document de configuration, réservé à ce type)."""
+    if not selecteur:
+        return soupe.find_all("a", href=True)
+    try:
+        zones = soupe.select(selecteur)
+    except Exception as exc:  # noqa: BLE001 - soupsieve lève plusieurs types de SelectorSyntaxError
+        from veille.collecte.lecteurs import ErreurLecture
+
+        raise ErreurLecture("sélecteur CSS invalide") from exc
+    liens = []
+    for zone in zones:
+        if zone.name == "a" and zone.get("href"):
+            liens.append(zone)
+        liens += zone.find_all("a", href=True)
+    return list(dict.fromkeys(liens))  # sans doublon, ordre de la page
+
+
 def lire_html(contenu: bytes, source: dict) -> list[Article]:
     soupe = BeautifulSoup(contenu, "lxml")
     base = source["url"]
     articles: dict[str, Article] = {}
-    for a in soupe.find_all("a", href=True):
+    for a in _liens(soupe, source.get("selecteur")):
         href = a["href"].strip()
         if href.startswith(("mailto:", "javascript:", "tel:", "#")):
             continue

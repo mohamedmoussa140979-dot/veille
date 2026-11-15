@@ -131,6 +131,7 @@ def collecter(
     token: str | None = None,
     chat_id: str | None = None,
     envoyer=envoyer_telegram,
+    plage_silencieuse: tuple[int, int] = alertes.PLAGE_PAR_DEFAUT,
 ) -> Rapport:
     rapport = Rapport()
     etat.synchroniser()
@@ -196,7 +197,7 @@ def collecter(
         stats[a.source_id]["dernier_nouvel_article"] = maintenant.isoformat()
 
     candidates = alertes.eligibles(a_alerter, par_id, maintenant)
-    silence = alertes.en_plage_silencieuse(maintenant)
+    silence = alertes.en_plage_silencieuse(maintenant, plage_silencieuse)
     jour = _jour(maintenant)
     en_attente: list[dict] = []
 
@@ -242,7 +243,9 @@ def collecter(
 
     if en_attente and not silence and token and chat_id:
         corps = alertes.construire_message(
-            en_attente, differe=any(a["differe"] for a in en_attente)
+            en_attente,
+            differe=any(a["differe"] for a in en_attente),
+            plage=plage_silencieuse,
         )
         try:
             envoyer("alerte", corps, token=token, chat_id=chat_id, client=client, journal=journal)

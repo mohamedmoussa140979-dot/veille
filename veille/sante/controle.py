@@ -195,3 +195,53 @@ def controle_donnees(evenements: list[dict], date_bourse: str | None, attendue: 
             )
         )
     return anomalies
+
+
+SEUIL_REPLI_CONFIG = (
+    2  # passages en repli en 24 h avant d'alerter (un seul accroc de réseau n'alerte pas)
+)
+
+
+def controle_pilotage(evenements: list[dict]) -> list[Anomalie]:
+    """Lien avec Mizeniti (AC3) : configuration distante en repli, éditions non envoyées,
+    sources ignorées. Les raisons journalisées sont des codes sûrs (jamais le contenu reçu)."""
+    anomalies = []
+    repli = [e for e in evenements if e["code"] == "config_distante_repli"]
+    if len(repli) >= SEUIL_REPLI_CONFIG:
+        raison = repli[-1].get("ctx", {}).get("raison", "raison inconnue")
+        anomalies.append(
+            Anomalie(
+                "config_distante_repli",
+                f"Configuration de Mizeniti illisible ({len(repli)} passages en 24 h) : fichiers "
+                f"locaux utilisés, les réglages du back-office ne s'appliquent pas ({raison})",
+                "vérifier le Worker actualites (recette) et le secret VEILLE_CONFIG_TOKEN du dépôt",
+            )
+        )
+    echecs = [e for e in evenements if e["code"] == "ingest_echec"]
+    if echecs:
+        raison = echecs[-1].get("ctx", {}).get("raison", "raison inconnue")
+        anomalies.append(
+            Anomalie(
+                "ingest_echec",
+                f"{len(echecs)} édition(s) non envoyée(s) à Mizeniti ({raison}) ; Telegram et "
+                "l'archive ne sont pas touchés",
+                "vérifier le Worker actualites et le secret MIZENITI_INGEST_TOKEN ; relancer le "
+                "workflow « edition » pour renvoyer",
+            )
+        )
+    ignorees = sorted(
+        {
+            e.get("ctx", {}).get("source", "?")
+            for e in evenements
+            if e["code"] == "config_source_ignoree"
+        }
+    )
+    if ignorees:
+        anomalies.append(
+            Anomalie(
+                "config_source_ignoree",
+                f"Source(s) d'un type non pris en charge ignorée(s) : {', '.join(ignorees)}",
+                "corriger le type dans le back-office, ou mettre la veille à jour",
+            )
+        )
+    return anomalies

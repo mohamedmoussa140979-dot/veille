@@ -14,7 +14,8 @@ from datetime import datetime, timedelta
 import yaml
 
 from veille import temps
-from veille.config import RACINE, charger_parametres, charger_sources
+from veille.config import RACINE, charger_parametres, plafond_claude_usd
+from veille.config_distante import Configuration, charger_configuration
 from veille.etat import EtatGit, EtatLocal
 from veille.http import Client, ErreurReseau
 from veille.journal import Journal
@@ -71,18 +72,25 @@ def date_bourse(client, base: str, journal) -> str | None:
     return next((i["date"] for i in indices if i["code"] == "TUNINDEX"), None)
 
 
-def rassembler(etat, client, journal, maintenant: datetime, params: dict, runs: list[dict]):
+def rassembler(
+    etat,
+    client,
+    journal,
+    maintenant: datetime,
+    params: dict,
+    runs: list[dict],
+    config: Configuration,
+):
     """Toutes les anomalies du § 10 et les chiffres de la semaine."""
-    sources = [s for s in charger_sources() if s["actif"]]
+    sources = config.sources_actives
     stats = etat.lire_json("state/sources.json", {})
     evenements = charger_evenements(etat, maintenant)
-    plafond = float(
-        os.environ.get("CLAUDE_PLAFOND_USD_MOIS") or params["claude"]["plafond_usd_mois"]
-    )
+    plafond = plafond_claude_usd(params)
     attendue = controle.dernier_jour_ouvre(maintenant, jours_feries())
     anomalies = (
         controle.controle_sources(sources, stats, maintenant)
         + controle.controle_taches(runs, maintenant)
+        + controle.controle_pilotage(evenements)
         + controle.controle_editions(set(etat.lister("editions")), maintenant)
         + controle.controle_ia(
             evenements, etat.lire_json("state/claude.json", {}), plafond, maintenant
@@ -122,7 +130,11 @@ def main(argv: list[str]) -> int:
         runs = runs_github(
             client, os.environ["GITHUB_REPOSITORY"], os.environ["GITHUB_TOKEN"], maintenant, journal
         )
-    anomalies, editions, alertes = rassembler(etat, client, journal, maintenant, params, runs)
+    config = charger_configuration(client, params, journal)
+    config.appliquer_aux_parametres(params)
+    anomalies, editions, alertes = rassembler(
+        etat, client, journal, maintenant, params, runs, config
+    )
     dimanche = "--dimanche" in argv or temps.en_tunis(maintenant).weekday() == 6
 
     for a in anomalies:

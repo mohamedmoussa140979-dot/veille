@@ -11,12 +11,23 @@ from veille.telegram import echapper
 
 AGE_MAX_ALERTE = timedelta(days=7)  # une publication plus ancienne n'est pas une alerte
 MAX_PAR_MESSAGE = 15
-DEBUT_SILENCE, FIN_SILENCE = 22, 7  # heures de Tunis
+DEBUT_SILENCE, FIN_SILENCE = 22 * 60, 7 * 60  # minutes depuis minuit, heure de Tunis
+PLAGE_PAR_DEFAUT = (DEBUT_SILENCE, FIN_SILENCE)
 
 
-def en_plage_silencieuse(instant: datetime) -> bool:
-    h = temps.en_tunis(instant).hour
-    return h >= DEBUT_SILENCE or h < FIN_SILENCE
+def en_plage_silencieuse(instant: datetime, plage: tuple[int, int] = PLAGE_PAR_DEFAUT) -> bool:
+    """Dans la plage (début inclus, fin exclue) ; elle peut passer minuit (22:00–07:00).
+    Début = fin : pas de plage silencieuse."""
+    debut, fin = plage
+    t = temps.en_tunis(instant)
+    m = t.hour * 60 + t.minute
+    if debut == fin:
+        return False
+    return debut <= m < fin if debut < fin else m >= debut or m < fin
+
+
+def _hhmm(m: int) -> str:
+    return f"{m // 60:02d}:{m % 60:02d}"
 
 
 def eligibles(
@@ -49,13 +60,13 @@ def _ligne(a: dict) -> str:
     return ligne
 
 
-def construire_message(alertes: list[dict], differe: bool = False) -> str:
+def construire_message(
+    alertes: list[dict], differe: bool = False, plage: tuple[int, int] = PLAGE_PAR_DEFAUT
+) -> str:
     """Corps HTML d'un message d'alerte (l'en-tête 🔔 est ajouté par `telegram.envoyer`)."""
     tete = ""
     if differe:
-        tete = (
-            f"Détectées pendant la plage silencieuse ({DEBUT_SILENCE}:00–0{FIN_SILENCE}:00) :\n\n"
-        )
+        tete = f"Détectées pendant la plage silencieuse ({_hhmm(plage[0])}–{_hhmm(plage[1])}) :\n\n"
     lignes = [_ligne(a) for a in alertes[:MAX_PAR_MESSAGE]]
     reste = len(alertes) - MAX_PAR_MESSAGE
     if reste > 0:

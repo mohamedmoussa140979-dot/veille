@@ -14,6 +14,7 @@ from typing import Any, Protocol
 import jsonschema
 
 from veille import temps
+from veille.config import plafond_claude_usd
 from veille.http import ErreurReseau
 from veille.journal import Journal
 
@@ -344,7 +345,7 @@ class Ia:
         cfg = parametres["claude"]
         cle_gemini = os.environ.get("GEMINI_API_KEY")
         cle_claude = os.environ.get("ANTHROPIC_API_KEY")
-        plafond = float(os.environ.get("CLAUDE_PLAFOND_USD_MOIS") or cfg["plafond_usd_mois"])
+        plafond = plafond_claude_usd(parametres)
         compteur = CompteurEtat(etat) if etat is not None else CompteurMemoire()
         gemini = (
             Gemini(
