@@ -17,7 +17,7 @@ Le contrôle de santé de 21:00 tourne et a détecté, sur un vrai runner, la se
 | Chaque contrôle du § 10 | 21 tests : tâches en échec ou arrêtées (échec ancien ignoré, essai manuel ignoré), éditions manquantes, secours Claude, plafond à 80 % et atteint, Yahoo, traduction, Bourse périmée, jour ouvré (week-end, jour férié) | Vert |
 | Message ⚠️ et message du dimanche | Tests de passage complet : rien en semaine quand tout va bien ; message groupé avec action pour une source muette ; dimanche sans anomalie ; dimanche avec anomalie ; Telegram en panne (code de sortie non nul, événement journalisé) | Vert |
 | Essai réel (exécution 43656539713, dimanche simulé) | L'API GitHub répond avec le jeton du workflow (permission `actions: read`) ; une anomalie détectée : le premier essai d'édition raté de la soirée (corrigé depuis) ; semaine : 1 édition, 0 alerte | Vert |
-| CI | `ruff`, plus de 280 tests, CI verte | Vert |
+| CI | `ruff`, 278 tests, CI verte | Vert |
 
 ## Essai réel (workflow, journal, résultat constaté)
 - Le message ⚠️ a été envoyé (« Le workflow « edition » a échoué (15/11 00:16) » avec le lien du journal et la phrase de la semaine). Cet échec était un essai déclenché à la main : le contrôle ne compte désormais que les échecs de tâches **planifiées**, comme la spec.
