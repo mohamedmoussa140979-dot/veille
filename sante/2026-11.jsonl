@@ -50,3 +50,8 @@
 {"t": "2026-11-15T01:03:40.106074+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "gtx : HTTP 429", "ctx": {}}
 {"t": "2026-11-15T01:03:41.331162+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "gtx : HTTP 429", "ctx": {}}
 {"t": "2026-11-15T01:06:51.699540+01:00", "niveau": "info", "code": "sante_controle", "message": "1 anomalie(s)", "ctx": {"editions": "1", "alertes": "0"}}
+{"t": "2026-11-15T09:24:21.629470+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-15T09:26:51.112440+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-15T09:27:25.784577+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-15T09:27:48.135373+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 403", "ctx": {"flux": "Finextra"}}
+{"t": "2026-11-15T09:27:48.876887+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 3, \"flux\": 1}", "ctx": {}}
