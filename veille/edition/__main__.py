@@ -16,7 +16,9 @@ from datetime import timedelta
 
 from veille import temps
 from veille.config import charger_parametres
+from veille.config_distante import charger_configuration
 from veille.edition import message
+from veille.edition.envoi import envoyer_edition
 from veille.edition.fenetre import (
     CHEMIN_HISTORIQUE,
     calculer_fenetre,
@@ -73,6 +75,7 @@ def main(argv: list[str]) -> int:
     journal = Journal.depuis_env()
     params = charger_parametres()
     client = Client(journal=journal, essais=params["http"]["essais"])
+    charger_configuration(client, params, journal).appliquer_aux_parametres(params)
     etat = (
         EtatLocal("_etat_local")
         if a_blanc
@@ -144,6 +147,10 @@ def main(argv: list[str]) -> int:
     base = url_pages()
     texte = message.construire_message(edition, f"{base}editions/{ident}.html" if base else None)
     envoye = telegram(enregistre, texte)
+    if a_blanc:
+        journal.info("ingest_saute", f"édition {ident} : --a-blanc, aucun envoi à Mizeniti")
+    else:  # après Telegram : un Worker lent ne retarde jamais le message ; ne lève jamais
+        envoyer_edition(client, params, contenu, ident, journal)
     nb = sum(len(c["sujets"]) for c in edition["chapitres"])
     etat_telegram = "envoyé" if envoye else "non envoyé"
     print(
