@@ -3,8 +3,8 @@
  "id": "2026-11-16-matin",
  "date": "2026-11-16",
  "edition": "matin",
- "genere_le": "2026-11-16T08:22:59+01:00",
- "modele": "gemini-3.6-flash",
+ "genere_le": "2026-11-16T10:17:56+01:00",
+ "modele": "gemini-3.5-flash",
  "chiffres": [
   {
    "cle": "tunindex",
@@ -25,8 +25,8 @@
   {
    "cle": "brent",
    "libelle": "Brent",
-   "valeur": 96.32,
-   "variation_pct": 0.5,
+   "valeur": 92.49,
+   "variation_pct": -0.58,
    "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
    "au": "2026-11-16"
   },
@@ -41,44 +41,56 @@
  ],
  "essentiel": [
   {
-   "texte": "La croissance économique tunisienne s'établit à 1,9 % au troisième trimestre 2026, malgré la remontée du chômage à 15 % et la réduction de l'excédent commercial avec l'UE.",
+   "texte": "L'économie tunisienne enregistre un ralentissement de sa croissance à 1,9 % sur un an au troisième trimestre 2026 (-0,1 % sur trois mois), tandis que le taux de chômage remonte à 15 %.",
    "articles": [
+    "efe5f537b473",
+    "0eed691bb78a",
+    "f48c6546b112",
+    "7e3827cef038",
+    "d1674c64d330",
+    "bea43fecc1e8",
+    "26031a0d3dfe",
+    "0840392797ff",
+    "0822e04565f6",
+    "3018e7902839",
+    "e55202c2866d",
     "e24f1ecd371b",
-    "eb06579be643",
-    "60c7c2e1c727",
-    "383721fbbd40",
-    "6d95271348d9",
-    "ab0efbefe943",
-    "af360765482c",
-    "ae557421f628",
-    "965fa0b9fefb",
     "0a3f329e7e54",
     "7f4fe158c17b"
    ]
   },
   {
-   "texte": "Dans le secteur financier local, Attijari bank fléchit son ratio de prêt-dépôt au profit des bons du Trésor, tandis qu'une transaction de bloc majeure marque la cotation de la Sotuver.",
+   "texte": "Sur le secteur bancaire et financier tunisien, Attijari bank réoriente son excédent de liquidité vers les bons du Trésor dans un contexte de détente des taux obligataires.",
    "articles": [
-    "c21044a74c65",
-    "b37ff6ad2cff",
-    "8825ce67f2db"
+    "8b85f3c0ab19",
+    "c21044a74c65"
    ]
   },
   {
-   "texte": "À l'échelle continentale, le Ghana annonce un plan de 10 milliards de dollars pour 2030 et la dette de la CEMAC atteint 38,85 milliards de dollars.",
+   "texte": "À l'international, les cours du pétrole chutent sous l'effet de perspectives d'excédent d'offre, alors que la Chine confirme un sommet trilatéral avec les États-Unis et la Russie à l'APEC.",
+   "articles": [
+    "edefd8a3b0d7",
+    "a55c83034dd3",
+    "ffb7f6f2dcd2",
+    "cf5053100fee",
+    "28af779df573"
+   ]
+  },
+  {
+   "texte": "En Afrique, la BAD alloue 4,8 milliards de dirhams au Maroc, le Ghana annonce un plan de 10 milliards de dollars et la dette extérieure de la CEMAC atteint 38,85 milliards de dollars.",
    "articles": [
     "ee58ab262561",
     "e4817aaa0d3a",
-    "ce7272ec1f0d"
+    "01f6b149cb91",
+    "89b5b508f42b"
    ]
   },
   {
-   "texte": "Les tendances technologiques voient une adoption continue du paiement électronique en Tunisie, parallèlement au développement de néobanques basées sur l'intelligence artificielle à l'international.",
+   "texte": "Les paiements électroniques poursuivent leur progression en Tunisie, accompagnés d'évolutions technologiques majeures dans l'utilisation de l'intelligence artificielle par les fintechs.",
    "articles": [
+    "553283fd0aa4",
     "6e562daf17da",
-    "9a04d721719a",
-    "fbab840a4847",
-    "f2e977397744"
+    "fbab840a4847"
    ]
   }
  ],
@@ -89,53 +101,65 @@
    "tableau": null,
    "sujets": [
     {
-     "titre": "Perspectives budgétaires et niveau de la pression fiscale",
-     "texte": "Les autorités économiques tablent sur un repli de la pression fiscale à 24,9 % d'ici 2027. Les orientations axées sur une plus forte sollicitation de l'épargne nationale font réagir le milieu des économistes.",
+     "titre": "Ralentissement de la croissance économique tunisienne au Q3 2026",
+     "texte": "Selon l'INS, le PIB de la Tunisie a progressé de 1,9 % en glissement annuel au troisième trimestre 2026, mais enregistre un repli de 0,1 % par rapport au trimestre précédent. La croissance a été soutenue par les services, tandis que la construction et les mines se sont repliées.",
      "articles": [
-      "eb06579be643",
-      "60c7c2e1c727",
-      "383721fbbd40",
-      "6d95271348d9",
-      "ab0efbefe943",
-      "af360765482c"
+      "efe5f537b473",
+      "0eed691bb78a",
+      "f48c6546b112",
+      "7e3827cef038",
+      "0840392797ff",
+      "3018e7902839",
+      "e55202c2866d",
+      "0a3f329e7e54"
      ],
-     "rubrique": "presse",
+     "rubrique": "statistiques",
      "impact_menage": null
     },
     {
-     "titre": "Progression du taux de chômage au troisième trimestre 2026",
-     "texte": "D'après les données de l'INS, le chômage a atteint 15 % de la population active au troisième trimestre 2026. La tranche des jeunes enregistre un niveau supérieur à 37 %.",
+     "titre": "Remontée du taux de chômage à 15 % au troisième trimestre 2026",
+     "texte": "Le taux de chômage s'est établi à 15 % au troisième trimestre 2026 contre 14,9 % trois mois plus tôt, d'après l'INS. Le chômage touchant les jeunes franchit quant à lui le seuil des 37 %.",
      "articles": [
+      "d1674c64d330",
+      "bea43fecc1e8",
+      "26031a0d3dfe",
+      "0822e04565f6",
       "e24f1ecd371b",
       "7f4fe158c17b"
      ],
      "rubrique": "statistiques",
-     "impact_menage": null
+     "impact_menage": "Hausses du chômage à 15 % et chez les jeunes à 37 % : pression accrue sur les revenus des ménages."
     },
     {
-     "titre": "Chute de l'excédent commercial avec l'UE et hausse de la facture de cuivre",
-     "texte": "L'excédent commercial de la Tunisie vis-à-vis de l'Union européenne a régressé de 36 % sur neuf mois, avec un solde désormais négatif vis-à-vis de l'Italie. Sur la même période, les importations de cuivre atteignent 2 235,3 MDT en raison du renchérissement des cours.",
+     "titre": "Progression des investissements internationaux à fin septembre 2026",
+     "texte": "Les investissements internationaux en Tunisie ont dépassé les 3 milliards de dinars à la fin du mois de septembre 2026. Une plateforme en langue coréenne a par ailleurs été créée pour inciter les investisseurs de Corée du Sud et développer les exportations.",
      "articles": [
-      "ae557421f628",
-      "965fa0b9fefb"
-     ],
-     "rubrique": "statistiques",
-     "impact_menage": null
-    },
-    {
-     "titre": "Volume des investissements directs étrangers",
-     "texte": "Les flux d'investissements étrangers dirigés vers la Tunisie ont représenté un montant global de 3 milliards de dinars.",
-     "articles": [
+      "6ad30047d435",
+      "61d75a74b15b",
+      "78a5384603f1",
       "04170af5ff91"
      ],
      "rubrique": "statistiques",
      "impact_menage": null
     },
     {
-     "titre": "Croissance du PIB au troisième trimestre 2026",
-     "texte": "L'Institut national de la statistique fait état d'une progression du Produit intérieur brut en volume de 1,9 % en rythme annuel au troisième trimestre 2026.",
+     "titre": "Projet de budget 2027 et prévisions de pression fiscale",
+     "texte": "Le Parlement poursuit l'examen du projet de budget 2027 à travers des séances plénières consacrées à l'Agriculture et à l'Enseignement supérieur. Selon le ministre de l'Économie, la pression fiscale devrait reculer pour s'établir à 24,9 %.",
      "articles": [
-      "0a3f329e7e54"
+      "251f8cbdfdec",
+      "60c7c2e1c727",
+      "383721fbbd40",
+      "6d95271348d9"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Baisse de l'excédent commercial avec l'UE et hausse des importations de cuivre",
+     "texte": "L'excédent commercial de la Tunisie avec l'Union européenne s'est replié de 36 % sur les neuf premiers mois de 2026, avec un solde devenu déficitaire vis-à-vis de l'Italie. Sur la même période, la facture des importations de cuivre a grimpé de 39 % à 2 235,3 MDT, principalement sous l'effet du renchérissement des cours.",
+     "articles": [
+      "ae557421f628",
+      "965fa0b9fefb"
      ],
      "rubrique": "statistiques",
      "impact_menage": null
@@ -225,39 +249,40 @@
    },
    "sujets": [
     {
-     "titre": "Échange de bloc sur les actions de la Sotuver",
-     "texte": "Un paquet de 1,06 million de titres Sotuver a été cédé pour un montant total de 24,99 MDT, à un cours unitaire de 23,58 dinars.",
+     "titre": "Échange d'un bloc stratégique d'actions Sotuver",
+     "texte": "Un bloc de 1 060 000 actions de la Sotuver a été échangé pour un montant total de 24,99 millions de dinars, soit un prix unitaire de 23,58 dinars. Ce cours représente une hausse de 81 % par rapport au prix payé par le groupe BA Glass en avril.",
      "articles": [
       "b37ff6ad2cff",
+      "fd2fa2ea85d5",
       "8825ce67f2db"
      ]
     },
     {
-     "titre": "Réorganisation stratégique des activités de OneTech",
-     "texte": "Le groupe OneTech étudie le découpage de ses activités (carve-out) afin de clarifier la lecture financière de ses filiales et de stimuler leur autonomie.",
+     "titre": "Poursuite de la détente sur le marché obligataire tunisien",
+     "texte": "La baisse des rendements se maintient sur le marché obligataire en Tunisie. Néanmoins, la compression des primes de risque restreint les niveaux de rémunération proposés aux souscripteurs.",
+     "articles": [
+      "8b85f3c0ab19"
+     ]
+    },
+    {
+     "titre": "Restructuration des activités du groupe OneTech",
+     "texte": "Le groupe OneTech procède à une opération de découpage de ses activités pour autonomiser ses différents métiers. L'objectif est d'améliorer la lisibilité financière et la valorisation de chaque pôle auprès des investisseurs.",
      "articles": [
       "10a558872826"
      ]
     },
     {
-     "titre": "Réorientation des liquidités d'Attijari bank vers les titres publics",
-     "texte": "Au cours du premier semestre 2026, la banque enregistre un glissement de son ratio de transformation à 58 %, les crédits accordés ayant baissé de 6,0 % tandis que les dépôts augmentaient de 7,1 %. La liquidité excédentaire a été placée en bons du Trésor.",
+     "titre": "Baisse du ratio de transformation d'Attijari bank au premier semestre 2026",
+     "texte": "Attijari bank a affiché un ratio de 58 dinars prêtés pour 100 dinars déposés au premier semestre 2026, contre 66 un an auparavant. En raison d'une hausse des dépôts de 7,1 % et d'un recul des crédits de 6,0 %, la banque a réorienté ses liquidités vers les bons du Trésor.",
      "articles": [
       "c21044a74c65"
      ]
     },
     {
-     "titre": "Conception d'une carte interactive de l'investissement",
-     "texte": "Les autorités ministérielles ont annoncé l'élaboration future d'un outil cartographique interactif dédié à la promotion et au suivi des investissements à l'échelle nationale.",
+     "titre": "Émission obligataire en vue pour Ennakl Automobiles",
+     "texte": "La société Ennakl Automobiles prépare son retour sur le marché financier tunisien. Le concessionnaire envisage le lancement d'un nouvel emprunt obligataire afin d'accompagner le financement de ses activités.",
      "articles": [
-      "9623ab853874"
-     ]
-    },
-    {
-     "titre": "Mises en garde des industriels de la filière textile",
-     "texte": "Des dirigeants d'entreprises du secteur textile appellent à une harmonisation des règles commerciales et fiscales pour mettre fin à des situations de concurrence déloyale.",
-     "articles": [
-      "531cd3031c78"
+      "3e33e1b81688"
      ]
     }
    ]
@@ -271,36 +296,36 @@
      {
       "cle": "brent",
       "libelle": "Brent",
-      "valeur": 96.32,
+      "valeur": 92.49,
       "unite": "USD le baril",
-      "variation_pct": 0.5,
+      "variation_pct": -0.58,
       "au": "2026-11-16",
       "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
      },
      {
       "cle": "gaz",
       "libelle": "Gaz naturel",
-      "valeur": 3.112,
+      "valeur": 3.103,
       "unite": "USD par MMBtu",
-      "variation_pct": -3.65,
+      "variation_pct": -3.93,
       "au": "2026-11-16",
       "source_url": "https://finance.yahoo.com/quote/NG%3DF"
      },
      {
       "cle": "or",
       "libelle": "Or",
-      "valeur": 3858.0,
+      "valeur": 3867.5,
       "unite": "USD l'once",
-      "variation_pct": -0.73,
+      "variation_pct": -0.48,
       "au": "2026-11-16",
       "source_url": "https://finance.yahoo.com/quote/GC%3DF"
      },
      {
       "cle": "ble",
       "libelle": "Blé",
-      "valeur": 589.25,
+      "valeur": 588.5,
       "unite": "cents le boisseau",
-      "variation_pct": -0.67,
+      "variation_pct": -0.8,
       "au": "2026-11-16",
       "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
      },
@@ -316,19 +341,19 @@
      {
       "cle": "eurostoxx50",
       "libelle": "Euro Stoxx 50",
-      "valeur": 6386.86,
+      "valeur": 6382.27,
       "unite": "points",
-      "variation_pct": -0.19,
-      "au": "2026-11-13",
+      "variation_pct": -0.07,
+      "au": "2026-11-16",
       "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
      },
      {
       "cle": "cac40",
       "libelle": "CAC 40",
-      "valeur": 8368.91,
+      "valeur": 8392.29,
       "unite": "points",
-      "variation_pct": 0.09,
-      "au": "2026-11-13",
+      "variation_pct": 0.28,
+      "au": "2026-11-16",
       "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
      },
      {
@@ -343,9 +368,9 @@
      {
       "cle": "eurusd",
       "libelle": "EUR/USD",
-      "valeur": 1.102,
+      "valeur": 1.1025,
       "unite": "",
-      "variation_pct": -0.07,
+      "variation_pct": -0.03,
       "au": "2026-11-16",
       "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
      },
@@ -371,25 +396,41 @@
    },
    "sujets": [
     {
-     "titre": "Ambitions géopolitiques et économiques de la Chine",
-     "texte": "À l'approche du sommet de l'APEC, Pékin réaffirme sa volonté de structurer les échanges mondiaux autour de son modèle industriel et d'accroître la dépendance des marchés tiers.",
+     "titre": "Chute des cours du pétrole face aux risques d'excédent d'offre",
+     "texte": "Les cours du pétrole enregistrent un net recul, le Brent ayant perdu près d'un tiers de sa valeur en six semaines. La perspective d'une offre excédentaire sur le marché mondial et les incertitudes sur la demande pèsent négativement sur les prix.",
      "articles": [
-      "28af779df573",
-      "000b35b5b48d"
+      "edefd8a3b0d7",
+      "ffb7f6f2dcd2"
      ]
     },
     {
-     "titre": "Revalorisation du salaire minimum en France",
-     "texte": "La hausse de 1,6 % du SMIC et des bas salaires de la fonction publique entraînera une charge budgétaire supérieure à un milliard d'euros pour l'État français.",
+     "titre": "Annonce d'un sommet trilatéral entre les États-Unis, la Chine et la Russie",
+     "texte": "Pékin a confirmé l'organisation d'une rencontre entre Donald Trump, Xi Jinping et Vladimir Poutine en marge du sommet de l'APEC à Shenzhen. La Chine entend utiliser cette échéance pour promouvoir un nouveau modèle de gouvernance économique mondiale.",
      "articles": [
-      "109e3927d946"
+      "a55c83034dd3",
+      "cf5053100fee",
+      "28af779df573"
      ]
     },
     {
-     "titre": "Incidents techniques dans le transport aérien aux États-Unis",
-     "texte": "Les travaux de remplacement d'infrastructures de câbles en cuivre vétustes ont provoqué des interruptions importantes et des annulations de vols dans plusieurs aéroports américains.",
+     "titre": "Fragilités énergétiques et tensions commerciales mondiales",
+     "texte": "La situation économique internationale reste sous la pression des tensions commerciales et de l'instabilité sur les marchés énergétiques. Ces facteurs accentuent les fragilités sociales et macroéconomiques globales.",
      "articles": [
-      "9dd93a0b1792"
+      "a565fe1eb008"
+     ]
+    },
+    {
+     "titre": "Hesitations des bourses européennes à l'ouverture",
+     "texte": "Les marchés boursiers européens ont débuté la séance sans tendance claire. Le manque de direction est entretenu par les incertitudes pesant sur le secteur technologique, notamment autour de la valeur Nvidia.",
+     "articles": [
+      "93c6726aa753"
+     ]
+    },
+    {
+     "titre": "Négociations financières dans la perspective de la COP31",
+     "texte": "Les discussions internationales préparatoires à la COP31 se concentrent sur le financement des politiques climatiques. La répartition des contributions financières entre pays développés et nations vulnérables demeure le point central des débats.",
+     "articles": [
+      "67a033a0f716"
      ]
     }
    ]
@@ -400,39 +441,40 @@
    "tableau": null,
    "sujets": [
     {
-     "titre": "Niveau d'endettement extérieur dans la zone CEMAC",
-     "texte": "L'encours de la dette extérieure de la zone CEMAC s'établit à 38,85 milliards de dollars au terme de l'exercice 2025.",
+     "titre": "Financement de la BAD accordé au Maroc pour 4,8 milliards de dirhams",
+     "texte": "La Banque africaine de développement a validé un prêt de près de 4,8 milliards de dirhams en faveur du Maroc. Ce programme vise à soutenir la gouvernance économique et la résilience face au changement climatique.",
+     "articles": [
+      "01f6b149cb91",
+      "89b5b508f42b"
+     ]
+    },
+    {
+     "titre": "Niveau de la dette extérieure de la CEMAC à fin 2025",
+     "texte": "La dette extérieure globale des pays membres de la CEMAC s'est établie à 38,85 milliards de dollars à la fin de l'année 2025, soulignant la persistance des défis de soutenabilité budgétaire dans la zone.",
      "articles": [
       "ee58ab262561"
      ]
     },
     {
-     "titre": "Positionnement régional de FlyGabon",
-     "texte": "La compagnie aérienne FlyGabon développe sa stratégie commerciale dans l'optique de renforcer sa part de marché dans le secteur aérien d'Afrique centrale.",
-     "articles": [
-      "fdcdcf1712b5"
-     ]
-    },
-    {
-     "titre": "Plan d'investissement économique du Ghana",
-     "texte": "Le gouvernement ghanéen a structuré un programme d'intervention économique de 10 milliards de dollars étalé jusqu'en 2030.",
+     "titre": "Plan de transformation économique de 10 milliards de dollars au Ghana",
+     "texte": "Le gouvernement du Ghana a présenté un programme d'investissement de 10 milliards de dollars à l'horizon 2030. L'objectif est de Restructurer le modèle économique national et d'assurer une croissance durable.",
      "articles": [
       "e4817aaa0d3a"
      ]
     },
     {
-     "titre": "Partenariat financier entre la BAD et l'AFD",
-     "texte": "La Banque africaine de développement et l'Agence française de développement renouvellent leur accord cadre afin d'accroître le cofinancement de projets structurants sur le continent.",
+     "titre": "Compétition géopolitique autour des minerais critiques en RDC",
+     "texte": "Les ressources en minerais critiques de la République Démocratique du Congo et d'Afrique centrale suscitent un intérêt stratégique croissant des États-Unis, au cœur des enjeux de la transition énergétique mondiale.",
      "articles": [
-      "ce7272ec1f0d"
+      "081820a7e2cf",
+      "2b8c0e6fb605"
      ]
     },
     {
-     "titre": "Attribution d'équipements agricoles en Guinée",
-     "texte": "La BAD lance deux procédures d'appel d'offres en Guinée pour la fourniture de machines agricoles destinées à soutenir l'entrepreneuriat féminin dans le cadre du programme PADDAMAG.",
+     "titre": "Propositions d'élargissement de l'assiette fiscale au Maroc",
+     "texte": "Le ministre marocain de l'Économie et des Finances préconise l'élargissement de l'assiette fiscale pour financer les programmes sociaux. La stratégie repose sur l'intégration progressive du secteur informel.",
      "articles": [
-      "4eaa036ea727",
-      "3b8a0c41a136"
+      "8b830ff5efb4"
      ]
     }
    ]
@@ -443,53 +485,56 @@
    "tableau": null,
    "sujets": [
     {
-     "titre": "Essai technologique réussi pour le lanceur Starship",
-     "texte": "La société SpaceX a réussi la récupération du composant supérieur de son lanceur Starship lors de son retour atmosphérique.",
+     "titre": "Progression continue de la monétique en Tunisie",
+     "texte": "Les indicateurs de la monétique et du paiement en ligne affichent une croissance soutenue en Tunisie. L'adoption des outils de paiement électronique gagne du terrain auprès de l'ensemble des acteurs économiques.",
+     "articles": [
+      "6e562daf17da"
+     ]
+    },
+    {
+     "titre": "Développement de l'irrigation solaire dans la région de Siliana",
+     "texte": "Des agriculteurs de Siliana équipent leurs exploitations de panneaux photovoltaïques pour faire fonctionner l'irrigation. Ce choix vise à faire face au stress hydrique et aux coupures de courant.",
+     "articles": [
+      "721c38a0ec4a",
+      "b7ab926b8b38"
+     ]
+    },
+    {
+     "titre": "Essor de l'intelligence artificielle native dans les fintechs",
+     "texte": "L'intégration de l'intelligence artificielle s'accélère au niveau des fonctions d'arrière-guichet des fintechs. En parallèle, la fondatrice de Starling Bank travaille au lancement d'une nouvelle banque entièrement basée sur l'IA.",
+     "articles": [
+      "553283fd0aa4",
+      "fbab840a4847"
+     ]
+    },
+    {
+     "titre": "Réussite du captage de l'étage supérieur de Starship par SpaceX",
+     "texte": "SpaceX a réussi le rattrapage de l'étage supérieur de sa fusée Starship après son retour d'orbite. Cette étape technique majeure vise à réduire les coûts spatiaux grâce à la réutilisation complète du matériel.",
      "articles": [
       "9a04d721719a",
       "f2e977397744"
      ]
     },
     {
-     "titre": "Utilisation du solaire photovoltaïque dans le secteur agricole",
-     "texte": "Des exploitations agricoles de la région de Siliana mettent en place des installations photovoltaïques pour sécuriser et alimenter leurs systèmes de pompage d'eau.",
+     "titre": "Publication de l'évaluation de « Tunisie Digitale 2020 » par la BAD",
+     "texte": "La Banque africaine de développement a publié son rapport d'achèvement sur le projet d'appui au plan national « Tunisie Digitale 2020 », dressant le bilan des réformes et des travaux de digitalisation engagés.",
      "articles": [
-      "b7ab926b8b38"
-     ]
-    },
-    {
-     "titre": "Orientation des flux de paiement électronique en Tunisie",
-     "texte": "Les indicateurs liés à l'usage des cartes bancaires et des canaux de paiement digitaux affichent une progression soutenue au niveau national.",
-     "articles": [
-      "6e562daf17da"
-     ]
-    },
-    {
-     "titre": "Procédure judiciaire suite à une attaque informatique en France",
-     "texte": "Une enquête spécialisée a été ouverte après l'intrusion informatique subie par Maileva, filiale spécialisée du groupe La Poste.",
-     "articles": [
-      "06dacbd1ef86"
-     ]
-    },
-    {
-     "titre": "Création d'un nouvel établissement bancaire fondé sur l'IA",
-     "texte": "Anne Boden, fondatrice de Starling Bank, travaille au lancement d'un nouvel acteur bancaire exploitant les technologies d'intelligence artificielle.",
-     "articles": [
-      "fbab840a4847"
+      "29e3e4b398b7",
+      "e25e8bb5ee04"
      ]
     }
    ]
   }
  ],
  "articles": {
-  "000b35b5b48d": {
-   "titre": "« L’objectif de Pékin n’est pas seulement l’autosuffisance, c’est la dépendance des autres pays »",
-   "source": "Le Monde · Économie",
-   "url": "https://www.lemonde.fr/idees/article/2026/11/15/l-objectif-de-pekin-n-est-pas-seulement-l-autosuffisance-c-est-la-dependance-des-autres-pays_6811017_3232.html",
+  "01f6b149cb91": {
+   "titre": "Maroc : près de 4,8 milliards de dirhams pour les réformes et la résilience",
+   "source": "African Development Bank Group",
+   "url": "https://www.afdb.org/fr/news-and-events/press-releases/maroc-pres-48-milliards-dirhams-reformes-98540",
    "url_traduite": null,
-   "publie_le": "2026-11-15T14:00:05+01:00",
+   "publie_le": "2026-11-13T12:19:05+01:00",
    "langue": "fr",
-   "payant": true
+   "payant": false
   },
   "04170af5ff91": {
    "titre": "86 Economie Investissements étrangers : 3 milliards de dinars en Tunisie, où vont les capitaux et les... Il y a 8 heures",
@@ -500,14 +545,32 @@
    "langue": "fr",
    "payant": false
   },
-  "06dacbd1ef86": {
-   "titre": "Cyberattaque contre Maileva, filiale du groupe La Poste : une enquête ouverte et confiée à la Brigade de lutte contre la cybercriminalité",
-   "source": "Le Monde.fr",
-   "url": "https://www.lemonde.fr/pixels/article/2026/11/15/cyberattaque-contre-maileva-filiale-du-groupe-la-poste-une-enquete-ouverte-et-confiee-a-la-brigade-de-lutte-contre-la-cybercriminalite_6811036_4408996.html",
+  "081820a7e2cf": {
+   "titre": "RDC : les États-Unis ont soif de minerais, pas de justice – par Romain Chanson",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1851616/politique/rdc-les-etats-unis-ont-soif-de-minerais-pas-de-justice-par-romain-chanson/",
    "url_traduite": null,
-   "publie_le": "2026-11-15T17:40:29+01:00",
+   "publie_le": "2026-11-16T09:33:55+01:00",
    "langue": "fr",
    "payant": true
+  },
+  "0822e04565f6": {
+   "titre": "Le taux de chômage grimpe à 15 % au troisième trimestre 2026",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/le-taux-de-chomage-grimpe-a-15-au-troisieme-trimestre-2026_65735",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:09:09+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0840392797ff": {
+   "titre": "Croissance économique : le PIB tunisien ralentit à 1,9% au troisième trimestre 2026",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/16/croissance-economique-le-pib-tunisien-ralentit-a-19-au-troisieme-trimestre-2026/1428894/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:30:32+01:00",
+   "langue": "fr",
+   "payant": false
   },
   "0a3f329e7e54": {
    "titre": "La croissance économique au troisième trimestre 2026",
@@ -518,14 +581,14 @@
    "langue": "fr",
    "payant": false
   },
-  "109e3927d946": {
-   "titre": "La hausse de 1,6 % du smic et des « bas salaires » des fonctionnaires coûtera « un peu plus de 1 milliard d’euros », selon le gouvernement",
-   "source": "Le Monde · Économie",
-   "url": "https://www.lemonde.fr/politique/article/2026/11/15/les-revalorisations-du-smic-et-des-bas-salaires-des-fonctionnaires-couteront-un-peu-plus-de-1-milliard-d-euros-aux-finances-publiques-selon-le-gouvernement_6811009_823448.html",
+  "0eed691bb78a": {
+   "titre": "109 Actualités Économie tunisienne au troisième trimestre 2026 : les services tirent la croissance, la construction et les mines reculent",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/economie-tunisienne-au-troisieme-trimestre-2026-les-services-tirent-la-croissance-la-construction-et-les-mines-reculent/",
    "url_traduite": null,
-   "publie_le": "2026-11-15T11:09:57+01:00",
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
    "langue": "fr",
-   "payant": true
+   "payant": false
   },
   "10a558872826": {
    "titre": "Carve-out de OneTech : Séparer pour mieux grandir",
@@ -533,6 +596,24 @@
    "url": "https://africanmanager.com/carve-out-de-onetech-separer-pour-mieux-grandir/",
    "url_traduite": null,
    "publie_le": "2026-11-15T15:23:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "251f8cbdfdec": {
+   "titre": "41 Actualités Budget 2027 : une séance plénière consacrée à l’Agriculture et à l’Enseignement supérieur Il y a 57 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/budget-2027-une-seance-pleniere-consacree-a-lagriculture-et-a-lenseignement-superieur/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "26031a0d3dfe": {
+   "titre": "Tunisie : Le chômage remonte à 15% au tr...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie/tunisie-le-chomage-remonte-a-15-au-troisieme-trimestre",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
    "langue": "fr",
    "payant": false
   },
@@ -545,6 +626,33 @@
    "langue": "fr",
    "payant": true
   },
+  "29e3e4b398b7": {
+   "titre": "Tunisie - Projet d'appui à la mise en œuvre du Plan national stratégique « Tunisie Digitale 2020 » - EER Juin 2026",
+   "source": "African Development Bank Group",
+   "url": "https://www.afdb.org/fr/documents/tunisie-projet-dappui-mise-oeuvre-plan-national-98206",
+   "url_traduite": null,
+   "publie_le": "2026-11-04T11:58:59+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2b8c0e6fb605": {
+   "titre": "Les minerais critiques d'Afrique centrale au centre des convoitises et des enjeux géopolitiques",
+   "source": "RFI",
+   "url": "https://www.rfi.fr/fr/afrique/20261116-les-minerais-critiques-d-afrique-centrale-au-centre-des-convoitises-et-des-enjeux-g%C3%A9opolitiques",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:14:33+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3018e7902839": {
+   "titre": "Tunisie : la croissance ralentit à 1,9 % au troisième trimestre 2026",
+   "source": "AGENCE ECOFIN",
+   "url": "https://www.agenceecofin.com/actualites/1611-143449-tunisie-la-croissance-ralentit-a-1-9-au-troisieme-trimestre-2026",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T07:36:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
   "383721fbbd40": {
    "titre": "Budget de l’État : les grandes orientations annoncées par la cheffe du gouvernement pour 2027",
    "source": "Tustex",
@@ -554,32 +662,24 @@
    "langue": "fr",
    "payant": false
   },
-  "3b8a0c41a136": {
-   "titre": "AAO - Guinée - Acquisition de 10 moissonneuses batteuses pour maïs et soja - PADDAMAG",
-   "source": "African Development Bank Group",
-   "url": "https://www.afdb.org/fr/documents/aao-guinee-acquisition-10-moissonneuses-batteuses-98572",
+  "3e33e1b81688": {
+   "titre": "Ennakl Automobiles de nouveau sur le marché obligataire",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/16/ennakl-automobiles-de-nouveau-sur-le-marche-obligataire/",
    "url_traduite": null,
-   "publie_le": "2026-11-13T20:49:54+01:00",
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
    "langue": "fr",
    "payant": false
   },
-  "4eaa036ea727": {
-   "titre": "AAO - Guinée - Acquisition de 6 faucheuses conditionneuses du pâturage, 6 broyeurs et de 12 égreneuses/batteuses polyvalentes de maïs et de soja destinées à 12 primo-entrepreneuses - PADDAMAG",
-   "source": "African Development Bank Group",
-   "url": "https://www.afdb.org/fr/documents/aao-guinee-acquisition-6-faucheuses-98573",
-   "url_traduite": null,
-   "publie_le": "2026-11-13T20:49:55+01:00",
-   "langue": "fr",
-   "payant": false
-  },
-  "531cd3031c78": {
-   "titre": "Tunisie | Des industriels du textile dénoncent une concurrence déloyale",
-   "source": "Kapitalis",
-   "url": "https://kapitalis.com/tunisie/2026/11/15/tunisie-des-industriels-du-textile-denoncent-une-concurrence-deloyale/",
-   "url_traduite": null,
-   "publie_le": "2026-11-15T13:26:26+01:00",
-   "langue": "fr",
-   "payant": false
+  "553283fd0aa4": {
+   "titre": "« Créer ce qui ne peut être cloné » : le back-office nativement IA des fintechs suscite une vive concurrence",
+   "source": "Sifted",
+   "url": "https://sifted.eu/articles/ai-native-fintech-crowding/",
+   "url_traduite": "https://sifted-eu.translate.goog/articles/ai-native-fintech-crowding/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-16T06:00:48+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "‘Build what can’t be cloned’: Fintech’s AI-native back office is getting crowded"
   },
   "60c7c2e1c727": {
    "titre": "Tunisie : quand le déficit dévore l’investissement, c’est le développement qui recule",
@@ -587,6 +687,33 @@
    "url": "https://www.webmanagercenter.com/2026/11/15/576977/tunisie-quand-le-deficit-devore-linvestissement-cest-le-developpement-qui-recule-2/",
    "url_traduite": null,
    "publie_le": "2026-11-15T17:46:15.107482+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "61d75a74b15b": {
+   "titre": "Tunisie–Corée du Sud : une plateforme en coréen pour attirer les investisseurs et promouvoir les exportations",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/15/577156/tunisie-coree-du-sud-une-plateforme-en-coreen-pour-attirer-les-investisseurs-et-promouvoir-les-exportations/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "67a033a0f716": {
+   "titre": "COP31 : quels pays doivent régler la facture de la lutte contre la catastrophe climatique ?",
+   "source": "Le Monde.fr",
+   "url": "https://www.lemonde.fr/planete/article/2026/11/16/cop31-quels-pays-doivent-regler-la-facture-de-la-lutte-contre-la-catastrophe-climatique_6811341_3244.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:24:50+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "6ad30047d435": {
+   "titre": "Tunisie : les IDE progressent, mais quel impact réel sur l’emploi et les régions ?",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/15/577157/tunisie-les-ide-progressent-mais-quel-impact-reel-sur-lemploi-et-les-regions/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
    "langue": "fr",
    "payant": false
   },
@@ -608,6 +735,33 @@
    "langue": "fr",
    "payant": false
   },
+  "721c38a0ec4a": {
+   "titre": "A Siliana, les panneaux solaires au secours de l’irrigation agricole",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/a-siliana-les-panneaux-solaires-au-secours-de-lirrigation-agricole/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:50:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "78a5384603f1": {
+   "titre": "51 Actualités Tunisie : les investissements internationaux dépassent 3 milliards de dinars à fin septembre 2026 Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-les-investissements-internationaux-depassent-3-milliards-de-dinars-a-fin-septembre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7e3827cef038": {
+   "titre": "Tunisie : une croissance de 1,9 % au tro...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-actualites-economiques/tunisie-une-croissance-de-19-au-troisieme-trimestre",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
+   "langue": "fr",
+   "payant": false
+  },
   "7f4fe158c17b": {
    "titre": "Indicateurs de l’emploi et du chômage, troisième trimestre 2026",
    "source": "INS",
@@ -626,12 +780,39 @@
    "langue": "fr",
    "payant": false
   },
-  "9623ab853874": {
-   "titre": "Sarra Zaâfrani Zenzri : Vers l'élaboration d’une carte nationale interactive de l'investissement",
-   "source": "Tustex",
-   "url": "https://www.tustex.com/economie-actualites-economiques/sarra-zaafrani-zenzri-vers-l-elaboration-d-une-carte-nationale-interactive-de-l-investissement",
+  "89b5b508f42b": {
+   "titre": "Maroc - Programme d’appui au renforcement de la gouvernance économique et de la résilience au changement climatique - PHASE III (PGRCC III) - Rapport d’évaluation simplifié",
+   "source": "African Development Bank Group",
+   "url": "https://www.afdb.org/fr/documents/maroc-programme-dappui-renforcement-gouvernance-98426",
    "url_traduite": null,
-   "publie_le": "2026-11-15T17:46:15.107482+00:00",
+   "publie_le": "2026-11-10T18:54:25+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8b830ff5efb4": {
+   "titre": "Maroc : Fouzi Lekjaa appelle à élargir l’assiette fiscale",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/maroc-fouzi-lekjaa-appelle-a-elargir-lassiette-fiscale/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:58:47+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8b85f3c0ab19": {
+   "titre": "Marché obligataire tunisien : La détente se poursuit, mais la rémunération du risque s'amenuise",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/marche-obligataire-tunisien-la-detente-se-poursuit-mais-la-remuneration-du-risque-s-amenuise_65736",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:45:10+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "93c6726aa753": {
+   "titre": "BOURSE-L'Europe ouvre hésitante, Nvidia pèse toujours sur les échanges",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20806979-bourse-l-europe",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
    "langue": "fr",
    "payant": false
   },
@@ -653,21 +834,21 @@
    "langue": "fr",
    "payant": false
   },
-  "9dd93a0b1792": {
-   "titre": "USA : Des câbles en cuivre vétustes à l’origine des perturbations de vols",
+  "a55c83034dd3": {
+   "titre": "Trump, Poutine et Xi Jinping se rencontreront en marge d’un sommet en Chine cette semaine",
    "source": "African Manager",
-   "url": "https://africanmanager.com/usa-des-cables-en-cuivre-vetustes-a-lorigine-des-perturbations-de-vols/",
+   "url": "https://africanmanager.com/trump-poutine-et-xi-jinping-se-rencontreront-en-marge-dun-sommet-en-chine-cette-semaine/",
    "url_traduite": null,
-   "publie_le": "2026-11-15T16:46:05+01:00",
+   "publie_le": "2026-11-16T08:39:04+01:00",
    "langue": "fr",
    "payant": false
   },
-  "ab0efbefe943": {
-   "titre": "« Les Tunisiens ne sont pas une caisse de réserve » : Ridha Chkoundali répond à Mechket Slama Khaldi",
-   "source": "Business News",
-   "url": "https://businessnews.com.tn/2026/11/15/les-tunisiens-ne-sont-pas-une-caisse-de-reserve-ridha-chkoundali-repond-a-mechket-slama-khaldi/1428786/",
+  "a565fe1eb008": {
+   "titre": "EDITO | Veille économique mondiale : l’énergie en première ligne, entre tensions commerciales et fragilités sociales",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/16/577202/edito-veille-economique-mondiale-lenergie-en-premiere-ligne-entre-tensions-commerciales-et-fragilites-sociales/",
    "url_traduite": null,
-   "publie_le": "2026-11-15T12:22:30+01:00",
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
    "langue": "fr",
    "payant": false
   },
@@ -677,15 +858,6 @@
    "url": "https://africanmanager.com/ue-lexcedent-fond-litalie-bascule/",
    "url_traduite": null,
    "publie_le": "2026-11-15T11:13:35+01:00",
-   "langue": "fr",
-   "payant": false
-  },
-  "af360765482c": {
-   "titre": "La ministre des Finances va-t-elle fouiller dans les poches des Tunisiens ?",
-   "source": "Kapitalis",
-   "url": "https://kapitalis.com/tunisie/2026/11/15/la-ministre-des-finances-va-t-elle-fouiller-dans-les-poches-des-tunisiens/",
-   "url_traduite": null,
-   "publie_le": "2026-11-15T12:13:49+01:00",
    "langue": "fr",
    "payant": false
   },
@@ -707,6 +879,15 @@
    "langue": "fr",
    "payant": false
   },
+  "bea43fecc1e8": {
+   "titre": "Le taux de chômage à 15% au troisième trimestre 2026",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/16/le-taux-de-chomage-a-15-au-troisieme-trimestre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
+   "langue": "fr",
+   "payant": false
+  },
   "c21044a74c65": {
    "titre": "Attijari bank : Sur 100 dinars déposés, seulement 58 prêtés aux clients",
    "source": "African Manager",
@@ -716,12 +897,21 @@
    "langue": "fr",
    "payant": false
   },
-  "ce7272ec1f0d": {
-   "titre": "Le Groupe de la Banque africaine de développement et l'Agence française de développement renouvellent leur partenariat pour accélérer le financement des priorités de développement en Afrique",
-   "source": "African Development Bank Group",
-   "url": "https://www.afdb.org/fr/news-and-events/press-releases/groupe-banque-africaine-developpement-lagence-98505",
+  "cf5053100fee": {
+   "titre": "La Chine confirme un sommet trilatéral entre Xi, Trump et Poutine jeudi 19 novembre à Shenzhen",
+   "source": "RFI",
+   "url": "https://www.rfi.fr/fr/en-bref/20261116-la-chine-confirme-un-sommet-trilat%C3%A9ral-entre-xi-trump-et-poutine-jeudi-19-novembre-%C3%A0-shenzhen",
    "url_traduite": null,
-   "publie_le": "2026-11-12T10:14:48+01:00",
+   "publie_le": "2026-11-16T02:41:01+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d1674c64d330": {
+   "titre": "DOSSIER | Emploi en Tunisie : derrière les statistiques, l’urgence d’un changement de cap",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/16/577182/dossier-emploi-en-tunisie-derriere-les-statistiques-lurgence-dun-changement-de-cap/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
    "langue": "fr",
    "payant": false
   },
@@ -734,6 +924,15 @@
    "langue": "fr",
    "payant": false
   },
+  "e25e8bb5ee04": {
+   "titre": "Tunisie - Projet d'appui à la mise en œuvre du Plan national stratégique « Tunisie Digitale 2020 » - EER Juin 2026",
+   "source": "African Development Bank Group",
+   "url": "https://www.afdb.org/en/documents/tunisie-projet-dappui-mise-oeuvre-plan-national-98206",
+   "url_traduite": null,
+   "publie_le": "2026-11-04T09:00:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
   "e4817aaa0d3a": {
    "titre": "Ghana : Un programme de 10 milliards de dollars pour transformer l’économie à l’horizon 2030",
    "source": "Sika Finance",
@@ -743,12 +942,21 @@
    "langue": "fr",
    "payant": false
   },
-  "eb06579be643": {
-   "titre": "Politique budgétaire en Tunisie : Chkoundali avertit contre l’impasse de la pression fiscale",
-   "source": "Web Manager Center",
-   "url": "https://www.webmanagercenter.com/2026/11/15/577147/politique-budgetaire-en-tunisie-chkoundali-avertit-contre-limpasse-de-la-pression-fiscale/",
+  "e55202c2866d": {
+   "titre": "La croissance économique tunisienne ralentit à 1,9 % au troisième trimestre 2026",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/la-croissance-economique-tunisienne-ralentit-a-1-9-au-troisieme-trimestre-2026_65730",
    "url_traduite": null,
-   "publie_le": "2026-11-15T17:46:15.107482+00:00",
+   "publie_le": "2026-11-15T20:22:32+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "edefd8a3b0d7": {
+   "titre": "79 Actualités Les prix du pétrole reculent sur fond de perspectives d’excédent de l’offre et de reprise... Il y a 2 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/les-prix-du-petrole-reculent-sur-fond-de-perspectives-dexcedent-de-loffre-et-de-reprise-des-flux-via-le-detroit-dormuz/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
    "langue": "fr",
    "payant": false
   },
@@ -761,6 +969,15 @@
    "langue": "fr",
    "payant": false
   },
+  "efe5f537b473": {
+   "titre": "18 Economie Croissance en Tunisie : +1,9 % sur un an, mais l’économie recule de 0,1 % en trois mois Il y a 9 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/croissance-tunisie-2026-pib-recul-trimestriel-economie/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
+   "langue": "fr",
+   "payant": false
+  },
   "f2e977397744": {
    "titre": "SpaceX réussit pour la première fois à rattraper l'étage supérieur de la mégafusée Starship",
    "source": "France 24 · Éco et tech",
@@ -770,8 +987,17 @@
    "langue": "fr",
    "payant": false
   },
+  "f48c6546b112": {
+   "titre": "1,9 % de croissance en Tunisie: la relance patine et 2027 s’annonce compliquée",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/16/19-de-croissance-en-tunisie-la-relance-patine-et-2027-sannonce-compliquee/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T08:59:29.523286+00:00",
+   "langue": "fr",
+   "payant": false
+  },
   "fbab840a4847": {
-   "titre": "La fondatrice de Starling, Anne Boden, projette une nouvelle banque alimentée par l'IA",
+   "titre": "La fondatrice de Starling, Anne Boden, prépare une nouvelle banque propulsée par l'IA",
    "source": "Sifted",
    "url": "https://sifted.eu/articles/starling-founder-anne-boden-plots-new-ai-powered-bank/",
    "url_traduite": "https://sifted-eu.translate.goog/articles/starling-founder-anne-boden-plots-new-ai-powered-bank/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
@@ -780,14 +1006,23 @@
    "payant": false,
    "titre_origine": "Starling founder Anne Boden plots new AI-powered bank"
   },
-  "fdcdcf1712b5": {
-   "titre": "Comment FlyGabon veut s’imposer dans le ciel d’Afrique centrale",
-   "source": "Jeune Afrique",
-   "url": "https://www.jeuneafrique.com/1860521/economie-entreprises/comment-flygabon-veut-simposer-en-hub-aerien-dafrique-centrale/",
+  "fd2fa2ea85d5": {
+   "titre": "Forum, SOTUVER QUAND LE DECOLLAGE",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/forums/341435_sotuver-quand-le-decollage",
    "url_traduite": null,
-   "publie_le": "2026-11-13T17:06:45+01:00",
+   "publie_le": "2026-11-15T10:20:36+01:00",
    "langue": "fr",
-   "payant": true
+   "payant": false
+  },
+  "ffb7f6f2dcd2": {
+   "titre": "Le Brent perd près d’un tiers en six semaines, l’excédent d’offre se profile",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/le-brent-perd-pres-dun-tiers-en-six-semaines-lexcedent-doffre-se-profile_65737",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T07:40:09+01:00",
+   "langue": "fr",
+   "payant": false
   }
  }
 }
