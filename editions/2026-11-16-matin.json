@@ -1,0 +1,793 @@
+{
+ "version": 1,
+ "id": "2026-11-16-matin",
+ "date": "2026-11-16",
+ "edition": "matin",
+ "genere_le": "2026-11-16T08:22:59+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 18989.99,
+   "variation_pct": 0.79,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-13"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3639,
+   "variation_pct": -0.07,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-12"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 96.32,
+   "variation_pct": 0.5,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-16"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "La croissance économique tunisienne s'établit à 1,9 % au troisième trimestre 2026, malgré la remontée du chômage à 15 % et la réduction de l'excédent commercial avec l'UE.",
+   "articles": [
+    "e24f1ecd371b",
+    "eb06579be643",
+    "60c7c2e1c727",
+    "383721fbbd40",
+    "6d95271348d9",
+    "ab0efbefe943",
+    "af360765482c",
+    "ae557421f628",
+    "965fa0b9fefb",
+    "0a3f329e7e54",
+    "7f4fe158c17b"
+   ]
+  },
+  {
+   "texte": "Dans le secteur financier local, Attijari bank fléchit son ratio de prêt-dépôt au profit des bons du Trésor, tandis qu'une transaction de bloc majeure marque la cotation de la Sotuver.",
+   "articles": [
+    "c21044a74c65",
+    "b37ff6ad2cff",
+    "8825ce67f2db"
+   ]
+  },
+  {
+   "texte": "À l'échelle continentale, le Ghana annonce un plan de 10 milliards de dollars pour 2030 et la dette de la CEMAC atteint 38,85 milliards de dollars.",
+   "articles": [
+    "ee58ab262561",
+    "e4817aaa0d3a",
+    "ce7272ec1f0d"
+   ]
+  },
+  {
+   "texte": "Les tendances technologiques voient une adoption continue du paiement électronique en Tunisie, parallèlement au développement de néobanques basées sur l'intelligence artificielle à l'international.",
+   "articles": [
+    "6e562daf17da",
+    "9a04d721719a",
+    "fbab840a4847",
+    "f2e977397744"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Perspectives budgétaires et niveau de la pression fiscale",
+     "texte": "Les autorités économiques tablent sur un repli de la pression fiscale à 24,9 % d'ici 2027. Les orientations axées sur une plus forte sollicitation de l'épargne nationale font réagir le milieu des économistes.",
+     "articles": [
+      "eb06579be643",
+      "60c7c2e1c727",
+      "383721fbbd40",
+      "6d95271348d9",
+      "ab0efbefe943",
+      "af360765482c"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Progression du taux de chômage au troisième trimestre 2026",
+     "texte": "D'après les données de l'INS, le chômage a atteint 15 % de la population active au troisième trimestre 2026. La tranche des jeunes enregistre un niveau supérieur à 37 %.",
+     "articles": [
+      "e24f1ecd371b",
+      "7f4fe158c17b"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Chute de l'excédent commercial avec l'UE et hausse de la facture de cuivre",
+     "texte": "L'excédent commercial de la Tunisie vis-à-vis de l'Union européenne a régressé de 36 % sur neuf mois, avec un solde désormais négatif vis-à-vis de l'Italie. Sur la même période, les importations de cuivre atteignent 2 235,3 MDT en raison du renchérissement des cours.",
+     "articles": [
+      "ae557421f628",
+      "965fa0b9fefb"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Volume des investissements directs étrangers",
+     "texte": "Les flux d'investissements étrangers dirigés vers la Tunisie ont représenté un montant global de 3 milliards de dinars.",
+     "articles": [
+      "04170af5ff91"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Croissance du PIB au troisième trimestre 2026",
+     "texte": "L'Institut national de la statistique fait état d'une progression du Produit intérieur brut en volume de 1,9 % en rythme annuel au troisième trimestre 2026.",
+     "articles": [
+      "0a3f329e7e54"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-13",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 18989.99,
+      "variation_pct": 0.79,
+      "variation_annee_pct": 41.19,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14427.85,
+      "variation_pct": 0.96,
+      "variation_annee_pct": 49.21,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "tpr",
+      "libelle": "TPR",
+      "valeur": 13.39,
+      "variation_pct": 4.28,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tgh",
+      "libelle": "TAWASOL",
+      "valeur": 0.78,
+      "variation_pct": 4.0,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "dh",
+      "libelle": "DELICE HOLDING",
+      "valeur": 19.45,
+      "variation_pct": 3.46,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "bte",
+      "libelle": "BTE (ADP)",
+      "valeur": 5.4,
+      "variation_pct": -4.42,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "city",
+      "libelle": "CITY CARS",
+      "valeur": 20.45,
+      "variation_pct": -2.39,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "bna",
+      "libelle": "BANQUE NATIONALE AGRICOLE",
+      "valeur": 19.6,
+      "variation_pct": -0.91,
+      "au": "2026-11-13",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Échange de bloc sur les actions de la Sotuver",
+     "texte": "Un paquet de 1,06 million de titres Sotuver a été cédé pour un montant total de 24,99 MDT, à un cours unitaire de 23,58 dinars.",
+     "articles": [
+      "b37ff6ad2cff",
+      "8825ce67f2db"
+     ]
+    },
+    {
+     "titre": "Réorganisation stratégique des activités de OneTech",
+     "texte": "Le groupe OneTech étudie le découpage de ses activités (carve-out) afin de clarifier la lecture financière de ses filiales et de stimuler leur autonomie.",
+     "articles": [
+      "10a558872826"
+     ]
+    },
+    {
+     "titre": "Réorientation des liquidités d'Attijari bank vers les titres publics",
+     "texte": "Au cours du premier semestre 2026, la banque enregistre un glissement de son ratio de transformation à 58 %, les crédits accordés ayant baissé de 6,0 % tandis que les dépôts augmentaient de 7,1 %. La liquidité excédentaire a été placée en bons du Trésor.",
+     "articles": [
+      "c21044a74c65"
+     ]
+    },
+    {
+     "titre": "Conception d'une carte interactive de l'investissement",
+     "texte": "Les autorités ministérielles ont annoncé l'élaboration future d'un outil cartographique interactif dédié à la promotion et au suivi des investissements à l'échelle nationale.",
+     "articles": [
+      "9623ab853874"
+     ]
+    },
+    {
+     "titre": "Mises en garde des industriels de la filière textile",
+     "texte": "Des dirigeants d'entreprises du secteur textile appellent à une harmonisation des règles commerciales et fiscales pour mettre fin à des situations de concurrence déloyale.",
+     "articles": [
+      "531cd3031c78"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 96.32,
+      "unite": "USD le baril",
+      "variation_pct": 0.5,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.112,
+      "unite": "USD par MMBtu",
+      "variation_pct": -3.65,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3858.0,
+      "unite": "USD l'once",
+      "variation_pct": -0.73,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 589.25,
+      "unite": "cents le boisseau",
+      "variation_pct": -0.67,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7561.67,
+      "unite": "points",
+      "variation_pct": -0.4,
+      "au": "2026-11-13",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 6386.86,
+      "unite": "points",
+      "variation_pct": -0.19,
+      "au": "2026-11-13",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 8368.91,
+      "unite": "points",
+      "variation_pct": 0.09,
+      "au": "2026-11-13",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.102,
+      "unite": "",
+      "variation_pct": -0.07,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3639,
+      "unite": "dinars",
+      "variation_pct": -0.07,
+      "au": "2026-11-12",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0335,
+      "unite": "dinars",
+      "variation_pct": 0.29,
+      "au": "2026-11-12",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Ambitions géopolitiques et économiques de la Chine",
+     "texte": "À l'approche du sommet de l'APEC, Pékin réaffirme sa volonté de structurer les échanges mondiaux autour de son modèle industriel et d'accroître la dépendance des marchés tiers.",
+     "articles": [
+      "28af779df573",
+      "000b35b5b48d"
+     ]
+    },
+    {
+     "titre": "Revalorisation du salaire minimum en France",
+     "texte": "La hausse de 1,6 % du SMIC et des bas salaires de la fonction publique entraînera une charge budgétaire supérieure à un milliard d'euros pour l'État français.",
+     "articles": [
+      "109e3927d946"
+     ]
+    },
+    {
+     "titre": "Incidents techniques dans le transport aérien aux États-Unis",
+     "texte": "Les travaux de remplacement d'infrastructures de câbles en cuivre vétustes ont provoqué des interruptions importantes et des annulations de vols dans plusieurs aéroports américains.",
+     "articles": [
+      "9dd93a0b1792"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Niveau d'endettement extérieur dans la zone CEMAC",
+     "texte": "L'encours de la dette extérieure de la zone CEMAC s'établit à 38,85 milliards de dollars au terme de l'exercice 2025.",
+     "articles": [
+      "ee58ab262561"
+     ]
+    },
+    {
+     "titre": "Positionnement régional de FlyGabon",
+     "texte": "La compagnie aérienne FlyGabon développe sa stratégie commerciale dans l'optique de renforcer sa part de marché dans le secteur aérien d'Afrique centrale.",
+     "articles": [
+      "fdcdcf1712b5"
+     ]
+    },
+    {
+     "titre": "Plan d'investissement économique du Ghana",
+     "texte": "Le gouvernement ghanéen a structuré un programme d'intervention économique de 10 milliards de dollars étalé jusqu'en 2030.",
+     "articles": [
+      "e4817aaa0d3a"
+     ]
+    },
+    {
+     "titre": "Partenariat financier entre la BAD et l'AFD",
+     "texte": "La Banque africaine de développement et l'Agence française de développement renouvellent leur accord cadre afin d'accroître le cofinancement de projets structurants sur le continent.",
+     "articles": [
+      "ce7272ec1f0d"
+     ]
+    },
+    {
+     "titre": "Attribution d'équipements agricoles en Guinée",
+     "texte": "La BAD lance deux procédures d'appel d'offres en Guinée pour la fourniture de machines agricoles destinées à soutenir l'entrepreneuriat féminin dans le cadre du programme PADDAMAG.",
+     "articles": [
+      "4eaa036ea727",
+      "3b8a0c41a136"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Essai technologique réussi pour le lanceur Starship",
+     "texte": "La société SpaceX a réussi la récupération du composant supérieur de son lanceur Starship lors de son retour atmosphérique.",
+     "articles": [
+      "9a04d721719a",
+      "f2e977397744"
+     ]
+    },
+    {
+     "titre": "Utilisation du solaire photovoltaïque dans le secteur agricole",
+     "texte": "Des exploitations agricoles de la région de Siliana mettent en place des installations photovoltaïques pour sécuriser et alimenter leurs systèmes de pompage d'eau.",
+     "articles": [
+      "b7ab926b8b38"
+     ]
+    },
+    {
+     "titre": "Orientation des flux de paiement électronique en Tunisie",
+     "texte": "Les indicateurs liés à l'usage des cartes bancaires et des canaux de paiement digitaux affichent une progression soutenue au niveau national.",
+     "articles": [
+      "6e562daf17da"
+     ]
+    },
+    {
+     "titre": "Procédure judiciaire suite à une attaque informatique en France",
+     "texte": "Une enquête spécialisée a été ouverte après l'intrusion informatique subie par Maileva, filiale spécialisée du groupe La Poste.",
+     "articles": [
+      "06dacbd1ef86"
+     ]
+    },
+    {
+     "titre": "Création d'un nouvel établissement bancaire fondé sur l'IA",
+     "texte": "Anne Boden, fondatrice de Starling Bank, travaille au lancement d'un nouvel acteur bancaire exploitant les technologies d'intelligence artificielle.",
+     "articles": [
+      "fbab840a4847"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "000b35b5b48d": {
+   "titre": "« L’objectif de Pékin n’est pas seulement l’autosuffisance, c’est la dépendance des autres pays »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/15/l-objectif-de-pekin-n-est-pas-seulement-l-autosuffisance-c-est-la-dependance-des-autres-pays_6811017_3232.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T14:00:05+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "04170af5ff91": {
+   "titre": "86 Economie Investissements étrangers : 3 milliards de dinars en Tunisie, où vont les capitaux et les... Il y a 8 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-investissements-etrangers-3-milliards-11363-emplois-fipa-septembre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T17:46:15.107482+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "06dacbd1ef86": {
+   "titre": "Cyberattaque contre Maileva, filiale du groupe La Poste : une enquête ouverte et confiée à la Brigade de lutte contre la cybercriminalité",
+   "source": "Le Monde.fr",
+   "url": "https://www.lemonde.fr/pixels/article/2026/11/15/cyberattaque-contre-maileva-filiale-du-groupe-la-poste-une-enquete-ouverte-et-confiee-a-la-brigade-de-lutte-contre-la-cybercriminalite_6811036_4408996.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T17:40:29+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "0a3f329e7e54": {
+   "titre": "La croissance économique au troisième trimestre 2026",
+   "source": "INS",
+   "url": "https://www.ins.tn/publication/la-croissance-economique-au-troisieme-trimestre-2026",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T00:00:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "109e3927d946": {
+   "titre": "La hausse de 1,6 % du smic et des « bas salaires » des fonctionnaires coûtera « un peu plus de 1 milliard d’euros », selon le gouvernement",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/15/les-revalorisations-du-smic-et-des-bas-salaires-des-fonctionnaires-couteront-un-peu-plus-de-1-milliard-d-euros-aux-finances-publiques-selon-le-gouvernement_6811009_823448.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T11:09:57+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "10a558872826": {
+   "titre": "Carve-out de OneTech : Séparer pour mieux grandir",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/carve-out-de-onetech-separer-pour-mieux-grandir/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T15:23:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "28af779df573": {
+   "titre": "Alice Ekman, sinologue : « Malgré ses difficultés, la Chine veut accélérer la restructuration de la gouvernance mondiale et marginaliser les pays occidentaux »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/15/alice-ekman-sinologue-malgre-ses-difficultes-la-chine-veut-accelerer-la-restructuration-de-la-gouvernance-mondiale-et-marginaliser-les-pays-occidentaux_6811033_3232.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T17:00:20+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "383721fbbd40": {
+   "titre": "Budget de l’État : les grandes orientations annoncées par la cheffe du gouvernement pour 2027",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-actualites-economiques/budget-de-l-etat-les-grandes-orientations-annoncees-par-la-cheffe-du-gouvernement-pour-2027",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T17:46:15.107482+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3b8a0c41a136": {
+   "titre": "AAO - Guinée - Acquisition de 10 moissonneuses batteuses pour maïs et soja - PADDAMAG",
+   "source": "African Development Bank Group",
+   "url": "https://www.afdb.org/fr/documents/aao-guinee-acquisition-10-moissonneuses-batteuses-98572",
+   "url_traduite": null,
+   "publie_le": "2026-11-13T20:49:54+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4eaa036ea727": {
+   "titre": "AAO - Guinée - Acquisition de 6 faucheuses conditionneuses du pâturage, 6 broyeurs et de 12 égreneuses/batteuses polyvalentes de maïs et de soja destinées à 12 primo-entrepreneuses - PADDAMAG",
+   "source": "African Development Bank Group",
+   "url": "https://www.afdb.org/fr/documents/aao-guinee-acquisition-6-faucheuses-98573",
+   "url_traduite": null,
+   "publie_le": "2026-11-13T20:49:55+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "531cd3031c78": {
+   "titre": "Tunisie | Des industriels du textile dénoncent une concurrence déloyale",
+   "source": "Kapitalis",
+   "url": "https://kapitalis.com/tunisie/2026/11/15/tunisie-des-industriels-du-textile-denoncent-une-concurrence-deloyale/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T13:26:26+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "60c7c2e1c727": {
+   "titre": "Tunisie : quand le déficit dévore l’investissement, c’est le développement qui recule",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/15/576977/tunisie-quand-le-deficit-devore-linvestissement-cest-le-developpement-qui-recule-2/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T17:46:15.107482+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6d95271348d9": {
+   "titre": "Budget 2027 : la pression fiscale reculerait à 24,9%, assure le ministre de l'Économie",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-actualites-economiques/budget-2027-la-pression-fiscale-reculerait-a-249-assure-le-ministre-de-l-economie",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T17:46:15.107482+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6e562daf17da": {
+   "titre": "Paiements en Tunisie : la monétique et le paiement électronique poursuivent leur progression",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-actualites-economiques/paiements-en-tunisie-la-monetique-et-le-paiement-electronique-poursuivent-leur-progression",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T17:46:15.107482+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7f4fe158c17b": {
+   "titre": "Indicateurs de l’emploi et du chômage, troisième trimestre 2026",
+   "source": "INS",
+   "url": "https://www.ins.tn/publication/indicateurs-de-lemploi-et-du-chomage-troisieme-trimestre-2026",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T00:00:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8825ce67f2db": {
+   "titre": "Un bloc de plus d'un million d’actions SOTUVER échangé pour 25 millions de dinars",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/un-bloc-de-plus-d-un-million-dactions-sotuver-echange-pour-25-millions-de-dinars_65604",
+   "url_traduite": null,
+   "publie_le": "2026-11-09T17:57:16+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9623ab853874": {
+   "titre": "Sarra Zaâfrani Zenzri : Vers l'élaboration d’une carte nationale interactive de l'investissement",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-actualites-economiques/sarra-zaafrani-zenzri-vers-l-elaboration-d-une-carte-nationale-interactive-de-l-investissement",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T17:46:15.107482+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "965fa0b9fefb": {
+   "titre": "Cuivre : une facture qui flambe surtout par les prix",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/cuivre-une-facture-qui-flambe-surtout-par-les-prix/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T11:10:25+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9a04d721719a": {
+   "titre": "58 Tech & Net SpaceX réalise une première historique : Starship capturé au retour de l’orbite",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/spacex-starship-capture-orbite-flight-15-14-novembre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T17:46:15.107482+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9dd93a0b1792": {
+   "titre": "USA : Des câbles en cuivre vétustes à l’origine des perturbations de vols",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/usa-des-cables-en-cuivre-vetustes-a-lorigine-des-perturbations-de-vols/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T16:46:05+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ab0efbefe943": {
+   "titre": "« Les Tunisiens ne sont pas une caisse de réserve » : Ridha Chkoundali répond à Mechket Slama Khaldi",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/15/les-tunisiens-ne-sont-pas-une-caisse-de-reserve-ridha-chkoundali-repond-a-mechket-slama-khaldi/1428786/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T12:22:30+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ae557421f628": {
+   "titre": "UE : l’excédent fond, l’Italie bascule",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/ue-lexcedent-fond-litalie-bascule/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T11:13:35+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "af360765482c": {
+   "titre": "La ministre des Finances va-t-elle fouiller dans les poches des Tunisiens ?",
+   "source": "Kapitalis",
+   "url": "https://kapitalis.com/tunisie/2026/11/15/la-ministre-des-finances-va-t-elle-fouiller-dans-les-poches-des-tunisiens/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T12:13:49+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b37ff6ad2cff": {
+   "titre": "Sotuver : un bloc à 23,58 dinars, + 81 % sur le prix de BA Glass",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/595582-2/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T11:07:53+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b7ab926b8b38": {
+   "titre": "A Siliana, les panneaux solaires au secours de l’irrigation agricole (Reportage)",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Régions/20805293-a-siliana-les",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T17:46:15.107482+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c21044a74c65": {
+   "titre": "Attijari bank : Sur 100 dinars déposés, seulement 58 prêtés aux clients",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/attijari-bank-sur-100-dinars-deposes-seulement-58-pretes-aux-clients/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T15:22:12+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ce7272ec1f0d": {
+   "titre": "Le Groupe de la Banque africaine de développement et l'Agence française de développement renouvellent leur partenariat pour accélérer le financement des priorités de développement en Afrique",
+   "source": "African Development Bank Group",
+   "url": "https://www.afdb.org/fr/news-and-events/press-releases/groupe-banque-africaine-developpement-lagence-98505",
+   "url_traduite": null,
+   "publie_le": "2026-11-12T10:14:48+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e24f1ecd371b": {
+   "titre": "Tunisie : le chômage remonte à 15%, celui des jeunes dépasse les 37%",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/15/tunisie-le-chomage-remonte-a-15-celui-des-jeunes-depasse-les-37/1428807/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T17:50:04+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e4817aaa0d3a": {
+   "titre": "Ghana : Un programme de 10 milliards de dollars pour transformer l’économie à l’horizon 2030",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/ghana-un-programme-de-10-milliards-de-dollars-pour-transformer-leconomie-a-lhorizon-2030_65709",
+   "url_traduite": null,
+   "publie_le": "2026-11-13T13:48:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "eb06579be643": {
+   "titre": "Politique budgétaire en Tunisie : Chkoundali avertit contre l’impasse de la pression fiscale",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/15/577147/politique-budgetaire-en-tunisie-chkoundali-avertit-contre-limpasse-de-la-pression-fiscale/",
+   "url_traduite": null,
+   "publie_le": "2026-11-15T17:46:15.107482+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ee58ab262561": {
+   "titre": "CEMAC : la dette extérieure atteint 38,85 milliards de dollars à fin 2025",
+   "source": "Financial Afrik",
+   "url": "https://www.financialafrik.com/2026/11/13/cemac-la-dette-exterieure-atteint-3885-milliards-de-dollars-a-fin-2025/",
+   "url_traduite": null,
+   "publie_le": "2026-11-13T14:13:34+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f2e977397744": {
+   "titre": "SpaceX réussit pour la première fois à rattraper l'étage supérieur de la mégafusée Starship",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261112-spacex-r%C3%A9ussit-pour-la-premi%C3%A8re-fois-%C3%A0-rattraper-l-%C3%A9tage-sup%C3%A9rieur-de-la-m%C3%A9gafus%C3%A9e-starship",
+   "url_traduite": null,
+   "publie_le": "2026-11-13T00:27:29+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fbab840a4847": {
+   "titre": "La fondatrice de Starling, Anne Boden, projette une nouvelle banque alimentée par l'IA",
+   "source": "Sifted",
+   "url": "https://sifted.eu/articles/starling-founder-anne-boden-plots-new-ai-powered-bank/",
+   "url_traduite": "https://sifted-eu.translate.goog/articles/starling-founder-anne-boden-plots-new-ai-powered-bank/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-15T17:33:09+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Starling founder Anne Boden plots new AI-powered bank"
+  },
+  "fdcdcf1712b5": {
+   "titre": "Comment FlyGabon veut s’imposer dans le ciel d’Afrique centrale",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1860521/economie-entreprises/comment-flygabon-veut-simposer-en-hub-aerien-dafrique-centrale/",
+   "url_traduite": null,
+   "publie_le": "2026-11-13T17:06:45+01:00",
+   "langue": "fr",
+   "payant": true
+  }
+ }
+}
