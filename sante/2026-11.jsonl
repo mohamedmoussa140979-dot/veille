@@ -136,3 +136,4 @@
 {"t": "2026-11-16T21:11:19.053742+01:00", "niveau": "avertissement", "code": "gnews_resolution_echec", "message": "page d'article inexploitable (HTTP 429)", "ctx": {"lien": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOMnkxMllQVzV2cjlxUnZya1FQYUh"}}
 {"t": "2026-11-16T21:11:22.501971+01:00", "niveau": "avertissement", "code": "gnews_resolution_echec", "message": "page d'article inexploitable (HTTP 429)", "ctx": {"lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQREUzZE5qZFRCbXA2cm1ocUJPQVN"}}
 {"t": "2026-11-16T21:11:47.538879+01:00", "niveau": "info", "code": "collecte_terminee", "message": "63 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "44", "sources_en_erreur": "5", "lus": "1718", "rejetes": "11", "resolutions": "13", "resolutions_echec": "5"}}
+{"t": "2026-11-16T21:44:36.861577+01:00", "niveau": "info", "code": "sante_controle", "message": "1 anomalie(s)", "ctx": {"editions": "3", "alertes": "0"}}
