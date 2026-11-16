@@ -1,0 +1,997 @@
+{
+ "version": 1,
+ "id": "2026-11-16-soir",
+ "date": "2026-11-16",
+ "edition": "soir",
+ "genere_le": "2026-11-16T19:18:40+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19077.77,
+   "variation_pct": 0.46,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-16"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.365,
+   "variation_pct": 0.03,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-13"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 92.81,
+   "variation_pct": -3.16,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-16"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "Ralentissement de la croissance économique tunisienne à 1,9 % au T3 2026, en parallèle de recettes touristiques atteignant 7,15 milliards de dinars.",
+   "articles": [
+    "f8a7c21b4032",
+    "833e0bbad912",
+    "6408384c904d",
+    "8c307e9640f8",
+    "37c61e1f82bc",
+    "2c87db1bde97",
+    "fb6cb2a1a1c0"
+   ]
+  },
+  {
+   "texte": "Mobilisation de financements importants pour le tissu entrepreneurial tunisien, dont 60 millions d'euros pour la transition verte des PME et 3,4 millions de dinars pour le projet SUMUD.",
+   "articles": [
+    "7397e847acb6",
+    "748f52e06507",
+    "ac4f728fde3d",
+    "adab9d2f31c7",
+    "5b420d1c0d27",
+    "c912a6ffaebb",
+    "428b06ed5474",
+    "ffd46081a9a5",
+    "32dff6b96561",
+    "f3d2597c2301",
+    "46737fb65dc0",
+    "af10b58e5ac6"
+   ]
+  },
+  {
+   "texte": "Feu vert de Bruxelles au rachat de Commerzbank par UniCredit, une opération transfrontalière majeure pour le secteur bancaire européen.",
+   "articles": [
+    "4e552a42e092"
+   ]
+  },
+  {
+   "texte": "Durcissement des contrôles américains sur les exportations de puces vers la Chine sur fond d'instabilité chez le géant Nvidia.",
+   "articles": [
+    "e366cbbc4e80",
+    "00711b9a253a",
+    "0d24d611f84d"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Performances du secteur touristique et parc hôtelier",
+     "texte": "La Tunisie a enregistré 9 millions de visiteurs et 7,15 milliards de dinars de recettes touristiques, portés notamment par 2 millions de résidents locaux. Le secteur affiche également 1,2 milliard de dinars d'investissements approuvés, malgré la fermeture de 137 établissements hôteliers.",
+     "articles": [
+      "f8a7c21b4032",
+      "833e0bbad912",
+      "8c307e9640f8",
+      "37c61e1f82bc",
+      "2c87db1bde97",
+      "fb6cb2a1a1c0"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Ralentissement de la croissance tunisienne au troisième trimestre 2026",
+     "texte": "Selon les estimations préliminaires de l'INS, le produit intérieur brut corrigé des variations saisonnières a progressé de 1,9 % en glissement annuel au troisième trimestre 2026, marquant une décélération de l'activité économique.",
+     "articles": [
+      "6408384c904d"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Nouveau programme GEFF de 60 millions d'euros pour la transition verte",
+     "texte": "Un fonds de 60 millions d'euros dédié à l'économie verte a été officiellement lancé en Tunisie. Ce dispositif vise à soutenir les PME tunisiennes dans la réalisation d'investissements axés sur l'efficacité énergétique et la transition écologique.",
+     "articles": [
+      "7397e847acb6",
+      "748f52e06507",
+      "5b420d1c0d27",
+      "ffd46081a9a5",
+      "46737fb65dc0",
+      "af10b58e5ac6"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Soutien de 3,4 millions de dinars aux MPME via le projet SUMUD",
+     "texte": "Le projet SUMUD a réuni un budget global de plus de 3,4 millions de dinars afin de renforcer la résilience et l'innovation de 100 micro, petites et moyennes entreprises. Le programme cible les secteurs de l'agriculture, de l'artisanat et du tourisme dans quatre gouvernorats.",
+     "articles": [
+      "ac4f728fde3d",
+      "adab9d2f31c7",
+      "c912a6ffaebb",
+      "428b06ed5474",
+      "32dff6b96561",
+      "f3d2597c2301"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Allocation de 288 millions de dinars pour la Pharmacie centrale",
+     "texte": "Le projet de budget de l'État pour 2027 réserve une enveloppe de 288 millions de dinars à la Pharmacie centrale de Tunisie. Cette dotation doit garantir l'approvisionnement du marché national et sécuriser la disponibilité des médicaments.",
+     "articles": [
+      "56fff70a1eb3",
+      "7f1397f3aafa",
+      "68d702667941",
+      "a07b76da34ba",
+      "0ffb08ce3749"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-16",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19077.77,
+      "variation_pct": 0.46,
+      "variation_annee_pct": 41.84,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14519.63,
+      "variation_pct": 0.64,
+      "variation_annee_pct": 50.16,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "tlnet",
+      "libelle": "TELNET HOLDING",
+      "valeur": 12.39,
+      "variation_pct": 4.12,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tair",
+      "libelle": "TUNISAIR",
+      "valeur": 0.32,
+      "variation_pct": 3.23,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "sokna",
+      "libelle": "ESSOUKNA",
+      "valeur": 5.15,
+      "variation_pct": 3.21,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "sits",
+      "libelle": "SITS",
+      "valeur": 3.44,
+      "variation_pct": -4.44,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "hl",
+      "libelle": "HANNIBAL LEASE",
+      "valeur": 9.59,
+      "variation_pct": -3.91,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "wifak",
+      "libelle": "WIFAK INT BANK",
+      "valeur": 6.5,
+      "variation_pct": -3.7,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Progression de la Bourse de Tunis portée par les bancaires",
+     "texte": "Le Tunindex a clôturé la séance en hausse de 0,46 % pour s'établir à 19 077,77 points, soutenu principalement par les titres du secteur bancaire. Les volumes d'échanges sur le marché financier ont atteint 6,4 millions de dinars.",
+     "articles": [
+      "332f73c567b6",
+      "20e302a3a24a",
+      "3fded3456127"
+     ]
+    },
+    {
+     "titre": "Reprise de l'extraction pétrolière par Zenith Energy à Djerba",
+     "texte": "La filiale Ecumed Petroleum Tunisia a relancé la production sur le gisement terrestre de Robbana situé à Djerba. L'extraction initiale s'élève à environ 35 barils de pétrole par jour.",
+     "articles": [
+      "f0700468163d",
+      "192e146ef07d",
+      "80dd26922756"
+     ]
+    },
+    {
+     "titre": "Gouvernance : appel à candidature d'administrateurs pour la SITS",
+     "texte": "La Société Immobilière Tunis-Saoudienne a ouvert un processus de recrutement pour deux postes d'administrateurs indépendants. Ces derniers siègeront au sein de son conseil d'administration.",
+     "articles": [
+      "80e33da9180b",
+      "b29e89a2b66d",
+      "f59bf297339a"
+     ]
+    },
+    {
+     "titre": "Développement international et opération sur le capital du groupe SAH",
+     "texte": "Le groupe SAH (Lilas) a mis en avant son offre internationale lors du salon Paper & Tissue Show 2026 à Londres. Parallèlement, l'entreprise procède à une augmentation de capital social par incorporation de résultats reportés.",
+     "articles": [
+      "811640958f88",
+      "3f0e38760ae2"
+     ]
+    },
+    {
+     "titre": "Lancement des travaux de forage offshore dans le golfe de Hammamet",
+     "texte": "La société Tende Energy a retenu le prestataire Ocean Oilfield pour démarrer des opérations de forage sur le champ pétrolier d'Abiod. Ce gisement fait partie de la concession offshore de Maamoura.",
+     "articles": [
+      "25f50806a8c4"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 92.81,
+      "unite": "USD le baril",
+      "variation_pct": -3.16,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.13,
+      "unite": "USD par MMBtu",
+      "variation_pct": -3.1,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3849.6,
+      "unite": "USD l'once",
+      "variation_pct": -0.94,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 600.75,
+      "unite": "cents le boisseau",
+      "variation_pct": -0.99,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7437.73,
+      "unite": "points",
+      "variation_pct": -1.64,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 6348.35,
+      "unite": "points",
+      "variation_pct": -0.6,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 8352.0,
+      "unite": "points",
+      "variation_pct": -0.2,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0999,
+      "unite": "",
+      "variation_pct": -0.26,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.365,
+      "unite": "dinars",
+      "variation_pct": 0.03,
+      "au": "2026-11-13",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0386,
+      "unite": "dinars",
+      "variation_pct": 0.17,
+      "au": "2026-11-13",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Feu vert européen au rachat de Commerzbank par UniCredit",
+     "texte": "La Commission européenne a validé l'acquisition de la banque allemande Commerzbank par l'établissement italien UniCredit. Cette consolidation constitue la plus grande transaction bancaire transfrontalière dans l'UE depuis la crise financière de 2008.",
+     "articles": [
+      "4e552a42e092"
+     ]
+    },
+    {
+     "titre": "Regain de crédibilité économique pour l'Italie selon QNB",
+     "texte": "Une étude de QNB Economics souligne l'amélioration de la perception financière de l'Italie auprès des marchés. Le pays consolide sa trajectoire budgétaire et gagne en crédibilité au sein de la zone euro.",
+     "articles": [
+      "672066e5172d",
+      "2eccd6a62883"
+     ]
+    },
+    {
+     "titre": "Repli du cours de l'argent sous les 47,5 dollars l'once",
+     "texte": "Les cotations de l'argent sont repassées en dessous du seuil des 47,5 dollars l'once. Il s'agit du plus bas niveau enregistré pour le métal précieux depuis le mois de septembre 2025.",
+     "articles": [
+      "61277fa9ab59"
+     ]
+    },
+    {
+     "titre": "Placement de Revolut Italie sous administration judiciaire",
+     "texte": "Le tribunal de Milan a décidé de placer la filiale italienne de Revolut sous contrôle judiciaire. Les magistrats ont relevé des défaillances structurelles dans les contrôles internes relatifs à la lutte contre le blanchiment d'argent.",
+     "articles": [
+      "935180175195"
+     ]
+    },
+    {
+     "titre": "Fermeture du cabinet d'affaires américain Weil",
+     "texte": "Le cabinet d'avocats Weil, acteur historique du conseil en fusions-acquisitions et private equity, cesse définitivement ses activités à Wall Street après une détérioration rapide de sa structure.",
+     "articles": [
+      "7c72cae8ba7f"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Projets miniers de 3,8 milliards de dollars présentés en Guinée",
+     "texte": "Le gouvernement guinéen a présenté aux investisseurs internationaux une série d'opportunités d'investissement d'une valeur globale de 3,8 milliards de dollars lors du Simandou Mining Summit.",
+     "articles": [
+      "ee19e43c9862"
+     ]
+    },
+    {
+     "titre": "Facture d'importation alimentaire record pour la Côte d'Ivoire",
+     "texte": "Les achats extérieurs de riz et de poisson de la Côte d'Ivoire ont représenté près de 1 260 milliards de francs CFA au terme de l'année 2025.",
+     "articles": [
+      "e997a118c238"
+     ]
+    },
+    {
+     "titre": "Pression accrue sur les centres d'appels africains",
+     "texte": "La filière de la relation client en Afrique francophone fait face à un double défi structurel lié au développement des outils d'IA et aux évolutions du cadre réglementaire en France.",
+     "articles": [
+      "f2e8f5c829be"
+     ]
+    },
+    {
+     "titre": "Impact du retour des excédents pétroliers au Maghreb",
+     "texte": "La réapparition de surplus d'offre sur le marché pétrolier mondial restreint les marges de manœuvre budgétaires des pays producteurs de la région maghrébine.",
+     "articles": [
+      "e84a2af1060c"
+     ]
+    },
+    {
+     "titre": "Reprise des lettres de crédit par la Banque centrale de Libye",
+     "texte": "La Banque centrale de Libye remet progressivement en place la délivrance des lettres de crédit de paiement afin de fluidifier les opérations d'importation du pays.",
+     "articles": [
+      "de696cd7a228"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Pétition de soutien après le départ de Jensen Huang chez Nvidia",
+     "texte": "Suite à la démission du fondateur de Nvidia Jensen Huang, une pétition signée par plus de 157 000 personnes réclame son retour immédiat à la tête de l'entreprise en attendant les conclusions d'une enquête.",
+     "articles": [
+      "00711b9a253a",
+      "0d24d611f84d"
+     ]
+    },
+    {
+     "titre": "Nouvelles restrictions américaines sur l'exportation de puces avancées",
+     "texte": "Le gouvernement américain a renforcé sa réglementation commerciale pour empêcher le transfert de composants électroniques vers la Chine par l'intermédiaire de pays tiers.",
+     "articles": [
+      "e366cbbc4e80"
+     ]
+    },
+    {
+     "titre": "Adoption massive de l'IA par les directions financières d'ici 2027",
+     "texte": "Selon une étude sectorielle, 78 % des directions financières prévoient d'engager des dépenses d'investissement dans les technologies d'intelligence artificielle d'ici 2027.",
+     "articles": [
+      "6a7e4a7bbb64"
+     ]
+    },
+    {
+     "titre": "Investissement massif de SpaceX dans les centres de données",
+     "texte": "SpaceX projette d'allouer une enveloppe globale de 74 milliards de dollars au développement d'infrastructures de datacenters pour soutenir ses activités.",
+     "articles": [
+      "71925d3d2ed5"
+     ]
+    },
+    {
+     "titre": "Développement d'un modèle d'IA souverain en Inde par Sarvam",
+     "texte": "La jeune pousse indienne Sarvam conçoit un modèle national d'intelligence artificielle afin de réduire la dépendance technologique du pays vis-à-vis des acteurs américains.",
+     "articles": [
+      "5b2705eb01d7"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "00711b9a253a": {
+   "titre": "Jensen Huang : l'anatomie d'un scandale",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/16/jensen-huang-scandal-anatomy/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/16/jensen-huang-scandal-anatomy/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-16T17:18:14+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Jensen Huang: The anatomy of a scandal"
+  },
+  "0d24d611f84d": {
+   "titre": "Nvidia : Elon Musk et plus de 157 000 signataires réclament le retour de Jensen Huang",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261116-elon-musk-uber-spacex-epic-games-157000-signataires-reclament-retour-jensen-huang-tete-nvidia-intelligence-artificielle-lettre-ouverte-enquete-independante",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T01:11:15+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0ffb08ce3749": {
+   "titre": "Pharmacie centrale : une enveloppe de 288 MD mobilisée au titre du budget 2027 (Ministre)",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Titres-de-l-actualité/20807319-pharmacie-centrale",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T11:35:10.093415+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "192e146ef07d": {
+   "titre": "Zenith reprend sa production pétrolière sur la concession Robbana",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/zenith-reprend-sa-production-petroliere-sur-la-concession-robbana/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T12:34:07+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "20e302a3a24a": {
+   "titre": "La bourse termine la séance de lundi sur une note positive",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20808832-la-bourse-termine",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:26:14.170695+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "25f50806a8c4": {
+   "titre": "Hammamet: Les forages sont prêts à commencer dans le champ pétrolier « Abiod »",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/hammamet-les-forages-sont-prets-a-commencer-dans-le-champ-petrolier-abiod/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:57:28+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2c87db1bde97": {
+   "titre": "Croisière : 165 navires ont fait escale en Tunisie en dix mois",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/16/croisiere-165-navires-ont-fait-escale-en-tunisie-en-dix-mois/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T11:35:10.093415+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2eccd6a62883": {
+   "titre": "Le discret retour en force de l’Italie : de pays préoccupant pour l’Europe à une crédibilité retrouvée (Analyse QNB)",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/communiques-de-presse/le-discret-retour-en-force-de-l-italie-de-pays-preoccupant-pour-l-europe-a-une-credibilite-retrouvee",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T11:35:10.093415+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "32dff6b96561": {
+   "titre": "Une enveloppe de 3,4 MD mobilisée, dans le cadre du projet SUMUD",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20808304-une-enveloppe-de",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:21:16.294498+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "332f73c567b6": {
+   "titre": "La STB va la hausse et l’Amen Bank grignotte",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/la-stb-va-la-hausse-et-lamen-bank-grignotte/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:56:44+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "37c61e1f82bc": {
+   "titre": "Tourisme tunisien : 1,2 milliard de dinars d’investissements et 158 projets approuvés",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/16/577125/tourisme-tunisien-12-milliard-de-dinars-dinvestissements-et-158-projets-approuves/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T11:35:10.093415+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3f0e38760ae2": {
+   "titre": "Forum, SAH augmentation de K par incorporation de résultats reportés",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/forums/340929_sah-augmentation-de-k-par-incorporation-de-resultats-reportes",
+   "url_traduite": null,
+   "publie_le": "2026-11-13T08:15:10+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3fded3456127": {
+   "titre": "La bourse termine la séance de lundi sur une note positive",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Titres-de-l-actualité/20808832-la-bourse-termine",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:26:14.170695+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "428b06ed5474": {
+   "titre": "Le projet « Soumoud » soutient 100 PME dans 4 gouvernorats",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/le-projet-soumoud-soutient-100-pme-dans-4-gouvernorats/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:50:53+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "46737fb65dc0": {
+   "titre": "Lancement d’un nouveau programme « GEFF » avec une enveloppe de 60 millions d’euros pour accompagner les PME dans leur transition verte",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/lancement-dun-nouveau-programme-geff-avec-une-enveloppe-de-60-millions-deuros-pour-accompagner-les-pme-dans-leur-transition-verte/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T14:46:51+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4e552a42e092": {
+   "titre": "Bruxelles autorise le rachat de Commerzbank par UniCredit, au nom du renforcement du secteur bancaire européen",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/16/bruxelles-autorise-le-rachat-de-commerzbank-par-unicredit-au-nom-du-renforcement-du-secteur-bancaire-europeen_6812172_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:34:55+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "56fff70a1eb3": {
+   "titre": "Tunisie : 288 millions de dinars mobilisés pour la Pharmacie centrale en 2027",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/16/577223/tunisie-288-millions-de-dinars-mobilises-pour-la-pharmacie-centrale-en-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:21:16.294498+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5b2705eb01d7": {
+   "titre": "Sarvam, symbole des ambitions indiennes dans la course mondiale à l’IA",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/16/sarvam-symbole-des-ambitions-indiennes-dans-la-course-mondiale-a-l-ia_6811900_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:00:03+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "5b420d1c0d27": {
+   "titre": "60 millions d’euros pour accompagner les PME dans leur transition verte",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/60-millions-deuros-pour-accompagner-les-pme-dans-leur-transition-verte/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T16:00:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "61277fa9ab59": {
+   "titre": "43 Actualités L’argent chute sous les 47,5 dollars l’once, au plus bas depuis septembre 2025 Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/largent-chute-sous-les-475-dollars-lonce-au-plus-bas-depuis-septembre-2025/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:26:14.170695+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6408384c904d": {
+   "titre": "La croissance économique décélère à 1,9 % au troisième trimestre 2026",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/la-croissance-economique-decelere-a-19-au-troisieme-trimestre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T12:17:38+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "672066e5172d": {
+   "titre": "QNB Economics |Le discret retour en grâce de l’Italie : de l’inquiétude européenne au regain de crédibilité",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/16/577205/qnb-economics-le-discret-retour-en-grace-de-litalie-de-linquietude-europeenne-au-regain-de-credibilite/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T11:35:10.093415+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "68d702667941": {
+   "titre": "288 millions de dinars pour la Pharmacie centrale : l’État peut-il enfin mettre fin aux pénuries de médicaments ?",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/16/288-millions-de-dinars-pour-la-pharmacie-centrale-letat-peut-il-enfin-mettre-fin-aux-penuries-de-medicaments/1428952/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T11:37:40+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6a7e4a7bbb64": {
+   "titre": "37 Actualités Intelligence artificielle : 78 % des directions financières prévoient d’investir dans l’IA en 2027, selon... Il y a 35 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/intelligence-artificielle-78-des-directions-financieres-prevoient-dinvestir-dans-lia-en-2027-selon-pwc/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:21:16.294498+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "71925d3d2ed5": {
+   "titre": "74 milliards de dollars : le pari de SpaceX sur les centres de données",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/16/74-milliards-de-dollars-le-pari-de-spacex-sur-les-centres-de-donnees/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:21:16.294498+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7397e847acb6": {
+   "titre": "Tunisie : un nouveau financement européen de 60 millions d’euros pour les PME vertes",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/16/577236/tunisie-un-nouveau-financement-europeen-de-60-millions-deuros-pour-les-pme-vertes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:26:14.170695+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "748f52e06507": {
+   "titre": "3 Actualités Tunisie : un programme de 60 millions d’euros pour accélérer la transition écologique des PME Il y a 1 minute",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-un-programme-de-60-millions-deuros-pour-accelerer-la-transition-ecologique-des-pme/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:26:14.170695+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7c72cae8ba7f": {
+   "titre": "« La chute du cabinet d’avocats Weil ressemble à celle d’un avion en parfait état de marche qui perdrait tout à coup son fuselage en plein vol »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/16/la-chute-du-cabinet-d-avocats-weil-ressemble-a-celle-d-un-avion-en-parfait-etat-de-marche-qui-perdrait-tout-a-coup-son-fuselage-en-plein-vol_6812165_3232.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:00:11+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "7f1397f3aafa": {
+   "titre": "Pharmacie centrale : une enveloppe de 288 MDT mobilisée au titre du budget 2027",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/pharmacie-centrale-une-enveloppe-de-288-mdt-mobilisee-au-titre-du-budget-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T11:50:23+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "80dd26922756": {
+   "titre": "Zenith Energy reprend sa production pétrolière à Djerba",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/zenith-energy-reprend-sa-production-petroliere-a-djerba_65746",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T11:29:47+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "80e33da9180b": {
+   "titre": "Appel à candidature aux postes de deux administrateurs indépendants au sein du conseil d’administration : SITS",
+   "source": "CMF",
+   "url": "https://www.cmf.tn/?q=appel-%C3%A0-candidature-aux-postes-de-deux-administrateurs-ind%C3%A9pendants-au-sein-du-conseil-d",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T16:15:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "811640958f88": {
+   "titre": "Paper & Tissue Show 2026 : Le Groupe Lilas renforce son rayonnement international à Londres",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/paper-tissue-show-2026-le-groupe-lilas-renforce-son-rayonnement-international-a-londres_65752",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T14:41:56+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "833e0bbad912": {
+   "titre": "Tourisme intérieur, 2 millions de Tunisiens dans les hôtels",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/tourisme-interieur-2-millions-de-tunisiens-dans-les-hotels/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T12:20:31+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8c307e9640f8": {
+   "titre": "Tunisie : 9 millions de visiteurs et 7,15 milliards de dinars de recettes touristiques",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/16/577127/tunisie-9-millions-de-visiteurs-et-715-milliards-de-dinars-de-recettes-touristiques/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T11:35:10.093415+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "935180175195": {
+   "titre": "Revolut Italie placée sous administration judiciaire pour des contrôles antiblanchiment insuffisants",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/international/article/2026/11/16/revolut-italie-placee-sous-administration-judiciaire-pour-des-controles-antiblanchiment-insuffisants_6812166_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:05:11+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "a07b76da34ba": {
+   "titre": "Pharmacie centrale : une enveloppe de 288 MD mobilisée au titre du budget 2027 (Ministre)",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20807319-pharmacie-centrale",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T11:35:10.093415+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ac4f728fde3d": {
+   "titre": "Sumud: 3,4 millions de dinars pour propulser 100 entreprises tunisiennes",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/16/sumud-34-millions-de-dinars-pour-propulser-100-entreprises-tunisiennes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:26:14.170695+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "adab9d2f31c7": {
+   "titre": "Projet SUMUD : Plus de 3,4 MD mobilisés...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-actualites-economiques/projet-sumud-plus-de-34-md-mobilises-au-profit-de-100-entreprises-tunisiennes",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:26:14.170695+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "af10b58e5ac6": {
+   "titre": "La BERD mobilise 59 M€ en Tunisie: ce que les PME doivent savoir",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/16/la-berd-mobilise-59-me-en-tunisie-ce-que-les-pme-doivent-savoir/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T11:35:10.093415+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b29e89a2b66d": {
+   "titre": "SITS - Avis et communiqués - Appel à candidature",
+   "source": "BVMT · Publications des sociétés",
+   "url": "https://tunis-stockexchange.com/sits-avis-et-communiqu%C3%A9s-appel-%C3%A0-candidature-16-11-26-0",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T00:00:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c912a6ffaebb": {
+   "titre": "3,4 MDT mobilisés dans le cadre du projet SUMUD",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/une-enveloppe-de-34-mdt-mobilisee-dans-le-cadre-du-projet-sumud/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:58:24+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "de696cd7a228": {
+   "titre": "Importations en Libye : la Banque centrale débloque progressivement les lettres de crédit",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/16/577210/importations-en-libye-la-banque-centrale-debloque-progressivement-les-lettres-de-credit/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:21:16.294498+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e366cbbc4e80": {
+   "titre": "Puces électroniques : les États-Unis veulent fermer les voies de contournement vers la Chine",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/16/puces-electroniques-les-etats-unis-veulent-fermer-les-voies-de-contournement-vers-la-chine/1429014/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T18:23:09+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e84a2af1060c": {
+   "titre": "Pétrole : ce que le retour des excédents change pour les budgets du Maghreb",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/16/577211/petrole-ce-que-le-retour-des-excedents-change-pour-les-budgets-du-maghreb/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:21:16.294498+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e997a118c238": {
+   "titre": "Côte d’Ivoire : Le riz et le poisson ont coûté près de 1 260 milliards FCFA d’importation en 2025",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/cote-divoire-le-riz-et-le-poisson-ont-coute-pres-de-1-260-milliards-fcfa-dimportation-en-2025_65762",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:43:41+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ee19e43c9862": {
+   "titre": "Simandou Mining Summit : la Guinée présente 3,8 milliards de dollars de projets aux investisseurs internationaux",
+   "source": "Financial Afrik",
+   "url": "https://www.financialafrik.com/2026/11/13/simandou-mining-summit-la-guinee-presente-38-milliards-de-dollars-de-projets-aux-investisseurs-internationaux/",
+   "url_traduite": null,
+   "publie_le": "2026-11-13T18:41:05+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f0700468163d": {
+   "titre": "Zenith Energy reprend la production pétrolière à Robbana, à Djerba",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/16/zenith-energy-reprend-la-production-petroliere-a-robbana-a-djerba/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:26:14.170695+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f2e8f5c829be": {
+   "titre": "Du Maroc à Madagascar, les centres d’appels pris en étau entre l’IA et la réglementation française",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1861926/economie-entreprises/maroc-madagascar-les-centres-dappels-pris-en-etau-entre-lia-et-la-reglementation-francaise/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T17:09:11+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "f3d2597c2301": {
+   "titre": "Une enveloppe de 3,4 MD mobilisée, dans le cadre du projet SUMUD",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Titres-de-l-actualité/20808304-une-enveloppe-de",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:21:16.294498+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f59bf297339a": {
+   "titre": "SITS - Avis et communiqués - Appel à candidature",
+   "source": "BVMT · Publications des sociétés",
+   "url": "https://tunis-stockexchange.com/sits-avis-et-communiqu%C3%A9s-appel-%C3%A0-candidature-16-11-26",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T00:00:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f8a7c21b4032": {
+   "titre": "Hôtels fermés, 28 rouverts sur 137",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/hotels-fermes-28-rouverts-sur-137/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T12:23:07+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fb6cb2a1a1c0": {
+   "titre": "Tourisme intérieur : 4,7 milliards de dinars dépensés par les Tunisiens en 2025",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/16/tourisme-interieur-47-milliards-de-dinars-depenses-par-les-tunisiens-en-2025/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T11:35:10.093415+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ffd46081a9a5": {
+   "titre": "Energie: Lancement d’un nouveau programme \"GEFF\" avec une enveloppe de 60 millions...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20807992-energie-lancement",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:21:16.294498+00:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
