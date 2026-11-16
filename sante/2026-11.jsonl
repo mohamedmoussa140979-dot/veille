@@ -94,3 +94,10 @@
 {"t": "2026-11-16T10:28:40.510306+01:00", "niveau": "avertissement", "code": "gemini_modele_echec", "message": "gemini-3.7-flash : HTTP None POST generativelanguage.googleapis.com : ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=180)", "ctx": {"tour": "1"}}
 {"t": "2026-11-16T10:28:44.408716+01:00", "niveau": "avertissement", "code": "gemini_modele_echec", "message": "gemini-3.6-flash : HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}", "ctx": {"tour": "1"}}
 {"t": "2026-11-16T10:29:16.325520+01:00", "niveau": "info", "code": "edition_produite", "message": "2026-11-16-matin", "ctx": {"sujets": "25", "articles": "55", "modele": "gemini-3.5-flash"}}
+{"t": "2026-11-16T11:00:25.467441+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-16T11:01:22.158775+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-16T11:04:21.550486+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-16T11:05:01.480500+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-16T11:05:01.543120+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 403", "ctx": {"flux": "Finextra"}}
+{"t": "2026-11-16T11:05:03.370535+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 4, \"flux\": 1}", "ctx": {}}
+{"t": "2026-11-16T11:05:03.911687+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "gtx : HTTP 429", "ctx": {}}
