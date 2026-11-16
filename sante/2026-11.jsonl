@@ -104,3 +104,6 @@
 {"t": "2026-11-16T12:35:59.461875+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
 {"t": "2026-11-16T12:36:20.112405+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "finextra"}}
 {"t": "2026-11-16T12:37:44.630721+01:00", "niveau": "info", "code": "collecte_terminee", "message": "106 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "48", "sources_en_erreur": "1", "lus": "1903", "rejetes": "10", "resolutions": "30", "resolutions_echec": "0"}}
+{"t": "2026-11-16T16:21:54.814952+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-16T16:22:15.112940+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "finextra"}}
+{"t": "2026-11-16T16:23:29.725902+01:00", "niveau": "info", "code": "collecte_terminee", "message": "104 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "48", "sources_en_erreur": "1", "lus": "1907", "rejetes": "18", "resolutions": "20", "resolutions_echec": "0"}}
