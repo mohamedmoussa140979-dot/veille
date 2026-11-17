@@ -1,0 +1,980 @@
+{
+ "version": 1,
+ "id": "2026-11-17-soir",
+ "date": "2026-11-17",
+ "edition": "soir",
+ "genere_le": "2026-11-17T19:18:03+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19105.85,
+   "variation_pct": 0.15,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-17"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3624,
+   "variation_pct": -0.08,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-16"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 93.39,
+   "variation_pct": 1.03,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-17"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "La balance commerciale alimentaire de la Tunisie affiche un excédent de 722,7 MD porté par l'huile d'olive, sur fond de pression fiscale soutenue au budget et d'une baisse continue des réserves en devises.",
+   "articles": [
+    "daee7272ae7f",
+    "ae31d16e3b8c",
+    "d1d91bcc0ab2",
+    "3a9925ff3459",
+    "bf1eb1e61f8e",
+    "20b375d51286",
+    "c316b25fd15a",
+    "45852c6d0dce",
+    "393e32adfbd1",
+    "89558e1979b2",
+    "bedb53dffaca",
+    "325808889c62",
+    "54980019e9d8",
+    "f54c6146df4a"
+   ]
+  },
+  {
+   "texte": "L'UE valide le projet d'OPA de 45 milliards d'euros d'UniCredit sur Commerzbank, marquant une étape clé dans la consolidation bancaire européenne.",
+   "articles": [
+    "8e2159baa960"
+   ]
+  },
+  {
+   "texte": "Ennakl Automobiles émet un emprunt obligataire de 30 MD et Wifak Bank adhère à l'initiative climat PCAF, sur un marché boursier tunisien en légère hausse.",
+   "articles": [
+    "bf6bda81ffe7",
+    "772c7d311a17",
+    "84e4e9d5c834",
+    "811445d01ea6",
+    "aea016317b32",
+    "d1cd5c45d295",
+    "9d67265bd9df",
+    "481fcc0bf1a2",
+    "44ec99516283"
+   ]
+  },
+  {
+   "texte": "Revolut subit une mise sous administration judiciaire en Italie pour faiblesses anti-blanchiment, tandis que les banques globales accélèrent sur les dépôts tokenisés.",
+   "articles": [
+    "40bac423ba6e",
+    "53a36466a072",
+    "88c452c26184"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Diminution continue des avoirs en devises",
+     "texte": "Les réserves en devises de la Tunisie affichent un repli persistant, soulevant des inquiétudes sur les équilibres extérieurs du pays.",
+     "articles": [
+      "325808889c62"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Hausse des créances douteuses du secteur privé",
+     "texte": "Le montant des créances classées des entreprises privées auprès des banques franchit le seuil des 20 milliards de dinars.",
+     "articles": [
+      "bb3c29b42758"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Excédent de 722,7 MD de la balance commerciale alimentaire",
+     "texte": "Soutenue par un bond de 37,1 % des exportations d'huile d'olive, la balance alimentaire dégage un solde positif de 722,7 millions de dinars à fin octobre 2026. La facture reste toutefois alourdie par les importations de céréales et de sucre.",
+     "articles": [
+      "daee7272ae7f",
+      "3a9925ff3459",
+      "bf1eb1e61f8e",
+      "20b375d51286",
+      "45852c6d0dce",
+      "393e32adfbd1",
+      "89558e1979b2",
+      "bedb53dffaca",
+      "54980019e9d8",
+      "f54c6146df4a"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Accord sur une prime mensuelle dans le transport d'hydrocarbures",
+     "texte": "Un accord entre organisations patronales accorde une nouvelle prime brute mensuelle de 275 dinars aux chauffeurs de camions-citernes, évitant une grève programmée dans le secteur.",
+     "articles": [
+      "fe259a2d80e2",
+      "6bfd400613ac",
+      "81e3f1e0cf8f",
+      "7ddf41155046",
+      "ad423d3a0564",
+      "e175995a49b0"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Prépondérance des recettes fiscales dans le budget de l'État",
+     "texte": "Le projet budgétaire 2026 prévoit 47,773 milliards de dinars de recettes fiscales sur 52,560 milliards de ressources, pour couvrir des dépenses de 63,575 milliards de dinars.",
+     "articles": [
+      "ae31d16e3b8c",
+      "d1d91bcc0ab2",
+      "c316b25fd15a"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-17",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19105.85,
+      "variation_pct": 0.15,
+      "variation_annee_pct": 42.05,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14531.28,
+      "variation_pct": 0.08,
+      "variation_annee_pct": 50.28,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "plast",
+      "libelle": "OFFICE PLAST",
+      "valeur": 1.27,
+      "variation_pct": 5.83,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "scb",
+      "libelle": "CIMENTS DE BIZERTE",
+      "valeur": 0.56,
+      "variation_pct": 3.7,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "hl",
+      "libelle": "HANNIBAL LEASE",
+      "valeur": 9.9,
+      "variation_pct": 3.23,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "tgh",
+      "libelle": "TAWASOL",
+      "valeur": 0.73,
+      "variation_pct": -6.41,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "mag",
+      "libelle": "MAGASIN GENERAL",
+      "valeur": 12.1,
+      "variation_pct": -4.35,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "bnass",
+      "libelle": "BNA ASSURANCES",
+      "valeur": 3.85,
+      "variation_pct": -2.78,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Légère progression du Tunindex à 19 105,85 points",
+     "texte": "L'indice de la Bourse de Tunis gagne 0,15 % dans un volume de 12,6 millions de dinars, porté notamment par une transaction de bloc de 1,6 million de dinars sur One Tech Holding.",
+     "articles": [
+      "bf6bda81ffe7",
+      "811445d01ea6",
+      "d1cd5c45d295",
+      "481fcc0bf1a2"
+     ]
+    },
+    {
+     "titre": "Ennakl Automobiles lance un emprunt de 30 MD",
+     "texte": "Le concessionnaire automobile émet un emprunt obligataire sur le marché financier d'un montant de 30 millions de dinars.",
+     "articles": [
+      "44ec99516283"
+     ]
+    },
+    {
+     "titre": "L'Accumulateur Tunisien prépare l'IPO d'une filiale en Algérie",
+     "texte": "Le groupe ASSAD organise la cotation à la Bourse d'Alger de son entité algérienne, dont les estimations de valeur suscitent des débats d'analystes.",
+     "articles": [
+      "d9b36cb25660"
+     ]
+    },
+    {
+     "titre": "Rappel du CMF sur le calendrier des publications financières",
+     "texte": "Le Conseil du Marché Financier interpelle les émetteurs cotés concernant le respect des échéances légales de transmission de leurs états financiers.",
+     "articles": [
+      "1cf06fe3112c"
+     ]
+    },
+    {
+     "titre": "Adhésion de Wifak Bank au réseau international PCAF",
+     "texte": "Wifak Bank intègre le Partnership for Carbon Accounting Financials afin de mesurer et structurer l'empreinte carbone issue de ses financements.",
+     "articles": [
+      "772c7d311a17",
+      "84e4e9d5c834",
+      "aea016317b32",
+      "9d67265bd9df"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 93.39,
+      "unite": "USD le baril",
+      "variation_pct": 1.03,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.169,
+      "unite": "USD par MMBtu",
+      "variation_pct": 1.51,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3865.1,
+      "unite": "USD l'once",
+      "variation_pct": 0.31,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 611.5,
+      "unite": "cents le boisseau",
+      "variation_pct": 1.75,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7332.95,
+      "unite": "points",
+      "variation_pct": -1.13,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 6212.11,
+      "unite": "points",
+      "variation_pct": -2.15,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 8216.78,
+      "unite": "points",
+      "variation_pct": -1.62,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.1023,
+      "unite": "",
+      "variation_pct": 0.24,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3624,
+      "unite": "dinars",
+      "variation_pct": -0.08,
+      "au": "2026-11-16",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0501,
+      "unite": "dinars",
+      "variation_pct": 0.38,
+      "au": "2026-11-16",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Prévisions économiques révisées en zone euro",
+     "texte": "La Commission européenne réévalue à la hausse la croissance 2026 de la zone euro, constatant néanmoins un net retard de la France et une inflation durable jusqu'en 2027.",
+     "articles": [
+      "bd8d0f77c941",
+      "347384831302"
+     ]
+    },
+    {
+     "titre": "Rebond technique des cours de l'or",
+     "texte": "Le prix du métal jaune se redresse sur les marchés mondiaux après être descendu à son niveau le plus bas depuis octobre 2025.",
+     "articles": [
+      "acb4f6065900",
+      "15b6a8d2a803"
+     ]
+    },
+    {
+     "titre": "Pression accrue de Bruxelles sur Temu",
+     "texte": "L'UE accuse la plateforme chinoise Temu de manquement à ses obligations de retrait des produits dangereux et illégaux.",
+     "articles": [
+      "4d71e6cca34f",
+      "b4b855115d16"
+     ]
+    },
+    {
+     "titre": "Feu vert de Bruxelles à l'offre d'UniCredit sur Commerzbank",
+     "texte": "UniCredit franchit une étape réglementaire majeure pour concrétiser son OPA de 45 milliards d'euros sur la deuxième banque privée allemande.",
+     "articles": [
+      "8e2159baa960"
+     ]
+    },
+    {
+     "titre": "Baisse boursière de Deutsche Bank après une enquête de presse",
+     "texte": "Le titre Deutsche Bank s'est replié en Bourse à la suite de la parution d'investigations journalistiques mettant en cause l'établissement.",
+     "articles": [
+      "ec230df647a3"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Discussions d'acquisition entre MTN et Telkom",
+     "texte": "MTN étudie le rachat de la totalité de l'opérateur sud-africain Telkom, dont les résultats financiers du premier semestre 2027 sont en amélioration.",
+     "articles": [
+      "907d7bf51c1e",
+      "c6be85cc9aad"
+     ]
+    },
+    {
+     "titre": "Dangote réévalue son projet d'IPO à 2,1 milliards de dollars",
+     "texte": "Le groupe industriel prépare une introduction en Bourse dimensionnée à hauteur de 2,1 milliards de dollars.",
+     "articles": [
+      "24cb946df66e"
+     ]
+    },
+    {
+     "titre": "S&P confirme la note souveraine de la Côte d'Ivoire",
+     "texte": "L'agence de notation maintient la note à long et court terme de la Côte d'Ivoire à BB/B.",
+     "articles": [
+      "1dd217c5bcd9"
+     ]
+    },
+    {
+     "titre": "Le Maroc obtient 4,8 milliards de dirhams de la BAD",
+     "texte": "La Banque africaine de développement octroie une enveloppe de 4,8 milliards de dirhams au Royaume pour faire face aux incertitudes mondiales.",
+     "articles": [
+      "f960d1a30a50"
+     ]
+    },
+    {
+     "titre": "Ralentissement de l'inflation au Nigeria à 14 %",
+     "texte": "La hausse des prix à la consommation recule à 14 % sur un an au mois d'octobre au Nigeria, malgré la hausse continue des produits alimentaires.",
+     "articles": [
+      "62d9c15549a6"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Déploiement mondial des dépôts tokenisés banques",
+     "texte": "DBS et JP Morgan lancent des transferts 24/7 de dépôts tokenisés entre Singapour et les États-Unis, tandis qu'HSBC étend son service similaire à l'Irlande et aux Pays-Bas.",
+     "articles": [
+      "40bac423ba6e",
+      "88c452c26184"
+     ]
+    },
+    {
+     "titre": "Placement de Revolut sous tutelle judiciaire en Italie",
+     "texte": "Un tribunal italien sanctionne la filiale européenne de Revolut en raison de graves carences observées dans son système de lutte contre le blanchiment.",
+     "articles": [
+      "53a36466a072"
+     ]
+    },
+    {
+     "titre": "Levée de 5 milliards de dollars par Isomorphic Labs",
+     "texte": "La startup Isomorphic Labs sécurise un financement de 5 milliards de dollars auprès des fonds Sequoia et Andreessen Horowitz.",
+     "articles": [
+      "340a6f89ae7a"
+     ]
+    },
+    {
+     "titre": "Genesis AI lève 500 millions de dollars",
+     "texte": "La startup spécialisée en robotique Genesis AI boucle un tour de table de 500 millions de dollars soutenu par Nvidia.",
+     "articles": [
+      "42b4e5efe6c0"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "15b6a8d2a803": {
+   "titre": "L’or chute à son plus bas niveau depuis octobre 2025",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/lor-chute-a-son-plus-bas-niveau-depuis-octobre-2025_65769",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T09:59:36+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1cf06fe3112c": {
+   "titre": "Retard des états financiers : Le CMF rap...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-divers/retard-des-etats-financiers-le-cmf-rappelle-a-l-ordre-flat6labs-tunisia",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T11:14:06.122617+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1dd217c5bcd9": {
+   "titre": "Côte d’Ivoire : S&P Global Ratings confirme la notation souveraine \"BB/B\" du trésor à court et à long terme",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20812864-côte-d-ivoire-s-p",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:06:45.270289+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "20b375d51286": {
+   "titre": "Huile d’olive : les exportations bondissent de 37,1 % et portent l’excédent alimentaire à 722,7 MD",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/17/huile-dolive-les-exportations-bondissent-de-371-et-portent-lexcedent-alimentaire-a-7227-md/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:01:21+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "24cb946df66e": {
+   "titre": "Dangote augmentera son IPO à 2,1 milliards de dollars",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/17/dangote-augmentera-son-ipo-a-21-milliards-de-dollars/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T17:17:57.982878+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "325808889c62": {
+   "titre": "Réserves tunisiennes en devises: le signal préoccupant d’une baisse persistante",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/17/reserves-tunisiennes-en-devises-le-signal-preoccupant-dune-baisse-persistante/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T11:14:06.122617+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "340a6f89ae7a": {
+   "titre": "Isomorphic Labs lève 5 milliards de dollars soutenue par Sequoia et A16z",
+   "source": "Sifted",
+   "url": "https://sifted.eu/articles/isomorphic-labs-raises-5bn-backed-by-sequoia-and-a16z/",
+   "url_traduite": "https://sifted-eu.translate.goog/articles/isomorphic-labs-raises-5bn-backed-by-sequoia-and-a16z/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-17T13:55:56+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Isomorphic Labs raises $5bn backed by Sequoia and A16z"
+  },
+  "347384831302": {
+   "titre": "La Commission européenne confirme le décrochage de la France dans ses prévisions économiques d’automne",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/17/la-commission-europeenne-confirme-le-decrochage-de-la-france-dans-ses-previsions-economiques-d-automne_6812945_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T11:00:04+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "393e32adfbd1": {
+   "titre": "La balance alimentaire tunisienne dégage un excédent de 722,7 MD à fin octobre",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/17/la-balance-alimentaire-tunisienne-degage-un-excedent-de-7227-md-a-fin-octobre/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T13:26:17.596473+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3a9925ff3459": {
+   "titre": "Exportations alimentaires : l’huile d’olive dope l’excédent commercial tunisien",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/17/577317/exportations-alimentaires-lhuile-dolive-dope-lexcedent-commercial-tunisien/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:06:45.270289+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "40bac423ba6e": {
+   "titre": "DBS et Kinexys par JP Morgan lancent des transferts de dépôts tokenisés 24/7",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/pressarticle/111679/dbs-and-kinexys-by-jp-morgan-launch-247-tokenised-deposit-transfers",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T19:28:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "DBS and Kinexys by JP Morgan launch 24/7 tokenised deposit transfers"
+  },
+  "42b4e5efe6c0": {
+   "titre": "La startup de robotique Genesis AI lève 500 millions de dollars soutenue par Nvidia",
+   "source": "Sifted",
+   "url": "https://sifted.eu/articles/genesis-ai-raises-500m/",
+   "url_traduite": "https://sifted-eu.translate.goog/articles/genesis-ai-raises-500m/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-17T15:00:45+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Robotics startup Genesis AI raises $500m backed by Nvidia"
+  },
+  "44ec99516283": {
+   "titre": "ENNAKL Automobiles émet un emprunt obligataire de 30 millions de dinars",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/ennakl-automobiles-emet-un-emprunt-obligataire-de-30-millions-de-dinars_65766",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T08:22:13+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "45852c6d0dce": {
+   "titre": "Les exportations alimentaires tunisiennes progressent de 18,7%, portées par l’huile d’olive",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/17/les-exportations-alimentaires-tunisiennes-progressent-de-187-portees-par-lhuile-dolive/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T13:26:17.596473+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "481fcc0bf1a2": {
+   "titre": "Bourse de Tunis : le TUNINDEX clôture en hausse, TELNET bondit de 4,1%",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/16/577243/bourse-de-tunis-le-tunindex-cloture-en-hausse-telnet-bondit-de-41/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T09:17:11.565181+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4d71e6cca34f": {
+   "titre": "L'UE accuse Temu de ne pas assez agir contre la vente de produits illégaux sur ses plateformes",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20812479-l-ue-accuse-temu-de",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T13:26:17.596473+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "53a36466a072": {
+   "titre": "Revolut placée sous tutelle judiciaire en Italie pour des faiblesses dans ses contrôles anti-blanchiment",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/newsarticle/48762/revolut-put-under-italian-supervision-over-aml-controls",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T15:09:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Revolut put under Italian supervision over AML controls"
+  },
+  "54980019e9d8": {
+   "titre": "La balance commerciale alimentaire enregistre au cours des dix premiers mois de l’année 2026 un excédent de 722,7 MD (ONAGRI)",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20811731-la-balance",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T11:14:06.122617+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "62d9c15549a6": {
+   "titre": "Nigeria : L’inflation recule à 14 % en octobre, malgré les pressions alimentaires",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/nigeria-linflation-recule-a-14-en-octobre-malgre-les-pressions-alimentaires_65786",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T13:23:51+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6bfd400613ac": {
+   "titre": "Transport des hydrocarbures : une nouvelle prime de 275 dinars pour les chauffeurs de camions-citernes",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/17/transport-des-hydrocarbures-une-nouvelle-prime-de-275-dinars-pour-les-chauffeurs-de-camions-citernes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T17:17:57.982878+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "772c7d311a17": {
+   "titre": "Wifak Bank rejoint l'initiative int...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-communiques-de-presse/wifak-bank-rejoint-l-initiative-internationale-partnership-carbon",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T17:17:57.982878+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7ddf41155046": {
+   "titre": "Transport des hydrocarbures : une nouvelle prime de 275 dinars pour les chauffeurs",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/17/transport-des-hydrocarbures-une-nouvelle-prime-de-275-dinars-pour-les-chauffeurs/1429142/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:26:53+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "811445d01ea6": {
+   "titre": "Bourse : Le marché poursuit son élan positif",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/bourse-le-marche-poursuit-son-elan-positif/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:36:39+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "81e3f1e0cf8f": {
+   "titre": "Instauration d’une prime spécifique au profit des conducteurs de camions de transport d’hydrocarbures",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/instauration-dune-prime-specifique-au-profit-des-conducteurs-de-camions-de-transport-dhydrocarbures/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:39:55+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "84e4e9d5c834": {
+   "titre": "WIFAK BANK rejoint l'initiative Partnership for Carbon Accounting Financials",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/wifak-bank-rejoint-l-initiative-partnership-for-carbon-accounting-financials_65789",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:53:44+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "88c452c26184": {
+   "titre": "HSBC étend son service de dépôts tokenisés à l'Irlande et aux Pays-Bas",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/pressarticle/111673/hsbc-expands-tokenised-deposit-service-to-ireland-and-the-netherlands",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T14:12:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "HSBC expands tokenised deposit service to Ireland and the Netherlands"
+  },
+  "89558e1979b2": {
+   "titre": "Balance alimentaire : un excédent de 722,7 MD qui cache une double dépendance",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/17/balance-alimentaire-un-excedent-de-7227-md-qui-cache-une-double-dependance/1429118/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T12:41:35+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8e2159baa960": {
+   "titre": "Rachat de Commerzbank : « UniCredit est en passe de réussir son OPA à 45 milliards d’euros en Allemagne et de transformer l’Europe bancaire »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/17/rachat-de-commerzbank-unicredit-est-en-passe-de-reussir-son-opa-a-45-milliards-d-euros-en-allemagne-et-de-transformer-l-europe-bancaire_6812939_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T10:45:07+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "907d7bf51c1e": {
+   "titre": "Telkom renoue avec la croissance alors que les discussions de rachat par MTN attirent l'attention",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/17/telkom-growth-mtn-takeover-talks/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/17/telkom-growth-mtn-takeover-talks/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-17T09:55:32+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Telkom returns to growth as MTN takeover talks put its future in focus"
+  },
+  "9d67265bd9df": {
+   "titre": "Wifak Bank rejoint le Partnership for Carbon Accounting Financials",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/17/wifak-bank-rejoint-le-partnership-for-carbon-accounting-financials/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:06:45.270289+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "acb4f6065900": {
+   "titre": "59 Economie Marché de l’or : les cours rebondissent après un plus bas depuis octobre 2025 Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/marche-de-lor-les-cours-rebondissent-apres-un-plus-bas-depuis-octobre-2025/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T13:26:17.596473+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ad423d3a0564": {
+   "titre": "48 Actualités Tunisie : une nouvelle prime spécifique de 275 dinars par mois pour les chauffeurs de... Il y a 49 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-une-nouvelle-prime-specifique-de-275-dinars-par-mois-pour-les-chauffeurs-de-camions-de-transport-de-carburants/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:06:45.270289+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ae31d16e3b8c": {
+   "titre": "Tunisie : la fiscalité finance 60,2 % du budget, selon Mohamed Salah Ayari",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/17/577325/tunisie-la-fiscalite-finance-602-du-budget-selon-mohamed-salah-ayari/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T17:17:57.982878+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "aea016317b32": {
+   "titre": "Wifak Bank rejoint le PCAF",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/17/wifak-bank-rejoint-le-pcaf/1429136/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:17:31+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b4b855115d16": {
+   "titre": "La Commission européenne resserre l’étau sur Temu, le géant chinois de l’e-commerce, pour non respect des normes de l’UE",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/17/la-commission-europeenne-resserre-l-etau-sur-temu-le-geant-chinois-de-l-e-commerce-pour-non-respect-des-normes-de-l-ue_6812960_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T12:00:06+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "bb3c29b42758": {
+   "titre": "60 Actualités Tunisie – Secteur bancaire: les créances classées des entreprises privées dépassent la barre des 20... Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-secteur-bancaire-les-creances-classees-des-entreprises-privees-depassent-la-barre-des-20/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T09:17:11.565181+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "bd8d0f77c941": {
+   "titre": "53 Actualités Zone euro : Bruxelles relève ses prévisions de croissance pour 2026 Il y a 58 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/zone-euro-bruxelles-releve-ses-previsions-de-croissance-pour-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:06:45.270289+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "bedb53dffaca": {
+   "titre": "La balance commerciale alimentaire enregistre au cours des dix premiers mois de l’année 2026 un excédent de 722,7 MDT",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/la-balance-commerciale-alimentaire-enregistre-au-cours-des-dix-premiers-mois-de-lannee-2026-un-excedent-de-7227-mdt/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T11:54:21+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "bf1eb1e61f8e": {
+   "titre": "Les importations de céréales et de sucre tirent la facture alimentaire vers le haut",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/17/les-importations-de-cereales-et-de-sucre-tirent-la-facture-alimentaire-vers-le-haut/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:06:45.270289+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "bf6bda81ffe7": {
+   "titre": "Bourse de Tunis : le Tunindex poursuit sa hausse et gagne 0,15 %",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/17/577337/bourse-de-tunis-le-tunindex-poursuit-sa-hausse-et-gagne-015/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T17:17:57.982878+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c316b25fd15a": {
+   "titre": "Impôt de pays riche & revenu de 2019",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/impot-de-pays-riche-revenu-de-2019/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T14:56:41+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c6be85cc9aad": {
+   "titre": "Pourquoi MTN veut s’offrir l’intégralité de Telkom, et pas seulement sa fibre",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1862036/economie-entreprises/pourquoi-mtn-veut-soffrir-lintegralite-de-telkom-et-pas-seulement-sa-fibre/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T08:28:32+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "d1cd5c45d295": {
+   "titre": "Bourse : Le marché poursuit son élan positif",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20812780-bourse-le-marché",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:06:45.270289+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d1d91bcc0ab2": {
+   "titre": "«Donnez-moi des solutions pour le budget autres que la fiscalité »… Madame la Ministre, voici les chiffres, le diagnostic et les solutions !",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/donnez-moi-des-solutions-pour-le-budget-autres-que-la-fiscalite-madame-la-ministre-voici-les-chiffres-le-diagnostic-et-les-solutions/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T17:14:30+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d9b36cb25660": {
+   "titre": "L’Accumulateur Tunisien : La fille vaudrait plus que la mère",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/laccumulateur-tunisien-la-fille-vaudrait-plus-que-la-mere/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T14:01:15+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "daee7272ae7f": {
+   "titre": "60 Actualités Tunisie : quels produits alimentaires dominent les exportations et les importations à fin octobre 2026... Il y a 52 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-quels-produits-alimentaires-dominent-les-exportations-et-les-importations-a-fin-octobre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T17:17:57.982878+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e175995a49b0": {
+   "titre": "Instauration d’une prime spécifique au profit des conducteurs de camions de transport...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20812757-instauration-d-une",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:06:45.270289+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ec230df647a3": {
+   "titre": "« Inside Deutsche Bank » : l’action de la banque chute en Bourse après la publication de l’enquête",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/17/deutsche-bank-chute-en-bourse-apres-une-enquete-sur-une-fuite-de-documents-internes_6812937_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T10:35:00+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "f54c6146df4a": {
+   "titre": "17 Actualités Tunisie : l’excédent commercial alimentaire atteint 722,7 MD à fin octobre 2026 Il y a 13 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-lexcedent-commercial-alimentaire-atteint-7227-md-a-fin-octobre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T09:17:11.565181+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f960d1a30a50": {
+   "titre": "Face aux incertitudes mondiales, le Maroc obtient 4,8 milliards de dirhams de la BAD",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/17/face-aux-incertitudes-mondiales-le-maroc-obtient-48-milliards-de-dirhams-de-la-bad/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T15:06:45.270289+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fe259a2d80e2": {
+   "titre": "Tunisie : une prime mensuelle de 275 dinars pour les conducteurs de camions-citernes",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/17/577335/tunisie-une-prime-mensuelle-de-275-dinars-pour-les-conducteurs-de-camions-citernes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T17:17:57.982878+00:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
