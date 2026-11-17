@@ -179,3 +179,6 @@
 {"t": "2026-11-17T16:08:02.319347+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "finextra"}}
 {"t": "2026-11-17T16:09:26.275819+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "GET www.wamda.com : ReadTimeout: HTTPSConnectionPool(host='www.wamda.com', port=443): Read timed out. (read timeout=25.0)", "ctx": {"source": "wamda"}}
 {"t": "2026-11-17T16:10:11.628198+01:00", "niveau": "info", "code": "collecte_terminee", "message": "68 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "47", "sources_en_erreur": "2", "lus": "1890", "rejetes": "8", "resolutions": "12", "resolutions_echec": "0"}}
+{"t": "2026-11-17T18:18:44.573900+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-17T18:19:03.165973+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "finextra"}}
+{"t": "2026-11-17T18:19:59.529119+01:00", "niveau": "info", "code": "collecte_terminee", "message": "71 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "48", "sources_en_erreur": "1", "lus": "1909", "rejetes": "16", "resolutions": "15", "resolutions_echec": "0"}}
