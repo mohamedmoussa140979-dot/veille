@@ -1,0 +1,833 @@
+{
+ "version": 1,
+ "id": "2026-11-17-matin",
+ "date": "2026-11-17",
+ "edition": "matin",
+ "genere_le": "2026-11-17T08:51:26+01:00",
+ "modele": "gemini-flash-latest",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19077.77,
+   "variation_pct": 0.46,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-16"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.365,
+   "variation_pct": 0.03,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-13"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 92.08,
+   "variation_pct": -0.39,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-17"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "Les réserves de devises de la Tunisie passent sous le seuil critique des 90 jours d'importation.",
+   "articles": [
+    "6039c6813dd2",
+    "30c70f726200"
+   ]
+  },
+  {
+   "texte": "Le projet de budget 2027 avance au Parlement tunisien avec des arbitrages sectoriels et des débats sur la fiscalité et la gouvernance des caisses sociales.",
+   "articles": [
+    "923248cdbfbb",
+    "58b484c2e36d",
+    "2d5d61b22154",
+    "98ffbbc51b80",
+    "01e4118ddff9",
+    "00585d5067fb",
+    "9f8795a97466",
+    "a098669d5208"
+   ]
+  },
+  {
+   "texte": "Une enquête journalistique mondiale révèle des défaillances majeures de conformité et de contrôle au sein de Deutsche Bank.",
+   "articles": [
+    "d76959f76426",
+    "573dc301999b"
+   ]
+  },
+  {
+   "texte": "Sur les marchés pétroliers, le baril de Brent tombe sous 92 dollars en dépit d'incidents signalés sur des pétroliers dans le détroit d'Ormuz.",
+   "articles": [
+    "a266ed691346",
+    "92dfac51fde5",
+    "c1ea386a1a5e"
+   ]
+  },
+  {
+   "texte": "À la Bourse de Tunis, le Tunindex poursuit son repli tandis qu'un bloc One Tech s'échange en prélude à la cotation d'une filiale, et le CMF sanctionne une société de gestion.",
+   "articles": [
+    "6677370b6242",
+    "b2fcb23f7f8a",
+    "5ffb7a8a5b38",
+    "9f9a1323e034",
+    "8d8877df683c"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Réserves de devises sous le seuil de 90 jours",
+     "texte": "Les avoirs nets en devises de la Tunisie sont repassés sous la barre symbolique des 90 jours d'importation. Ce repli traduit une accentuation des tensions sur la liquidité extérieure du pays.",
+     "articles": [
+      "6039c6813dd2",
+      "30c70f726200"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": "Réserves sous 90 jours : risque de pressions sur la valeur du dinar et sur la disponibilité de certains produits importés."
+    },
+    {
+     "titre": "Débats parlementaires sur le budget 2027",
+     "texte": "Le Parlement examine les enveloppes ministérielles pour 2027, prévoyant notamment 1 400 millions de dinars pour l'irrigation agricole et 241 millions de dinars pour les bourses universitaires, tandis que la Santé planifie 239 millions de dinars en 2026 pour ses équipements. Les élus soulignent par ailleurs la faiblesse des crédits alloués à la recherche.",
+     "articles": [
+      "923248cdbfbb",
+      "58b484c2e36d",
+      "2d5d61b22154",
+      "98ffbbc51b80",
+      "01e4118ddff9",
+      "00585d5067fb"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Fiscalité et réforme des caisses sociales",
+     "texte": "Après le rejet de l'article 24 du projet de loi de finances 2027, la commission des finances de l'ARP appelle à une réforme structurelle de la gestion des cotisations des caisses de prévoyance. Les arbitrages portent également sur le niveau de taxation applicable aux boissons alcoolisées.",
+     "articles": [
+      "9f8795a97466",
+      "a098669d5208"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": null
+    },
+    {
+     "titre": "Projet de guichet unique du commerce extérieur",
+     "texte": "Le ministère de tutelle et les opérateurs préconisent le déploiement d'un guichet unique électronique. Le dispositif vise à alléger et dématérialiser les formalités administratives liées aux flux d'import-export.",
+     "articles": [
+      "12ef767d51b2",
+      "833c3af412dd"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": null
+    },
+    {
+     "titre": "Finalisation du projet de code des eaux",
+     "texte": "Le ministère de l'Agriculture a indiqué que la refonte du code des eaux a atteint un stade avancé. Le texte doit moderniser le cadre juridique face aux impératifs de gestion de la ressource hydrique.",
+     "articles": [
+      "bf588a0c0ce1"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-16",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19077.77,
+      "variation_pct": 0.46,
+      "variation_annee_pct": 41.84,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14519.63,
+      "variation_pct": 0.64,
+      "variation_annee_pct": 50.16,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "tlnet",
+      "libelle": "TELNET HOLDING",
+      "valeur": 12.39,
+      "variation_pct": 4.12,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tair",
+      "libelle": "TUNISAIR",
+      "valeur": 0.32,
+      "variation_pct": 3.23,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "sokna",
+      "libelle": "ESSOUKNA",
+      "valeur": 5.15,
+      "variation_pct": 3.21,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "sits",
+      "libelle": "SITS",
+      "valeur": 3.44,
+      "variation_pct": -4.44,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "hl",
+      "libelle": "HANNIBAL LEASE",
+      "valeur": 9.59,
+      "variation_pct": -3.91,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "wifak",
+      "libelle": "WIFAK INT BANK",
+      "valeur": 6.5,
+      "variation_pct": -3.7,
+      "au": "2026-11-16",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Repli du Tunindex sous les 19 100 points",
+     "texte": "L'indice de référence de la Bourse de Tunis s'établit à 19 077 points, affichant une baisse de 11,5 % par rapport à son sommet atteint en juillet. La place financière poursuit sa phase de consolidation.",
+     "articles": [
+      "6677370b6242",
+      "5ffb7a8a5b38"
+     ]
+    },
+    {
+     "titre": "Procédure du CMF contre Flat6Labs Tunisia",
+     "texte": "Le Conseil du marché financier a engagé des démarches à l'encontre de Flat6Labs Tunisia en raison du non-dépôt de ses états financiers des exercices 2024 et 2025. Le régulateur rappelle ainsi l'obligation de transparence qui incombe aux gestionnaires de capital-investissement.",
+     "articles": [
+      "9f9a1323e034",
+      "8d8877df683c"
+     ]
+    },
+    {
+     "titre": "Bloc d'actions One Tech Holding et projet d'introduction",
+     "texte": "Un bloc de 97 100 actions One Tech Holding a été négocié à 10,300 dinars l'unité, valorisant le groupe à environ 828 millions de dinars. La transaction s'inscrit dans le cadre des préparatifs d'introduction en Bourse de sa filiale active dans le câblage.",
+     "articles": [
+      "b2fcb23f7f8a"
+     ]
+    },
+    {
+     "titre": "Ligne de crédit vert UBCI-BERD",
+     "texte": "L'UBCI et la Banque européenne pour la reconstruction et le développement ont convenu d'un nouveau mécanisme de financement vert. Ces fonds doivent soutenir la transition écologique et l'efficacité énergétique des entreprises tunisiennes.",
+     "articles": [
+      "07ea6757c66d"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 92.08,
+      "unite": "USD le baril",
+      "variation_pct": -0.39,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.122,
+      "unite": "USD par MMBtu",
+      "variation_pct": 0.0,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3875.4,
+      "unite": "USD l'once",
+      "variation_pct": 0.58,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 603.0,
+      "unite": "cents le boisseau",
+      "variation_pct": 0.33,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7416.59,
+      "unite": "points",
+      "variation_pct": -1.92,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 6348.35,
+      "unite": "points",
+      "variation_pct": -0.6,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 8352.0,
+      "unite": "points",
+      "variation_pct": -0.2,
+      "au": "2026-11-16",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.1004,
+      "unite": "",
+      "variation_pct": 0.06,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.365,
+      "unite": "dinars",
+      "variation_pct": 0.03,
+      "au": "2026-11-13",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0386,
+      "unite": "dinars",
+      "variation_pct": 0.17,
+      "au": "2026-11-13",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Enquête internationale sur Deutsche Bank",
+     "texte": "Une vaste enquête journalistique exploitant plus de 15 millions de documents confidentiels met en cause les pratiques de Deutsche Bank depuis le début des années 2010. Le consortium met au jour des défaillances délibérées des alertes anti-blanchiment liées notamment à des avoirs russes sous sanctions.",
+     "articles": [
+      "d76959f76426",
+      "573dc301999b"
+     ]
+    },
+    {
+     "titre": "Incidents sur des pétroliers dans le détroit d'Ormuz",
+     "texte": "L'Iran a rapporté que deux pétroliers ont été endommagés par des mines dans le détroit d'Ormuz, provoquant le naufrage de l'un d'eux. Washington surveille la situation sur cet axe clé du commerce énergétique mondial.",
+     "articles": [
+      "a266ed691346",
+      "c1ea386a1a5e"
+     ]
+    },
+    {
+     "titre": "Le baril de Brent passe sous 92 dollars",
+     "texte": "Les cours du pétrole brut Brent accentuent leur repli pour glisser sous la barre des 92 dollars le baril. Les marchés restent orientés à la baisse malgré les risques géopolitiques persistants au Moyen-Orient.",
+     "articles": [
+      "92dfac51fde5"
+     ]
+    },
+    {
+     "titre": "Restructuration de l'emploi chez Renault",
+     "texte": "Renault a engagé un plan de 1 000 départs volontaires en France tout en programmant 2 000 recrutements sur deux à trois ans. Cette réorganisation industrielle vise à renforcer sa compétitivité face aux constructeurs automobiles chinois.",
+     "articles": [
+      "cd0cc10eaa11"
+     ]
+    },
+    {
+     "titre": "Mise en garde de la Fed sur l'impact de l'IA",
+     "texte": "Kevin Warsh a souligné que l'intelligence artificielle aura des effets macroéconomiques majeurs tout en appelant à la vigilance sur les risques induits. La banque centrale américaine surveille les transformations structurelles liées à ces technologies.",
+     "articles": [
+      "257428df1322"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Progression du commerce Maroc-Mauritanie",
+     "texte": "Les échanges commerciaux entre le Maroc et la Mauritanie se sont établis à près de 3,7 milliards de dirhams en 2025, affichant une progression de 15 % sur un an. Cette hausse reflète le renforcement de la coopération économique bilatérale.",
+     "articles": [
+      "7055c585e668"
+     ]
+    },
+    {
+     "titre": "Création d'une zone franche commerciale en Algérie",
+     "texte": "Le gouvernement algérien a promulgué le décret exécutif fixant le cadre juridique et géographique de la zone franche commerciale d'In Guezzam. Cette initiative vise à développer les flux marchands transfrontaliers.",
+     "articles": [
+      "db36cf461db6"
+     ]
+    },
+    {
+     "titre": "Zambie : nouvel objectif de production électrique",
+     "texte": "La Zambie a relevé sa cible de capacité de production d'électricité pour atteindre 11 000 mégawatts à l'horizon 2031. Les autorités cherchent à combler leur déficit énergétique et à soutenir l'industrie locale.",
+     "articles": [
+      "dfb3b1de09c5"
+     ]
+    },
+    {
+     "titre": "Accélération de l'inflation au Ghana",
+     "texte": "L'indice des prix à la consommation a progressé de 5,5 % sur un an en octobre au Ghana. Ce rebond signale une persistance des tensions inflationnistes dans le pays.",
+     "articles": [
+      "7a9f9b48c2fb"
+     ]
+    },
+    {
+     "titre": "Projet d'eau potable au Maroc soutenu par la BAD",
+     "texte": "La Banque africaine de développement accompagne un programme marocain d'amélioration technique et commerciale du réseau d'eau potable. Le plan vise à accroître la sécurisation de l'approvisionnement en eau.",
+     "articles": [
+      "7cf8f1fac160"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Cyberattaques contre les distributeurs alimentaires européens",
+     "texte": "Une vague de cyberattaques a visé les installations de réfrigération de supermarchés en Europe, contraignant les enseignes à détruire d'importants volumes de denrées. Les autorités examinent l'origine de ce piratage contre des infrastructures critiques de distribution.",
+     "articles": [
+      "b0ee1ca260bf",
+      "b04add418cf1"
+     ]
+    },
+    {
+     "titre": "Contraction des recrutements sous l'effet de l'IA",
+     "texte": "Selon une étude de Coface et de l'Observatoire des emplois, le recours à l'intelligence artificielle a supprimé 100 000 ouvertures de postes en 2026. L'impact se traduit par une baisse nette des offres d'emploi sans se limiter aux profils juniors.",
+     "articles": [
+      "4a97dc0df20b"
+     ]
+    },
+    {
+     "titre": "Revolut placée sous administration judiciaire",
+     "texte": "La néobanque Revolut fait l'objet d'une procédure de mise sous administration judiciaire. Cette mesure souligne les fragilités opérationnelles ou réglementaires pesant sur certaines grandes fintechs européennes.",
+     "articles": [
+      "0ecb0985d94a"
+     ]
+    },
+    {
+     "titre": "Salon Business Solutions Expo",
+     "texte": "Le salon Business Solutions Expo réunit entreprises et prestataires technologiques pour accélérer la digitalisation des organisations. L'événement met l'accent sur le partage d'expertises et de solutions numériques d'entreprise.",
+     "articles": [
+      "4fcab0ff0485"
+     ]
+    },
+    {
+     "titre": "Cartographie des startups européennes de modèles de monde",
+     "texte": "Une étude dresse le panorama des startups européennes développant des modèles de monde pour l'intelligence artificielle. Ce segment émergent attire des capitaux en vue de doter les systèmes d'IA d'une meilleure compréhension de l'environnement physique.",
+     "articles": [
+      "d4cb68e5aa7b"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "00585d5067fb": {
+   "titre": "Budget 2027: Les deux chambres parlementaires entament l'examen de la mission du...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20809628-budget-2027-les",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "01e4118ddff9": {
+   "titre": "Enseignement supérieur : les députés jugent le budget 2027 insuffisant pour la recherche",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20810190-enseignement",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "07ea6757c66d": {
+   "titre": "UBCI-BERD : Un nouveau financement vert au profit des entreprises tunisiennes",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/ubci-berd-un-nouveau-financement-vert-au-profit-des-entreprises-tunisiennes_65764",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T19:09:27+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0ecb0985d94a": {
+   "titre": "Revolut sous administration judiciaire e...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/international-europe/revolut-sous-administration-judiciaire-en-italie-42-millions-d-euros-de-flux-suspects-dans-le-viseur",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T20:08:38.469190+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "12ef767d51b2": {
+   "titre": "45 Actualités Commerce extérieur : le ministère mise sur la simplification des procédures grâce au guichet unique... Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/commerce-exterieur-le-ministere-mise-sur-la-simplification-des-procedures-grace-au-guichet-unique-electronique/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T20:08:38.469190+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "257428df1322": {
+   "titre": "Fed-L'IA aura un \"impact significatif\" et il faut rester vigilant face aux risques, dit Warsh",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20809082-fed-l-ia-aura-un",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T20:08:38.469190+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2d5d61b22154": {
+   "titre": "Budget 2027: 1400 MD pour aménager 56 mille hectares irrigués (ministre de l'agriculture)",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20809932-budget-2027-1400",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "30c70f726200": {
+   "titre": "Les réserves de devises descendent sous...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-devises/les-reserves-de-devises-descendent-sous-les-90-jours-d-importation",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T20:08:38.469190+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4a97dc0df20b": {
+   "titre": "L’utilisation de l’IA a fait disparaître 100 000 offres d’emploi en 2026, et cela ne concerne pas forcément que les débutants, selon une étude",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/17/l-essor-de-l-ia-ralentit-les-recrutements-des-metiers-les-plus-automatisables-au-dela-des-postes-juniors_6812918_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:30:09+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "4fcab0ff0485": {
+   "titre": "Business Solutions Expo : une nouvelle édition pour connecter entreprises, technologies et expertise",
+   "source": "Entreprises Magazine",
+   "url": "https://www.entreprises-magazine.com/business-solutions-expo-une-nouvelle-edition-pour-connecter-entreprises-technologies-et-expertise/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "573dc301999b": {
+   "titre": "« Inside Deutsche Bank » : les secrets inavouables du géant bancaire révélés par 15 millions de documents confidentiels",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/17/inside-deutsche-bank-les-secrets-inavouables-du-geant-bancaire-reveles-par-15-millions-de-documents-confidentiels_6812911_4355770.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T06:58:02+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "58b484c2e36d": {
+   "titre": "5 Actualités Budget 2027 : les missions des affaires étrangères et de l’éducation à l’ordre du jour Il y a 1 minute",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/budget-2027-les-missions-des-affaires-etrangeres-et-de-leducation-a-lordre-du-jour/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5ffb7a8a5b38": {
+   "titre": "Bourse de Tunis : Le Tunindex repasse el...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-analyse-marche/bourse-de-tunis-le-tunindex-repasse-els-19-000-points",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T20:08:38.469190+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6039c6813dd2": {
+   "titre": "65 Actualités Tunisie : Les avoirs en devises tombent sous la barre des 90 jours Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-les-avoirs-en-devises-tombent-sous-la-barre-des-90-jours/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6677370b6242": {
+   "titre": "127 Economie Bourse de Tunis, le Tunindex à 19 077 points, 11,5% sous son sommet de juillet Il y a 10 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/bourse-de-tunis-le-tunindex-a-19-077-points-115-sous-son-sommet-de-juillet/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7055c585e668": {
+   "titre": "Maroc-Mauritanie: les échanges commerciaux s’envolent de 15%",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/maroc-mauritanie-les-echanges-commerciaux-senvolent-de-15/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T08:35:41+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7a9f9b48c2fb": {
+   "titre": "Ghana: l'inflation accélère à 5,5 % en octobre",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20810782-ghana-l-inflation",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7cf8f1fac160": {
+   "titre": "PPM - Maroc - Projet de renforcement de la production et d’amélioration de la performance technique et commerciale de l’eau potable (simplifié) - PRPTC",
+   "source": "African Development Bank Group",
+   "url": "https://www.afdb.org/en/documents/ppm-maroc-projet-renforcement-production-98619",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T21:11:09+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "833c3af412dd": {
+   "titre": "Nécessité de mettre en place un guichet unique électronique du commerce extérieur",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20808984-nécessité-de-mettre",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T20:08:38.469190+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8d8877df683c": {
+   "titre": "Le CMF menace un fonds privé, mais ferme les yeux sur Tunisair",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/16/le-cmf-menace-un-fonds-prive-mais-ferme-les-yeux-sur-tunisair/1429021/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T19:27:09+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "923248cdbfbb": {
+   "titre": "Ferjani: 239 MDT pour la modernisation des équipements médicaux",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/ferjani-239-mdt-pour-la-modernisation-des-equipements-medicaux/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T08:26:49+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "92dfac51fde5": {
+   "titre": "29 Actualités Le Brent poursuit sa chute et le baril tombe sous les 92 dollars Il y a 40 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/le-brent-poursuit-sa-chute-et-le-baril-tombe-sous-les-92-dollars/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "98ffbbc51b80": {
+   "titre": "Budget 2027 : L'Enseignement supérieur consacre 241 MD aux bourses et prêts universitaires (Belaïd)",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20810239-budget-2027",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9f8795a97466": {
+   "titre": "La bière, le vin et les boissons alcoolisées échappent-ils à une hausse des taxes en 2027 ?",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/17/la-biere-le-vin-et-les-boissons-alcoolisees-echappent-ils-a-une-hausse-des-taxes-en-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9f9a1323e034": {
+   "titre": "Le CMF épingle une société de capital-risque d’amorçage",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/16/le-cmf-epingle-une-societe-de-capital-risque-damorcage/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T20:08:38.469190+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a098669d5208": {
+   "titre": "Caisses sociales : Maher Ketari met en cause la gestion des cotisations des Tunisiens",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/16/caisses-sociales-maher-ketari-met-en-cause-la-gestion-des-cotisations-des-tunisiens/1429023/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T19:40:05+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a266ed691346": {
+   "titre": "56 International Iran–États-Unis : un pétrolier en feu à Ormuz, Washington examine une menace Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/iran-etats-unis-j153-17-novembre-2026-ormuz-cnn-oman/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b04add418cf1": {
+   "titre": "Quelle riposte pour la France après la cyberattaque contre les réfrigérateurs de supermarché attribuée à l’Iran ?",
+   "source": "Le Monde.fr",
+   "url": "https://www.lemonde.fr/international/article/2026/11/16/quelle-riposte-pour-la-france-apres-la-cyberattaque-contre-les-refrigerateurs-de-supermarches-attribuee-a-l-iran_6812232_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T18:52:41+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "b0ee1ca260bf": {
+   "titre": "Kiosque international",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/16/kiosque-international-66/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T20:00:03+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b2fcb23f7f8a": {
+   "titre": "One Tech, un bloc & une filiale en route vers la cote",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/one-tech-un-bloc-une-filiale-en-route-vers-la-cote/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T20:19:51+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "bf588a0c0ce1": {
+   "titre": "Budget 2027: le projet de code des eaux atteint un stade avancé (ministre de...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20809895-budget-2027-le",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c1ea386a1a5e": {
+   "titre": "Détroit d’Ormuz : L’Iran fait état de deux pétroliers en feu",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/16/detroit-dormuz-liran-fait-etat-de-deux-petroliers-en-feu/",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T19:45:06+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "cd0cc10eaa11": {
+   "titre": "Renault va supprimer plus d’un millier de postes en France pour être plus compétitif face à la concurrence chinoise",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/16/renault-va-supprimer-plus-d-un-millier-de-postes-en-france-pour-etre-plus-competitif-face-a-la-concurrence-chinoise_6812360_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T20:59:33+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "d4cb68e5aa7b": {
+   "titre": "Startups européennes des modèles de monde : la cartographie",
+   "source": "Sifted",
+   "url": "https://sifted.eu/articles/europe-world-models-mapped/",
+   "url_traduite": "https://sifted-eu.translate.goog/articles/europe-world-models-mapped/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-17T06:00:47+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Europe's world models startups: mapped"
+  },
+  "d76959f76426": {
+   "titre": "« Inside Deutsche Bank », une enquête de 230 journalistes et 50 médias sur 15 millions de fichiers",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/17/inside-deutsche-bank-une-enquete-de-230-journalistes-et-50-medias-sur-15-millions-de-fichiers_6812914_4355770.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:00:06+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "db36cf461db6": {
+   "titre": "Algérie: création de la zone franche commerciale In Guezzam",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/algerie-creation-de-la-zone-franche-commerciale-in-guezzam/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T08:31:53+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "dfb3b1de09c5": {
+   "titre": "La Zambie relève à 11.000 MW son objectif de production électrique à l’horizon 2031",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20810769-la-zambie-relève-à",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T07:34:56.556903+00:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
