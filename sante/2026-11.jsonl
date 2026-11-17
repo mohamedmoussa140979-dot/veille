@@ -155,3 +155,13 @@
 {"t": "2026-11-17T08:39:16.147420+01:00", "niveau": "info", "code": "collecte_terminee", "message": "92 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "44", "sources_en_erreur": "5", "lus": "1667", "rejetes": "9", "resolutions": "18", "resolutions_echec": "9"}}
 {"t": "2026-11-17T08:54:28.849332+01:00", "niveau": "avertissement", "code": "gemini_modele_echec", "message": "gemini-flash-latest : HTTP None POST generativelanguage.googleapis.com : ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=180)", "ctx": {"tour": "1"}}
 {"t": "2026-11-17T08:59:09.943646+01:00", "niveau": "info", "code": "edition_produite", "message": "2026-11-17-matin", "ctx": {"sujets": "24", "articles": "37", "modele": "gemini-flash-latest"}}
+{"t": "2026-11-17T09:35:26.216795+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gnews"}}
+{"t": "2026-11-17T09:35:43.886900+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gnews"}}
+{"t": "2026-11-17T09:36:15.027584+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-17T09:37:36.095147+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-17T09:38:14.535516+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-17T09:38:51.553076+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-17T09:39:28.144914+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-17T09:40:04.247562+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-17T09:40:48.674444+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 403", "ctx": {"flux": "Finextra"}}
+{"t": "2026-11-17T09:40:50.895464+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 2, \"gdelt\": 6, \"flux\": 1}", "ctx": {}}
