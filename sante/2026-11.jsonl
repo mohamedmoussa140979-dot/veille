@@ -255,3 +255,6 @@
 {"t": "2026-11-18T12:18:50.606345+01:00", "niveau": "info", "code": "collecte_terminee", "message": "79 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "48", "sources_en_erreur": "1", "lus": "1915", "rejetes": "8", "resolutions": "16", "resolutions_echec": "0"}}
 {"t": "2026-11-18T14:30:08.894746+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
 {"t": "2026-11-18T14:31:24.270200+01:00", "niveau": "info", "code": "collecte_terminee", "message": "104 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "1969", "rejetes": "13", "resolutions": "13", "resolutions_echec": "0"}}
+{"t": "2026-11-18T16:11:47.389079+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-18T16:12:06.699489+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "france24-eco"}}
+{"t": "2026-11-18T16:13:02.051907+01:00", "niveau": "info", "code": "collecte_terminee", "message": "64 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "48", "sources_en_erreur": "1", "lus": "1932", "rejetes": "8", "resolutions": "9", "resolutions_echec": "0"}}
