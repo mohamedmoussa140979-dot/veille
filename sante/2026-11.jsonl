@@ -247,3 +247,6 @@
 {"t": "2026-11-18T09:41:06.603204+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
 {"t": "2026-11-18T09:41:06.694005+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 403", "ctx": {"flux": "Finextra"}}
 {"t": "2026-11-18T09:41:12.191878+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 6, \"flux\": 1}", "ctx": {}}
+{"t": "2026-11-18T10:19:00.642052+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-18T10:19:21.564421+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "finextra"}}
+{"t": "2026-11-18T10:19:56.067660+01:00", "niveau": "info", "code": "collecte_terminee", "message": "67 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "48", "sources_en_erreur": "1", "lus": "1913", "rejetes": "17", "resolutions": "6", "resolutions_echec": "0"}}
