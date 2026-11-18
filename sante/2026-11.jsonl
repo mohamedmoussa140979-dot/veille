@@ -253,3 +253,5 @@
 {"t": "2026-11-18T12:17:18.504380+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
 {"t": "2026-11-18T12:17:42.372794+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "finextra"}}
 {"t": "2026-11-18T12:18:50.606345+01:00", "niveau": "info", "code": "collecte_terminee", "message": "79 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "48", "sources_en_erreur": "1", "lus": "1915", "rejetes": "8", "resolutions": "16", "resolutions_echec": "0"}}
+{"t": "2026-11-18T14:30:08.894746+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-18T14:31:24.270200+01:00", "niveau": "info", "code": "collecte_terminee", "message": "104 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "1969", "rejetes": "13", "resolutions": "13", "resolutions_echec": "0"}}
