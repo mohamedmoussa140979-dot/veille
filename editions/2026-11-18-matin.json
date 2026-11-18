@@ -1,0 +1,816 @@
+{
+ "version": 1,
+ "id": "2026-11-18-matin",
+ "date": "2026-11-18",
+ "edition": "matin",
+ "genere_le": "2026-11-18T08:50:42+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19105.85,
+   "variation_pct": 0.15,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-17"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3624,
+   "variation_pct": -0.08,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-16"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 91.78,
+   "variation_pct": -1.46,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-18"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "La BERD et l'UE déploient 65,8 millions de dollars pour soutenir la transition écologique des PME tunisiennes, alors que les réserves en devises tombent à 88 jours d'importation.",
+   "articles": [
+    "ce480b35d831",
+    "9f4b4f5ecef9",
+    "bcc86e236fca"
+   ]
+  },
+  {
+   "texte": "Sur la cote tunisienne, Tunisair convoque une AGE stratégique sur la poursuite de son activité, tandis que SAH prépare une attribution d'actions gratuites.",
+   "articles": [
+    "aeec532c4cdc",
+    "2ecabc443316"
+   ]
+  },
+  {
+   "texte": "À l'international, les tensions au Moyen-Orient font rebondir le pétrole tandis que l'or chute sous la barre des 3 800 dollars l'once.",
+   "articles": [
+    "d8aa22377855",
+    "4359cb8e11fd"
+   ]
+  },
+  {
+   "texte": "En Afrique, le groupe Coris prépare la cotation à la BRVM de ses filiales en Côte d'Ivoire et au Bénin, et Orange alloue 250 millions d'euros à la tech régionale.",
+   "articles": [
+    "d84bd9fe3bb2",
+    "8aaf0cc16b79"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Financement vert pour les PME tunisiennes",
+     "texte": "La BERD et l'Union européenne mobilisent un programme de 65,8 millions de dollars (environ 60 millions d'euros) dédié à la transition écologique des PME et au développement de l'économie verte en Tunisie.",
+     "articles": [
+      "ce480b35d831",
+      "bcc86e236fca"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Repli des réserves de devises",
+     "texte": "Les avoirs en devises de la Tunisie ont enregistré un recul, ramenant la couverture des importations à 88 jours.",
+     "articles": [
+      "9f4b4f5ecef9"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Échéancier FMI pour la Tunisie",
+     "texte": "Le FMI a actualisé le calendrier des paiements projetés dus par la Tunisie sur l'année 2026.",
+     "articles": [
+      "6c0b29c8d563"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Examen du budget 2027 dédié à l'éducation",
+     "texte": "Les débats parlementaires sur le budget 2027 de l'Éducation ont mis en lumière le manque d'encadrement, les faiblesses des transports scolaires et la nécessité d'un contrôle accru sur le secteur privé.",
+     "articles": [
+      "932b3c7b0e86",
+      "78082a93983e",
+      "1982179af583",
+      "fcc69494e8bd",
+      "f7e94d156b9a"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Diplomatie économique et services consulaires",
+     "texte": "Les députés préconisent la numérisation des démarches consulaires et l'intensification de la diplomatie économique pour captiver davantage d'investissements extérieurs.",
+     "articles": [
+      "49a1c54da9f6",
+      "9f825f0163bc"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-17",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19105.85,
+      "variation_pct": 0.15,
+      "variation_annee_pct": 42.05,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14531.28,
+      "variation_pct": 0.08,
+      "variation_annee_pct": 50.28,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "plast",
+      "libelle": "OFFICE PLAST",
+      "valeur": 1.27,
+      "variation_pct": 5.83,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "scb",
+      "libelle": "CIMENTS DE BIZERTE",
+      "valeur": 0.56,
+      "variation_pct": 3.7,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "hl",
+      "libelle": "HANNIBAL LEASE",
+      "valeur": 9.9,
+      "variation_pct": 3.23,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "tgh",
+      "libelle": "TAWASOL",
+      "valeur": 0.73,
+      "variation_pct": -6.41,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "mag",
+      "libelle": "MAGASIN GENERAL",
+      "valeur": 12.1,
+      "variation_pct": -4.35,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "bnass",
+      "libelle": "BNA ASSURANCES",
+      "valeur": 3.85,
+      "variation_pct": -2.78,
+      "au": "2026-11-17",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "SAH : attribution d'actions gratuites",
+     "texte": "La société SAH envisage d'effectuer une distribution d'actions gratuites au bénéfice de ses actionnaires.",
+     "articles": [
+      "aeec532c4cdc"
+     ]
+    },
+    {
+     "titre": "Tunisair : décisions sur la poursuite d'activité",
+     "texte": "La compagnie aérienne nationale convoque une AGO et une AGE le 15 décembre 2026 pour valider les états financiers 2024 et statuer sur la continuité de son exploitation.",
+     "articles": [
+      "2ecabc443316"
+     ]
+    },
+    {
+     "titre": "Clôture du Tunindex à +0,15 %",
+     "texte": "La Bourse de Tunis s'est appréciée de 0,15 % à 19 105,85 points avec un volume échangé de 11 MDT, tiré à hauteur de 4,8 MDT par le titre Poulina Group Holding.",
+     "articles": [
+      "a236c768cca9",
+      "d2ae7f4962ad",
+      "0f4167d72ff6"
+     ]
+    },
+    {
+     "titre": "Concession saline de 1 200 hectares à Zarzis",
+     "texte": "Une concession de 25 ans a été attribuée pour l'exploitation d'un site d'extraction de sel de 1 200 hectares situé à Zarzis.",
+     "articles": [
+      "92c4f8fa8185"
+     ]
+    },
+    {
+     "titre": "Positionnement sectoriel de SOTETEL",
+     "texte": "Les perspectives d'activité de SOTETEL mettent en avant sa trajectoire pour 2027.",
+     "articles": [
+      "b39dca1fda6f"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 91.78,
+      "unite": "USD le baril",
+      "variation_pct": -1.46,
+      "au": "2026-11-18",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.186,
+      "unite": "USD par MMBtu",
+      "variation_pct": -0.69,
+      "au": "2026-11-18",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3767.7,
+      "unite": "USD l'once",
+      "variation_pct": -2.5,
+      "au": "2026-11-18",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 602.75,
+      "unite": "cents le boisseau",
+      "variation_pct": -1.23,
+      "au": "2026-11-18",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7340.53,
+      "unite": "points",
+      "variation_pct": -1.03,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 6212.11,
+      "unite": "points",
+      "variation_pct": -2.15,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 8216.78,
+      "unite": "points",
+      "variation_pct": -1.62,
+      "au": "2026-11-17",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0976,
+      "unite": "",
+      "variation_pct": -0.24,
+      "au": "2026-11-18",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3624,
+      "unite": "dinars",
+      "variation_pct": -0.08,
+      "au": "2026-11-16",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0501,
+      "unite": "dinars",
+      "variation_pct": 0.38,
+      "au": "2026-11-16",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Propositions au directoire de la BCE",
+     "texte": "L'Allemagne propose Markus Brunnermeier au directoire de la Banque centrale européenne, tandis que la France pressent Laurence Boone pour superviser les marchés financiers.",
+     "articles": [
+      "df10b5bc1af1"
+     ]
+    },
+    {
+     "titre": "Recherche d'un nouveau directoire chez Nvidia",
+     "texte": "Le conseil d'administration de Nvidia exclut tout retour de son cofondateur Jensen Huang et recherche son successeur, dans un contexte d'auditions prévues au Congrès américain.",
+     "articles": [
+      "a2fed26f1809",
+      "89d7c0cebd87",
+      "c7321701f3b7"
+     ]
+    },
+    {
+     "titre": "Sursaut des cours du pétrole au Moyen-Orient",
+     "texte": "Le regain des tensions géopolitiques dans le Golfe et les frappes sur l'île de Qeshm entraînent un redressement immédiat des prix du pétrole.",
+     "articles": [
+      "d8aa22377855"
+     ]
+    },
+    {
+     "titre": "L'or repasse sous les 3 800 dollars",
+     "texte": "Le cours de l'once d'or a chuté sous le seuil des 3 800 dollars, enregistrant son niveau le plus bas depuis plus de douze mois.",
+     "articles": [
+      "4359cb8e11fd"
+     ]
+    },
+    {
+     "titre": "Plaidoyer de la Chine en faveur du libre-échange",
+     "texte": "S'exprimant lors du sommet de l'APEC, le président Xi Jinping s'est prononcé en faveur d'un commerce mondial ouvert et multilatéral.",
+     "articles": [
+      "e35ab8fbbf16"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Introductions en bourse des filiales de Coris",
+     "texte": "Le groupe financier Coris structure l'introduction sur la BRVM de ses entités actives au Bénin et en Côte d'Ivoire.",
+     "articles": [
+      "8aaf0cc16b79"
+     ]
+    },
+    {
+     "titre": "Stratégie de croissance rentable chez NSIA",
+     "texte": "Le groupe financier NSIA déploie son plan opérationnel destiné à convertir sa hausse d'activité en hausse de rentabilité.",
+     "articles": [
+      "4e327ef0e72f"
+     ]
+    },
+    {
+     "titre": "Concurrence sur le marché ivoirien du ciment",
+     "texte": "Les groupes Dangote, CIMAF et LafargeHolcim s'affrontent sur le secteur du ciment en Côte d'Ivoire.",
+     "articles": [
+      "9a50ee2cd490"
+     ]
+    },
+    {
+     "titre": "Orange investit 250 M€ dans les startups",
+     "texte": "La filiale de capital-risque d'Orange sera dotée de 250 millions d'euros pour financer les startups africaines sur la période 2027-2032.",
+     "articles": [
+      "d84bd9fe3bb2"
+     ]
+    },
+    {
+     "titre": "Repli des indices de la BRVM",
+     "texte": "La Bourse Régionale des Valeurs Mobilières clôture sa séance dans le rouge sous l'effet de ventes généralisées.",
+     "articles": [
+      "27730255223c"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Procès fixé pour Apple en 2027",
+     "texte": "Apple comparaîtra en juin 2027 devant le tribunal de Paris pour des accusations de blocage logiciel des réparations indépendantes et d'obsolescence programmée.",
+     "articles": [
+      "f115671e864b",
+      "20703675835f"
+     ]
+    },
+    {
+     "titre": "Le financement circulaire de l’IA menace la stabilité financière mondiale",
+     "texte": "Le financement circulaire de l’IA menace la stabilité financière mondiale",
+     "articles": [
+      "0a58f8b4ef4d"
+     ]
+    },
+    {
+     "titre": "Cassava recherche 1 milliard de dollars",
+     "texte": "La société Cassava entame des démarches pour lever 1 milliard de dollars consacrés au déploiement de projets liés à l'IA.",
+     "articles": [
+      "e807e09c0690"
+     ]
+    },
+    {
+     "titre": "Suspension de Starlink et mouvements télécoms",
+     "texte": "Starlink est contraint de stopper ses services en Afrique du Sud, pendant que des rapprochements de participations s'opèrent sur les Bourses africaines.",
+     "articles": [
+      "b5de0a1e54f6"
+     ]
+    },
+    {
+     "titre": "Projet d'introduction en bourse d'Anthropic",
+     "texte": "L'IPO d'Anthropic sur la base d'une valorisation de 1 400 milliards de dollars représente une étape majeure pour le secteur de l'IA.",
+     "articles": [
+      "66cf9936b286"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "0a58f8b4ef4d": {
+   "titre": "Le financement circulaire de l’IA menace la stabilité financière mondiale",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/18/le-financement-circulaire-de-lia-menace-la-stabilite-financiere-mondiale/",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T07:32:00.428877+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0f4167d72ff6": {
+   "titre": "Amen se maintient et la BT prend 1 % dopé par son PNB",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/amen-se-maintient-et-la-bt-prend-1-dope-par-son-pnb/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T19:29:39+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1982179af583": {
+   "titre": "Éducation: Les députés pointent le manque de directeurs, le transport scolaire et le contrôle du privé lors du débat sur le budget 2027",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20813976-éducation-les",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T20:16:45.988511+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "20703675835f": {
+   "titre": "France : Apple sera jugé en juin 2027 pour des soupçons d'obsolescence programmée",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20813999-france-apple-sera",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T20:16:45.988511+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "27730255223c": {
+   "titre": "BRVM : Un marché peint en rouge",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/brvm-un-marche-peint-en-rouge_65794",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T16:49:44+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2ecabc443316": {
+   "titre": "Tunisair convoque ses actionnaires pour décider à nouveau de la poursuite de son activité",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/17/tunisair-convoque-ses-actionnaires-pour-decider-a-nouveau-de-la-poursuite-de-son-activite/1429216/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T20:58:20+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4359cb8e11fd": {
+   "titre": "18 Actualités L’or tombe sous les 3 800 dollars l’once, son plus bas niveau depuis plus d’un... Il y a 10 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/lor-tombe-sous-les-3-800-dollars-lonce-son-plus-bas-niveau-depuis-plus-dun-an/",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T07:32:00.428877+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "49a1c54da9f6": {
+   "titre": "Nafti mise sur la diplomatie économique pour mobiliser les financements et attirer les...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Politique/20814156-nafti-mise-sur-la",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T07:32:00.428877+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4e327ef0e72f": {
+   "titre": "Comment NSIA compte convertir sa forte croissance en rentabilité",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1862324/economie-entreprises/comment-nsia-compte-convertir-sa-forte-croissance-en-rentabilite/",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T08:00:56+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "66cf9936b286": {
+   "titre": "L'introduction en bourse d'Anthropic à 1 400 milliards de dollars met à l'épreuve le boom de l'IA en Europe",
+   "source": "Sifted",
+   "url": "https://sifted.eu/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/",
+   "url_traduite": "https://sifted-eu.translate.goog/articles/anthropic-ipo-puts-europe-ai-boom-to-the-test/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-18T06:00:46+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Anthropic’s $1.4tn IPO puts Europe’s AI boom to the test"
+  },
+  "6c0b29c8d563": {
+   "titre": "FMI | Tunisie : paiements projetés au FMI au 31 mai 2022 du 1er janvier 2026 au 31 décembre 2026",
+   "source": "International Monetary Fund | IMF",
+   "url": "https://www.imf.org/external/np/fin/tad/extforth.aspx?memberKey1=970&date1key=2022-05-31&category=FORTH&year=2026&trxtype=REPCHG&overforth=F&schedule=exp",
+   "url_traduite": "https://www-imf-org.translate.goog/external/np/fin/tad/extforth.aspx?memberKey1=970&date1key=2022-05-31&category=FORTH&year=2026&trxtype=REPCHG&overforth=F&schedule=exp&_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-17T15:00:59+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Tunisia : Projected Payments to the IMF as of May 31, 2022 from January 01, 2026 to December 31, 2026"
+  },
+  "78082a93983e": {
+   "titre": "Les députés dénoncent les défaillances du système éducatif lors de l’examen du budget 2027",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20814362-les-députés",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T07:32:00.428877+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "89d7c0cebd87": {
+   "titre": "Le conseil d'administration de Nvidia ferme la porte à un retour de son ex-patron Jensen Huang",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261117-conseil-administration-nvidia-semi-conducteurs-ferme-porte-retour-ex-patron-jensen-huang-harvey-jones-resultats-ia",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T00:51:46+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8aaf0cc16b79": {
+   "titre": "BRVM : Le groupe Coris prépare l’introduction en bourse de ses filiales de Côte d’Ivoire et du Bénin",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/brvm-le-groupe-coris-prepare-lintroduction-en-bourse-de-ses-filiales-de-cote-divoire-et-du-benin_65787",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T14:17:01+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "92c4f8fa8185": {
+   "titre": "90 Actualités Zarzis : une concession d’exploitation de sel de 1 200 hectares accordée pour 25 ans Il y a 2 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/zarzis-une-concession-dexploitation-de-sel-de-1-200-hectares-accordee-pour-25-ans/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T20:16:45.988511+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "932b3c7b0e86": {
+   "titre": "Budget 2027 : la réforme de l'école publique nécessite un projet national intégré...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20815155-budget-2027-la",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T07:32:00.428877+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9a50ee2cd490": {
+   "titre": "Dangote, CIMAF, LafargeHolcim, Dossongui.. : Qui domine le marché du ciment en Côte d’Ivoire ?",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/dangote-cimaf-lafargeholcim-dossongui-qui-domine-le-marche-du-ciment-en-cote-divoire-_65797",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T21:44:07+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9f4b4f5ecef9": {
+   "titre": "73 Actualités Tunisie : Les avoirs en devises tombent à 88 jours d’importation Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-les-avoirs-en-devises-tombent-a-88-jours-dimportation/",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T07:32:00.428877+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9f825f0163bc": {
+   "titre": "Tunisiens à l’étranger : les députés réclament des services consulaires numérisés et des procédures simplifiées",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/17/tunisiens-a-letranger-les-deputes-reclament-des-services-consulaires-numerises-et-des-procedures-simplifiees/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T18:16:12+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a236c768cca9": {
+   "titre": "168 Economie Tunindex : 24 titres en hausse, 30 en baisse, et pourtant l’indice progresse Il y a 10 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunindex-24-titres-en-hausse-30-en-baisse-et-pourtant-lindice-progresse/",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T07:32:00.428877+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a2fed26f1809": {
+   "titre": "Nvidia : l’affaire Jensen Huang révèle les failles de l’administration Trump sur la Chine",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/18/nvidia-l-affaire-jensen-huang-revele-les-failles-de-l-administration-trump-sur-la-chine_6813087_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T08:30:16+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "aeec532c4cdc": {
+   "titre": "Une attribution d’actions gratuites pour les actionnaires de SAH",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/18/une-attribution-dactions-gratuites-pour-les-actionnaires-de-sah/",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T07:32:00.428877+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b39dca1fda6f": {
+   "titre": "Forum, SOTETEL le leader de 2027",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/forums/342048_sotetel-le-leader-de-2027",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T14:11:50+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b5de0a1e54f6": {
+   "titre": "TechCabal Daily – « Starlink, vous avez été servi »",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/18/techcabal-daily-starlink-youve-been-served/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/18/techcabal-daily-starlink-youve-been-served/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-18T06:35:33+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "👨🏿‍🚀TechCabal Daily – ‘Starlink, you’ve been served’"
+  },
+  "bcc86e236fca": {
+   "titre": "Tunisie : 65,8 millions $ de la BERD et de l’UE pour accompagner la transition écologique des PME",
+   "source": "AGENCE ECOFIN",
+   "url": "https://www.agenceecofin.com/actualites-finance/1811-143522-tunisie-65-8-millions-de-la-berd-et-de-l-ue-pour-accompagner-la-transition-ecologique-des-pme",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T07:21:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c7321701f3b7": {
+   "titre": "Jensen Huang, ex-patron de Nvidia, sera entendu au Congrès, le 1ᵉʳ décembre, sur sa liaison avec une Chinoise soupçonnée d’espionnage",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/international/article/2026/11/17/jensen-huang-ex-patron-de-nvidia-sera-entendu-au-congres-le-1-decembre-sur-sa-liaison-avec-une-chinoise-soupconnee-d-espionnage_6813021_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T18:42:16+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "ce480b35d831": {
+   "titre": "Programme de financement de l’économie verte en Tunisie",
+   "source": "Kapitalis",
+   "url": "https://kapitalis.com/tunisie/2026/11/18/programme-de-financement-de-leconomie-verte-en-tunisie/",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T07:56:32+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d2ae7f4962ad": {
+   "titre": "Bourse de Tunis : Le Tunindex en légère...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-analyse-marche/bourse-de-tunis-le-tunindex-en-legere-hausse-une-seance-animee-par-poulina-gh",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T20:16:45.988511+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d84bd9fe3bb2": {
+   "titre": "Orange dote sa filiale de capital-risque de 250 millions d’euros pour investir dans les startups sur la période 2027-32",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/orange-dote-sa-filiale-de-capital-risque-de-250-millions-deuros-pour-investir-dans-les-startups-sur-la-periode-2027-32_65796",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T18:32:49+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d8aa22377855": {
+   "titre": "29 Economie Iran–États-Unis : Qeshm frappée, Bahreïn et Koweït en alerte, le pétrole repart Il y a 40 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/iran-etats-unis-j154-18-novembre-2026-qeshm-petrole/",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T07:32:00.428877+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "df10b5bc1af1": {
+   "titre": "Banque centrale européenne : l’Allemagne propose l’économiste Markus Brunnermeier au directoire, la présidence de Pablo Hernandez de Cos se profile",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/17/banque-centrale-europeenne-l-allemagne-propose-l-economiste-markus-brunnermeier-au-directoire-la-presidence-de-pablo-hernandez-de-cos-se-profile_6813020_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T18:37:13+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "e35ab8fbbf16": {
+   "titre": "Au sommet de l'Apec, Xi appelle à un commerce libre et ouvert",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20815388-au-sommet-de",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T07:32:00.428877+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e807e09c0690": {
+   "titre": "TechCabal Daily – Cassava cherche 1 milliard de dollars pour l'IA",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/18/techcabal-daily-cassava-seeks-1-billion-for-ai/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/18/techcabal-daily-cassava-seeks-1-billion-for-ai/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-18T07:09:46+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "👨🏿‍🚀TechCabal Daily – Cassava seeks $1 billion for AI"
+  },
+  "f115671e864b": {
+   "titre": "France : Apple sera jugé en juin 2027 pour des soupçons d’obsolescence programmée",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/17/france-apple-sera-juge-en-juin-2027-pour-des-soupcons-dobsolescence-programmee/",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T21:41:20+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f7e94d156b9a": {
+   "titre": "Éducation: Les députés pointent le manque de directeurs, le transport scolaire et le...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Titres-de-l-actualité/20813976-éducation-les",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T20:16:45.988511+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fcc69494e8bd": {
+   "titre": "Budget de l'Etat 2027: Des députés soulignent l'importance de lancer un processus de...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20813624-budget-de-l-etat",
+   "url_traduite": null,
+   "publie_le": "2026-11-17T20:16:45.988511+00:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
