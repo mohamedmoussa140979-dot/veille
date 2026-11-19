@@ -292,3 +292,10 @@
 {"t": "2026-11-18T21:49:51.314551+01:00", "niveau": "info", "code": "sante_controle", "message": "10 anomalie(s)", "ctx": {"editions": "6", "alertes": "0"}}
 {"t": "2026-11-19T08:35:45.147391+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
 {"t": "2026-11-19T08:38:26.425853+01:00", "niveau": "info", "code": "collecte_terminee", "message": "114 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "1966", "rejetes": "16", "resolutions": "46", "resolutions_echec": "0"}}
+{"t": "2026-11-19T09:40:45.789387+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-19T09:41:30.346525+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-19T09:43:19.446795+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-19T09:43:54.741152+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-19T09:44:31.078077+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-19T09:45:07.454185+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-19T09:45:11.141882+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 6, \"flux\": 0}", "ctx": {}}
