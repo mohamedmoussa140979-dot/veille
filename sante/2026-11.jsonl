@@ -391,3 +391,5 @@
 {"t": "2026-11-20T16:11:27.066353+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 429", "ctx": {"source": "ft-tunisie"}}
 {"t": "2026-11-20T16:12:57.764296+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "GET www.wamda.com : ReadTimeout: HTTPSConnectionPool(host='www.wamda.com', port=443): Read timed out. (read timeout=25.0)", "ctx": {"source": "wamda"}}
 {"t": "2026-11-20T16:13:37.212933+01:00", "niveau": "info", "code": "collecte_terminee", "message": "52 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "47", "sources_en_erreur": "2", "lus": "1881", "rejetes": "12", "resolutions": "11", "resolutions_echec": "0"}}
+{"t": "2026-11-20T18:12:45.867739+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-20T18:14:16.137895+01:00", "niveau": "info", "code": "collecte_terminee", "message": "79 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "1959", "rejetes": "14", "resolutions": "15", "resolutions_echec": "0"}}
