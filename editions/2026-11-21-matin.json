@@ -1,0 +1,1127 @@
+{
+ "version": 1,
+ "id": "2026-11-21-matin",
+ "date": "2026-11-21",
+ "edition": "matin",
+ "genere_le": "2026-11-21T10:13:49+01:00",
+ "modele": "gemini-3-flash-preview",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19230.71,
+   "variation_pct": 0.39,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-20"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3772,
+   "variation_pct": 0.23,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-19"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 89.95,
+   "variation_pct": 0.57,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-20"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "Le projet de loi de finances 2027 introduit des mesures de soutien à l'exportation vers l'Afrique et un alignement de la TVA sur le leasing, tandis que la BCT dément toute taxe sur l'épargne.",
+   "articles": [
+    "c58cc5ba771d",
+    "218c8817ec1e",
+    "b83c3aede386",
+    "be0c819dbfa2",
+    "524a8430d38a",
+    "97865956bb6f",
+    "9455b0d25864",
+    "5cadd024b54a",
+    "f149b050fa07",
+    "4ad868119415"
+   ]
+  },
+  {
+   "texte": "L'investissement industriel déclaré progresse de 10 % sur dix mois et les exportations d'huile d'olive atteignent un record de 1,71 milliard de dollars.",
+   "articles": [
+    "19450b0df242",
+    "880837b3614e",
+    "0900bc922bce",
+    "405e2caf019d",
+    "184a44920ea5",
+    "dfec1a215554",
+    "67ca94588ced",
+    "9dc66cb29be4",
+    "d8102d0b946d"
+   ]
+  },
+  {
+   "texte": "Le marché boursier tunisien clôture la semaine en hausse de 1,3 %, porté par une performance annuelle de 43 % du Tunindex.",
+   "articles": [
+    "c4690a546938",
+    "a077379be43f",
+    "033a6c43dda8",
+    "0be6bad637ad",
+    "3637e6146735",
+    "d9b043cffb44",
+    "6a18d5f36a9c"
+   ]
+  },
+  {
+   "texte": "L'introduction en bourse record d'Anthropic est suivie d'une correction de 9 %, illustrant la volatilité des valeurs liées à l'intelligence artificielle à Wall Street.",
+   "articles": [
+    "d6bfa7ef0bd5",
+    "85303000369b",
+    "2b9f99abe0ae",
+    "30edc1451e0b",
+    "526636b08f1c"
+   ]
+  },
+  {
+   "texte": "Les négociations climatiques de la COP31 à Antalya se prolongent face aux désaccords sur le financement et l'avenir des énergies fossiles.",
+   "articles": [
+    "4268581f9988",
+    "fddc6335e837",
+    "a9fbd51ac7f5"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Mesures fiscales et économiques du PLF 2027",
+     "texte": "Le projet de loi de finances 2027 prévoit 40 MDT pour le cheptel, la prise en charge de 50 % des primes d'assurance export vers l'Afrique et l'alignement de la TVA du leasing sur le bien financé.",
+     "articles": [
+      "be0c819dbfa2",
+      "524a8430d38a",
+      "97865956bb6f",
+      "9455b0d25864",
+      "5cadd024b54a",
+      "f149b050fa07",
+      "4ad868119415"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": "Leasing : le coût des loyers s'ajustera selon la TVA du bien financé dès janvier 2027."
+    },
+    {
+     "titre": "Progression des investissements industriels",
+     "texte": "Les investissements industriels déclarés en Tunisie ont atteint 1,76 milliard de dinars à fin octobre 2026, marquant une croissance de 10 % sur un an.",
+     "articles": [
+      "880837b3614e",
+      "0900bc922bce",
+      "405e2caf019d",
+      "184a44920ea5",
+      "dfec1a215554",
+      "9dc66cb29be4"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Préparation du réseau électrique pour l'été 2027",
+     "texte": "Suite aux délestages de 2026, la STEG annonce de nouvelles capacités de production et de stockage pour répondre aux inquiétudes des industriels avant la prochaine saison estivale.",
+     "articles": [
+      "72b0d7fdcbb2",
+      "4d7420323035",
+      "88b6c7d49292",
+      "ad0f34164568"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Démenti de la BCT sur la taxe d'épargne",
+     "texte": "La Banque Centrale de Tunisie réfute officiellement les rumeurs circulant sur les réseaux sociaux concernant l'instauration d'un prélèvement de 12 % sur les comptes d'épargne.",
+     "articles": [
+      "c58cc5ba771d",
+      "218c8817ec1e",
+      "b83c3aede386"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": "Épargne : la BCT confirme l'absence de nouvelle taxe sur les intérêts ou les soldes."
+    },
+    {
+     "titre": "Records et nouveaux débouchés pour l'huile d'olive",
+     "texte": "La Tunisie a généré 1,71 milliard de dollars d'exportations d'huile d'olive en 2025-2026, tandis qu'Oman est envisagé comme plateforme logistique vers le Golfe et l'Asie.",
+     "articles": [
+      "19450b0df242",
+      "67ca94588ced",
+      "d8102d0b946d"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-20",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19230.71,
+      "variation_pct": 0.39,
+      "variation_annee_pct": 42.98,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14537.51,
+      "variation_pct": -0.04,
+      "variation_annee_pct": 50.34,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "sah",
+      "libelle": "SAH",
+      "valeur": 13.0,
+      "variation_pct": 4.84,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "sotuv",
+      "libelle": "SOTUVER",
+      "valeur": 27.0,
+      "variation_pct": 3.85,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tpr",
+      "libelle": "TPR",
+      "valeur": 14.3,
+      "variation_pct": 2.88,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "sokna",
+      "libelle": "ESSOUKNA",
+      "valeur": 4.9,
+      "variation_pct": -3.92,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "stpap",
+      "libelle": "SOTIPAPIER",
+      "valeur": 2.49,
+      "variation_pct": -3.49,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "nbl",
+      "libelle": "NEW BODY LINE",
+      "valeur": 2.28,
+      "variation_pct": -3.39,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Emprunt obligataire de la CIL",
+     "texte": "La Compagnie Internationale de Leasing lance une émission obligataire d'un montant de 50 millions de dinars.",
+     "articles": [
+      "745f4bf23c8a"
+     ]
+    },
+    {
+     "titre": "Performance hebdomadaire de la Bourse de Tunis",
+     "texte": "Le Tunindex a progressé de 1,3 % cette semaine pour s'établir à 19 230,71 points, portant son rendement annuel à 43 %.",
+     "articles": [
+      "c4690a546938",
+      "a077379be43f",
+      "033a6c43dda8",
+      "0be6bad637ad",
+      "3637e6146735",
+      "d9b043cffb44",
+      "6a18d5f36a9c"
+     ]
+    },
+    {
+     "titre": "Exportation de terminaux de paiement vers le Nigeria",
+     "texte": "L'entreprise INATEL débute l'exportation de terminaux de paiement électronique vers le marché nigérian avec un objectif de deux millions d'unités.",
+     "articles": [
+      "e502e36ff027"
+     ]
+    },
+    {
+     "titre": "Bourse de Tunis : BNA, Magasin Général et Amen Bank au cœur de l’actualité de la semaine",
+     "texte": "Bourse de Tunis : BNA, Magasin Général et Amen Bank au cœur de l’actualité de la semaine",
+     "articles": [
+      "fa5f1c17cbab"
+     ]
+    },
+    {
+     "titre": "SAH : Une transaction de bloc réalisée p...",
+     "texte": "SAH : Une transaction de bloc réalisée p...",
+     "articles": [
+      "70914078e754"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 89.95,
+      "unite": "USD le baril",
+      "variation_pct": 0.57,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.748,
+      "unite": "USD par MMBtu",
+      "variation_pct": 1.82,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3515.4,
+      "unite": "USD l'once",
+      "variation_pct": -4.62,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 592.0,
+      "unite": "cents le boisseau",
+      "variation_pct": -0.5,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 6910.39,
+      "unite": "points",
+      "variation_pct": -3.7,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 5941.95,
+      "unite": "points",
+      "variation_pct": -2.81,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 7927.75,
+      "unite": "points",
+      "variation_pct": -1.89,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0975,
+      "unite": "",
+      "variation_pct": 0.02,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3772,
+      "unite": "dinars",
+      "variation_pct": 0.23,
+      "au": "2026-11-19",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0713,
+      "unite": "dinars",
+      "variation_pct": 0.07,
+      "au": "2026-11-19",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Introduction en bourse historique d'Anthropic",
+     "texte": "La start-up d'IA Anthropic a réalisé une entrée en bourse record valorisée à 81,34 milliards de dollars, avant de subir une baisse de 9 % lors de sa deuxième séance.",
+     "articles": [
+      "85303000369b",
+      "2b9f99abe0ae",
+      "30edc1451e0b",
+      "526636b08f1c"
+     ]
+    },
+    {
+     "titre": "« Inside Deutsche Bank » : le gouvernement allemand réclame de la « transparence » sur les révélations de l’enquête journalistique",
+     "texte": "Ebranlée par les articles du consortium de plus de 50 médias, dont « Le Monde », l’institution allemande minimise des faits jugés anciens. Mais la chute en Bourse et l’indignation politique internationale maintiennent la pression sur l’établissement bancaire.",
+     "articles": [
+      "855475332243",
+      "d29ccebe0507"
+     ]
+    },
+    {
+     "titre": "Correction du secteur technologique à Wall Street",
+     "texte": "La bourse américaine subit une forte baisse liée aux doutes sur la rentabilité des modèles économiques de l'IA et au recul de Nvidia.",
+     "articles": [
+      "d6bfa7ef0bd5"
+     ]
+    },
+    {
+     "titre": "Chute du titre Worldline",
+     "texte": "L'action Worldline a perdu jusqu'à 20 % suite à des informations faisant état de retards de paiement aux fournisseurs et de demandes d'avances de trésorerie aux clients.",
+     "articles": [
+      "35c062726d34"
+     ]
+    },
+    {
+     "titre": "Blocage des négociations à la COP31",
+     "texte": "La conférence d'Antalya est prolongée en raison de divergences persistantes sur le financement climatique et l'abandon des énergies fossiles.",
+     "articles": [
+      "4268581f9988",
+      "fddc6335e837",
+      "a9fbd51ac7f5"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Afrique du Nord - Note de Diagnostic Régionale - Mars 2026",
+     "texte": "Afrique du Nord - Note de Diagnostic Régionale - Mars 2026",
+     "articles": [
+      "f64cc19726e7"
+     ]
+    },
+    {
+     "titre": "GTA : les coulisses du probable retrait du géant BP du Sénégal et de Mauritanie",
+     "texte": "GTA : les coulisses du probable retrait du géant BP du Sénégal et de Mauritanie",
+     "articles": [
+      "a493634fe8e7"
+     ]
+    },
+    {
+     "titre": "Le Gabon obtiendra-t-il un programme avec le FMI d’ici à la fin de l’année ?",
+     "texte": "Le Gabon obtiendra-t-il un programme avec le FMI d’ici à la fin de l’année ?",
+     "articles": [
+      "5f0790fe1b77"
+     ]
+    },
+    {
+     "titre": "Perspectives de croissance en Algérie",
+     "texte": "L'Algérie table sur une croissance économique de 3,8 % en 2025, misant sur la diversification malgré les pressions sur les finances publiques.",
+     "articles": [
+      "b006c8a64a11"
+     ]
+    },
+    {
+     "titre": "Mauritanie : 25,8 millions d’euros pour le numérique, quel rendement pour la dette ?",
+     "texte": "Mauritanie : 25,8 millions d’euros pour le numérique, quel rendement pour la dette ?",
+     "articles": [
+      "d6e8e5c26215"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Impact de l'IA sur l'emploi en Tunisie",
+     "texte": "Le secteur de l'offshoring et les jeunes diplômés tunisiens font face aux défis de l'IA, qui redéfinit les compétences requises et la valeur des diplômes traditionnels.",
+     "articles": [
+      "03d6d0cf05e8",
+      "29744f57bcc1",
+      "d7458c1d54be",
+      "c7c313c06413",
+      "3b3f53d8927d"
+     ]
+    },
+    {
+     "titre": "Exclusif : Aikido, soutenu par Storonsky, vise une valorisation de 4 milliards d'euros",
+     "texte": "Exclusive: Storonsky-backed Aikido seeks €4bn valuation",
+     "articles": [
+      "010af5ee103d",
+      "cb9b48e85053",
+      "723496e035a8"
+     ]
+    },
+    {
+     "titre": "Agriculture de précision : Drones, capteurs et IA pour une agriculture plus performante",
+     "texte": "L’agriculture de précision est une approche innovante qui utilise des technologies de pointe pour améliorer les rendements agricoles tout en respectant l’environnement. Les drones, les capteurs connectés et l’intelligence artificielle ouvrent de nouvelles perspectives pour surveiller les cultures, optimiser l’irrigation et anticiper certains risques. Mais ces technologies, souvent associées aux gr",
+     "articles": [
+      "a71284b30114",
+      "55a271f1175b"
+     ]
+    },
+    {
+     "titre": "Startups tunisiennes: des pistes pour ne pas rester bloquées après leur création",
+     "texte": "Startups tunisiennes: des pistes pour ne pas rester bloquées après leur création",
+     "articles": [
+      "8c0ecc76c3b8",
+      "c60af61730a2"
+     ]
+    },
+    {
+     "titre": "Obstacles à l'électrification des taxis",
+     "texte": "Les professionnels du secteur soulignent que l'absence d'infrastructures de recharge suffisantes freine l'adoption des véhicules électriques par les chauffeurs de taxi.",
+     "articles": [
+      "dd962ad29972",
+      "aab084d738c2"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "010af5ee103d": {
+   "titre": "Exclusif : Aikido, soutenu par Storonsky, vise une valorisation de 4 milliards d'euros",
+   "source": "Sifted",
+   "url": "https://sifted.eu/articles/exclusive-aikido-4bn-valuation/",
+   "url_traduite": "https://sifted-eu.translate.goog/articles/exclusive-aikido-4bn-valuation/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-20T17:04:11+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Exclusive: Storonsky-backed Aikido seeks €4bn valuation"
+  },
+  "033a6c43dda8": {
+   "titre": "Bourse : Le marché clôture la séance de vendredi dans le vert",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20826839-bourse-le-marché",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T20:12:23.015244+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "03d6d0cf05e8": {
+   "titre": "IA et avenir du travail | La Tunisie face au défi des compétences",
+   "source": "Kapitalis",
+   "url": "https://kapitalis.com/tunisie/2026/11/21/ia-et-avenir-du-travail-la-tunisie-face-au-defi-des-competences/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T08:00:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0900bc922bce": {
+   "titre": "Tunisie : les investissements industriels en hausse de 10 % à 1,75 milliard de dinars",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/20/577626/tunisie-les-investissements-industriels-en-hausse-de-10-a-175-milliard-de-dinars/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T17:12:04.221830+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0be6bad637ad": {
+   "titre": "Bourse de Tunis : Le Tunindex signe un g...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-analyse-marche/bourse-de-tunis-le-tunindex-signe-un-gain-hebdomadaire-de-127",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T20:12:23.015244+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "184a44920ea5": {
+   "titre": "21 Economie Tunisie : les investissements industriels progressent de 10 % et les créations d’emplois prévues de... Il y a 17 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-les-investissements-industriels-progressent-de-10-et-les-creations-demplois-prevues-de-277/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T17:12:04.221830+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "19450b0df242": {
+   "titre": "Budget 2027-Commerce: Des programmes d’appui à l’export d’huile d’olive, dattes et artisanat",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/21/budget-2027-commerce-des-programmes-dappui-a-lexport-dhuile-dolive-dattes-et-artisanat-3/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T07:28:09+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "218c8817ec1e": {
+   "titre": "La BCT dément la mise en place d’une taxe sur l’épargne",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/la-bct-dement-la-mise-en-place-dune-taxe-sur-lepargne/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T18:22:40+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "29744f57bcc1": {
+   "titre": "70 Actualités Intelligence artificielle : quel avenir pour les emplois de début de carrière en Tunisie ? Il y a 2 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/intelligence-artificielle-quel-avenir-pour-les-emplois-de-debut-de-carriere-en-tunisie/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T20:12:23.015244+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2b9f99abe0ae": {
+   "titre": "Intelligence artificielle : les secrets de l'entrée en bourse record d'Anthropic",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9missions/tech-24/20261120-intelligence-artificielle-les-secrets-de-l-entr%C3%A9e-en-bourse-record-d-anthropic",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T15:49:12+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "30edc1451e0b": {
+   "titre": "Après une introduction en Bourse record, l'action d'Anthropic chute de 9 %",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261120-apr%C3%A8s-une-introduction-en-bourse-record-l-action-d-anthropic-chute-de-9",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T15:46:33+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "35c062726d34": {
+   "titre": "L'action Worldline s'effondre suite aux révélations du FT sur des avances de trésorerie",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/newsarticle/48791/worldline-shares-plummet-on-ft-report-on-cash-advances",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T15:39:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Worldline shares plummet on FT report on cash advances"
+  },
+  "3637e6146735": {
+   "titre": "Les nouvelles du marché boursier",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/les-nouvelles-du-marche-boursier-14/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T18:26:05+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3b3f53d8927d": {
+   "titre": "Chefs d’entreprise tunisiens: l’IA va-t-elle vous faire perdre vos futurs cadres ?",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/20/chefs-dentreprise-tunisiens-lia-va-t-elle-vous-faire-perdre-vos-futurs-cadres/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T13:28:33.975772+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "405e2caf019d": {
+   "titre": "Médenine : 15,4 millions de dinars d’investissements industriels et 258 emplois prévus",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/20/577625/medenine-154-millions-de-dinars-dinvestissements-industriels-et-258-emplois-prevus/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T17:12:04.221830+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4268581f9988": {
+   "titre": "COP31 : les négociations sur le climat jouent les prolongations à Antalya",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/20/cop31-les-negociations-sur-le-climat-jouent-les-prolongations-a-antalya/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T23:47:06+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4ad868119415": {
+   "titre": "Leasing & ijara, la TVA suit le bien",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/leasing-ijara-la-tva-suit-le-bien/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T11:11:04+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4d7420323035": {
+   "titre": "Chambres mixtes de Tunisie: les industriels tunisiens chiffrent les dégâts de l’été 2026",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/20/chambres-mixtes-de-tunisie-les-industriels-tunisiens-chiffrent-les-degats-de-lete-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T17:12:04.221830+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "524a8430d38a": {
+   "titre": "40 MDT pour le cheptel et quatre ans pour le reconstituer",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/40-mdt-pour-le-cheptel-quatre-ans-pour-le-reconstituer/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T14:59:35+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "526636b08f1c": {
+   "titre": "33 Economie Anthropic : une introduction en Bourse record de 81,34 milliards de dollars Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/anthropic-ipo-record-8134-milliards-dollars-claude-nasdaq/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T11:14:28.560529+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "55a271f1175b": {
+   "titre": "Comment fonctionne l’agriculture de précision ?",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/20/comment-fonctionne-lagriculture-de-precision/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T19:30:20+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5cadd024b54a": {
+   "titre": "PLF 2027 en Tunisie : fiscalité, exportations et transition énergétique au cœur des mesures adoptées",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/20/577601/plf-2027-en-tunisie-fiscalite-exportations-et-transition-energetique-au-coeur-des-mesures-adoptees/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T13:28:33.975772+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5f0790fe1b77": {
+   "titre": "Le Gabon obtiendra-t-il un programme avec le FMI d’ici à la fin de l’année ?",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1863753/economie-entreprises/le-gabon-obtiendra-t-il-un-programme-avec-le-fmi-dici-a-la-fin-de-lannee/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T18:12:08+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "67ca94588ced": {
+   "titre": "Huile d’olive : La Tunisie engrange plus de 1,7 milliard de dollars. L’Arabie saoudite, les USA et le Canada, acheteurs majeurs",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/huile-dolive-la-tunisie-engrange-plus-de-17-milliard-de-dollars-larabie-saoudite-les-usa-et-le-canada-acheteurs-majeurs/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T16:36:07+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6a18d5f36a9c": {
+   "titre": "Le marché boursier termine la semaine sur une note positive",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20826322-le-marché-boursier",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T17:12:04.221830+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "70914078e754": {
+   "titre": "SAH : Une transaction de bloc réalisée p...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-divers/lilas-sah-une-transaction-de-bloc-realisee-pour-236-md",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T15:10:05.200411+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "723496e035a8": {
+   "titre": "Les marchands Adyen peuvent proposer Klarna pour les paiements via agents IA",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/pressarticle/111751/adyen-merchants-can-offer-klarna-in-ai-agent-checkout",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T16:02:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Adyen merchants can offer Klarna in AI agent checkout"
+  },
+  "72b0d7fdcbb2": {
+   "titre": "Des industriels dénoncent le délestage électrique arbitraire de l’été 2026 : La Steg va-t-elle désamorcer sa crise ?",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/20/des-industriels-denoncent-le-delestage-electrique-arbitraire-de-lete-2026-la-steg-va-t-elle-desamorcer-sa-crise/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T20:45:13+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "745f4bf23c8a": {
+   "titre": "La CIL lance un emprunt obligataire pouvant aller jusqu’à 50 MDT",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/20/la-cil-lance-un-emprunt-obligataire-pouvant-aller-jusqua-50-mdt/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T17:12:04.221830+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "85303000369b": {
+   "titre": "« L’entrée en Bourse d’Anthropic est probablement davantage dictée par la peur que par la foi en l’avenir de l’IA »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/20/l-entree-en-bourse-d-anthropic-est-probablement-davantage-dictee-par-la-peur-que-par-la-foi-en-l-avenir-de-l-ia_6813694_3232.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T20:00:11+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "855475332243": {
+   "titre": "« Inside Deutsche Bank » : le gouvernement allemand réclame de la « transparence » sur les révélations de l’enquête journalistique",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/20/inside-deutsche-bank-le-gouvernement-allemand-reclame-de-la-transparence-sur-les-revelations-de-l-enquete-journalistique_6813660_4355770.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T17:00:32+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "880837b3614e": {
+   "titre": "Industrie : les investissements déclarés progressent, mais la reprise reste à confirmer",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/20/industrie-les-investissements-declares-progressent-mais-la-reprise-reste-a-confirmer/1429823/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T18:45:28+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "88b6c7d49292": {
+   "titre": "La Steg répond aux inquiétudes des entreprises et prépare l’été 2027",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/20/la-steg-repond-aux-inquietudes-des-entreprises-et-prepare-lete-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T13:28:33.975772+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8c0ecc76c3b8": {
+   "titre": "Startups tunisiennes: des pistes pour ne pas rester bloquées après leur création",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/20/startups-tunisiennes-des-pistes-pour-ne-pas-rester-bloquees-apres-leur-creation/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T17:12:04.221830+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9455b0d25864": {
+   "titre": "Pilotes exonérés & navires en attente",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/pilotes-exoneres-navires-en-attente/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T14:55:03+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "97865956bb6f": {
+   "titre": "Exporter en Afrique, 78 MDT en caisse & 500 000 dinars engagés",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/exporter-en-afrique-78-mdt-en-caisse-500-000-dinars-engages/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T14:57:15+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9dc66cb29be4": {
+   "titre": "L’investissement industriel déclaré grimpe de 10%",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/linvestissement-industriel-declare-grimpe-de-10/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T16:34:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a077379be43f": {
+   "titre": "Bourse : Le marché clôture la séance de vendredi dans le vert",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/20/577639/bourse-le-marche-cloture-la-seance-de-vendredi-dans-le-vert/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T08:57:42.655131+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a493634fe8e7": {
+   "titre": "GTA : les coulisses du probable retrait du géant BP du Sénégal et de Mauritanie",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1863881/economie-entreprises/gta-les-coulisses-du-probable-retrait-du-geant-bp-du-senegal-et-de-mauritanie/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T19:02:27+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "a71284b30114": {
+   "titre": "Agriculture de précision : Drones, capteurs et IA pour une agriculture plus performante",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/20/agriculture-de-precision-drones-capteurs-et-ia-pour-une-agriculture-plus-performante/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T19:45:22+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a9fbd51ac7f5": {
+   "titre": "Des divergences persistantes autour de plusieurs dossiers",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/des-divergences-persistantes-autour-de-plusieurs-dossiers/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T11:34:59+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "aab084d738c2": {
+   "titre": "Taxis électriques en Tunisie : les bornes de recharge au cœur des inquiétudes des professionnels",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/20/577587/taxis-electriques-en-tunisie-les-bornes-de-recharge-au-coeur-des-inquietudes-des-professionnels/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T11:14:28.560529+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ad0f34164568": {
+   "titre": "Électricité : la STEG prépare l’été 2027 avec de nouvelles capacités de production et de stockage",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/20/577590/electricite-la-steg-prepare-lete-2027-avec-de-nouvelles-capacites-de-production-et-de-stockage/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T11:14:28.560529+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b006c8a64a11": {
+   "titre": "Algérie : 3,8 % de croissance en 2025, la diversification à l’épreuve des finances publiques",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/20/577644/algerie-38-de-croissance-en-2025-la-diversification-a-lepreuve-des-finances-publiques/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T08:57:42.655131+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b83c3aede386": {
+   "titre": "La BCT dément la mise en place d'une taxe sur l'épargne",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20826425-la-bct-dément-la",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T17:12:04.221830+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "be0c819dbfa2": {
+   "titre": "Loi de finances 2027 : quatre articles fiscaux reportés, entre soutien à l’industrie et transition énergétique",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/20/577611/loi-de-finances-2027-quatre-articles-fiscaux-reportes-entre-soutien-a-lindustrie-et-transition-energetique/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T15:10:05.200411+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c4690a546938": {
+   "titre": "Tunisie : Le marché boursier termine la semaine sur une note positive",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/20/577637/tunisie-le-marche-boursier-termine-la-semaine-sur-une-note-positive-2/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T08:57:42.655131+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c58cc5ba771d": {
+   "titre": "Tunisie : La BCT dément la mise en place d’une taxe sur l’épargne",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/20/577634/tunisie-la-bct-dement-la-mise-en-place-dune-taxe-sur-lepargne/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T08:57:42.655131+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c60af61730a2": {
+   "titre": "Enova Robotics prépare un rapprochement tuniso-allemand pour changer d’échelle",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/20/enova-robotics-prepare-un-rapprochement-tuniso-allemand-pour-changer-dechelle/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T17:12:04.221830+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c7c313c06413": {
+   "titre": "Offshoring tunisien: 3 chantiers pour ne pas piloter à l’aveugle face à l’IA et à la loi française",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/20/offshoring-tunisien-3-chantiers-pour-ne-pas-piloter-a-laveugle-face-a-lia-et-a-la-loi-francaise/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T13:28:33.975772+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "cb9b48e85053": {
+   "titre": "La fintech canadienne Float engage 5 millions de dollars au Québec",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/pressarticle/111754/canadian-fintech-float-commits-5m-to-quebec",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T16:56:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Canadian fintech Float commits $5m to Quebec"
+  },
+  "d29ccebe0507": {
+   "titre": "Le prêteur britannique pour PME OakNorth obtient une licence bancaire aux États-Unis",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/newsarticle/48790/uk-sme-lender-oaknorth-secures-us-banking-licence",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T15:07:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "UK SME lender OakNorth secures US banking licence"
+  },
+  "d6bfa7ef0bd5": {
+   "titre": "Aux Etats-Unis, Wall Street en déroute après la dégringolade des sociétés liées à l’IA",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/21/aux-etats-unis-wall-street-en-deroute-apres-la-degringolade-des-societes-liees-a-l-intelligence-artificielle_6813811_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T01:33:30+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "d6e8e5c26215": {
+   "titre": "Mauritanie : 25,8 millions d’euros pour le numérique, quel rendement pour la dette ?",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/20/577642/mauritanie-258-millions-deuros-pour-le-numerique-quel-rendement-pour-la-dette/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T08:57:42.655131+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d7458c1d54be": {
+   "titre": "60 Economie Comment l’IA peut-elle former les jeunes diplômés tunisiens au lieu de les remplacer ? Il y a 2 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/comment-lia-peut-elle-former-les-jeunes-diplomes-tunisiens-au-lieu-de-les-remplacer/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T13:28:33.975772+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d8102d0b946d": {
+   "titre": "Huile d’olive tunisienne : Oman pourrait devenir une plateforme d’exportation vers le Golfe et l’Asie",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/20/huile-dolive-tunisienne-oman-pourrait-devenir-une-plateforme-dexportation-vers-le-golfe-et-lasie/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T12:02:14+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d9b043cffb44": {
+   "titre": "Le marché boursier termine la semaine sur une note positive",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/le-marche-boursier-termine-la-semaine-sur-une-note-positive-3/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T18:24:04+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "dd962ad29972": {
+   "titre": "L’absence d’infrastructure de recharge entrave l’adoption des taxis électriques en Tunisie !",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/labsence-dinfrastructures-de-recharge-entrave-ladoption-des-taxis-electriques-en-tunisie/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T12:32:16+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "dfec1a215554": {
+   "titre": "Industrie : 33 489 emplois annoncés et près de 1,8 milliard de dinars d’investissements",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/20/industrie-33-489-emplois-annonces-et-pres-de-18-milliard-de-dinars-dinvestissements/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T17:12:04.221830+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e502e36ff027": {
+   "titre": "INATEL lance ses exportations de TPE vers le Nigeria : le défi des deux millions d’appareils",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/20/577649/inatel-lance-ses-exportations-de-tpe-vers-le-nigeria-le-defi-des-deux-millions-dappareils/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T08:57:42.655131+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f149b050fa07": {
+   "titre": "52 Energie PLF 2027 : report de l’examen des articles relatifs aux batteries et aux panneaux solaires Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/plf-2027-report-de-lexamen-des-articles-relatifs-aux-batteries-et-aux-panneaux-solaires/",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T11:14:28.560529+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f64cc19726e7": {
+   "titre": "Afrique du Nord - Note de Diagnostic Régionale - Mars 2026",
+   "source": "African Development Bank Group",
+   "url": "https://www.afdb.org/ar/documents/afrique-nord-note-diagnostic-regionale-mars-2026-93623",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T02:37:46+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fa5f1c17cbab": {
+   "titre": "Bourse de Tunis : BNA, Magasin Général et Amen Bank au cœur de l’actualité de la semaine",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/21/577636/bourse-de-tunis-bna-magasin-general-et-amen-bank-au-coeur-de-lactualite-de-la-semaine/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T08:57:42.655131+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fddc6335e837": {
+   "titre": "COP31 : dans la dernière ligne droite des négociations, les énergies fossiles et les financements au centre du jeu",
+   "source": "Le Monde.fr",
+   "url": "https://www.lemonde.fr/planete/article/2026/11/20/cop31-dans-la-derniere-ligne-droite-des-negociations-les-energies-fossiles-et-les-financements-au-centre-du-jeu_6813663_3244.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-20T17:28:51+01:00",
+   "langue": "fr",
+   "payant": true
+  }
+ }
+}
