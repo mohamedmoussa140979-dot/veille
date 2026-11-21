@@ -455,3 +455,4 @@
 {"t": "2026-11-21T19:09:35.910020+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
 {"t": "2026-11-21T19:10:16.963304+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
 {"t": "2026-11-21T19:10:27.759281+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 6, \"flux\": 0}", "ctx": {}}
+{"t": "2026-11-21T21:36:33.866141+01:00", "niveau": "info", "code": "sante_controle", "message": "10 anomalie(s)", "ctx": {"editions": "7", "alertes": "12"}}
