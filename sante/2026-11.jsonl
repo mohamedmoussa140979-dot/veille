@@ -414,3 +414,8 @@
 {"t": "2026-11-20T21:15:47.189513+01:00", "niveau": "erreur", "code": "alerte_echec", "message": "POST api.telegram.org : ConnectionError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot***/sendMessage (Caused by NewConnectionError(\"HTTPSConnection(host=", "ctx": {}}
 {"t": "2026-11-20T21:15:47.189561+01:00", "niveau": "info", "code": "collecte_terminee", "message": "64 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "2032", "rejetes": "10", "resolutions": "18", "resolutions_echec": "0"}}
 {"t": "2026-11-20T21:45:23.547765+01:00", "niveau": "info", "code": "sante_controle", "message": "10 anomalie(s)", "ctx": {"editions": "6", "alertes": "4"}}
+{"t": "2026-11-21T09:28:04.141045+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-21T09:28:37.830003+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-21T09:29:08.916048+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-21T09:30:30.254026+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-21T09:30:38.257473+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 4, \"flux\": 0}", "ctx": {}}
