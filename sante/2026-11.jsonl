@@ -475,3 +475,12 @@
 {"t": "2026-11-22T10:19:09.334540+01:00", "niveau": "info", "code": "edition_produite", "message": "2026-11-22-matin", "ctx": {"sujets": "25", "articles": "37", "modele": "gemini-3.6-flash"}}
 {"t": "2026-11-22T18:52:19.961863+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
 {"t": "2026-11-22T18:54:16.290193+01:00", "niveau": "info", "code": "collecte_terminee", "message": "94 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "1957", "rejetes": "21", "resolutions": "26", "resolutions_echec": "0"}}
+{"t": "2026-11-22T19:02:10.173127+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gnews"}}
+{"t": "2026-11-22T19:02:15.052246+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gnews"}}
+{"t": "2026-11-22T19:02:28.202592+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gnews"}}
+{"t": "2026-11-22T19:04:19.090017+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-22T19:05:23.049162+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-22T19:06:03.653975+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-22T19:06:42.957202+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-22T19:08:10.917619+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-22T19:08:17.960988+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 3, \"gdelt\": 5, \"flux\": 0}", "ctx": {}}
