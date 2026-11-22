@@ -1,0 +1,830 @@
+{
+ "version": 1,
+ "id": "2026-11-22-matin",
+ "date": "2026-11-22",
+ "edition": "matin",
+ "genere_le": "2026-11-22T10:13:37+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19230.71,
+   "variation_pct": 0.39,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-20"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3772,
+   "variation_pct": 0.23,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-19"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 89.95,
+   "variation_pct": 0.57,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-20"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "Secteur bancaire tunisien : le stock de créances douteuses grimpe à 16,5 milliards de dinars en 2025, tandis que l'application de la nouvelle loi sur les chèques représentera un coût cumulé de plus de 763 millions de dinars.",
+   "articles": [
+    "d2670063fa35",
+    "99e7be16f959"
+   ]
+  },
+  {
+   "texte": "Fiscalité et réglementation : la BCT dément toute taxe de 12 % sur l'épargne, alors que l'UTICA soumet ses propositions pour le PLF 2027, demandant notamment une exonération de TVA sur les équipements solaires.",
+   "articles": [
+    "ba0e70445e53",
+    "698a2741540f",
+    "6fdc6d4c9c90",
+    "7b08001065a4",
+    "50ce68a563f0",
+    "4b890ed016ee",
+    "fd6b9aa32d04",
+    "163743d48646"
+   ]
+  },
+  {
+   "texte": "Écosystème technologique : la Tunisie prépare une révision du Startup Act après le retrait du label à 162 entreprises, tout en gagnant 21 places au classement mondial du gouvernement numérique.",
+   "articles": [
+    "ac3ce0963632",
+    "3ea02c326766"
+   ]
+  },
+  {
+   "texte": "Finances internationales : rejet par la France du compromis budgétaire européen de 204 milliards d'euros d'économies, tandis que S&P anticipe une hausse des revenus d'intérêts des banques américaines d'ici 2027.",
+   "articles": [
+    "93f13ff5b79d",
+    "251a3a87abe4"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Progression des créances douteuses du secteur bancaire coté",
+     "texte": "Selon une étude de Tunisie Valeurs, le volume des créances douteuses des banques cotées a progressé de 6 % en 2025 pour atteindre 16,5 milliards de dinars. Cette détérioration représente une augmentation globale de 933,4 millions de dinars en un an.",
+     "articles": [
+      "d2670063fa35"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Impact financier de la réforme de la loi sur les chèques",
+     "texte": "L'application de l'article 412 ter de la loi relative aux chèques engendrera une charge totale supérieure à 763 millions de dinars pour le secteur bancaire. D'après l'étude sectorielle de Tunisie Valeurs, cet impact financier sera réparti sur plusieurs exercices.",
+     "articles": [
+      "99e7be16f959"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": null
+    },
+    {
+     "titre": "Propositions de l'UTICA dans le cadre du PLF 2027",
+     "texte": "L'UTICA formule plusieurs recommandations pour le projet de loi de finances 2027 afin de dynamiser l'investissement, la production et l'exportation. Parmi les mesures figurant dans ces propositions se trouvent l'élimination des droits de douane et l'instauration d'une TVA à 0 % sur les équipements solaires.",
+     "articles": [
+      "ba0e70445e53",
+      "698a2741540f",
+      "6fdc6d4c9c90",
+      "7b08001065a4",
+      "50ce68a563f0"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Coût économique et sanitaire de la pollution plastique",
+     "texte": "Un rapport publié par Greenpeace MENA estime que la pollution plastique génère une charge annuelle comprise entre 170 et 560 millions de dollars pour la Tunisie. Le document indique que le maintien du statu quo accentuerait ces coûts d'ici 2040.",
+     "articles": [
+      "a83d80bcc640",
+      "12da59ce4ea9",
+      "979c234b483c"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Démenti officiel de la BCT sur la taxation des comptes d'épargne",
+     "texte": "La Banque centrale de Tunisie a formellement démenti les rumeurs diffusées sur les réseaux sociaux faisant état d'un prélèvement fiscal de 12 % sur les solde d'épargne.",
+     "articles": [
+      "4b890ed016ee",
+      "fd6b9aa32d04",
+      "163743d48646"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": "Aucune taxe de 12 % n'est appliquée sur les comptes d'épargne : la BCT a réfuté cette rumeur."
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-20",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19230.71,
+      "variation_pct": 0.39,
+      "variation_annee_pct": 42.98,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14537.51,
+      "variation_pct": -0.04,
+      "variation_annee_pct": 50.34,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "sah",
+      "libelle": "SAH",
+      "valeur": 13.0,
+      "variation_pct": 4.84,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "sotuv",
+      "libelle": "SOTUVER",
+      "valeur": 27.0,
+      "variation_pct": 3.85,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tpr",
+      "libelle": "TPR",
+      "valeur": 14.3,
+      "variation_pct": 2.88,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "sokna",
+      "libelle": "ESSOUKNA",
+      "valeur": 4.9,
+      "variation_pct": -3.92,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "stpap",
+      "libelle": "SOTIPAPIER",
+      "valeur": 2.49,
+      "variation_pct": -3.49,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "nbl",
+      "libelle": "NEW BODY LINE",
+      "valeur": 2.28,
+      "variation_pct": -3.39,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Tensions de gouvernance au sein du groupe Castel",
+     "texte": "La structure de contrôle complexe du géant des boissons alimente un conflit de gouvernance opposant l'héritière du groupe au directeur général opérationnel. Une victoire judiciaire a été obtenue par Romy Castel dans le cadre de cette querelle d'actionnaires.",
+     "articles": [
+      "b76aa0da09ff"
+     ]
+    },
+    {
+     "titre": "Partenariat industriel entre la Tunisie et la région de Navarre",
+     "texte": "La Tunisian Automotive Association et l'association ACAN ont conclu un accord de coopération industrielle visant le secteur automobile. Ce partenariat s'inscrit dans le cadre d'une mission économique espagnole dédiée au renforcement des liens bilatéraux.",
+     "articles": [
+      "240a3fd872a0"
+     ]
+    },
+    {
+     "titre": "Engagement de modernisation du parc de transport touristique",
+     "texte": "La Fédération tunisienne des agences de voyages s'engage dans un plan de renouvellement et de modernisation de sa flotte de transport dédiée au tourisme.",
+     "articles": [
+      "c5aae3a1a739"
+     ]
+    },
+    {
+     "titre": "Orientation haussière de la Bourse de Tunis",
+     "texte": "Le marché boursier tunisien a bouclé la semaine sur une hausse globale de ses indices, bien que les volumes de transactions soient restés réduits.",
+     "articles": [
+      "5d63b06ecbe8"
+     ]
+    },
+    {
+     "titre": "Partenariats commerciaux et d'investissement entre la Tunisie et l'Irak",
+     "texte": "L'Office national des exportations a signé deux conventions visant à stimuler les investissements conjoints et les partenariats entre PME tunisiennes et irakiennes.",
+     "articles": [
+      "2a1e909eca6c"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 89.95,
+      "unite": "USD le baril",
+      "variation_pct": 0.57,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.748,
+      "unite": "USD par MMBtu",
+      "variation_pct": 1.82,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3515.4,
+      "unite": "USD l'once",
+      "variation_pct": -4.62,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 592.0,
+      "unite": "cents le boisseau",
+      "variation_pct": -0.5,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 6910.39,
+      "unite": "points",
+      "variation_pct": -3.7,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 5941.95,
+      "unite": "points",
+      "variation_pct": -2.81,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 7927.75,
+      "unite": "points",
+      "variation_pct": -1.89,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0975,
+      "unite": "",
+      "variation_pct": 0.02,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3772,
+      "unite": "dinars",
+      "variation_pct": 0.23,
+      "au": "2026-11-19",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0713,
+      "unite": "dinars",
+      "variation_pct": 0.07,
+      "au": "2026-11-19",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Demande de la Chine sur les restrictions américaines dans les télécoms",
+     "texte": "Le ministère chinois du Commerce invite officiellement le gouvernement américain à renoncer à ses projets d'encadrement strict ciblant l'industrie des télécommunications.",
+     "articles": [
+      "78933c7d2a4d"
+     ]
+    },
+    {
+     "titre": "Négociations tendues sur le budget européen",
+     "texte": "Le président du Conseil européen a présenté un projet de compromis prévoyant 204 milliards d'euros d'économies ainsi qu'une taxe numérique. La France a formellement rejeté ce plan avant les arbitrages prévus au sommet de Bruxelles.",
+     "articles": [
+      "93f13ff5b79d"
+     ]
+    },
+    {
+     "titre": "Reprise des négociations pour une convention fiscale internationale",
+     "texte": "Sous l'égide de l'ONU, les discussions concernant l'élaboration d'un cadre mondial de coopération fiscale reprennent à Nairobi.",
+     "articles": [
+      "d346f956e6ff"
+     ]
+    },
+    {
+     "titre": "S&P prévoit une augmentation du NII bancaire américain",
+     "texte": "D'après les analyses de S&P Global Ratings, les banques américaines devraient enregistrer une hausse continue de leur revenu net d'intérêts d'ici 2027.",
+     "articles": [
+      "251a3a87abe4"
+     ]
+    },
+    {
+     "titre": "Previsions de hausse des ventes de détail aux États-Unis",
+     "texte": "S&P Global anticipe une progression des ventes au détail américaines pour le mois d'octobre, soutenue par la résistance de la consommation ménagère.",
+     "articles": [
+      "074744139181"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Gestion marocaine du stress hydrique",
+     "texte": "Face à la pénurie de ressources en eau, le Maroc met en œuvre une stratégie d'exploitation et de préservation hydrique plus performante que celle des pays limitrophes.",
+     "articles": [
+      "a62c222f78e6"
+     ]
+    },
+    {
+     "titre": "Acquisition de la première raffinerie d'or en Angola",
+     "texte": "L'Angola investit 20,7 millions de dollars pour acquérir sa première installation de raffinage d'or afin d'accroître la transformation locale de ses ressources minières.",
+     "articles": [
+      "5a881fd82875"
+     ]
+    },
+    {
+     "titre": "Projet de création d'une banque agricole en Mauritanie",
+     "texte": "Une initiative bancaire dédiée au financement direct des exploitants agricoles mauritaniens est actuellement en développement.",
+     "articles": [
+      "9398b717183a"
+     ]
+    },
+    {
+     "titre": "25e anniversaire des relations commerciales Afrique-UE",
+     "texte": "L'Union européenne et les acteurs du continent africain marquent un quart de siècle de relations et de partenariats commerciaux bilatéraux.",
+     "articles": [
+      "0d44af3b4698"
+     ]
+    },
+    {
+     "titre": "Expansion du réseau physique de Moniepoint au Nigeria",
+     "texte": "Afin de répondre aux directives de la Banque centrale du Nigeria, l'établissement Moniepoint inaugure un siège régional à Abuja pour étendre ses agences physiques.",
+     "articles": [
+      "7c6faa175fae"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Projet de réforme du Startup Act tunisien",
+     "texte": "Après avoir retiré leur label à 162 entreprises, les autorités tunisiennes élaborent un projet de révision du cadre légal régissant les startups.",
+     "articles": [
+      "ac3ce0963632"
+     ]
+    },
+    {
+     "titre": "Rencontre sectorielle sur l'intelligence artificielle à Béja",
+     "texte": "Une journée d'échanges consacrée à l'intelligence artificielle et au calcul haute performance est planifiée le 30 novembre à l'Institut supérieur de Béja.",
+     "articles": [
+      "fb6d9e14a51e",
+      "d2086353d2ed",
+      "f70ab59587a4"
+     ]
+    },
+    {
+     "titre": "Projet d'installation de bornes de recharge solaires",
+     "texte": "L'ANME lance la procédure d'appel d'offres pour équiper Sfax, Bizerte et Djerba de cinq bornes solaires de recharge rapide destinées aux véhicules électriques.",
+     "articles": [
+      "3dc178caea58",
+      "428cb85ba919",
+      "3b25e69baa7a"
+     ]
+    },
+    {
+     "titre": "Tenue de la 4e édition du Forum ATUGE France",
+     "texte": "Le forum organisé par l'ATUGE France a réuni plus de 1 600 personnes autour des opportunités d'investissement associées à l'intelligence artificielle.",
+     "articles": [
+      "9a88b1e0f7ac"
+     ]
+    },
+    {
+     "titre": "Progression de la Tunisie au classement du gouvernement numérique",
+     "texte": "Dans l'indice 2026 de numérisation des services publics, la Tunisie progresse de 21 rangs pour occuper la 96e position au niveau mondial.",
+     "articles": [
+      "3ea02c326766"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "074744139181": {
+   "titre": "S&P Global s'attend à une hausse des ventes au détail aux États-Unis en octobre grâce à la résilience de la demande",
+   "source": "Traders Union",
+   "url": "https://tradersunion.com/news/economic-data/show/4293683-sp-global-us-retail-sales-october/",
+   "url_traduite": "https://tradersunion-com.translate.goog/news/economic-data/show/4293683-sp-global-us-retail-sales-october/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-17T23:21:33+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "S&P Global expects U.S. retail sales to rise in October as consumer demand stays resilient"
+  },
+  "0d44af3b4698": {
+   "titre": "L'Union Européenne et le continent africain fêtent leurs 25 années de relations commerciales",
+   "source": "RFI",
+   "url": "https://www.rfi.fr/fr/afrique/20261121-l-union-europ%C3%A9enne-et-le-continent-africain-f%C3%AAtent-leurs-25-ann%C3%A9es-de-relations-commerciales",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T14:03:37+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "12da59ce4ea9": {
+   "titre": "La pollution plastique en Tunisie coûterait entre 170 et 560 millions de dollars/an",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail_Veille-et-Suivi/20829655-la-pollution",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:52:11.779092+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "163743d48646": {
+   "titre": "Taxe de 12% sur l’épargne : la BCT dément la rumeur",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/21/taxe-de-12-sur-lepargne-la-bct-dement-la-rumeur/1429871/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T11:17:27+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "240a3fd872a0": {
+   "titre": "Automobile : la Tunisie renforce son partenariat industriel avec la ville espagnole de Navarre",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/21/automobile-la-tunisie-renforce-son-partenariat-industriel-avec-la-ville-espagnole-de-navarre/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T18:00:12+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "251a3a87abe4": {
+   "titre": "S&P Global Ratings prévoit une hausse des revenus nets d'intérêts des banques américaines d'ici 2027",
+   "source": "Traders Union",
+   "url": "https://tradersunion.com/news/institutions/show/4335430-sp-global-us-bank-income-rise-2027/",
+   "url_traduite": "https://tradersunion-com.translate.goog/news/institutions/show/4335430-sp-global-us-bank-income-rise-2027/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-20T11:19:28+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "S&P Global Ratings sees U.S. bank net interest income rising into 2027"
+  },
+  "2a1e909eca6c": {
+   "titre": "Tunisie-Irak : L’ONE conclut deux accords pour accélérer les partenariats entre PME et les investissements",
+   "source": "Entreprises Magazine",
+   "url": "https://www.entreprises-magazine.com/tunisie-irak-lone-conclut-deux-accords-pour-accelerer-les-partenariats-entre-pme-et-les-investissements/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:52:11.779092+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3b25e69baa7a": {
+   "titre": "Voitures électriques : la Tunisie renforce son réseau avec cinq bornes de recharge rapide solaires à Sfax, Bizerte et Djerba",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/21/voitures-electriques-la-tunisie-renforce-son-reseau-avec-cinq-bornes-de-recharge-rapide-solaires-a-sfax-bizerte-et-djerba/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:45:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3dc178caea58": {
+   "titre": "Installation prochaine de 5 bornes de recharge rapide alimentées par énergie solaire à Sfax, Bizerte et Djerba",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/installation-prochaine-de-5-bornes-de-recharge-rapide-alimentees-par-energie-solaire-a-sfax-bizerte-et-djerba/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T08:57:09+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3ea02c326766": {
+   "titre": "Gouvernement numérique : la Tunisie gagne 21 places et se classe 96e mondiale en 2026",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/21/577679/gouvernement-numerique-la-tunisie-gagne-21-places-et-se-classe-96e-mondiale-en-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:52:11.779092+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "428cb85ba919": {
+   "titre": "Mobilité électrique : Installation prochaine de 5 bornes de recharge rapide alimentées...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20829708-mobilité-électrique",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:52:11.779092+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4b890ed016ee": {
+   "titre": "57 Economie Taxe de 12 % sur l’épargne : ce que la Banque centrale dément réellement Il y a 5 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/taxe-12-pour-cent-epargne-bct-dementi-novembre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:52:11.779092+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "50ce68a563f0": {
+   "titre": "Loi de finances 2027 : l’UTICA propose une TVA à 0 % sur les équipements solaires et de nouvelles mesures pour les entreprises",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/22/loi-de-finances-2027-lutica-propose-une-tva-a-0-sur-les-equipements-solaires-et-de-nouvelles-mesures-pour-les-entreprises/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T07:03:39+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5a881fd82875": {
+   "titre": "L'Angola s'offre une première raffinerie d'or pour 20,7 millions USD",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20830640-l-angola-s-offre",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:52:11.779092+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5d63b06ecbe8": {
+   "titre": "161 Economie Semaine boursière : la Bourse de Tunis grimpe à contre-courant de ses volumes Il y a 7 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/semaine-boursiere-la-bourse-de-tunis-grimpe-a-contre-courant-de-ses-volumes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:52:11.779092+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "698a2741540f": {
+   "titre": "Loi de finances 2027 : L'UTICA propose des mesures pour soutenir l'investissement, la...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20831260-loi-de-finances",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T08:57:30.548735+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6fdc6d4c9c90": {
+   "titre": "PLF 2027 : L'UTICA propose une série de mesures visant à soutenir l'investissement, la...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20830990-plf-2027-l-utica",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T08:57:30.548735+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "78933c7d2a4d": {
+   "titre": "La Chine exhorte les Etats-Unis à revenir sur leur projet de restrictions dans le secteur des télécommunications (ministère du Commerce)",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20832227-la-chine-exhorte",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T08:57:30.548735+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7b08001065a4": {
+   "titre": "L’UTICA propose des mesures pour soutenir l’investissement, la production et l’export",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/lutica-propose-des-mesures-pour-soutenir-linvestissement-la-production-et-lexport/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T08:02:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7c6faa175fae": {
+   "titre": "Moniepoint MFB inaugure son siège régional du Nord dans le cadre d'une expansion réseau",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/21/moniepoint-northern-regional-headquarters/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/21/moniepoint-northern-regional-headquarters/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-21T13:03:42+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Moniepoint MFB opens Northern regional headquarters in physical banking push"
+  },
+  "9398b717183a": {
+   "titre": "« Donner aux agriculteurs mauritaniens leur propre banque »",
+   "source": "Financial Afrik",
+   "url": "https://www.financialafrik.com/2026/11/21/donner-aux-agriculteurs-mauritaniens-leur-propre-banque/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T14:34:39+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "93f13ff5b79d": {
+   "titre": "Budget de l’UE : Antonio Costa, le président du Conseil européen, propose 204 milliards d’euros d’économies et une taxe numérique",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/21/budget-de-l-ue-antonio-costa-le-president-du-conseil-europeen-propose-204-milliards-d-euros-d-economies-et-une-taxe-numerique_6813983_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T12:01:50+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "979c234b483c": {
+   "titre": "La pollution plastique : Entre 170 et 560 MUSD an en Tunisie",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/la-pollution-plastique-en-tunisie-couterait-entre-170-et-560-millions-de-dollars-an/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T12:04:02+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "99e7be16f959": {
+   "titre": "Coût loi sur les chèques pour les banques : Plus de 763 MDT",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/cout-de-la-loi-sur-les-cheques-pour-les-banques-plus-de-763-mdt/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T14:47:43+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9a88b1e0f7ac": {
+   "titre": "Tunisie-France | L’IA et l’investissement au cœur de la 4e édition du Forum de l’Atuge",
+   "source": "Kapitalis",
+   "url": "https://kapitalis.com/tunisie/2026/11/21/tunisie-france-lia-et-linvestissement-au-coeur-de-la-4e-edition-du-forum-de-latuge/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T19:35:28+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a62c222f78e6": {
+   "titre": "Stress hydrique : Le Maroc gère mieux ses ressources hydriques que les pays voisins",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/21/577263/stress-hydrique-le-maroc-gere-mieux-ses-ressources-hydriques-que-les-pays-voisins/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:52:11.779092+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a83d80bcc640": {
+   "titre": "Pollution plastique : la Tunisie face à un coût économique et sanitaire croissant",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/21/577680/pollution-plastique-la-tunisie-face-a-un-cout-economique-et-sanitaire-croissant/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:52:11.779092+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ac3ce0963632": {
+   "titre": "160 Economie Startups tunisiennes : 162 labels retirés, le gouvernement prépare une réforme du Startup Act Il y a 8 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-startups-162-labels-retires-reforme-startup-act-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:52:11.779092+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b76aa0da09ff": {
+   "titre": "Au sein du géant des boissons Castel, une crise de gouvernance amplifiée par une architecture complexe de holdings, de fonds et de trusts",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/22/au-sein-du-geant-des-boissons-castel-une-crise-de-gouvernance-amplifiee-par-une-architecture-complexe-de-holdings-de-fonds-et-de-trusts_6814144_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T05:30:07+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "ba0e70445e53": {
+   "titre": "67 Economie Projet de loi de finances : l’UTICA propose une réduction de la fiscalité sur les... Il y a 2 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/projet-de-loi-de-finances-lutica-propose-une-reduction-de-la-fiscalite-sur-les-equipements-solaires/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T08:57:30.548735+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c5aae3a1a739": {
+   "titre": "Transport touristique : La FTAV s’engage à moderniser son parc",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/21/577258/transport-touristique-la-ftav-sengage-a-moderniser-son-parc/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:52:11.779092+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d2086353d2ed": {
+   "titre": "Rencontre sur l’IA et le calcul haute performance le 30 novembre à l'Institut supérieur des langues appliquées et de l’informatique de Béja",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20832230-rencontre-sur-l-ia",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T08:57:30.548735+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d2670063fa35": {
+   "titre": "16,5 milliards de dinars de créances douteuses, un record",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/165-milliards-de-dinars-de-creances-douteuses-un-record/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T14:55:19+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d346f956e6ff": {
+   "titre": "Thomas Piketty : « Le projet de convention fiscale de l’ONU a le potentiel de changer la face du monde »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/la-chronique-de-thomas-piketty/article/2026/11/21/thomas-piketty-le-projet-de-convention-fiscale-de-l-onu-a-le-potentiel-de-changer-la-face-du-monde_6813978_6649149.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T11:00:13+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "f70ab59587a4": {
+   "titre": "Rencontre sur l’IA et le calcul haute performance le 30 novembre à l'Institut supérieur...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Titres-de-l-actualité/20832230-rencontre-sur-l-ia",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T08:57:30.548735+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fb6d9e14a51e": {
+   "titre": "18 IA IA : un an après le forum de Tunis, quels résultats concrets pour la Tunisie ? Il y a 18 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/fmia-un-an-apres-tunis-bilan-ia-startups-tunisiennes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T08:57:30.548735+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fd6b9aa32d04": {
+   "titre": "La BCT dément toute taxe de 12% sur l’épargne",
+   "source": "Entreprises Magazine",
+   "url": "https://www.entreprises-magazine.com/la-bct-dement-toute-taxe-de-12-sur-lepargne/",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T17:52:11.779092+00:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
