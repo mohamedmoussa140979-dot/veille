@@ -1,0 +1,939 @@
+{
+ "version": 1,
+ "id": "2026-11-23-matin",
+ "date": "2026-11-23",
+ "edition": "matin",
+ "genere_le": "2026-11-23T09:04:30+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19230.71,
+   "variation_pct": 0.39,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-20"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3772,
+   "variation_pct": 0.23,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-19"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 89.57,
+   "variation_pct": -0.42,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-23"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "Le gouvernement tunisien mobilise 500 millions de dinars pour la relance de la filière phosphate, tandis qu'une enquête pour blanchiment d'argent vise un administrateur et des cadres de la BTE.",
+   "articles": [
+    "dea55b2cbb8c",
+    "0f4b98612b0e",
+    "663809994195",
+    "c4e017a20a07",
+    "5c5cb6895a75",
+    "2afffa3a2e79",
+    "6b8e0ef74daf"
+   ]
+  },
+  {
+   "texte": "Sur la place boursière de Tunis, Tunisair émet un emprunt obligataire de 24 MDT, parallèlement à plusieurs opérations d'initiés enregistrées sur Ennakl, Amen Bank et la Banque de Tunisie.",
+   "articles": [
+    "7eb7cb271f31",
+    "9d8c6e9783e8",
+    "cab82b3ecf9e"
+   ]
+  },
+  {
+   "texte": "À l'international, la France envisage l'inscription d'une règle d'or budgétaire dans sa Constitution, alors que les négociations de la COP31 s'achèvent sans accord sur la sortie des énergies fossiles.",
+   "articles": [
+    "895af85d32ec",
+    "5c9800e005cf",
+    "cee0fd062cd3",
+    "80f7d8423e50",
+    "bf04645c3a8a",
+    "0f64981d8d78",
+    "bb661232807c"
+   ]
+  },
+  {
+   "texte": "Sur le plan technologique et des infrastructures, la Tunisie planifie 1 000 MW d'électricité supplémentaires pour 2027 et gagne 21 places au classement ONU des services publics numériques.",
+   "articles": [
+    "ba86525f6750",
+    "16086418ed31",
+    "586c947c0541",
+    "d0d6e51f6d14"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Plan d'urgence de 500 millions de dinars pour soutenir la relance des phosphates",
+     "texte": "Le gouvernement a mobilisé près de 500 millions de dinars sous forme de prêts garantis par l'État pour régler les créances et relancer la CPG ainsi que le Groupe Chimique Tunisien. Ce programme vise à porter la production de phosphate à 4,3 millions de tonnes d'ici 2027.",
+     "articles": [
+      "dea55b2cbb8c",
+      "0f4b98612b0e",
+      "663809994195",
+      "5c5cb6895a75",
+      "6b8e0ef74daf"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Garde à vue d'un administrateur et de dirigeants de la BTE",
+     "texte": "L'expert financier Moez Joudi, administrateur au sein de la Banque de Tunisie et des Émirats, ainsi que trois responsables de l'établissement bancaire ont été placés en garde à vue dans le cadre d'une enquête relative à des faits de blanchiment d'argent.",
+     "articles": [
+      "c4e017a20a07",
+      "2afffa3a2e79"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Précisions de l'ANMPS sur les frais administratifs pour les médicaments",
+     "texte": "L'Agence Nationale du Médicament et des Produits de Santé a démenti la mise en place d'une taxe supplémentaire de 50 dinars imposée aux usagers. La structure précise que cette redevance s'applique uniquement au traitement administratif des dossiers de commande confirmée.",
+     "articles": [
+      "2fb10d0daf51",
+      "b8b6859a800a",
+      "1dcc79b02ac8",
+      "8e68fbfd53f9"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": "Démenti sur la hausse des prix : aucun surcoût de 50 dinars n'est appliqué aux usagers pour l'achat de leurs médicaments."
+    },
+    {
+     "titre": "Dispositifs d'emploi et évaluation des sociétés communautaires en 2027",
+     "texte": "Le ministère de l'Emploi a annoncé la programmation de 100 000 contrats SIVP et de 17 000 crédits pour soutenir la création d'entreprises. Une évaluation globale du modèle des sociétés communautaires sera conduite à l'horizon 2027.",
+     "articles": [
+      "be7f1058876e",
+      "267f2fe7f02b",
+      "9c99b69b52b4"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Plaidoyer des patronats pour le développement de la filière oléicole",
+     "texte": "L'UTICA et la CONECT demandent la création d'une instance unique de pilotage pour l'huile d'olive conditionnée ainsi que le rétablissement de la prime à l'exportation. Elles préconisent également l'attribution d'au moins 50 % des ressources du futur compte sectoriel aux producteurs.",
+     "articles": [
+      "ae131a1069c1",
+      "2fbfccbf3619",
+      "507e6ec92de0"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-20",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19230.71,
+      "variation_pct": 0.39,
+      "variation_annee_pct": 42.98,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14537.51,
+      "variation_pct": -0.04,
+      "variation_annee_pct": 50.34,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "sah",
+      "libelle": "SAH",
+      "valeur": 13.0,
+      "variation_pct": 4.84,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "sotuv",
+      "libelle": "SOTUVER",
+      "valeur": 27.0,
+      "variation_pct": 3.85,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tpr",
+      "libelle": "TPR",
+      "valeur": 14.3,
+      "variation_pct": 2.88,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "sokna",
+      "libelle": "ESSOUKNA",
+      "valeur": 4.9,
+      "variation_pct": -3.92,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "stpap",
+      "libelle": "SOTIPAPIER",
+      "valeur": 2.49,
+      "variation_pct": -3.49,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "nbl",
+      "libelle": "NEW BODY LINE",
+      "valeur": 2.28,
+      "variation_pct": -3.39,
+      "au": "2026-11-20",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Émission d'un emprunt obligataire de 24 MDT par Tunisair",
+     "texte": "La compagnie aérienne nationale a reçu l'autorisation de son assemblée générale pour lever 24 millions de dinars par voie d'emprunt obligataire privé. L'opération intervient alors que le transporteur fait face à des capitaux propres négatifs de plus de 1,2 milliard de dinars.",
+     "articles": [
+      "cab82b3ecf9e"
+     ]
+    },
+    {
+     "titre": "Reclassement de titres Ennakl et investissement massif dans Amen Bank",
+     "texte": "Un bloc de 95 982 actions Ennakl Automobiles a fait l'objet d'une cession et d'un rachat simultané le même jour par des entités liées à Wassim Ben Yedder. La société acquéreuse a également pris une position de 200 000 actions Amen Bank pour une valeur de 17,7 MDT.",
+     "articles": [
+      "7eb7cb271f31"
+     ]
+    },
+    {
+     "titre": "Acquisition de titres Banque de Tunisie par Capinvest",
+     "texte": "La SICAF Capinvest, dirigée par l'administrateur Habib Kamoun, a procédé à l'achat de 33 179 actions de la Banque de Tunisie sur le marché boursier au cours de trois séances consécutives.",
+     "articles": [
+      "9d8c6e9783e8"
+     ]
+    },
+    {
+     "titre": "Disparition d'Adel Boussarsar, figure pionnière du secteur touristique",
+     "texte": "Le secteur touristique tunisien enregistre le décès d'Adel Boussarsar, fondateur de l'agence Tunisie Voyages et président du groupe hôtelier El Mahari. Il figurait parmi les acteurs majeurs du développement de l'hôtellerie nationale.",
+     "articles": [
+      "afae4f6a897b",
+      "87ac1bf862bd",
+      "a8203d56cfc2"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 89.57,
+      "unite": "USD le baril",
+      "variation_pct": -0.42,
+      "au": "2026-11-23",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.559,
+      "unite": "USD par MMBtu",
+      "variation_pct": -5.04,
+      "au": "2026-11-23",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3623.3,
+      "unite": "USD l'once",
+      "variation_pct": 3.07,
+      "au": "2026-11-23",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 591.0,
+      "unite": "cents le boisseau",
+      "variation_pct": -0.17,
+      "au": "2026-11-23",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 6910.39,
+      "unite": "points",
+      "variation_pct": -3.7,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 5941.95,
+      "unite": "points",
+      "variation_pct": -2.81,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 7927.75,
+      "unite": "points",
+      "variation_pct": -1.89,
+      "au": "2026-11-20",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0997,
+      "unite": "",
+      "variation_pct": 0.2,
+      "au": "2026-11-23",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3772,
+      "unite": "dinars",
+      "variation_pct": 0.23,
+      "au": "2026-11-19",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0713,
+      "unite": "dinars",
+      "variation_pct": 0.07,
+      "au": "2026-11-19",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Projet de règle d'or budgétaire constitutionnelle en France",
+     "texte": "Le président français envisage une convocation du Congrès à Versailles afin d'introduire un mécanisme contraignant de maîtrise des finances publiques dans la Constitution. Le projet vise à freiner l'endettement de l'État et recherche l'appui des forces politiques parlementaires.",
+     "articles": [
+      "895af85d32ec",
+      "80f7d8423e50",
+      "bf04645c3a8a"
+     ]
+    },
+    {
+     "titre": "Sommet Choose France dédié aux investissements des entreprises nationales",
+     "texte": "La nouvelle édition de la rencontre économique met en avant 42,5 milliards d'euros d'investissements portés par des acteurs français. Le programme intègre 14,9 milliards d'euros de nouveaux engagements répartis sur 81 projets industriels.",
+     "articles": [
+      "8b8408588a33",
+      "aaa5f8d10647"
+     ]
+    },
+    {
+     "titre": "Rebond des cours de l'or après un plus bas de quatorze mois",
+     "texte": "Le cours du métal précieux s'inscrit en hausse sur les marchés mondiaux après avoir enregistré une baisse prolongée à son niveau le plus faible depuis plus d'un an.",
+     "articles": [
+      "3dcb1ceda2fe"
+     ]
+    },
+    {
+     "titre": "Repli de 3 % de la Bourse de Séoul à l'ouverture",
+     "texte": "L'indice boursier sud-coréen a entamé sa session sur une nette baisse dans la foulée des pertes enregistrées sur les marchés américains.",
+     "articles": [
+      "e749505b5cc5"
+     ]
+    },
+    {
+     "titre": "Forte concentration de la valeur sur le marché des cryptomonnaies",
+     "texte": "Malgré la présence de 66 millions d'actifs numériques répertoriés, une minorité de jetons majeurs continue de capter la quasi-totalité des volumes et de la capitalisation globale.",
+     "articles": [
+      "1e054674be74"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Bilan mitigé pour les entreprises tunisiennes sur les marchés africains",
+     "texte": "Les entreprises tunisiennes constatent un faible rendement commercial de leurs participations aux foires et salons en Afrique. Malgré la franchise douanière accordée dans les pays membres du COMESA, les ventes à l'exportation restent extrêmement restreintes.",
+     "articles": [
+      "37ad682ba912",
+      "119aacca953e"
+     ]
+    },
+    {
+     "titre": "Avertissement en Libye suite à l'arrêt d'un oléoduc majeur",
+     "texte": "Les autorités libyennes ont mis en garde contre des pertes financières conséquentes découlant de la fermeture inopinée d'un axe de transport d'hydrocarbures.",
+     "articles": [
+      "c3a713d7e978"
+     ]
+    },
+    {
+     "titre": "Tour d'horizon de l'actualité économique et financière continentale",
+     "texte": "Le groupe Dangote envisage la cession d'une participation dans sa raffinerie, tandis que Baobab sécurise 50 millions de dollars de financements. De son côté, l'Afrique du Sud prépare le lancement d'un fonds de 5,7 millions de dollars axé sur l'intelligence artificielle.",
+     "articles": [
+      "42fb837ebf29"
+     ]
+    },
+    {
+     "titre": "La Mauritanie sollicite sa diaspora pour le financement d'infrastructures",
+     "texte": "Les autorités mauritaniennes élaborent des mécanismes destinés à canaliser les investissements des résidents à l'étranger vers des projets nationaux à fort impact.",
+     "articles": [
+      "d97289326816"
+     ]
+    },
+    {
+     "titre": "Évaluation du projet d'aménagement socioéconomique PRISE II en RDC",
+     "texte": "La Banque africaine de développement passe en revue la seconde phase du projet de renforcement des infrastructures de base au bénéfice des populations des régions centrales de la RDC.",
+     "articles": [
+      "62def4b76d78"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Plan d'urgence électrique de 1 000 MW pour l'été 2027 en Tunisie",
+     "texte": "Le gouvernement prévoit l'installation de 1 000 MW d'électricité supplémentaires pour prévenir d'éventuelles coupures lors de la prochaine saison estivale. Le programme repose sur le renforcement des centrales, le refroidissement des équipements et l'intégration des énergies renouvelables.",
+     "articles": [
+      "ba86525f6750",
+      "d0d6e51f6d14"
+     ]
+    },
+    {
+     "titre": "Échec d'un accord politique global lors de la COP31",
+     "texte": "La réunion sur le climat réunie à Antalya s'est terminée sans consensus en raison de désaccords persistants sur l'avenir des énergies fossiles, le projet de déclaration finale ayant été rejeté par l'Union européenne.",
+     "articles": [
+      "5c9800e005cf",
+      "cee0fd062cd3",
+      "0f64981d8d78",
+      "bb661232807c"
+     ]
+    },
+    {
+     "titre": "Progression de la Tunisie au classement mondial de l'administration en ligne",
+     "texte": "La Tunisie grimpe de 21 places pour atteindre le 96e rang mondial et le 4e rang africain selon le rapport 2026 des Nations unies sur l'e-gouvernement, atteignant un score d'indice de développement de 0,7086.",
+     "articles": [
+      "16086418ed31",
+      "586c947c0541"
+     ]
+    },
+    {
+     "titre": "La start-up tunisienne Gity primée au sommet des PME à Bagdad",
+     "texte": "La jeune entreprise tunisienne Gity a reçu le prix du meilleur projet d'agriculture intelligente de la région arabe lors du sommet organisé par la Commission économique et sociale des Nations unies pour l'Asie occidentale.",
+     "articles": [
+      "5e2981f65719",
+      "7053325ce01e"
+     ]
+    },
+    {
+     "titre": "Recomposition du marché télécoms B2B avec le projet de rachat de SFR",
+     "texte": "Bouygues Telecom projette d'acquérir l'activité dédiée aux entreprises de SFR afin de renforcer sa position face à l'opérateur historique Orange, sous réserve de l'aval de l'autorité de la concurrence.",
+     "articles": [
+      "cd95610debe6"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "0f4b98612b0e": {
+   "titre": "150 Actualités Phosphate : un plan d’urgence de trois mois pour relancer la production et atteindre 4,3 millions de tonnes en 2027",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/phosphate-un-plan-durgence-de-trois-mois-pour-relancer-la-production-et-atteindre-43-millions-de-tonnes-en-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T07:51:00.444245+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0f64981d8d78": {
+   "titre": "87 Energie COP31 : la bataille sur les énergies fossiles se prolonge, la Tunisie défend ses financements Il y a 4 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/cop31-antalya-fossiles-financement-tunisie-22-novembre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T17:51:24.955891+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "119aacca953e": {
+   "titre": "La porte ouverte, personne ne passe",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/la-porte-ouverte-personne-ne-passe/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T15:40:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "16086418ed31": {
+   "titre": "96 Economie Administration numérique : la Tunisie gagne 21 places, qu’est-ce qui change pour les citoyens ? Il y a 6 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-administration-numerique-onu-2026-rang-services-citoyens/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T17:51:24.955891+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1dcc79b02ac8": {
+   "titre": "Médicaments : l’ANMPS dément le paiement de 50 dinars supplémentaires par les patients",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/22/medicaments-lanmps-dement-le-paiement-de-50-dinars-supplementaires-par-les-patients/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T17:35:38+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1e054674be74": {
+   "titre": "Cryptomonnaies : comment faire le tri parmi 66 millions d’actifs possibles",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/argent/article/2026/11/23/cryptomonnaies-comment-faire-le-tri-parmi-66-millions-d-actifs-possibles_6814342_1657007.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T06:00:14+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "267f2fe7f02b": {
+   "titre": "Emploi : 100 000 contrats SIVP, 17 000 crédits et une évaluation des sociétés communautaires en 2027",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/23/emploi-100-000-contrats-sivp-17-000-credits-et-une-evaluation-des-societes-communautaires-en-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T08:47:28+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2afffa3a2e79": {
+   "titre": "Moez Joudi et trois responsables de la BTE annoncés en garde à vue pour blanchiment d’argent",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/22/moez-joudi-et-trois-responsables-de-la-bte-en-garde-a-vue-pour-blanchiment-dargent/1430096/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T20:20:06+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2fb10d0daf51": {
+   "titre": "40 Actualités Médicaments : l’Agence nationale clarifie la redevance de 50 dinars sur les « commandes confirmées... Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/medicaments-lagence-nationale-clarifie-la-redevance-de-50-dinars-sur-les-commandes-confirmees/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T17:51:24.955891+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2fbfccbf3619": {
+   "titre": "Huile d’olive, la moitié pour les producteurs et les dattes à l’export",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/huile-dolive-la-moitie-pour-les-producteurs-et-les-dattes-a-lexport/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T17:26:06+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "37ad682ba912": {
+   "titre": "Plus de missions que de marchés",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/plus-de-missions-que-de-marches/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T15:41:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3dcb1ceda2fe": {
+   "titre": "78 Actualités Prix de l’or: Un rebond après une chute à un plus bas de 14 mois Il y a 2 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/prix-de-lor-un-rebond-apres-une-chute-a-un-plus-bas-de-14-mois/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T07:51:00.444245+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "42fb837ebf29": {
+   "titre": "TechCabal Daily – Le bis de Dangote",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/23/techcabal-daily-dangotes-encore/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/23/techcabal-daily-dangotes-encore/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-23T06:51:49+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "👨🏿‍🚀TechCabal Daily – Dangote’s encore"
+  },
+  "507e6ec92de0": {
+   "titre": "L’Utica plaide pour la promotion de l’huile d’olive conditionnée",
+   "source": "Kapitalis",
+   "url": "https://kapitalis.com/tunisie/2026/11/22/lutica-plaide-pour-la-promotion-de-lhuile-dolive-conditionnee/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T13:57:40+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "586c947c0541": {
+   "titre": "Administration électronique : La Tunisie gagne 21 places et se hisse au 96e rang",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/administration-electronique-la-tunisie-gagne-21-places-et-se-hisse-au-96e-rang/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T15:39:46+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5c5cb6895a75": {
+   "titre": "Phosphates : 500 millions de dinars pour soutenir la relance de la CPG",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/22/phosphates-500-millions-de-dinars-pour-soutenir-la-relance-de-la-cpg/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T21:10:53+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5c9800e005cf": {
+   "titre": "« L’échec de la COP31 envoie un signal positif : le monde prend les risques et la science au sérieux », estime le scientifique suédois Johan Rockström",
+   "source": "Le Monde.fr",
+   "url": "https://www.lemonde.fr/planete/article/2026/11/23/l-echec-de-la-cop31-envoie-un-signal-positif-le-monde-prend-les-risques-et-la-science-au-serieux_6814309_3244.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T05:15:10+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "5e2981f65719": {
+   "titre": "Une start-up tunisienne sacrée meilleur projet d'agriculture intelligente dans la région...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20832768-une-start-up",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T17:51:24.955891+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "62def4b76d78": {
+   "titre": "République Démocratique du Congo - Projet de renforcement des infrastructures socioéconomiques dans la région du centre - Phase II - (PRISE II) - EER Juin 2026",
+   "source": "African Development Bank Group",
+   "url": "https://www.afdb.org/fr/documents/republique-democratique-congo-projet-renforcement-98809",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T22:00:03+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "663809994195": {
+   "titre": "Phosphate : Zouari dévoile un plan d'urgence pour produire 4,3 Mt en 2027",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20833934-phosphate-zouari",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T07:51:00.444245+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6b8e0ef74daf": {
+   "titre": "Budget 2027: Des députés évoquent les difficultés liées au secteur du phosphate au cours...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20832980-budget-2027-des",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T17:51:24.955891+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7053325ce01e": {
+   "titre": "Gity sacrée meilleur projet d’agriculture intelligente du CESAO",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/une-start-up-tunisienne-sacree-meilleur-projet-dagriculture-intelligente-dans-la-region-arabe/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T14:53:20+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7eb7cb271f31": {
+   "titre": "Wassim Ben Yedder, vendeur & acheteur le même jour",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/wassim-ben-yedder-vendeur-acheteur-le-meme-jour/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T08:32:11+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "80f7d8423e50": {
+   "titre": "Emmanuel Macron envisage de réunir le Congrès à Versailles pour faire adopter une « règle d’or » budgétaire, une procédure inédite à plus d’un titre",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/22/emmanuel-macron-envisage-de-reunir-le-congres-a-versailles-pour-faire-adopter-une-regle-d-or-budgetaire-une-procedure-inedite-a-plus-d-un-titre_6814241_823448.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T19:53:29+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "87ac1bf862bd": {
+   "titre": "Adel Boussarsar, éminente figure du tourisme tunisien, n’est plus",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/adel-boussarsar-eminente-figure-du-tourisme-tunisien-nest-plus/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T15:49:41+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "895af85d32ec": {
+   "titre": "France-Macron confirme envisager de réunir le Congrès à Versailles pour une règle d'or budgétaire",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20834802-france-macron",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T07:51:00.444245+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8b8408588a33": {
+   "titre": "Pour Emmanuel Macron, un Choose France 100 % tricolore sur fond de morosité des entreprises françaises",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/23/pour-emmanuel-macron-un-choose-france-100-tricolore-sur-fond-de-morosite-des-entreprises-francaises_6814341_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T06:00:00+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "8e68fbfd53f9": {
+   "titre": "Médicaments : après la polémique des 50 dinars, l’ANMPS désigne qui devra payer",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/22/medicaments-apres-la-polemique-des-50-dinars-lanmps-designe-qui-devra-payer/1430080/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T17:13:20+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9c99b69b52b4": {
+   "titre": "Sociétés communautaires : Chaoued annonce une évaluation de l'expérience dès 2027",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20834406-sociétés",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T07:51:00.444245+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9d8c6e9783e8": {
+   "titre": "Banque de Tunisie, un administrateur & trois jours d’achats",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/banque-de-tunisie-un-administrateur-trois-jours-dachats/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T08:30:07+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a8203d56cfc2": {
+   "titre": "Décès d’Adel Boussarsar, figure pionnière du tourisme tunisien",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/22/deces-dadel-boussarsar-figure-pionniere-du-tourisme-tunisien/1430013/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T10:27:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "aaa5f8d10647": {
+   "titre": "Choose France : 273 projets industriels seront présentés lors de ce sommet dévolu aux entreprises tricolores",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/22/choose-france-273-projets-industriels-seront-presentes-lors-de-ce-sommet-devolu-aux-entreprises-tricolores_6814240_1656968.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T19:42:11+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "ae131a1069c1": {
+   "titre": "Huile en bouteille, gouvernance en vrac",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/huile-en-bouteille-gouvernance-en-vrac/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T08:33:15+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "afae4f6a897b": {
+   "titre": "Décès de Adel Boussarsar : de l’ONTT à Golden Yasmine, le parcours d’un bâtisseur du tourisme tunisien",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/22/577750/deces-de-adel-boussarsar-de-lontt-a-golden-yasmine-le-parcours-dun-batisseur-du-tourisme-tunisien/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T17:51:24.955891+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b8b6859a800a": {
+   "titre": "L’Agence du médicament et des produits de santé apporte des précisions concernant la décision du ministre de la santé visant à imposer des frais de 50 dinars sur la \"commande confirmée\"",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20833233-l-agence-du",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T17:51:24.955891+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ba86525f6750": {
+   "titre": "Électricité : 1 000 MW supplémentaires promis avant l’été 2027 pour éviter un nouveau scénario de crise",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/22/electricite-1-000-mw-supplementaires-promis-avant-lete-2027-pour-eviter-un-nouveau-scenario-de-crise/1430083/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T19:05:02+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "bb661232807c": {
+   "titre": "COP31: un projet d'accord contesté, accusé de ménager les énergies fossiles",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20832738-cop31-un-projet",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T17:51:24.955891+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "be7f1058876e": {
+   "titre": "Sociétés communautaires : Chaoued annonce une évaluation de l’expérience dès 2027",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/societes-communautaires-chaoued-annonce-une-evaluation-de-lexperience-des-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T08:50:26+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "bf04645c3a8a": {
+   "titre": "L’idée d’une « règle d’or » budgétaire dans la Constitution soutenue par Marine Le Pen et Thierry Breton, critiquée par Gabriel Zucman",
+   "source": "Le Monde.fr",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/22/l-idee-d-une-regle-d-or-budgetaire-dans-la-constitution-soutenue-par-marine-le-pen-et-thierry-breton-critiquee-par-gabriel-zucman_6814238_823448.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T18:21:58+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "c3a713d7e978": {
+   "titre": "La Libye met en garde contre d'importantes pertes suite à la fermeture d'un oléoduc",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20834751-la-libye-met-en",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T07:51:00.444245+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c4e017a20a07": {
+   "titre": "16 Société Tunisie : l’expert financier Moez Joudi placé en garde à vue dans une enquête pour... Il y a 9 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-lexpert-financier-moez-joudi-place-en-garde-a-vue-dans-une-enquete-pour-blanchiment-dargent-presume/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T07:51:00.444245+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "cab82b3ecf9e": {
+   "titre": "Tunisair, 24 MDT face à un gouffre de 1,24 milliard",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/tunisair-24-mdt-face-a-un-gouffre-de-124-milliard/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T08:28:15+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "cd95610debe6": {
+   "titre": "La recomposition du marché des télécoms pour les entreprises, l’autre enjeu du rachat de SFR",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/23/la-recomposition-du-marche-des-telecoms-pour-les-entreprises-l-autre-enjeu-du-rachat-de-sfr_6814355_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T07:00:09+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "cee0fd062cd3": {
+   "titre": "COP31 : les divisions sur les énergies fossiles font échouer l’accord, le climat en paie le prix",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/22/cop31-les-divisions-sur-les-energies-fossiles-font-echouer-laccord-le-climat-en-paie-le-prix/1430100/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T21:09:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d0d6e51f6d14": {
+   "titre": "Coupures d’électricité : Boubaker Yahia demande des explications au gouvernement et des excuses aux Tunisiens",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/22/coupures-delectricite-boubaker-yahia-demande-des-explications-au-gouvernement-et-des-excuses-aux-tunisiens/1430017/",
+   "url_traduite": null,
+   "publie_le": "2026-11-22T15:16:22+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d97289326816": {
+   "titre": "Afrique économie - La Mauritanie compte sur sa diaspora pour des investissements structurants",
+   "source": "RFI",
+   "url": "https://www.rfi.fr/fr/podcasts/afrique-%C3%A9conomie/20261122-la-mauritanie-compte-sur-sa-diaspora-pour-des-investissements-structurants",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T00:03:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "dea55b2cbb8c": {
+   "titre": "81 Actualités Phosphate : 500 millions de dinars mobilisés pour porter la production à 4,3 millions de... Il y a 2 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/phosphate-500-millions-de-dinars-mobilises-pour-porter-la-production-a-43-millions-de-tonnes-en-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T07:51:00.444245+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e749505b5cc5": {
+   "titre": "La Bourse de Séoul ouvre en baisse de 3% dans le sillage de Wall Street",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20834778-la-bourse-de-séoul",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T07:51:00.444245+00:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
