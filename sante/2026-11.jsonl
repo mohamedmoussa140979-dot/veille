@@ -501,3 +501,5 @@
 {"t": "2026-11-23T09:59:31.898796+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
 {"t": "2026-11-23T10:00:07.734224+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
 {"t": "2026-11-23T10:00:21.202478+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 6, \"flux\": 0}", "ctx": {}}
+{"t": "2026-11-23T10:42:17.318640+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "GET www.tap.info.tn : ConnectTimeout: HTTPSConnectionPool(host='www.tap.info.tn', port=443): Max retries exceeded with url: /fr (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tap.info.tn', ", "ctx": {"source": "tap"}}
+{"t": "2026-11-23T10:43:20.974659+01:00", "niveau": "info", "code": "collecte_terminee", "message": "60 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "48", "sources_en_erreur": "1", "lus": "1973", "rejetes": "5", "resolutions": "15", "resolutions_echec": "0"}}
