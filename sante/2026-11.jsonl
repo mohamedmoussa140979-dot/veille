@@ -503,3 +503,6 @@
 {"t": "2026-11-23T10:00:21.202478+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 6, \"flux\": 0}", "ctx": {}}
 {"t": "2026-11-23T10:42:17.318640+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "GET www.tap.info.tn : ConnectTimeout: HTTPSConnectionPool(host='www.tap.info.tn', port=443): Max retries exceeded with url: /fr (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.tap.info.tn', ", "ctx": {"source": "tap"}}
 {"t": "2026-11-23T10:43:20.974659+01:00", "niveau": "info", "code": "collecte_terminee", "message": "60 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "48", "sources_en_erreur": "1", "lus": "1973", "rejetes": "5", "resolutions": "15", "resolutions_echec": "0"}}
+{"t": "2026-11-23T12:17:54.451307+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-23T12:18:04.952223+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "france24-eco"}}
+{"t": "2026-11-23T12:18:54.959681+01:00", "niveau": "info", "code": "collecte_terminee", "message": "55 nouveau(x), 1 alerte(s)", "ctx": {"sources_ok": "48", "sources_en_erreur": "1", "lus": "1934", "rejetes": "11", "resolutions": "11", "resolutions_echec": "0"}}
