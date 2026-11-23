@@ -506,3 +506,5 @@
 {"t": "2026-11-23T12:17:54.451307+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
 {"t": "2026-11-23T12:18:04.952223+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "france24-eco"}}
 {"t": "2026-11-23T12:18:54.959681+01:00", "niveau": "info", "code": "collecte_terminee", "message": "55 nouveau(x), 1 alerte(s)", "ctx": {"sources_ok": "48", "sources_en_erreur": "1", "lus": "1934", "rejetes": "11", "resolutions": "11", "resolutions_echec": "0"}}
+{"t": "2026-11-23T14:37:21.388673+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-23T14:38:54.650639+01:00", "niveau": "info", "code": "collecte_terminee", "message": "93 nouveau(x), 3 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "1974", "rejetes": "13", "resolutions": "17", "resolutions_echec": "0"}}
