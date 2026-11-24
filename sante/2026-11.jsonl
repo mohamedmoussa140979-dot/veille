@@ -554,3 +554,24 @@
 {"t": "2026-11-24T12:09:44.437745+01:00", "niveau": "info", "code": "collecte_terminee", "message": "64 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "2041", "rejetes": "10", "resolutions": "15", "resolutions_echec": "0"}}
 {"t": "2026-11-24T14:32:30.140317+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
 {"t": "2026-11-24T14:33:54.009742+01:00", "niveau": "info", "code": "collecte_terminee", "message": "79 nouveau(x), 1 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "2093", "rejetes": "4", "resolutions": "15", "resolutions_echec": "0"}}
+{"t": "2026-11-24T16:19:12.078467+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "moodys-tunisie"}}
+{"t": "2026-11-24T16:19:40.198082+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "sp-tunisie"}}
+{"t": "2026-11-24T16:20:09.574636+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "fitch-tunisie"}}
+{"t": "2026-11-24T16:20:44.209825+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "fmi-tunisie"}}
+{"t": "2026-11-24T16:21:11.065566+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "banque-mondiale-tunisie"}}
+{"t": "2026-11-24T16:21:32.567968+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "ocde-tunisie"}}
+{"t": "2026-11-24T16:22:05.715494+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "bad-tunisie"}}
+{"t": "2026-11-24T16:22:14.279549+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-24T16:22:45.501415+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "ilboursa"}}
+{"t": "2026-11-24T16:23:22.410377+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "agence-ecofin"}}
+{"t": "2026-11-24T16:23:53.123206+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "financial-afrik"}}
+{"t": "2026-11-24T16:24:23.364327+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "jeune-afrique"}}
+{"t": "2026-11-24T16:24:50.979272+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "sikafinance"}}
+{"t": "2026-11-24T16:25:19.794220+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "reuters-tunisie"}}
+{"t": "2026-11-24T16:25:44.997958+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "bloomberg-tunisie"}}
+{"t": "2026-11-24T16:26:02.214145+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 429", "ctx": {"source": "ft-tunisie"}}
+{"t": "2026-11-24T16:26:29.259506+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "la-tribune"}}
+{"t": "2026-11-24T16:27:03.813724+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "le-monde-tunisie"}}
+{"t": "2026-11-24T16:27:32.103201+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "rfi-tunisie"}}
+{"t": "2026-11-24T16:27:32.132569+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "finextra"}}
+{"t": "2026-11-24T16:27:44.581728+01:00", "niveau": "info", "code": "collecte_terminee", "message": "40 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "30", "sources_en_erreur": "19", "lus": "1000", "rejetes": "12", "resolutions": "0", "resolutions_echec": "0"}}
