@@ -550,3 +550,5 @@
 {"t": "2026-11-24T09:45:57.708183+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 5, \"flux\": 0}", "ctx": {}}
 {"t": "2026-11-24T10:24:55.451309+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
 {"t": "2026-11-24T10:26:04.079400+01:00", "niveau": "info", "code": "collecte_terminee", "message": "67 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "2071", "rejetes": "16", "resolutions": "9", "resolutions_echec": "0"}}
+{"t": "2026-11-24T12:08:38.245300+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-24T12:09:44.437745+01:00", "niveau": "info", "code": "collecte_terminee", "message": "64 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "2041", "rejetes": "10", "resolutions": "15", "resolutions_echec": "0"}}
