@@ -552,3 +552,5 @@
 {"t": "2026-11-24T10:26:04.079400+01:00", "niveau": "info", "code": "collecte_terminee", "message": "67 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "2071", "rejetes": "16", "resolutions": "9", "resolutions_echec": "0"}}
 {"t": "2026-11-24T12:08:38.245300+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
 {"t": "2026-11-24T12:09:44.437745+01:00", "niveau": "info", "code": "collecte_terminee", "message": "64 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "2041", "rejetes": "10", "resolutions": "15", "resolutions_echec": "0"}}
+{"t": "2026-11-24T14:32:30.140317+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-24T14:33:54.009742+01:00", "niveau": "info", "code": "collecte_terminee", "message": "79 nouveau(x), 1 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "2093", "rejetes": "4", "resolutions": "15", "resolutions_echec": "0"}}
