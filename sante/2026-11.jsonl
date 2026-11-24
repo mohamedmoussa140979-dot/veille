@@ -575,3 +575,5 @@
 {"t": "2026-11-24T16:27:32.103201+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 503", "ctx": {"source": "rfi-tunisie"}}
 {"t": "2026-11-24T16:27:32.132569+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "finextra"}}
 {"t": "2026-11-24T16:27:44.581728+01:00", "niveau": "info", "code": "collecte_terminee", "message": "40 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "30", "sources_en_erreur": "19", "lus": "1000", "rejetes": "12", "resolutions": "0", "resolutions_echec": "0"}}
+{"t": "2026-11-24T18:15:20.757973+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-24T18:16:57.240401+01:00", "niveau": "info", "code": "collecte_terminee", "message": "96 nouveau(x), 1 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "1992", "rejetes": "14", "resolutions": "23", "resolutions_echec": "0"}}
