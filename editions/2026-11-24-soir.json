@@ -1,0 +1,1072 @@
+{
+ "version": 1,
+ "id": "2026-11-24-soir",
+ "date": "2026-11-24",
+ "edition": "soir",
+ "genere_le": "2026-11-24T19:13:27+01:00",
+ "modele": "claude-sonnet-5-5",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19499.64,
+   "variation_pct": 0.91,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-24"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3797,
+   "variation_pct": -0.13,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-23"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 87.84,
+   "variation_pct": 1.34,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-24"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "Loi de finances 2027 : les commissions parlementaires ont rejeté les articles 49, 50 et 63 (équipements solaires, batteries, sacs biodégradables), et les recettes fiscales prévues pèsent 49,6 milliards de dinars, soit 91,4 % des recettes propres.",
+   "articles": [
+    "3df801eb5374",
+    "c1e9d9c840d7",
+    "2fcfce1ce814",
+    "d88115414877",
+    "1bd8a672e0c4",
+    "fe0748fbab44",
+    "1f2c7c05a50c"
+   ]
+  },
+  {
+   "texte": "Les IDE atteignent 2 983,2 MDT à fin septembre 2026 (+15,6 %), mais la hausse a ralenti de moitié en un an et repose sur un seul secteur.",
+   "articles": [
+    "798950081cd3",
+    "52f75f2dd3f0"
+   ]
+  },
+  {
+   "texte": "La BIAT lève 150 millions de dinars en emprunt subordonné ; les 72 sociétés cotées ayant publié totalisent 19 244,2 MDT de revenus sur neuf mois (+4,2 %).",
+   "articles": [
+    "147cea6dc136",
+    "4ae5d8e51f6e",
+    "6464b3f84567",
+    "33c72143daf1"
+   ]
+  },
+  {
+   "texte": "Nvidia : le retour de Jensen Huang a fait bondir le titre de 31 % lundi, avant un net repli mardi ; le dollar approche son plus haut depuis près de 20 mois et le Brent avoisine les 90 dollars.",
+   "articles": [
+    "015edfeea88a",
+    "10255806c083",
+    "8e0ef4890f57",
+    "32f26049350a",
+    "053f43008511",
+    "1485c362d298",
+    "013b3bc9cb7f",
+    "f36e03e88a2b",
+    "7a248d3e581b",
+    "89805c0ecb99",
+    "afdb8b6445fa",
+    "73d9956c0aad",
+    "777bf19460c6",
+    "a34fa93fd7c5",
+    "b5f69cecda4d"
+   ]
+  },
+  {
+   "texte": "Sanofi rachète Insmed pour 37,6 milliards d'euros et l'UE plafonne à 350 000 par an les hybrides chinois importés.",
+   "articles": [
+    "b1c014ba97ef",
+    "d96fca4a9860"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "PLF 2027 : rejet des mesures sur solaire, batteries et sacs",
+     "texte": "Les commissions des Finances de l'ARP et du CNRD, réunies en session conjointe, ont rejeté les articles 49, 50 et 63 du projet de loi de finances 2027. Ils concernent la fiscalité des équipements solaires, des batteries de stockage et des sacs biodégradables, et le rejet suscite des réactions entre fabricants et importateurs.",
+     "articles": [
+      "3df801eb5374",
+      "c1e9d9c840d7",
+      "2fcfce1ce814",
+      "d88115414877",
+      "1bd8a672e0c4"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": "Sans les avantages fiscaux prévus sur panneaux solaires et batteries, leur prix pourrait être plus élevé pour les consommateurs."
+    },
+    {
+     "titre": "Huile d'olive : production en baisse en Tunisie",
+     "texte": "La production mondiale d'huile d'olive est attendue à 3,7 millions de tonnes en 2026/27, contre environ 300 000 tonnes en Tunisie, en baisse. La Tunisie devrait se classer troisième producteur mondial.",
+     "articles": [
+      "7a6ce4614861",
+      "e4cc5b69e9e3"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "IDE : +15,6 % à fin septembre 2026",
+     "texte": "Selon la FIPA, les IDE s'élèvent à 2 983,2 MDT, mais la croissance a été divisée par deux en un an et un seul secteur la porte. Le coût par emploi créé varie fortement selon le pays d'origine de l'investisseur.",
+     "articles": [
+      "798950081cd3",
+      "52f75f2dd3f0"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Presse : risque de décrochage de l'économie",
+     "texte": "Des commentaires de presse évoquent un décrochage silencieux de l'économie tunisienne, avec une analyse de Safwen Ben Aissa sur la situation du pays.",
+     "articles": [
+      "b6d1c0560413",
+      "46cc9754201d"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Budget 2027 : le poids de la fiscalité",
+     "texte": "Les recettes fiscales du budget 2027 sont estimées à environ 49,6 milliards de dinars, soit 91,4 % des recettes propres et 60,2 % des ressources totales de l'État. Des analyses plaident pour alléger cette emprise.",
+     "articles": [
+      "fe0748fbab44",
+      "1f2c7c05a50c"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-24",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19499.64,
+      "variation_pct": 0.91,
+      "variation_annee_pct": 44.98,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14772.19,
+      "variation_pct": 1.07,
+      "variation_annee_pct": 52.77,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "siame",
+      "libelle": "SIAME",
+      "valeur": 3.5,
+      "variation_pct": 5.42,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "nbl",
+      "libelle": "NEW BODY LINE",
+      "valeur": 2.34,
+      "variation_pct": 3.54,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "scb",
+      "libelle": "CIMENTS DE BIZERTE",
+      "valeur": 0.6,
+      "variation_pct": 3.45,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "bhl",
+      "libelle": "BH LEASING",
+      "valeur": 4.47,
+      "variation_pct": -4.49,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tair",
+      "libelle": "TUNISAIR",
+      "valeur": 0.32,
+      "variation_pct": -3.03,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "plast",
+      "libelle": "OFFICE PLAST",
+      "valeur": 1.25,
+      "variation_pct": -1.57,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "BIAT : emprunt subordonné de 150 MDT clôturé",
+     "texte": "Les souscriptions à l'emprunt « BIAT subordonné 2026-2 » sont closes et la banque a levé 150 millions de dinars. L'émission s'est faite sans appel public à l'épargne.",
+     "articles": [
+      "4ae5d8e51f6e",
+      "6464b3f84567",
+      "33c72143daf1"
+     ]
+    },
+    {
+     "titre": "Tunisair : double assemblée générale",
+     "texte": "Tunisair convoque ses actionnaires à une double assemblée générale.",
+     "articles": [
+      "8cf7ce54bf65",
+      "32e9aca13916"
+     ]
+    },
+    {
+     "titre": "Marouane El Abassi à la tête du conseil de Bank ABC",
+     "texte": "Marouane El Abassi entre au conseil d'administration de Bank ABC, qu'il préside.",
+     "articles": [
+      "d8839e71f0b0",
+      "93ad2eeea975"
+     ]
+    },
+    {
+     "titre": "Cotées : revenus de 19,2 Md DT sur neuf mois",
+     "texte": "Les 72 sociétés cotées ayant publié leurs indicateurs totalisent 19 244,2 MDT de revenus, en hausse de 4,2 %. Dix d'entre elles, dont Poulina, la BIAT et Délice, en réalisent plus de la moitié.",
+     "articles": [
+      "147cea6dc136"
+     ]
+    },
+    {
+     "titre": "Société d'Articles Hygiéniques : hausse de capital",
+     "texte": "La Société d'Articles Hygiéniques prévoit une augmentation de capital de plus de 2 millions de dinars.",
+     "articles": [
+      "70b5e98cf491"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 87.84,
+      "unite": "USD le baril",
+      "variation_pct": 1.34,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.703,
+      "unite": "USD par MMBtu",
+      "variation_pct": 5.11,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3562.9,
+      "unite": "USD l'once",
+      "variation_pct": -2.42,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 591.0,
+      "unite": "cents le boisseau",
+      "variation_pct": -0.76,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7198.69,
+      "unite": "points",
+      "variation_pct": -0.53,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 6003.76,
+      "unite": "points",
+      "variation_pct": -1.16,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 8040.49,
+      "unite": "points",
+      "variation_pct": -0.05,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0975,
+      "unite": "",
+      "variation_pct": 0.63,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3797,
+      "unite": "dinars",
+      "variation_pct": -0.13,
+      "au": "2026-11-23",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0678,
+      "unite": "dinars",
+      "variation_pct": -0.42,
+      "au": "2026-11-23",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Sanofi rachète Insmed",
+     "texte": "Sanofi acquiert l'américain Insmed, spécialiste des maladies respiratoires, pour 37,6 milliards d'euros, sa plus grosse opération depuis 2004. Insmed commercialise un médicament à plus d'un milliard de dollars de recettes annuelles.",
+     "articles": [
+      "b1c014ba97ef"
+     ]
+    },
+    {
+     "titre": "UE : plafond sur les hybrides chinois",
+     "texte": "L'UE limite les importations de voitures hybrides chinoises, conformément à l'accord d'octobre avec Pékin qui plafonne les exportations à 350 000 véhicules par an.",
+     "articles": [
+      "d96fca4a9860"
+     ]
+    },
+    {
+     "titre": "Nvidia : retour de Jensen Huang et volatilité",
+     "texte": "Réintégré par le conseil, Jensen Huang a fait bondir l'action de 31 % lundi, avant un net repli mardi. Des parlementaires demandent des explications, et un réseau de détournement de puces d'IA vers la Chine est mis en cause.",
+     "articles": [
+      "015edfeea88a",
+      "8e0ef4890f57",
+      "32f26049350a",
+      "1485c362d298",
+      "013b3bc9cb7f",
+      "f36e03e88a2b",
+      "89805c0ecb99",
+      "afdb8b6445fa",
+      "777bf19460c6"
+     ]
+    },
+    {
+     "titre": "Dollar proche de ses plus hauts",
+     "texte": "L'indice du dollar se rapproche de son plus haut depuis mars 2025, soit près de 20 mois, tandis que l'euro reste sous pression.",
+     "articles": [
+      "10255806c083",
+      "73d9956c0aad",
+      "a34fa93fd7c5"
+     ]
+    },
+    {
+     "titre": "Pétrole : prix et prévisions",
+     "texte": "Les cours du brut ont reculé, proches de leur plus bas depuis trois mois, sur fond de craintes de surabondance d'offre. Bank of America maintient sa prévision de 80 dollars le baril pour le Brent en 2027 et 70 dollars en 2028.",
+     "articles": [
+      "053f43008511",
+      "7a248d3e581b",
+      "b5f69cecda4d"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Algérie : usine de batteries au lithium",
+     "texte": "L'Algérie lance un projet d'usine de batteries au lithium de 5 GWh de capacité, piloté par Karim Zaghib.",
+     "articles": [
+      "3adbd2ba711e",
+      "885fd5181b72",
+      "f05e1dabf950"
+     ]
+    },
+    {
+     "titre": "RDC : nouvelle suspension des exportations de cobalt",
+     "texte": "La RDC suspend de nouveau ses exportations de cobalt face à la surproduction, une stratégie jugée risquée.",
+     "articles": [
+      "dda2dfa70566",
+      "1fd867399df8"
+     ]
+    },
+    {
+     "titre": "Algérie : budget 2027 déficitaire",
+     "texte": "Le budget 2027 de l'Algérie prévoit des dépenses près de deux fois supérieures aux recettes.",
+     "articles": [
+      "dc87ebf81de8"
+     ]
+    },
+    {
+     "titre": "Visa ouvre un bureau au Cameroun",
+     "texte": "Visa ouvre un bureau de représentation à Douala, à l'occasion du lancement officiel de ses activités au Cameroun.",
+     "articles": [
+      "0e9d17bf7fe7"
+     ]
+    },
+    {
+     "titre": "Afrique : infrastructures et transformation économique",
+     "texte": "Les infrastructures africaines progressent, mais la transformation économique reste un défi.",
+     "articles": [
+      "ad99c7c3b0eb"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "INSSPA : plateforme numérique de contrôle alimentaire",
+     "texte": "L'INSSPA prépare une plateforme pour dématérialiser ses opérations de contrôle et renforcer la surveillance et la traçabilité de la chaîne alimentaire, a annoncé son président Mohamed Rabhi.",
+     "articles": [
+      "b078b045ac0b",
+      "3173f93284ee",
+      "440ceb3c409e",
+      "0e7040ad4b93"
+     ]
+    },
+    {
+     "titre": "Tech216 et Oxacloud : accord Tunisie-Royaume-Uni",
+     "texte": "Tech216 et l'entreprise britannique Oxacloud ont signé un protocole d'accord en marge du Web Summit 2026 pour renforcer les relations d'affaires entre les deux pays.",
+     "articles": [
+      "be1ca631ffbb",
+      "6dad37df28b8",
+      "410f9a82fe7e"
+     ]
+    },
+    {
+     "titre": "Cynoia lance Hannibal AI",
+     "texte": "La startup tunisienne Cynoia a lancé Hannibal AI, assistant d'IA intégré à Cynoia 3.1, et revendique plus de 7 000 utilisateurs. Elle vise l'expansion en Afrique.",
+     "articles": [
+      "2deba111a0a5",
+      "7ac5ad54cd56"
+     ]
+    },
+    {
+     "titre": "Starling Bank : succession à la direction",
+     "texte": "Un vétéran de Starling devrait en prendre la direction, et la presse spécialisée s'interroge sur le successeur.",
+     "articles": [
+      "31f241fba6b7",
+      "3896ed3d1c86"
+     ]
+    },
+    {
+     "titre": "IA : mutation des métiers comptables",
+     "texte": "L'IA pourrait modifier les honoraires et les métiers des comptables et auditeurs.",
+     "articles": [
+      "dda32c1f9279"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "013b3bc9cb7f": {
+   "titre": "Nvidia : Donald Trump aurait gagné jusqu’à 15 millions de dollars grâce à ses actions après le retour de Jensen Huang, selon le « Financial Times »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/international/article/2026/11/24/nvidia-donald-trump-aurait-gagne-jusqu-a-15-millions-de-dollars-grace-a-ses-actions-apres-le-retour-de-jensen-huang-selon-le-financial-times_6814756_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T12:56:00+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "015edfeea88a": {
+   "titre": "Nvidia : le conseil d’administration dans la tourmente après le retour de Jensen Huang",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/24/nvidia-le-conseil-dadministration-dans-la-tourmente-apres-le-retour-de-jensen-huang/1430388/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T17:59:36+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "053f43008511": {
+   "titre": "Pétrole: le Brent avoisine les 90 dollars",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20839724-pétrole-le-brent",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T13:31:49.679576+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0e7040ad4b93": {
+   "titre": "INSSPA : Vers le lancement d’une plateforme numérique pour renforcer le contrôle et la...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Titres-de-l-actualité/20839708-insspa-vers-le",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T13:31:49.679576+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0e9d17bf7fe7": {
+   "titre": "Visa ouvre un bureau au Cameroun",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/pressarticle/111774/visa-opens-cameroon-office",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T17:53:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Visa opens Cameroon office"
+  },
+  "10255806c083": {
+   "titre": "58 Actualités Marché des changes : le dollar cède du terrain, l’euro reste sous pression Il y a 59 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/marche-des-changes-le-dollar-cede-du-terrain-leuro-reste-sous-pression/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T17:14:34.852692+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "147cea6dc136": {
+   "titre": "Bourse : Poulina, Biat, Délice & les autres. Attijari n’est que 10ème",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/bourse-poulina-biat-delice-les-autres-attijari-nest-que-10eme/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T15:20:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1485c362d298": {
+   "titre": "Les places boursières saluent le retour de Jensen Huang chez Nvidia",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9missions/info-%C3%A9co/20261124-les-places-boursi%C3%A8res-saluent-le-retour-de-jensen-huang-chez-nvidia",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T13:19:21+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1bd8a672e0c4": {
+   "titre": "5 A la une Budget 2027 : les raisons du rejet des mesures sur les sacs biodégradables, les batteries et les panneaux solaires Il y a 6 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/budget-2027-les-raisons-du-rejet-des-mesures-sur-les-sacs-biodegradables-les-batteries-et-les-panneaux-solaires/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T15:18:26.714386+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1f2c7c05a50c": {
+   "titre": "Richesses à l’arrêt et impôts records… Réduire l’emprise de la fiscalité sur le budget !",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/richesses-a-larret-et-impots-records-reduire-lemprise-de-la-fiscalite-sur-le-budget/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T09:42:43+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1fd867399df8": {
+   "titre": "La RDC suspend à nouveau ses exportations de cobalt face à la surproduction",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/la-rdc-suspend-a-nouveau-ses-exportations-de-cobalt-face-a-la-surproduction_65900",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T19:40:59+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2deba111a0a5": {
+   "titre": "Cynoia lance Hannibal AI avant de poursuivre son expansion en Afrique",
+   "source": "Wamda",
+   "url": "https://www.wamda.com/2026/11/cynoia-launches-hannibal-ai-ahead-african-expansion",
+   "url_traduite": "https://www-wamda-com.translate.goog/2026/11/cynoia-launches-hannibal-ai-ahead-african-expansion?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-24T15:57:36+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Cynoia launches Hannibal AI ahead of further African expansion"
+  },
+  "2fcfce1ce814": {
+   "titre": "Loi de finances 2027 : Rejet, en commissions parlementaires, d'articles sur les batteries, les panneaux solaires et les sacs biodégradables",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20840597-loi-de-finances",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T17:14:34.852692+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3173f93284ee": {
+   "titre": "Vers le lancement d’une plateforme numérique pour renforcer le contrôle et la traçabilité des produits alimentaires",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/vers-le-lancement-dune-plateforme-numerique-pour-renforcer-le-controle-et-la-tracabilite-des-produits-alimentaires/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T16:01:39+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "31f241fba6b7": {
+   "titre": "Exclusif : un vétéran de Starling prendra la direction générale",
+   "source": "Sifted",
+   "url": "https://sifted.eu/articles/starling-veteran-to-take-over-as-ceo/",
+   "url_traduite": "https://sifted-eu.translate.goog/articles/starling-veteran-to-take-over-as-ceo/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-24T14:57:46+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Exclusive: Starling veteran to take over as CEO"
+  },
+  "32e9aca13916": {
+   "titre": "Tunisair convoque une double Assemblée générale",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/24/tunisair-convoque-une-double-assemblee-generale/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T13:31:49.679576+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "32f26049350a": {
+   "titre": "Taïwan célèbre le retour de son héros Jensen Huang à la tête de Nvidia",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20840146-taïwan-célèbre-le",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T15:18:26.714386+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "33c72143daf1": {
+   "titre": "La BIAT lève avec succès 150 millions de dinars sur le marché obligataire",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/la-biat-leve-avec-succes-150-millions-de-dinars-sur-le-marche-obligataire_65913",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T13:19:45+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3896ed3d1c86": {
+   "titre": "Qui pourrait être le prochain directeur général de Starling ?",
+   "source": "Sifted",
+   "url": "https://sifted.eu/articles/starlings-next-ceo/",
+   "url_traduite": "https://sifted-eu.translate.goog/articles/starlings-next-ceo/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-24T12:00:37+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Who could be Starling’s next CEO?"
+  },
+  "3adbd2ba711e": {
+   "titre": "69 Actualités L’Algérie lance un projet d’usine de batteries au lithium d’une capacité de production de 5 GWh",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/lalgerie-lance-un-projet-dusine-de-batteries-au-lithium-dune-capacite-de-production-de-5-gwh/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T15:18:26.714386+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3df801eb5374": {
+   "titre": "Rejet, en commissions parlementaires, d’articles sur les batteries, les panneaux solaires et les sacs biodégradables",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/rejet-en-commissions-parlementaires-darticles-sur-les-batteries-les-panneaux-solaires-et-les-sacs-biodegradables/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T17:44:08+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "410f9a82fe7e": {
+   "titre": "Tunisie-Royaume Uni : Signature d’un accord entre Tech216 et une entreprise britannique pour renforcer les relations d’affaires",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/tunisie-royaume-uni-signature-dun-accord-entre-tech216-et-une-entreprise-britannique-pour-renforcer-les-relations-daffaires/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T13:28:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "440ceb3c409e": {
+   "titre": "INSSPA : Vers le lancement d’une plateforme numérique pour renforcer le contrôle et la traçabilité des produits alimentaires",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Société/20839708-insspa-vers-le",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T13:31:49.679576+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "46cc9754201d": {
+   "titre": "Tunisie : l’économie au bord d’un décrochage silencieux",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/24/577338/tunisie-leconomie-au-bord-dun-decrochage-silencieux/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T09:24:03.846848+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4ae5d8e51f6e": {
+   "titre": "BIAT : Les souscriptions à l'emprun...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-emprunts-obligataires/biat-biat-les-souscriptions-a-l-emprunt-obligataire-subordonne-cloturees-pour-150-md",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T15:18:26.714386+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "52f75f2dd3f0": {
+   "titre": "IDE : sans l’usine, le recul",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/ide-sans-lusine-le-recul/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T10:49:38+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6464b3f84567": {
+   "titre": "Clôture des souscriptions : Emprunt obligataire subordonné « BIAT subordonné 2026-2 » émis sans recours à l’Appel Public à l’Epargne",
+   "source": "CMF",
+   "url": "https://www.cmf.tn/?q=cl%C3%B4ture-des-souscriptions-emprunt-obligataire-subordonn%C3%A9-%C2%AB-biat-subordonn%C3%A9-2026-2-%C2%BB-%C3%A9mis-sans",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T14:37:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6dad37df28b8": {
+   "titre": "Tunisie-Royaume Uni : Signature d’un accord entre Tech216 et une entreprise britannique...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail_Veille-et-Suivi/20839465-tunisie-royaume",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T13:31:49.679576+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "70b5e98cf491": {
+   "titre": "Tunisie : Vers une augmentation de plus de 2 millions de dinars du capital de la Société d'Articles Hygiéniques",
+   "source": "Financial Afrik",
+   "url": "https://www.financialafrik.com/2026/11/24/tunisie-vers-une-augmentation-de-plus-de-2-millions-de-dinars-du-capital-de-la-societe-darticles-hygieniques/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T15:14:50+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "73d9956c0aad": {
+   "titre": "L’indice du dollar se rapproche de son plus haut niveau depuis mars 2025",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/lindice-du-dollar-se-rapproche-de-son-plus-haut-niveau-depuis-mars-2025_65903",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T09:55:39+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "777bf19460c6": {
+   "titre": "Nvidia : Jensen Huang retrouve la direction, les exportations vers la Chine restent sous surveillance",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/24/577861/nvidia-jensen-huang-retrouve-la-direction-les-exportations-vers-la-chine-restent-sous-surveillance/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T09:24:03.846848+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "798950081cd3": {
+   "titre": "IDE : Un emploi italien à 95 000 dinars, un Néerlandais à 609 000",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/ide-un-emploi-italien-a-95-000-dinars-un-neerlandais-a-609-000/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T15:17:43+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7a248d3e581b": {
+   "titre": "Pétrole : les prix atteignent leur plus bas niveau face à un nouveau rebond de l’or",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/24/petrole-les-prix-atteignent-leur-plus-bas-niveau-face-a-un-nouveau-rebond-de-lor/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T11:54:04+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7a6ce4614861": {
+   "titre": "41 Actualités Huile d’olive : la Tunisie attendue au troisième rang mondial des producteurs en 2026/27 Il y a 47 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/huile-dolive-la-tunisie-attendue-au-troisieme-rang-mondial-des-producteurs-en-2026-27/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T15:18:26.714386+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7ac5ad54cd56": {
+   "titre": "Hannibal AI : la startup tunisienne Cynoia mise sur l’intelligence artificielle pour conquérir l’Afrique",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/24/hannibal-ai-la-startup-tunisienne-cynoia-mise-sur-lintelligence-artificielle-pour-conquerir-lafrique/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T12:39:56+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "885fd5181b72": {
+   "titre": "87 A la une L’Algérie vise haut : La batterie au lithium sur les rails, pilotée par l’Algérien aux... Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/lalgerie-vise-haut-la-batterie-au-lithium-sur-les-rails-pilotee-par-lalgerien-aux-600-brevets-et-60-licences/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T13:31:49.679576+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "89805c0ecb99": {
+   "titre": "Jensen Huang de retour à la tête de Nvidia, sous l’influence de Donald Trump",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/international/video/2026/11/24/jensen-huang-de-retour-a-la-tete-de-nvidia-sous-l-influence-de-donald-trump_6814742_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T11:22:55+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "8cf7ce54bf65": {
+   "titre": "Tunisair convoque ses actionnaires en as...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-assemblees/tunisair-tunisair-convoque-ses-actionnaires-en-assemblees-generales-le-15-decembre",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T15:18:26.714386+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8e0ef4890f57": {
+   "titre": "Derrière l’affaire Nvidia, un vaste réseau de détournement de puces d’IA au service de la Chine",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/24/derriere-l-affaire-nvidia-un-vaste-reseau-de-detournement-de-puces-d-ia-au-service-de-la-chine_6814811_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T16:49:58+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "93ad2eeea975": {
+   "titre": "Marouane Abbassi à la tête du Conseil d’administration de Bank ABC : un signal fort pour la finance régionale",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/24/577874/marouane-abbassi-a-la-tete-du-conseil-dadministration-de-bank-abc-un-signal-fort-pour-la-finance-regionale/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T09:24:03.846848+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a34fa93fd7c5": {
+   "titre": "55 Actualités Le dollar au plus haut depuis près de 20 mois Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/le-dollar-au-plus-haut-depuis-pres-de-20-mois/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T09:24:03.846848+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ad99c7c3b0eb": {
+   "titre": "Afrique : des infrastructures en progrès, mais le défi de la transformation économique demeure",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/24/577881/afrique-des-infrastructures-en-progres-mais-le-defi-de-la-transformation-economique-demeure/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T17:14:34.852692+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "afdb8b6445fa": {
+   "titre": "10 Actualités Nvidia : Trump sauve Jensen Huang, son retour fait gagner près de 1 000 milliards... Il y a 7 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/nvidia-trump-jensen-huang-retour-1000-milliards-bourse/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T11:06:53.472649+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b078b045ac0b": {
+   "titre": "Sécurité alimentaire : l’INSSPA prépare une plateforme numérique pour renforcer le contrôle",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/24/securite-alimentaire-linsspa-prepare-une-plateforme-numerique-pour-renforcer-le-controle/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T16:11:37+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b1c014ba97ef": {
+   "titre": "Sanofi, en s’offrant l’américain Insmed, se lance dans la plus importante acquisition de son histoire depuis 2004",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/24/sanofi-pret-a-debourser-37-6-milliards-d-euros-pour-l-americain-insmed-un-specialiste-du-traitement-des-maladies-respiratoires_6814758_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T13:08:33+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "b5f69cecda4d": {
+   "titre": "Bank of America prévoit un prix moyen du pétrole brut Brent de 80 dollars pour 2027",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/bank-of-america-prevoit-un-prix-moyen-du-petrole-brut-brent-de-80-dollars-pour-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T08:41:53+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b6d1c0560413": {
+   "titre": "Safwen Ben Aissa : La Tunisie affiche u...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-actualites-economiques/safwen-ben-aissa-la-tunisie-affiche-une-croissance-positive-en-2026-mais-elle-reste-faible-et-perd",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T11:06:53.472649+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "be1ca631ffbb": {
+   "titre": "Tunisie-Royaume-Uni : un nouveau partenariat dans les technologies numériques",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/24/577897/tunisie-royaume-uni-un-nouveau-partenariat-dans-les-technologies-numeriques/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T17:14:34.852692+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c1e9d9c840d7": {
+   "titre": "PLF 2027 : les avantages fiscaux sur le solaire et les batteries rejetés en commission",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/24/577918/plf-2027-les-avantages-fiscaux-sur-le-solaire-et-les-batteries-rejetes-en-commission/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T17:14:34.852692+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d88115414877": {
+   "titre": "Panneaux solaires : fabricants et importateurs se disputent et le consommateur en paie le prix",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/24/panneaux-solaires-fabricants-et-importateurs-se-disputent-et-le-consommateur-en-paie-le-prix/1430357/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T15:53:36+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d8839e71f0b0": {
+   "titre": "Marouane El Abassi entre au conseil d...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-actualites-des-societes/marouane-el-abassi-entre-au-conseil-d-administration-de-bank-abc",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T11:06:53.472649+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d96fca4a9860": {
+   "titre": "L’UE limite les importations de voitures hybrides en provenance de Chine, comme convenu le mois dernier avec Pékin",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/24/l-ue-limite-les-importations-de-voitures-hybrides-en-provenance-de-chine-comme-convenu-le-mois-dernier-avec-pekin_6814744_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T11:26:41+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "dc87ebf81de8": {
+   "titre": "Budget 2027 : L'Algérie dépensera près de deux fois plus qu'elle n'encaissera",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/budget-2027-l-algerie-depensera-pres-de-deux-fois-plus-qu-elle-n-encaissera_65908",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T11:38:24+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "dda2dfa70566": {
+   "titre": "Gel des exportations de cobalt : la stratégie à quitte ou double de la RDC",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1864335/economie-entreprises/gel-des-exportations-de-cobalt-la-strategie-a-quitte-ou-double-de-la-rdc/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T12:37:00+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "dda32c1f9279": {
+   "titre": "TENDANCES EMPLOI & METIERS | Comptables et auditeurs face à l’IA : les honoraires et les métiers pourraient changer",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/24/577711/tendances-emploi-metiers-comptables-et-auditeurs-face-a-lia-les-honoraires-et-les-metiers-pourraient-changer/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T17:14:34.852692+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e4cc5b69e9e3": {
+   "titre": "Huile d’olive | Hausse de la production mondiale en 2026-27, baisse en Tunisie",
+   "source": "Kapitalis",
+   "url": "https://kapitalis.com/tunisie/2026/11/24/huile-dolive-hausse-de-la-production-mondiale-en-2026-27-baisse-en-tunisie/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T09:17:22+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f05e1dabf950": {
+   "titre": "Qui est Karim Zaghib, le « maître de la batterie » aux commandes du grand projet lithium de l’Algérie ?",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/24/qui-est-karim-zaghib-le-maitre-de-la-batterie-aux-commandes-du-grand-projet-lithium-de-lalgerie/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T13:31:49.679576+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f36e03e88a2b": {
+   "titre": "De retour à la tête de Nvidia, Jensen Huang assure qu'il \"sera un meilleur PDG la deuxième fois\"",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/vid%C3%A9o/20261124-de-retour-%C3%A0-la-t%C3%AAte-de-nvidia-jensen-huang-assure-qu-il-sera-un-meilleur-pdg-la-deuxi%C3%A8me-fois",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T12:49:06+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fe0748fbab44": {
+   "titre": "Budget 2027 : Comment réduire le poids de la fiscalité",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/budget-2027-comment-reduire-le-poids-de-la-fiscalite/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T09:45:44+01:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
