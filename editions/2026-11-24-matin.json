@@ -1,0 +1,1030 @@
+{
+ "version": 1,
+ "id": "2026-11-24-matin",
+ "date": "2026-11-24",
+ "edition": "matin",
+ "genere_le": "2026-11-24T08:56:24+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19323.78,
+   "variation_pct": 0.48,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-23"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3842,
+   "variation_pct": 0.21,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-20"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 86.77,
+   "variation_pct": 0.1,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-24"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "Au sein du projet de loi de finances 2027, la commission des finances de l'ARP a rejeté les exonérations fiscales prévues pour les équipements solaires et les batteries.",
+   "articles": [
+    "60f51a78a458",
+    "d79f30f75703",
+    "166bf91c9297",
+    "6607aa39dec9",
+    "5d7199bd2f25"
+   ]
+  },
+  {
+   "texte": "Sur le marché financier tunisien, la SOTUVER franchit le cap du milliard de dinars de capitalisation, tandis que le Tunindex progresse de 0,48 %.",
+   "articles": [
+    "5f9668c76303",
+    "097ad3a08dd8",
+    "9f6e2d1568ea",
+    "a5d17a6592b0",
+    "bd2ebd67e890",
+    "b162643acb19",
+    "10f3df1e4a05"
+   ]
+  },
+  {
+   "texte": "La Banque centrale européenne autorise l'usage des actifs émis sur des plateformes DLT comme garanties éligibles pour l'Eurosystème.",
+   "articles": [
+    "78b4706030b6"
+   ]
+  },
+  {
+   "texte": "Sur les marchés internationaux, le cours du pétrole Brent s'affaisse sous les 89 dollars au plus bas depuis trois mois, alors que le dollar s'apprécie face à l'euro.",
+   "articles": [
+    "be7fff97ca4f",
+    "3489bfe7f3e9",
+    "fd3a9624302d",
+    "69247591dc70"
+   ]
+  },
+  {
+   "texte": "Chez Nvidia, la réintégration immédiate de Jensen Huang au poste de directeur général fait rebondir l'action en Bourse.",
+   "articles": [
+    "64184916ee3a",
+    "84731b915db8",
+    "42d3f13bb967",
+    "f17893e857f8",
+    "4aad6dfff3ae",
+    "fee644d562d1",
+    "363696a78dd2",
+    "4d81179017c7",
+    "8ea60d43d8a0",
+    "2ada10b6bde8",
+    "734a77121dd0"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Rejet des allègements fiscaux solaires dans le PLF 2027",
+     "texte": "La commission des finances de l'Assemblée des représentants du peuple a écarté les articles du projet de loi de finances 2027 prévoyant des avantages fiscaux sur le matériel photovoltaïque et les batteries. Des propositions d'amendements suggèrent de réorienter les subventions énergétiques accordées aux industriels vers l'investissement solaire.",
+     "articles": [
+      "60f51a78a458",
+      "d79f30f75703",
+      "166bf91c9297",
+      "6607aa39dec9",
+      "5d7199bd2f25"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": null
+    },
+    {
+     "titre": "Ambitions d'augmentation de la production de phosphate d'ici 2027",
+     "texte": "La Tunisie ambitionne de porter sa production nationale de phosphate à 4,3 millions de tonnes à l'horizon 2027. Un montant de 500 millions de dinars est évoqué pour soutenir la relance du secteur.",
+     "articles": [
+      "3783744ec12b",
+      "76e5156ee983",
+      "c912f2063186"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Planification de nouvelles capacités électriques pour l'été 2027",
+     "texte": "Afin de pallier un déficit estimé à 2 000 MW et prévenir le risque de coupures, la STEG prévoit d'ajouter 650 MW de capacité de production supplémentaire avant la période estivale 2027.",
+     "articles": [
+      "1007a5da08ac",
+      "b86679235e4c",
+      "02d718404c3b"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Essoufflement de la croissance et pressions sur l'assiette fiscale",
+     "texte": "Malgré un taux de croissance de 2,2 % sur les neuf premiers mois de 2026, l'économie tunisienne pâtit de la faiblesse de l'investissement et de la consommation. L'alourdissement de la dette publique auprès du système bancaire restreint les capacités de financement du secteur privé.",
+     "articles": [
+      "40cb00bd0bc1",
+      "185cafca883f"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Classement du niveau d'endettement extérieur en Afrique",
+     "texte": "Au titre de l'année 2025, la Tunisie figure à la dixième position des pays du continent africain affichant la plus forte dette extérieure.",
+     "articles": [
+      "02c179277772"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-23",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19323.78,
+      "variation_pct": 0.48,
+      "variation_annee_pct": 43.67,
+      "au": "2026-11-23",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14615.91,
+      "variation_pct": 0.54,
+      "variation_annee_pct": 51.15,
+      "au": "2026-11-23",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "tls",
+      "libelle": "TUNISIE LEASING & FACTORING",
+      "valeur": 38.0,
+      "variation_pct": 5.97,
+      "au": "2026-11-23",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tpr",
+      "libelle": "TPR",
+      "valeur": 14.88,
+      "variation_pct": 4.06,
+      "au": "2026-11-23",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "stb",
+      "libelle": "STB BANK",
+      "valeur": 5.59,
+      "variation_pct": 3.9,
+      "au": "2026-11-23",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "al",
+      "libelle": "AIR LIQUIDE TUNISIE",
+      "valeur": 222.01,
+      "variation_pct": -3.05,
+      "au": "2026-11-23",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "smd",
+      "libelle": "SANIMED",
+      "valeur": 0.33,
+      "variation_pct": -2.94,
+      "au": "2026-11-23",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "somoc",
+      "libelle": "SOMOCER",
+      "valeur": 0.66,
+      "variation_pct": -2.94,
+      "au": "2026-11-23",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "La SOTUVER passe le cap du milliard de dinars de valorisation",
+     "texte": "La Société Tunisienne de Verrerie (SOTUVER) a franchi le seuil symbolique d'un milliard de dinars de capitalisation à la Bourse de Tunis.",
+     "articles": [
+      "a5d17a6592b0"
+     ]
+    },
+    {
+     "titre": "Progression de 0,48 % du Tunindex en début de semaine",
+     "texte": "Porté par les valeurs industrielles, le Tunindex s'est apprécié de 0,48 % pour atteindre 19 323,78 points. Les échanges ont totalisé un volume de 6,2 millions de dinars.",
+     "articles": [
+      "5f9668c76303",
+      "097ad3a08dd8",
+      "9f6e2d1568ea",
+      "bd2ebd67e890",
+      "b162643acb19",
+      "10f3df1e4a05"
+     ]
+    },
+    {
+     "titre": "Forte concentration de la capitalisation à la Bourse de Tunis",
+     "texte": "Les données de marché indiquent que seulement cinq sociétés cotées représentent près de 50 % de la capitalisation boursière totale à la BVMT.",
+     "articles": [
+      "309c61469620"
+     ]
+    },
+    {
+     "titre": "Reconduction du directeur général de la STB",
+     "texte": "Rachid Batita a été maintenu dans ses fonctions de directeur général de la Société Tunisienne de Banque.",
+     "articles": [
+      "52775ab050c1"
+     ]
+    },
+    {
+     "titre": "Nomination de Marouane El Abassi au conseil d'administration de Bank ABC",
+     "texte": "L'ancien gouverneur de la Banque Centrale de Tunisie, Marouane El Abassi, rejoint le conseil d'administration du groupe bancaire Bank ABC.",
+     "articles": [
+      "9c575be17941"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 86.77,
+      "unite": "USD le baril",
+      "variation_pct": 0.1,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.578,
+      "unite": "USD par MMBtu",
+      "variation_pct": 1.56,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3621.1,
+      "unite": "USD l'once",
+      "variation_pct": -0.83,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 594.75,
+      "unite": "cents le boisseau",
+      "variation_pct": -0.13,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7237.17,
+      "unite": "points",
+      "variation_pct": 4.73,
+      "au": "2026-11-23",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 6074.47,
+      "unite": "points",
+      "variation_pct": 2.23,
+      "au": "2026-11-23",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 8044.84,
+      "unite": "points",
+      "variation_pct": 1.48,
+      "au": "2026-11-23",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0908,
+      "unite": "",
+      "variation_pct": 0.02,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3842,
+      "unite": "dinars",
+      "variation_pct": 0.21,
+      "au": "2026-11-20",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0808,
+      "unite": "dinars",
+      "variation_pct": 0.31,
+      "au": "2026-11-20",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Admissibilité des titres sur DLT comme garanties auprès de la BCE",
+     "texte": "Le Conseil des gouverneurs de la BCE autorise l'utilisation d'actifs négociables émis via des technologies de registre distribué (DLT) comme garanties dans les opérations de crédit de l'Eurosystème.",
+     "articles": [
+      "78b4706030b6"
+     ]
+    },
+    {
+     "titre": "Recul des cours du Brent sous les 89 dollars",
+     "texte": "Les cours du pétrole brut se replient sous le seuil des 89 dollars le baril, atteignant leur niveau le plus bas enregistré au cours des trois derniers mois.",
+     "articles": [
+      "be7fff97ca4f",
+      "69247591dc70"
+     ]
+    },
+    {
+     "titre": "Le dollar américain au plus haut depuis 19 mois face à l'euro",
+     "texte": "La devise américaine s'est appréciée face à l'euro pour atteindre un sommet sur 19 mois, soutenue par les antécédents d'ajustements monétaires de la Réserve fédérale.",
+     "articles": [
+      "3489bfe7f3e9",
+      "fd3a9624302d"
+     ]
+    },
+    {
+     "titre": "Rebond de 4 % des cours de l'or après une vive correction",
+     "texte": "Après avoir enregistré une baisse cumulée importante, le cours de l'or affiche une reprise technique de 4 %, dans un marché qui reste prudent.",
+     "articles": [
+      "4a7b6eb14980",
+      "8b43c47be190"
+     ]
+    },
+    {
+     "titre": "Critiques et blocages lors des négociations de la COP31",
+     "texte": "Le projet d'accord de la COP31 fait l'objet de vives protestations de la part des délégations en raison du manque d'engagements fermes sur la transition hors des énergies fossiles.",
+     "articles": [
+      "643789362def",
+      "fd803e365f12"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Renforcement de la coopération économique maghrébine au ONE Business Forum",
+     "texte": "L'Organisation Nationale des Entrepreneurs a ouvert les travaux de la 2e édition du ONE Business Forum afin d'encourager les flux d'affaires et partenariats avec la Libye et l'Algérie.",
+     "articles": [
+      "553f0f38e33d",
+      "ff50ae7650e1"
+     ]
+    },
+    {
+     "titre": "Dix ans de déploiement d'Africa50 dans les infrastructures",
+     "texte": "La plateforme Africa50 dresse le bilan de ses dix premières années d'activité, caractérisées par la mise en œuvre progressive de ses projets d'infrastructures sur le continent.",
+     "articles": [
+      "8baf36c2142d"
+     ]
+    },
+    {
+     "titre": "Approbation d'un programme de 425 millions de dollars du FMI pour la Guinée",
+     "texte": "Le FMI a validé un mécanisme de financement triennal de 425 millions de dollars destiné à soutenir le programme de réformes économiques en Guinée.",
+     "articles": [
+      "716d6ae8e36a"
+     ]
+    },
+    {
+     "titre": "Projet de restructuration de la SEEG au Gabon",
+     "texte": "Le gouvernement gabonais examine un plan de réorganisation prévoyant la scission des activités de la Société d'énergie et d'eau du Gabon.",
+     "articles": [
+      "320a2b3ac1ad"
+     ]
+    },
+    {
+     "titre": "Analyse des niveaux de rémunération bancaire en Côte d'Ivoire",
+     "texte": "Une étude sectorielle met en lumière les disparités de traitement et les niveaux de rémunération des cadres au sein des établissements bancaires ivoiriens.",
+     "articles": [
+      "7d7267f995f7"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Retour de Jensen Huang à la tête de Nvidia",
+     "texte": "Le conseil d'administration de Nvidia a réintégré Jensen Huang à la direction générale du groupe. L'annonce de son retour a entraîné une forte hausse de la valeur du titre en Bourse.",
+     "articles": [
+      "64184916ee3a",
+      "84731b915db8",
+      "42d3f13bb967",
+      "f17893e857f8",
+      "4aad6dfff3ae",
+      "fee644d562d1",
+      "363696a78dd2",
+      "4d81179017c7",
+      "8ea60d43d8a0",
+      "2ada10b6bde8",
+      "734a77121dd0"
+     ]
+    },
+    {
+     "titre": "Durcissement des sanctions américaines sur la contrebande de puces",
+     "texte": "Le département du Commerce des États-Unis a placé sur liste noire la société Megaspeed, basée à Singapour, accusée de détourner des puces Nvidia au profit de la Chine.",
+     "articles": [
+      "3e248d19f30e",
+      "98a8d47d2a57"
+     ]
+    },
+    {
+     "titre": "Plan d'emploi dans la protection des données au Nigeria",
+     "texte": "L'autorité de régulation des données au Nigeria lance une stratégie visant à former et insérer 500 000 professionnels dans le secteur de la protection de la vie privée.",
+     "articles": [
+      "1f3d921f033e"
+     ]
+    },
+    {
+     "titre": "Initiatives stratégiques des acteurs corporate africains",
+     "texte": "Le groupe Shoprite investit dans les télécommunications tandis que la banque Absa noue un partenariat avec Vodacom pour étendre l'accès aux services financiers.",
+     "articles": [
+      "f0a6d4c5d384"
+     ]
+    },
+    {
+     "titre": "Levées de fonds massives dans l'IA en Chine",
+     "texte": "De nombreuses startups chinoises spécialisées dans l'intelligence artificielle lèvent des capitaux majeurs pour développer des modèles capables de concourir face à DeepSeek.",
+     "articles": [
+      "636c02042d4b"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "02c179277772": {
+   "titre": "La Tunisie, dixième pays africain le plus endetté à l'extérieur en 2025",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/la-tunisie-dixieme-pays-africain-le-plus-endette-a-l-exterieur-en-2025_65901",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T08:01:36+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "02d718404c3b": {
+   "titre": "Coupures d’électricité : le ministre salue les efforts de la STEG durant l’été 2026",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/23/coupures-delectricite-le-ministre-salue-les-efforts-de-la-steg-durant-lete-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T12:25:06+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "097ad3a08dd8": {
+   "titre": "Bourse : Le marché débute la semaine dans le vert",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/bourse-le-marche-debute-la-semaine-dans-le-vert/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T21:30:30+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1007a5da08ac": {
+   "titre": "70 Actualités Tunisie : un déficit de 2 000 MW dans la production d’électricité et des risques... Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-un-deficit-de-2-000-mw-dans-la-production-delectricite-et-des-risques-de-coupures-durant-les-etes-2027-et-2028/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:16:47.180522+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "10f3df1e4a05": {
+   "titre": "Bourse de Tunis : Le Tunindex enchaine u...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-analyse-marche/bourse-de-tunis-le-tunindex-enchaine-une-nouvelle-hausse-de-048",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:16:47.180522+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "166bf91c9297": {
+   "titre": "Mohamed Ali Fennira appelle à transformer la facture des subventions énergétiques en investissement solaire",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/23/mohamed-ali-fennira-appelle-a-transformer-la-facture-des-subventions-energetiques-en-investissement-solaire/1430161/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T16:32:31+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "185cafca883f": {
+   "titre": "Ben Aissa : Une croissance économique inférieure aux prévisions entraînera une réduction de l’assiette fiscale",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/ben-aissa-une-croissance-economique-inferieure-aux-previsions-entrainera-une-reduction-de-lassiette-fiscale/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T11:31:52+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1f3d921f033e": {
+   "titre": "Le Nigeria veut transformer la protection des données en un gisement de 500 000 emplois",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/24/nigeria-data-protection-500000-jobs/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/24/nigeria-data-protection-500000-jobs/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-24T07:16:49+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Nigeria wants to turn data protection into a 500,000-job pipeline"
+  },
+  "2ada10b6bde8": {
+   "titre": "Nvidia réintègre Jensen Huang au poste d...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/international/nvidia-reintegre-jensen-huang-au-poste-de-pdg-l-action-bondit-de-30-en-bourse",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T15:22:22.065899+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "309c61469620": {
+   "titre": "143 Economie Bourse de Tunis : cinq valeurs détiennent près de la moitié de la capitalisation Il y a 10 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/bourse-de-tunis-cinq-valeurs-detiennent-pres-de-la-moitie-de-la-capitalisation/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T07:37:29.945383+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "320a2b3ac1ad": {
+   "titre": "Gabon : ce que contient le projet de scission la SEEG",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1863593/economie-entreprises/gabon-ce-que-contient-le-projet-de-scission-la-seeg/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T18:31:43+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "3489bfe7f3e9": {
+   "titre": "Le dollar au plus haut depuis plus de 19 mois face à l’euro",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/23/le-dollar-au-plus-haut-depuis-plus-de-19-mois-face-a-leuro/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T20:58:42+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "363696a78dd2": {
+   "titre": "Nvidia : Jensen Huang reprend les commandes, le titre s’envole en Bourse",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/23/577829/nvidia-jensen-huang-reprend-les-commandes-le-titre-senvole-en-bourse/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:16:47.180522+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3783744ec12b": {
+   "titre": "Phosphate : la Tunisie peut-elle réellement atteindre 4,3 millions de tonnes en 2027 ?",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/23/577827/phosphate-la-tunisie-peut-elle-reellement-atteindre-43-millions-de-tonnes-en-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:16:47.180522+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3e248d19f30e": {
+   "titre": "Washington durcit la lutte contre la contrebande de puces vers la Chine, Nvidia rassure les bourses",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261124-washington-durcit-la-lutte-contre-la-contrebande-de-puces-vers-la-chine-nvidia-rassure-les-bourses",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T07:30:26+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "40cb00bd0bc1": {
+   "titre": "Safouane Ben Aïssa : « Le danger n’est pas l’effondrement », mais l’enlisement de l’économie tunisienne",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/23/safouane-ben-aissa-le-danger-nest-pas-leffondrement-mais-lenlisement-de-leconomie-tunisienne/1430134/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T11:37:58+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "42d3f13bb967": {
+   "titre": "Le « come-back » spectaculaire de Jensen Huang à la tête de Nvidia, sous la pression de Donald Trump et des marchés financiers",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-come-back-spectaculaire-de-jensen-huang-a-la-tete-de-nvidia-sous-la-pression-de-donald-trump-et-des-marches-financiers_6814669_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T05:30:09+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "4a7b6eb14980": {
+   "titre": "13 Economie Le prix de l’or rebondit de 4 % après une chute de 9 % en... Il y a 10 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/le-prix-de-lor-rebondit-de-4-apres-une-chute-de-9-en-une-semaine/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:16:47.180522+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4aad6dfff3ae": {
+   "titre": "Nvidia : Jensen Huang réintégré après deux semaines de turbulences",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/23/nvidia-jensen-huang-reintegre-apres-deux-semaines-de-turbulences/1430168/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:52:29+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4d81179017c7": {
+   "titre": "EN DIRECT, Jensen Huang réintégré chez Nvidia : démocrates et républicains critiquent cette décision",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/international/live/2026/11/23/en-direct-jensen-huang-reintegre-chez-nvidia-donald-trump-affirme-avoir-parle-directement-avec-le-conseil-d-administration_6814407_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T16:57:50+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "52775ab050c1": {
+   "titre": "Rachid Batita reconduit à la direction générale de la STB",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/24/rachid-batita-reconduit-a-la-direction-generale-de-la-stb/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T07:37:29.945383+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "553f0f38e33d": {
+   "titre": "Entrepreneuriat : le ONE Business Forum mise sur les partenariats avec la Libye et l’Algérie",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/23/577816/entrepreneuriat-le-one-business-forum-mise-sur-les-partenariats-avec-la-libye-et-lalgerie/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T15:22:22.065899+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5d7199bd2f25": {
+   "titre": "PLF 2027 : l’UTICA propose d’exonérer les équipements solaires des taxes",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/23/577716/plf-2027-lutica-propose-dexonerer-les-equipements-solaires-des-taxes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T11:17:10.711038+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5f9668c76303": {
+   "titre": "Bourse de Tunis : le Tunindex progresse de 0,48 % à 19 323,78 points",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/23/577835/bourse-de-tunis-le-tunindex-progresse-de-048-a-19-32378-points/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T07:37:29.945383+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "60f51a78a458": {
+   "titre": "17 Economie Budget 2027 : la commission rejette les avantages fiscaux sur le solaire et les batteries Il y a 52 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/budget-2027-commission-rejette-avantages-solaires-batteries/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T07:37:29.945383+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "636c02042d4b": {
+   "titre": "Les prétendants chinois à l'IA qui attirent d'importants investissements pour affronter DeepSeek",
+   "source": "Bloomberg.com",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-23/the-chinese-ai-aspirants-drawing-big-bets-to-take-on-deepseek",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T00:00:00+01:00",
+   "langue": "en",
+   "payant": true,
+   "titre_origine": "The Chinese AI Aspirants Drawing Big Bets to Take on DeepSeek"
+  },
+  "64184916ee3a": {
+   "titre": "Jensen Huang réintégré chez Nvidia : ce qu’il faut en retenir",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/international/live/2026/11/24/jensen-huang-reintegre-chez-nvidia-ce-qu-il-faut-en-retenir_6814407_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T08:04:02+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "643789362def": {
+   "titre": "Climat : l’échec de la COP31 suscite une vague d’indignation et des appels aux réformes",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1864025/societe/climat-lechec-de-la-cop31-suscite-une-vague-dindignation-et-des-appels-aux-reformes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T11:22:45+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "6607aa39dec9": {
+   "titre": "Fenira tire à boulets rouges: « C’est un budget de gestion pas d’investissement»",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/fenira-tire-a-boulets-rouges-cest-un-budget-de-gestion-plutot-que-de-budget-dinvestissement/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T15:05:47+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "69247591dc70": {
+   "titre": "Les cours du pétrole repassent sous les 90 dollars",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/les-cours-du-petrole-repassent-sous-les-90-dollars_65890",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T14:11:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "716d6ae8e36a": {
+   "titre": "Guinée: le FMI approuve un programme d'aide de 425 millions de dollars sur trois ans",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20838561-guinée-le-fmi",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T07:37:29.945383+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "734a77121dd0": {
+   "titre": "Nvidia : Jensen Huang rétabli à son poste de directeur général, Trump salue une \"juste décision\"",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261123-jensen-huang-r%C3%A9tabli-son-poste-directeur-g%C3%A9n%C3%A9ral-nvidia",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T15:17:25+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "76e5156ee983": {
+   "titre": "Phosphate tunisien : la production visée à 4,3 millions de tonnes en 2027",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/23/577790/phosphate-tunisien-la-production-visee-a-43-millions-de-tonnes-en-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T13:36:22.066828+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "78b4706030b6": {
+   "titre": "La BCE élargit l'acceptation des actifs basés sur la DLT comme garanties éligibles à l'Eurosystème",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/pressarticle/111765/ecb-expands-acceptance-of-dlt-based-assets-as-eligible-eurosystem-collateral",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T19:05:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral"
+  },
+  "7d7267f995f7": {
+   "titre": "Côte d’Ivoire : Quelles sont les banques qui rémunèrent le mieux leurs cadres ?",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/premium/cote-divoire-quelles-sont-les-banques-qui-remunerent-le-mieux-leurs-cadres-_65894",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:35:07+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "84731b915db8": {
+   "titre": "127 Economie IA : Jensen Huang revient à la tête de Nvidia deux semaines après sa démission",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/ia-jensen-huang-revient-a-la-tete-de-nvidia-deux-semaines-apres-sa-demission/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T07:37:29.945383+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8b43c47be190": {
+   "titre": "Or : pourquoi la chute de 37 % pourrait se prolonger malgré les achats des banques centrales",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/23/577812/or-pourquoi-la-chute-de-37-pourrait-se-prolonger-malgre-les-achats-des-banques-centrales/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T15:22:22.065899+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8baf36c2142d": {
+   "titre": "Infrastructures : dix ans après, le pari encore inaccompli d’Africa50",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1857950/economie-entreprises/infrastructures-dix-ans-apres-le-pari-encore-inaccompli-dafrica50/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T08:31:43+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "8ea60d43d8a0": {
+   "titre": "Nvidia: coup de tonnerre, Jensen Huang signe son grand retour au bercail",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/23/nvidia-coup-de-tonnerre-jensen-huang-signe-son-grand-retour-au-bercail/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T15:22:22.065899+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "98a8d47d2a57": {
+   "titre": "Au cœur du scandale Nvidia, la société singapourienne Megaspeed blacklistée par les États-Unis",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261123-megaspeed-societe-singapour-scandale-nvidia-placee-liste-noire-etats-unis-chine",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T23:56:06+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9c575be17941": {
+   "titre": "Marouane El Abassi, ancien gouverneur de la BCT, rejoint le conseil d'administration de Bank ABC",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/marouane-el-abassi-ancien-gouverneur-de-la-bct-rejoint-le-conseil-d-administration-de-bank-abc_65899",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T20:36:06+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9f6e2d1568ea": {
+   "titre": "TPR monte, Carthage Cement grignote 0,56 % et Amen à l’équilibre",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/tpr-monte-carthage-cement-grignote-056-et-amen-a-lequilibre/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:49:42+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a5d17a6592b0": {
+   "titre": "La SOTUVER franchit le milliard de dinars de capitalisation boursière",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/la-sotuver-franchit-le-milliard-de-dinars-de-capitalisation-boursiere_65893",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:22:33+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b162643acb19": {
+   "titre": "Bourse : Le marché débute la semaine dans le vert",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Titres-de-l-actualité/20836566-bourse-le-marché",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:16:47.180522+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b86679235e4c": {
+   "titre": "Été 2027 : la Tunisie prévoit de renforcer sa production électrique avec 650 MW supplémentaires",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/23/577787/ete-2027-la-tunisie-prevoit-de-renforcer-sa-production-electrique-avec-650-mw-supplementaires/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T13:36:22.066828+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "bd2ebd67e890": {
+   "titre": "Bourse : Le marché débute la semaine dans le vert",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20836566-bourse-le-marché",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:16:47.180522+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "be7fff97ca4f": {
+   "titre": "75 Actualités Pétrole : le Brent passe sous les 89 dollars, au plus bas depuis trois mois Il y a 2 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/petrole-le-brent-passe-sous-les-89-dollars-au-plus-bas-depuis-trois-mois/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T07:37:29.945383+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c912f2063186": {
+   "titre": "Phosphate tunisien: 500 MDT pour relancer une machine qui peine à tourner",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/23/phosphate-tunisien-500-mdt-pour-relancer-une-machine-qui-peine-a-tourner/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T11:17:10.711038+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d79f30f75703": {
+   "titre": "PLF 2027 : les députés rejettent les allègements fiscaux sur le solaire et les batteries",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/23/plf-2027-les-deputes-rejettent-les-allegements-fiscaux-sur-le-solaire-et-les-batteries/1430181/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T18:55:24+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f0a6d4c5d384": {
+   "titre": "TechCabal Daily – Bonjour du côté d'Absa",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/24/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-hello-from-the-absa-side/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/24/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-hello-from-the-absa-side/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-24T07:02:26+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "👨🏿‍🚀TechCabal Daily – Hello from the Absa side"
+  },
+  "f17893e857f8": {
+   "titre": "EN DIRECT, Jensen Huang réintégré chez Nvidia à la surprise générale : le dirigeant accueilli sous les applaudissements de centaines de salariés",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/international/live/2026/11/23/en-direct-jensen-huang-reintegre-chez-nvidia-a-la-surprise-generale-le-dirigeant-accueilli-sous-les-applaudissements-de-centaines-de-salaries_6814407_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T20:37:41+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "fd3a9624302d": {
+   "titre": "29 Actualités Le dollar atteint son plus haut niveau face à l’euro depuis plus de 19 mois Il y a 38 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/le-dollar-atteint-son-plus-haut-niveau-face-a-leuro-depuis-plus-de-19-mois/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:16:47.180522+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fd803e365f12": {
+   "titre": "COP31 : le projet d’accord sur le climat vivement critiqué pour son recul sur les énergies fossiles",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/23/577759/cop31-le-projet-daccord-sur-le-climat-vivement-critique-pour-son-recul-sur-les-energies-fossiles/",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T11:17:10.711038+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fee644d562d1": {
+   "titre": "Jensen Huang de retour à la tête de Nvidia dans un volte-face inattendu",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/vid%C3%A9o/20261123-jensen-huang-de-retour-%C3%A0-la-t%C3%AAte-de-nvidia-dans-un-volte-face-inattendu",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:51:58+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ff50ae7650e1": {
+   "titre": "L’Organisation Nationale des Entrepreneurs organise la 2e édition du « ONE Business Forum...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail_Veille-et-Suivi/20834966-l-organisation",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T11:17:10.711038+00:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
