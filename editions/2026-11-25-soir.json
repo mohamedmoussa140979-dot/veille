@@ -1,0 +1,1178 @@
+{
+ "version": 1,
+ "id": "2026-11-25-soir",
+ "date": "2026-11-25",
+ "edition": "soir",
+ "genere_le": "2026-11-25T19:08:00+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19499.64,
+   "variation_pct": 0.91,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-24"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3797,
+   "variation_pct": -0.13,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-23"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 90.35,
+   "variation_pct": 1.77,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-25"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "L'avancement des travaux sur le projet de loi de finances 2027 au Parlement s'inscrit dans un contexte où la dette intérieure tunisienne a franchi les 100 milliards de dinars.",
+   "articles": [
+    "350b7b289742",
+    "85353d6c90b8",
+    "43ef26357994",
+    "50a19ed4dc22",
+    "af66d5126c1d",
+    "f9b7bf9dc7a7",
+    "e644ceb7a336",
+    "11dea871636d",
+    "b09b4dceb053",
+    "1733b2ce87f2",
+    "d251025f1ec5",
+    "4e9531b18668",
+    "17eefa054f8a",
+    "8bb9f0866f91",
+    "05824b5b15ff",
+    "74dbe67b9bb7",
+    "b891527a97bc",
+    "a3d4910affbd"
+   ]
+  },
+  {
+   "texte": "Les tensions commerciales mondiales se ravivent avec l'annonce par les États-Unis de nouveaux droits de douane ciblant 14 partenaires majeurs, dont l'UE et la Chine.",
+   "articles": [
+    "0cae680e5fc1",
+    "8f63cd09b090",
+    "97e3a657661d",
+    "88c66960b8eb",
+    "ad9b324e42a3"
+   ]
+  },
+  {
+   "texte": "L'Union européenne ambitionne d'investir 50 milliards d'euros à travers un fonds souverain dédié aux technologies quantiques et à l'intelligence artificielle.",
+   "articles": [
+    "aec0ace52bad",
+    "4c54fa1fa84f",
+    "ea323efd5954"
+   ]
+  },
+  {
+   "texte": "L'activité économique en Tunisie enregistre le soutien de la BEI auprès de 457 entreprises ainsi qu'une croissance de 4,2 % des revenus globaux des sociétés cotées.",
+   "articles": [
+    "c5199aa408f4",
+    "4dde3f06977a",
+    "51f079925209",
+    "7c6f2b00815c"
+   ]
+  },
+  {
+   "texte": "L'Afrique du Nord renforce son positionnement industriel et énergétique avec des projets majeurs dans les batteries au lithium en Algérie et l'appui à la centrale conjointe tuniso-algérienne.",
+   "articles": [
+    "d78e3cd92c45",
+    "decc78e8ddee",
+    "f0ecac220197",
+    "07ece99d25ed"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Projet de loi de finances 2027 : examen des budgets et adoption en commission",
+     "texte": "Les commissions parlementaires financières ont validé le projet de loi de finances 2027 et analysé les crédits alloués à l'ARP, à l'ISIE et à la Cour des comptes. Les discussions ont porté sur l'ajout de plusieurs dizaines de nouveaux articles, suscitant des réserves chez certains élus.",
+     "articles": [
+      "350b7b289742",
+      "85353d6c90b8",
+      "43ef26357994",
+      "50a19ed4dc22",
+      "af66d5126c1d",
+      "f9b7bf9dc7a7",
+      "e644ceb7a336",
+      "11dea871636d",
+      "b09b4dceb053",
+      "d251025f1ec5",
+      "4e9531b18668",
+      "17eefa054f8a",
+      "8bb9f0866f91",
+      "05824b5b15ff",
+      "74dbe67b9bb7",
+      "b891527a97bc",
+      "a3d4910affbd"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "PLF 2027 : arbitrages fiscaux sur les équipements photovoltaïques et batteries",
+     "texte": "Les dispositions du projet de loi de finances 2027 prévoient un ajustement des avantages fiscaux et l'application de droits de douane sur l'importation de panneaux solaires et de batteries. Ces mesures visent la protection de l'industrie locale mais font réagir la profession du secteur renouvelable.",
+     "articles": [
+      "755369737b74",
+      "807bc8fb1f22",
+      "16bd106e8091",
+      "8151151d3668"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Soutien bancaire : 60 millions d'euros déboursés par la BEI pour les PME tunisiennes",
+     "texte": "Le programme Tunisie Relance Économique, mené avec l'Union européenne et la BEI, a permis d'accorder environ 60 millions d'euros de financements à 457 entreprises locales. Ce dispositif vise à renforcer le tissu économique et la trésorerie des acteurs privés.",
+     "articles": [
+      "c5199aa408f4",
+      "51f079925209",
+      "7c6f2b00815c"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Finances publiques : la dette intérieure dépasse la barre des 100 milliards de dinars",
+     "texte": "L'encours global de la dette intérieure de l'État tunisien a franchi le seuil symbolique des 100 milliards de dinars. Cette évolution confirme le recours important au marché national pour couvrir les besoins budgétaires.",
+     "articles": [
+      "1733b2ce87f2"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Plan de développement 2026-2030 : la BAD soutient la stratégie tunisienne",
+     "texte": "La Banque africaine de développement déploie un projet d'appui technique pour accompagner la mise en œuvre du Plan national de développement 2026-2030. L'objectif est d'optimiser l'exécution des réformes et des projets d'infrastructures.",
+     "articles": [
+      "fbf7c4b3c624"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-24",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19499.64,
+      "variation_pct": 0.91,
+      "variation_annee_pct": 44.98,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14772.19,
+      "variation_pct": 1.07,
+      "variation_annee_pct": 52.77,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "siame",
+      "libelle": "SIAME",
+      "valeur": 3.5,
+      "variation_pct": 5.42,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "nbl",
+      "libelle": "NEW BODY LINE",
+      "valeur": 2.34,
+      "variation_pct": 3.54,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "scb",
+      "libelle": "CIMENTS DE BIZERTE",
+      "valeur": 0.6,
+      "variation_pct": 3.45,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "bhl",
+      "libelle": "BH LEASING",
+      "valeur": 4.47,
+      "variation_pct": -4.49,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tair",
+      "libelle": "TUNISAIR",
+      "valeur": 0.32,
+      "variation_pct": -3.03,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "plast",
+      "libelle": "OFFICE PLAST",
+      "valeur": 1.25,
+      "variation_pct": -1.57,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Gouvernance : Marouane El Abassi prend la présidence de Bank ABC",
+     "texte": "L'ancien gouverneur de la Banque centrale de Tunisie a été porté à la tête du conseil d'administration du groupe bancaire Bank ABC. La filiale tunisienne du groupe présente des bénéfices en hausse malgré une contraction de son produit net bancaire.",
+     "articles": [
+      "60428086593a",
+      "99728fbdc4f3"
+     ]
+    },
+    {
+     "titre": "Bourse de Tunis : revenus en hausse de 4,2 % à fin septembre 2026",
+     "texte": "Le chiffre d'affaires cumulé des sociétés cotées sur la Bourse de Tunis a progressé de 4,2 % au terme des neuf premiers mois de l'année 2026. La majorité des secteurs cotés a contribué positivement à cette dynamique des revenus.",
+     "articles": [
+      "4dde3f06977a"
+     ]
+    },
+    {
+     "titre": "Restructuration : ouverture d'une procédure de règlement judiciaire pour la Sitex",
+     "texte": "La Société industrielle du textile (Sitex) a été admise au bénéfice d'une procédure de règlement judiciaire. Ce cadre légal vise à permettre le rééchelonnement de son passif et la poursuite de son activité.",
+     "articles": [
+      "9d74b9995a58"
+     ]
+    },
+    {
+     "titre": "Marché financier : le CMF renforce la sensibilisation LAB/FT",
+     "texte": "Le Conseil du marché financier a réuni les intermédiaires en bourse et les sociétés de gestion pour des ateliers de formation sur la conformité anti-blanchiment. Les échanges ont porté sur la détection des risques financiers et le respect des normes internationales.",
+     "articles": [
+      "867d2edad909",
+      "244e6ee68c5b",
+      "7a4bc5d5ea39",
+      "98b7a8514284"
+     ]
+    },
+    {
+     "titre": "Énergie solaire : Mobiserve et Orange Tunisie s'associent pour la transition énergétique",
+     "texte": "Un accord de partenariat a été signé entre l'opérateur Mobiserve et Orange Tunisie pour équiper les stations télécoms en systèmes photovoltaïques. Cette initiative permettra de réduire la dépendance au réseau électrique traditionnel et l'empreinte carbone des installations.",
+     "articles": [
+      "f8c6ecd6a849",
+      "bb8e54e5d68d"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 90.35,
+      "unite": "USD le baril",
+      "variation_pct": 1.77,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.683,
+      "unite": "USD par MMBtu",
+      "variation_pct": 0.55,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3546.8,
+      "unite": "USD l'once",
+      "variation_pct": -1.23,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 587.75,
+      "unite": "cents le boisseau",
+      "variation_pct": -0.25,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7130.02,
+      "unite": "points",
+      "variation_pct": -0.99,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 5894.46,
+      "unite": "points",
+      "variation_pct": -1.82,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 7980.57,
+      "unite": "points",
+      "variation_pct": -0.75,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0989,
+      "unite": "",
+      "variation_pct": 0.2,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3797,
+      "unite": "dinars",
+      "variation_pct": -0.13,
+      "au": "2026-11-23",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0678,
+      "unite": "dinars",
+      "variation_pct": -0.42,
+      "au": "2026-11-23",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Commerce international : Washington relance la guerre des droits de douane",
+     "texte": "L'administration américaine a annoncé une nouvelle vague de surtaxes douanières ciblant quatorze pays, dont l'Union européenne et la Chine. Bruxelles conteste formellement ces mesures et dénonce des sanctions injustifiées.",
+     "articles": [
+      "0cae680e5fc1",
+      "8f63cd09b090",
+      "97e3a657661d",
+      "88c66960b8eb",
+      "ad9b324e42a3"
+     ]
+    },
+    {
+     "titre": "Souveraineté technologique : l'UE dévoile son Quantum Act et un projet de fonds de 50 Mds€",
+     "texte": "La Commission européenne a présenté une stratégie industrielle dédiée à l'informatique quantique pour transformer les avancées scientifiques en réussites commerciales. Le plan prévoit un fonds souverain de 50 milliards d'euros ciblant également l'intelligence artificielle.",
+     "articles": [
+      "aec0ace52bad",
+      "4c54fa1fa84f",
+      "ea323efd5954"
+     ]
+    },
+    {
+     "titre": "Allemagne : assouplissement de l'orthodoxie budgétaire en faveur de l'investissement",
+     "texte": "Le gouvernement allemand prépare un plan d'endettement massif destiné à moderniser les infrastructures et renforcer la défense nationales. Cette orientation soutenue par des figures de la BCE marque un tournant dans la politique budgétaire du pays.",
+     "articles": [
+      "adb19106c3da"
+     ]
+    },
+    {
+     "titre": "Réglementation bancaire : la BCE réexamine la question des réserves obligatoires",
+     "texte": "Le conseil des gouverneurs de la Banque centrale européenne doit statuer prochainement sur le cadre applicable aux réserves obligatoires des établissements de crédit. La décision finale est attendue entre décembre et le début de l'année 2027.",
+     "articles": [
+      "f33a98363364"
+     ]
+    },
+    {
+     "titre": "Budget européen : la France défend le maintien intégral de la PAC",
+     "texte": "Paris a réaffirmé son opposition absolue à toute baisse des crédits de la Politique agricole commune dans le futur budget de l'Union européenne. La France entend préserver les concours financiers alloués au secteur agricole.",
+     "articles": [
+      "83ef0acbd538"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Notations souveraines : la BAD crée une plateforme de soutien aux États africains",
+     "texte": "La Banque africaine de développement a mis en place un mécanisme destiné à assister les gouvernements du continent dans leurs relations avec les agences de notation. L'objectif est d'améliorer l'évaluation de leur risque de crédit et de réduire leurs coûts d'emprunt.",
+     "articles": [
+      "13634c53e954"
+     ]
+    },
+    {
+     "titre": "Mobile Money : la trajectoire d'expansion de Wave en Afrique de l'Ouest",
+     "texte": "En appliquant des tarifs réduits, l'opérateur Wave a franchi le cap des 25 millions d'utilisateurs en Afrique de l'Ouest francophone. L'entreprise pointe toutefois les barrières réglementaires qui freinent encore l'inclusion financière des acteurs informels.",
+     "articles": [
+      "dc79eb2f2d11"
+     ]
+    },
+    {
+     "titre": "Matières premières : la RDC suspend à nouveau ses exportations de cobalt brut",
+     "texte": "Les autorités congolaises ont imposé une nouvelle interdiction sur l'exportation de cobalt afin d'enrayer la chute des prix sur les marchés mondiaux. Cette décision impacte directement les chaînes d'approvisionnement mondiales dominées par les raffineries chinoises.",
+     "articles": [
+      "1cf692764752"
+     ]
+    },
+    {
+     "titre": "Financement énergétique : la Banque Africaine de l'Énergie soutient le projet tuniso-algérien",
+     "texte": "La Banque Africaine de l'Énergie s'est positionnée pour apporter les concours financiers nécessaires à la réalisation de la future méga-centrale électrique conjointe entre la Tunisie et l'Algérie. Cet ouvrage doit sécuriser le réseau régional.",
+     "articles": [
+      "07ece99d25ed"
+     ]
+    },
+    {
+     "titre": "Industrie : l'Algérie lance la construction d'une usine de batteries au lithium de 5 GWh",
+     "texte": "L'Algérie a officialisé un projet industriel de 5 GWh dédié à la fabrication de batteries au lithium pour l'automobile et le stockage. Cette unité vise à alimenter le marché domestique et à exporter vers les marchés internationaux.",
+     "articles": [
+      "d78e3cd92c45",
+      "decc78e8ddee",
+      "f0ecac220197"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Transformation numérique : plaidoyer pour l'encadrement juridique de l'IA en Tunisie",
+     "texte": "Des experts et responsables réunis lors de rencontres professionnelles ont appelé à l'établissement rapide d'un cadre légal régissant l'IA et la gouvernance des données en Tunisie. La modernisation de l'appareil statistique constitue un axe prioritaire de cette transition.",
+     "articles": [
+      "68a0aa43ded4",
+      "2537e784be74",
+      "33b9fb6a638a",
+      "7785c6858987",
+      "4c770d09a133",
+      "f185b4208179"
+     ]
+    },
+    {
+     "titre": "Gestion de l'eau : une application IA pour réduire la facture énergétique des pompages",
+     "texte": "La Société d'exploitation du canal et des adducteurs des eaux du Nord a développé la solution Aqua Min 360. Cette application basée sur l'IA optimise l'exploitation des stations de pompage afin de diminuer leur consommation électrique.",
+     "articles": [
+      "cf82af83a083",
+      "bb93799e8ac7",
+      "6a11e70451e5"
+     ]
+    },
+    {
+     "titre": "Paiements digitaux : la montée en puissance des agents d'IA autonomes",
+     "texte": "Le déploiement des agents d'intelligence artificielle dans le commerce et la gestion d'entreprise transforme les circuits de paiement opérationnels. La sécurisation des transactions et la confiance deviennent les conditions essentielles à leur adoption.",
+     "articles": [
+      "8642d607b704",
+      "4b724d2b9aa8"
+     ]
+    },
+    {
+     "titre": "Climat : la COP31 s'achève sans avancées décisives sur la finance climatique",
+     "texte": "La conférence internationale sur le climat organisée à Antalya s'est terminée sans accord majeur sur l'augmentation des aides financières aux pays vulnérables. Les divergences géopolitiques ont bloqué la conclusion d'engagements contraignants.",
+     "articles": [
+      "caff219745d0",
+      "022a13f9d090"
+     ]
+    },
+    {
+     "titre": "Finance et IA : une mutation progressive de la fonction financière",
+     "texte": "L'utilisation croissante de l'IA au sein des directions financières transforme les compétences requises sans entraîner de suppressions massives d'emplois immédiates. Les experts anticipent un gain d'efficacité lissé dans le temps.",
+     "articles": [
+      "681d4d137cb4",
+      "85a730b3a036"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "022a13f9d090": {
+   "titre": "COP31 : les lobbies pétroliers dictent leur loi, les pays vulnérables paient le prix de l’échec",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/25/cop31-les-lobbies-petroliers-dictent-leur-loi-les-pays-vulnerables-paient-le-prix-de-lechec/1430669/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T15:13:25+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "05824b5b15ff": {
+   "titre": "9 A la une Budget 2027 : la mission de l’ISIE examinée au Parlement (en direct) Il y a 7 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/budget-2027-la-mission-de-lisie-examinee-au-parlement-en-direct/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:28:53.789852+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "07ece99d25ed": {
+   "titre": "Banque Africaine de l’Énergie : le nouveau levier financier panafricain qui ouvre la voie à la méga-centrale tuniso-algérienne",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/25/577563/banque-africaine-de-lenergie-le-nouveau-levier-financier-panafricain-qui-ouvre-la-voie-a-la-mega-centrale-tuniso-algerienne/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:28:53.789852+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0cae680e5fc1": {
+   "titre": "Droits de douane : l’UE « conteste fermement » le bien-fondé des nouvelles sanctions américaines",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/international/article/2026/11/25/droits-de-douane-l-ue-conteste-fermement-le-bien-fonde-des-nouvelles-sanctions-americaines_6815121_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T16:20:37+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "11dea871636d": {
+   "titre": "Le projet de loi de finances 2027 adopté en Commission",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/25/le-projet-de-loi-de-finances-2027-adopte-en-commission-2/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T11:41:58+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "13634c53e954": {
+   "titre": "Notation de crédit souverain : Une nouvelle initiative de la BAD pour accompagner les pays africains",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/notation-de-credit-souverain-une-nouvelle-initiative-de-la-bad-pour-accompagner-les-pays-africains_65952",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T16:01:18+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "16bd106e8091": {
+   "titre": "Photovoltaïque : Ali Kanzari dénonce une protection industrielle qui pénalise toute une économie",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/25/photovoltaique-ali-kanzari-denonce-une-protection-industrielle-qui-penalise-toute-une-economie/1430485/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T10:47:51+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1733b2ce87f2": {
+   "titre": "Dette intérieure : plus de 100 milliards...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-actualites-economiques/dette-interieure-plus-de-100-milliards-de-dinars-attendus-fin-2026-bassem-ennaifer",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T11:12:18.804491+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "17eefa054f8a": {
+   "titre": "Un député contre des députés à propos du PLF",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/un-depute-contre-des-deputes-a-propos-du-plf/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:57:32+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1cf692764752": {
+   "titre": "La RDC impose un nouvel embargo sur les exportations de cobalt pour faire monter les cours",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/afrique/article/2026/11/25/la-rdc-impose-un-nouvel-embargo-sur-les-exportations-de-cobalt-pour-faire-monter-les-cours_6815079_3212.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T11:00:09+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "244e6ee68c5b": {
+   "titre": "Le CMF renforce la préparation des intervenants du marché financier dans la lutte contre le blanchiment d'argent, le financement du terrorisme et la prolifération des armes",
+   "source": "CMF",
+   "url": "https://www.cmf.tn/?q=%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D8%B9%D8%B2%D9%91%D8%B2-%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D8%AF%D8%AE%D9%84%D9%8A%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84-%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%BA%D8%B3%D9%84-%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%A7%D9%84-%D9%88%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8",
+   "url_traduite": "https://www-cmf-tn.translate.goog/?q=%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D8%B9%D8%B2%D9%91%D8%B2-%D8%AC%D8%A7%D9%87%D8%B2%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D8%AF%D8%AE%D9%84%D9%8A%D9%86-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84-%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%BA%D8%B3%D9%84-%D8%A7%D9%84%D8%A3%D9%85%D9%88%D8%A7%D9%84-%D9%88%D8%AA%D9%85%D9%88%D9%8A%D9%84-%D8%A7%D9%84%D8%A5%D8%B1%D9%87%D8%A7%D8%A8&_x_tr_sl=ar&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-25T16:01:00+01:00",
+   "langue": "ar",
+   "payant": false,
+   "titre_origine": "هيئة السوق المالية تعزّز جاهزية المتدخلين في السوق المالية في مجال مكافحة غسل الأموال وتمويل الإرهاب وانتشار التسلح"
+  },
+  "2537e784be74": {
+   "titre": "Transformation numérique : la Tunisie mise sur la gouvernance des données et l’IA",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/25/577993/transformation-numerique-la-tunisie-mise-sur-la-gouvernance-des-donnees-et-lia/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T15:22:37.375821+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "33b9fb6a638a": {
+   "titre": "Intelligence artificielle et statistique : Appel à accélérer la transformation numérique en Tunisie",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20843358-intelligence",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T13:39:02.184128+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "350b7b289742": {
+   "titre": "Tunisie : le budget de l’ARP légèrement en baisse pour 2027",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/25/578000/tunisie-le-budget-de-larp-legerement-en-baisse-pour-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T15:22:37.375821+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "43ef26357994": {
+   "titre": "Budget 2027 : Le Parlement examine les crédits de 57.7 MD destinés l’ISIE et salue le rôle qu’elle effectue dans la consolidation du processus démocratique",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/25/budget-2027-le-parlement-examine-les-credits-de-57-7-md-destines-lisie-et-salue-le-role-quelle-effectue-dans-la-consolidation-du-processus-democratique/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T14:32:43+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4b724d2b9aa8": {
+   "titre": "Que savez-vous réellement de vos agents d'IA ?",
+   "source": "Sifted",
+   "url": "https://sifted.eu/articles/how-much-do-you-know-about-your-ai-agents-brnd/",
+   "url_traduite": "https://sifted-eu.translate.goog/articles/how-much-do-you-know-about-your-ai-agents-brnd/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-25T10:00:46+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "How much do you know about your AI agents?"
+  },
+  "4c54fa1fa84f": {
+   "titre": "L'UE dévoile le Quantum Act avec un projet de fonds de 50 milliards d'euros pour soutenir la technologie souveraine",
+   "source": "Sifted",
+   "url": "https://sifted.eu/articles/au-quantum-act-sovereign-tech-fund/",
+   "url_traduite": "https://sifted-eu.translate.goog/articles/au-quantum-act-sovereign-tech-fund/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-25T13:06:02+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "EU unveils Quantum Act with ‘plans for €50bn fund’ to boost sovereign tech"
+  },
+  "4c770d09a133": {
+   "titre": "Les entreprises tunisiennes sont-elles visibles sur les assistants IA ?",
+   "source": "Kapitalis",
+   "url": "https://kapitalis.com/tunisie/2026/11/25/les-entreprises-tunisiennes-sont-elles-visibles-sur-les-assistants-ia/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T10:26:58+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4dde3f06977a": {
+   "titre": "Tunisie : Hausse de 4,2% du revenu global des sociétés cotées à la Bourse de Tunis à fin septembre 2026",
+   "source": "Financial Afrik",
+   "url": "https://www.financialafrik.com/2026/11/25/tunisie-hausse-de-42-du-revenu-global-des-societes-cotees-a-la-bourse-de-tunis-a-fin-septembre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T13:02:19+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4e9531b18668": {
+   "titre": "Projet de loi de finances 2027 : Des articles supplémentaires à l’examen en commission",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/25/projet-de-loi-de-finances-2027-des-articles-supplementaires-a-lexamen-en-commission/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T10:06:31+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "50a19ed4dc22": {
+   "titre": "Dhafer Sghiri : Adoption de 13 articles du projet de loi de finances 2027",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/dhafer-sghiri-adoption-de-13-articles-du-projet-de-loi-de-finances-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T14:03:45+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "51f079925209": {
+   "titre": "La Tunisie, l’Union européenne et la BEI présentent les premiers résultats de Tunisie Relance Économique",
+   "source": "Entreprises Magazine",
+   "url": "https://www.entreprises-magazine.com/la-tunisie-lunion-europeenne-et-la-bei-presentent-les-premiers-resultats-de-tunisie-relance-economique/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:28:53.789852+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "60428086593a": {
+   "titre": "Marouane El Abassi, de la Banque centrale de Tunisie à la gouvernance de Bank ABC",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/24/577874/marouane-el-abassi-de-la-banque-centrale-de-tunisie-a-la-gouvernance-de-bank-abc-ancien-gouverneur-de-la-banque-centrale-de-tunisie-bct-marouane-el-abassi-poursuit-son-parcours-professionnel-au-s/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T11:12:18.804491+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "681d4d137cb4": {
+   "titre": "« Dans la finance, l’intelligence artificielle oblige chacun à être meilleur dans son cœur de métier »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/argent/article/2026/11/25/dans-la-finance-l-intelligence-artificielle-oblige-chacun-a-etre-meilleur-dans-son-c-ur-de-metier_6815096_1657007.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T14:00:14+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "68a0aa43ded4": {
+   "titre": "Tunisie: Appel à élaborer un cadre juridique régissant les usages de l’IA?",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/tunisie-appel-a-elaborer-un-cadre-juridique-regissant-les-usages-de-lia/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T15:45:34+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6a11e70451e5": {
+   "titre": "Eau : une application nationale d’IA pour optimiser pompage et énergie",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/eau-une-application-nationale-dia-pour-optimiser-pompage-et-energie/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T08:57:11+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "74dbe67b9bb7": {
+   "titre": "32 A la une Budget 2027 : les commissions financières passent au vote ce mercredi Il y a 52 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/budget-2027-les-commissions-financieres-passent-au-vote-ce-mercredi/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:28:53.789852+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "755369737b74": {
+   "titre": "PLF 2027 : le photovoltaïque et les batteries au cœur d’un arbitrage industriel et fiscal",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/25/577974/plf-2027-le-photovoltaique-et-les-batteries-au-coeur-dun-arbitrage-industriel-et-fiscal/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T13:39:02.184128+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7785c6858987": {
+   "titre": "Intelligence artificielle et statistique : Appel à accélérer la transformation numérique en Tunisie",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/intelligence-artificielle-et-statistique-appel-a-accelerer-la-transformation-numerique-en-tunisie/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T12:36:49+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7a4bc5d5ea39": {
+   "titre": "Le CMF renforce les capacités des intervenants du marché financier en matière de lutte contre le blanchiment d’argent, le financement du terrorisme et de la prolifération des armes",
+   "source": "CMF",
+   "url": "https://www.cmf.tn/?q=le-cmf-renforce-les-capacit%C3%A9s-des-intervenants-du-march%C3%A9-financier-en-mati%C3%A8re-de-lutte-contre-le",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T16:01:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7c6f2b00815c": {
+   "titre": "Tunisie-BEI: plus de 59 millions d’euros déjà attribués aux entreprises tunisiennes",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/25/tunisie-bei-plus-de-59-millions-deuros-deja-attribues-aux-entreprises-tunisiennes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:28:53.789852+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "807bc8fb1f22": {
+   "titre": "PLF 2027: premier coup de frein à la détaxation des batteries et du solaire, mais le dossier n’est pas clos",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/25/plf-2027-premier-coup-de-frein-a-la-detaxation-des-batteries-et-du-solaire-mais-le-dossier-nest-pas-clos/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T11:12:18.804491+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8151151d3668": {
+   "titre": "Loi de finances 2027 : batteries, panneaux solaires et sacs biodégradables écartés",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/25/577928/loi-de-finances-2027-batteries-panneaux-solaires-et-sacs-biodegradables-ecartes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:28:53.789852+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "83ef0acbd538": {
+   "titre": "Budget de l’UE : la France ne veut « pas un euro » de moins pour la PAC, prévient Emmanuel Macron",
+   "source": "Le Monde.fr",
+   "url": "https://www.lemonde.fr/international/article/2026/11/25/budget-de-l-ue-la-france-ne-veut-pas-un-euro-de-moins-pour-la-pac-previent-emmanuel-macron_6815145_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T17:56:37+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "85353d6c90b8": {
+   "titre": "Budget 2027 : 48,751 millions de dinars alloués à l’Assemblée des représentants du peuple",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Politique/20844434-budget-2027",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T15:22:37.375821+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "85a730b3a036": {
+   "titre": "Ce que font les agents d'IA au sein de la direction financière : notes d'un ancien DAF",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/blogposting/33564/what-ai-agents-do-inside-the-cfo-office-notes-from-an-ex-cfo",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:38:36+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "What AI agents do inside the CFO office: notes from an ex-CFO"
+  },
+  "8642d607b704": {
+   "titre": "Le commerce d'agents à grande échelle : pourquoi la confiance est le nouveau pilier des paiements",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/event-info/650/agentic-commerce-at-scale-why-trust-is-the-new-foundation-for-payments",
+   "url_traduite": null,
+   "publie_le": "2027-01-21T16:00:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Agentic commerce at scale: Why trust is the new foundation for payments"
+  },
+  "867d2edad909": {
+   "titre": "Lutte contre le blanchiment d'argen...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-divers/lutte-contre-le-blanchiment-d-argent-le-cmf-renforce-l-accompagnement-des-professionnels-du-marche",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T17:15:39.754495+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "88c66960b8eb": {
+   "titre": "L’administration Trump annonce de nouveaux droits de douane contre ses principaux partenaires commerciaux, dont l’UE, la Chine et le Mexique",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/international/article/2026/11/25/l-administration-trump-annonce-de-nouveaux-droits-de-douane-contre-ses-principaux-partenaires-commerciaux-dont-l-ue-la-chine-et-le-mexique_6815099_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T14:30:53+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "8bb9f0866f91": {
+   "titre": "Cour des comptes : un budget de 36,4 millions de dinars prévu pour 2027",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/25/577924/cour-des-comptes-un-budget-de-364-millions-de-dinars-prevu-pour-2027/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:28:53.789852+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8f63cd09b090": {
+   "titre": "Guerre commerciale : Donald Trump dévoil...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/international-usa-canada/guerre-commerciale-donald-trump-devoile-une-nouvelle-salve-tarifaire",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T15:22:37.375821+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "97e3a657661d": {
+   "titre": "Donald Trump persiste avec une nouvelle salve de droits de douane, notamment contre l’UE et la Chine, malgré la claque électorale",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/25/donald-trump-persiste-avec-une-nouvelle-salve-de-droits-de-douane-malgre-la-claque-electorale_6815108_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T15:04:49+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "98b7a8514284": {
+   "titre": "Lutte contre le blanchiment d'argent : Le CMF sensibilise intermédiaires en bourse et sociétés de gestion",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/lutte-contre-le-blanchiment-d-argent-le-cmf-sensibilise-intermediaires-en-bourse-et-societes-de-gestion_65953",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T15:55:14+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "99728fbdc4f3": {
+   "titre": "ABC, un ancien gouverneur au sommet & une filiale qui prête peu",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/abc-un-ancien-gouverneur-au-sommet-une-filiale-qui-prete-peu/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:53:53+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9d74b9995a58": {
+   "titre": "Une procédure de règlement judiciaire à l’égard de la Sitex",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/25/une-procedure-de-reglement-judiciaire-a-legard-de-la-sitex/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:28:53.789852+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a3d4910affbd": {
+   "titre": "Des députés rejettent le projet de loi de finances dans sa version actuelle !",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/27-deputes-rejettent-le-projet-de-loi-de-finances-dans-sa-version-actuelle/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T08:48:36+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ad9b324e42a3": {
+   "titre": "L'administration Trump propose de nouveaux droits de douane contre 14 partenaires, dont Chine et UE",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20844074-l-administration",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T13:39:02.184128+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "adb19106c3da": {
+   "titre": "L’Allemagne prête à adopter un endettement historique, un tournant soutenu par une figure de l’orthodoxie économique",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/25/l-allemagne-prete-a-adopter-un-endettement-historique-un-tournant-soutenu-par-une-figure-de-l-orthodoxie-economique_6815144_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T17:47:57+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "aec0ace52bad": {
+   "titre": "L’Union européenne veut créer un fonds souverain de 50 milliards d’euros pour investir dans l’informatique quantique et l’intelligence artificielle",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/international/article/2026/11/25/l-union-europeenne-veut-creer-un-fonds-souverain-de-50-milliards-d-euros-pour-investir-dans-l-informatique-quantique-et-l-intelligence-artificielle_6815093_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T13:29:26+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "af66d5126c1d": {
+   "titre": "62 A la une Tunisie : les articles rejetés du PLF 2027 peuvent-ils revenir en plénière ? (Rapport) Il y a 2 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-les-articles-rejetes-du-plf-2027-peuvent-ils-revenir-en-pleniere-rapport/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T13:39:02.184128+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b09b4dceb053": {
+   "titre": "Budget de l'Etat: les députés examinent le budget de l’Instance électorale pour 2027",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Politique/20842964-budget-de-l-etat",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T11:12:18.804491+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b891527a97bc": {
+   "titre": "72 Actualités parlementaires Budget 2027 : les missions de l’ISIE, de l’ARP et du CNRD examinées ce mercredi Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/budget-2027-les-missions-de-lisie-de-larp-et-du-cnrd-examinees-ce-mercredi/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:28:53.789852+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "bb8e54e5d68d": {
+   "titre": "Mobiserve et Orange Tunisie signent un accord pour accélérer le recours à l’énergie solaire",
+   "source": "AGENCE ECOFIN",
+   "url": "https://www.agenceecofin.com/actualites-industries/2511-143761-mobiserve-et-orange-tunisie-signent-un-accord-pour-accelerer-le-recours-a-l-energie-solaire",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:25:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "bb93799e8ac7": {
+   "titre": "Tunisie : l’intelligence artificielle pour réduire la consommation énergétique des stations de pompage",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/25/tunisie-lintelligence-artificielle-pour-reduire-la-consommation-energetique-des-stations-de-pompage/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:38:36+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c5199aa408f4": {
+   "titre": "Financement des entreprises : 457 sociétés tunisiennes bénéficient de près de 60 millions d’euros de la BEI",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/25/577983/financement-des-entreprises-457-societes-tunisiennes-beneficient-de-pres-de-60-millions-deuros-de-la-bei/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T15:22:37.375821+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "caff219745d0": {
+   "titre": "Hachad: La Tunisie a besoin de financements pour la résilience aux défis climatiques",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/hachad-la-tunisie-a-besoin-de-financements-pour-la-resilience-aux-defis-climatiques/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T17:15:59+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "cf82af83a083": {
+   "titre": "Aqua Min 360 : une application tunisienne pour réduire la consommation d’énergie des stations de pompage",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/25/577962/aqua-min-360-une-application-tunisienne-pour-reduire-la-consommation-denergie-des-stations-de-pompage/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T13:39:02.184128+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d251025f1ec5": {
+   "titre": "Le projet de loi de finances 2027 adopté en Commission",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/25/le-projet-de-loi-de-finances-2027-adopte-en-commission/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T10:44:50+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d78e3cd92c45": {
+   "titre": "Batteries au lithium : l’Algérie engage un projet industriel de 5 GWh",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/25/577975/batteries-au-lithium-lalgerie-engage-un-projet-industriel-de-5-gwh/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T15:22:37.375821+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "dc79eb2f2d11": {
+   "titre": "Le modèle de Wave aux 25 millions d'utilisateurs : comment des frais réduits ont perturbé le marché du mobile money en Afrique de l'Ouest francophone",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/25/wave-in-waemu-region/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/25/wave-in-waemu-region/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-25T13:33:55+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Wave’s 25 million-user blueprint: How low fees disrupted Francophone West Africa’s mobile money ‘cartels’"
+  },
+  "decc78e8ddee": {
+   "titre": "L’Algérie va construire une grande usine de fabrication de batteries!",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/lalgerie-va-construire-une-grande-usine-de-fabrication-de-batteries/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T11:13:13+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e644ceb7a336": {
+   "titre": "Budget de l'Etat-ISIE: la désaffection électorale des jeunes et les élections municipales...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Titres-de-l-actualité/20843802-budget-de",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T13:39:02.184128+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ea323efd5954": {
+   "titre": "L’Union européenne veut se doter d’une stratégie industrielle sur l’informatique quantique",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/25/l-union-europeenne-veut-se-doter-d-une-strategie-industrielle-sur-l-informatique-quantique_6815075_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T10:39:30+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "f0ecac220197": {
+   "titre": "L’Algérie prépare une usine de Batteries au lithium et vise les marchés internationaux",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/lalgerie-prepare-une-usine-de-batteries-au-lithium-et-vise-les-marches-internationaux_65933",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T10:44:44+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f185b4208179": {
+   "titre": "Technologie pour tous : la bonne gouvernance au service d’un avenir meilleur",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/technologie-pour-tous-la-bonne-gouvernance-au-service-dun-avenir-meilleur/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:39:33+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f33a98363364": {
+   "titre": "Banques-La BCE devrait se prononcer sur les réserves obligatoires en décembre ou début 2027 - source",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20843945-banques-la-bce",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T13:39:02.184128+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f8c6ecd6a849": {
+   "titre": "Mobiserve et Orange Tunisie signent un accord de partenariat pour accélérer le recours à l’énergie solaire",
+   "source": "Entreprises Magazine",
+   "url": "https://www.entreprises-magazine.com/mobiserve-et-orange-tunisie-signent-un-accord-de-partenariat-pour-accelerer-le-recours-a-lenergie-solaire/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:28:53.789852+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f9b7bf9dc7a7": {
+   "titre": "Budget de l'Etat-ISIE: la désaffection électorale des jeunes et les élections municipales...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Politique/20843802-budget-de",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T13:39:02.184128+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fbf7c4b3c624": {
+   "titre": "Tunisie – Projet d’appui à la mise en œuvre du Plan national de développement 2026–2030 (PAR-PND)",
+   "source": "African Development Bank Group",
+   "url": "https://mapafrica.afdb.org/fr/projects/46002-P-TN-K00-022",
+   "url_traduite": null,
+   "publie_le": "2026-11-18T05:28:01+01:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
