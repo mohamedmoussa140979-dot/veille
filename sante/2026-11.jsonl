@@ -633,3 +633,5 @@
 {"t": "2026-11-24T21:16:06.748123+01:00", "niveau": "avertissement", "code": "gnews_resolution_echec", "message": "page d'article inexploitable (HTTP 429)", "ctx": {"lien": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcHlBVkd2dFpDR0VjcVUycFFmcnB"}}
 {"t": "2026-11-24T21:16:57.171703+01:00", "niveau": "info", "code": "collecte_terminee", "message": "74 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "2121", "rejetes": "12", "resolutions": "20", "resolutions_echec": "1"}}
 {"t": "2026-11-24T21:48:14.801009+01:00", "niveau": "info", "code": "sante_controle", "message": "11 anomalie(s)", "ctx": {"editions": "6", "alertes": "22"}}
+{"t": "2026-11-25T08:41:28.237552+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-25T08:43:15.185624+01:00", "niveau": "info", "code": "collecte_terminee", "message": "87 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "2041", "rejetes": "22", "resolutions": "27", "resolutions_echec": "0"}}
