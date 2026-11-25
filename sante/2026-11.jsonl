@@ -642,3 +642,10 @@
 {"t": "2026-11-25T08:58:49.551795+01:00", "niveau": "avertissement", "code": "gemini_modele_echec", "message": "gemini-3.8-flash : HTTP 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceede", "ctx": {"tour": "1"}}
 {"t": "2026-11-25T09:01:49.609448+01:00", "niveau": "avertissement", "code": "gemini_modele_echec", "message": "gemini-3.7-flash : HTTP None POST generativelanguage.googleapis.com : ReadTimeout: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=180)", "ctx": {"tour": "1"}}
 {"t": "2026-11-25T09:02:20.371733+01:00", "niveau": "info", "code": "edition_produite", "message": "2026-11-25-matin", "ctx": {"sujets": "24", "articles": "39", "modele": "gemini-3.6-flash"}}
+{"t": "2026-11-25T09:46:24.439416+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-25T09:47:04.358948+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-25T09:48:05.949598+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-25T09:49:07.434778+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-25T09:49:46.321459+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-25T09:50:25.210084+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-25T09:50:33.069893+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 6, \"flux\": 0}", "ctx": {}}
