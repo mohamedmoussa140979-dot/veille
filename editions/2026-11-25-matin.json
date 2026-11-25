@@ -1,0 +1,855 @@
+{
+ "version": 1,
+ "id": "2026-11-25-matin",
+ "date": "2026-11-25",
+ "edition": "matin",
+ "genere_le": "2026-11-25T08:57:41+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19499.64,
+   "variation_pct": 0.91,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-24"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3797,
+   "variation_pct": -0.13,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-23"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 87.16,
+   "variation_pct": -1.82,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-25"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "En Tunisie, les débats budgétaires sur le projet de loi de finances 2027 mettent en évidence les pressions sur la dette de 17,3 milliards de dollars, malgré l'apport solide des transferts de la diaspora et des recettes touristiques qui dépassent 15 milliards de dinars.",
+   "articles": [
+    "084f75fa7111",
+    "ec7035087d75",
+    "4278a8fe48ba",
+    "4b35184541b5",
+    "b5b70f142df2",
+    "12bd32503fd3",
+    "b4e08e751b7b",
+    "87b0abae31af",
+    "028d15013bac"
+   ]
+  },
+  {
+   "texte": "Sur le marché financier tunisien, la Bourse de Tunis clôture en forte hausse proche des 19 500 points, tandis que 156 dossiers de restructuration de PME ont été validés pour 354 millions de dinars.",
+   "articles": [
+    "9b0034228d62",
+    "2351199ca474",
+    "01560fce738c",
+    "44e6a1ae4ad1"
+   ]
+  },
+  {
+   "texte": "À l'international, l'industrie automobile européenne connaît des trajectoires opposées avec l'implantation industrielle du Chinois BYD en France et la suppression de 500 postes chez Stellantis à Sochaux.",
+   "articles": [
+    "b4741ba7fc4f",
+    "96f3e509e539",
+    "44b37bc88850"
+   ]
+  },
+  {
+   "texte": "Dans le secteur technologique, la concurrence s'intensifie entre les modèles d'IA chinois et américains auprès des entreprises, au moment où la régulation bancaire s'inquiète des risques liés aux agents d'IA de paiement.",
+   "articles": [
+    "284e26e6940e",
+    "58730b2e5535",
+    "8fb549a374eb",
+    "d8d166ddd232"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Débats parlementaires sur le projet de loi de finances 2027",
+     "texte": "L'Assemblée des représentants du peuple poursuit l'examen des budgets sectoriels et du projet de loi de finances 2027. Les orientations économiques soulevèrent des réserves auprès de certains députés, notamment concernant le financement des sociétés communautaires et la soutenabilité du modèle proposé.",
+     "articles": [
+      "084f75fa7111",
+      "ec7035087d75",
+      "4b35184541b5",
+      "b5b70f142df2",
+      "12bd32503fd3",
+      "028d15013bac"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Restructuration financière des PME tunisiennes",
+     "texte": "Un total de 156 dossiers de restructuration financière en faveur des PME a été validé, représentant un engagement global de 354 millions de dinars.",
+     "articles": [
+      "01560fce738c",
+      "44e6a1ae4ad1"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Progression des transferts de la diaspora tunisienne",
+     "texte": "Les remises de fonds des Tunisiens résidant à l'étranger ont franchi le seuil des 8 milliards de dinars au 20 novembre.",
+     "articles": [
+      "4278a8fe48ba"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Poids des échéances de la dette extérieure tunisienne",
+     "texte": "La Tunisie fait face à d'importantes échéances financières de court terme, avec un encours de dette s'élevant à 17,3 milliards de dollars.",
+     "articles": [
+      "b4e08e751b7b"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Cumul des recettes touristiques et transferts de la diaspora",
+     "texte": "Les entrées devises issues du tourisme et des transferts des Tunisiens de l'étranger ont dépassé la barre des 15 milliards de dinars.",
+     "articles": [
+      "87b0abae31af"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-24",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19499.64,
+      "variation_pct": 0.91,
+      "variation_annee_pct": 44.98,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14772.19,
+      "variation_pct": 1.07,
+      "variation_annee_pct": 52.77,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "siame",
+      "libelle": "SIAME",
+      "valeur": 3.5,
+      "variation_pct": 5.42,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "nbl",
+      "libelle": "NEW BODY LINE",
+      "valeur": 2.34,
+      "variation_pct": 3.54,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "scb",
+      "libelle": "CIMENTS DE BIZERTE",
+      "valeur": 0.6,
+      "variation_pct": 3.45,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "bhl",
+      "libelle": "BH LEASING",
+      "valeur": 4.47,
+      "variation_pct": -4.49,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tair",
+      "libelle": "TUNISAIR",
+      "valeur": 0.32,
+      "variation_pct": -3.03,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "plast",
+      "libelle": "OFFICE PLAST",
+      "valeur": 1.25,
+      "variation_pct": -1.57,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Progression du Tunindex vers les 19 500 points",
+     "texte": "Tirée par la bonne tenue du titre BIAT, la Bourse de Tunis a progressé de 0,91 %, amenant l'indice Tunindex à 19 499,64 points dans un volume d'échanges de 10,1 millions de dinars.",
+     "articles": [
+      "9b0034228d62",
+      "2351199ca474"
+     ]
+    },
+    {
+     "titre": "Maîtrise d'un incendie au complexe chimique de Skhira",
+     "texte": "Un incendie s'est déclaré dans une unité de production de l'usine Siape dans la zone industrielle de Skhira avant d'être circonscrit par la Protection civile.",
+     "articles": [
+      "4b8dca360075",
+      "0223ac501e7a"
+     ]
+    },
+    {
+     "titre": "Partenariat énergétique entre Mobiserve et Orange Tunisie",
+     "texte": "Mobiserve et Orange Tunisie ont conclu un accord visant à accélérer l'adoption de l'énergie solaire dans les infrastructures de télécommunications.",
+     "articles": [
+      "fd92d28d2137"
+     ]
+    },
+    {
+     "titre": "Nomination de Marouane El Abassi au conseil d'administration de Bank ABC",
+     "texte": "L'ancien gouverneur de la Banque Centrale de Tunisie, Marouane El Abassi, a été nommé membre du conseil d'administration de Bank ABC.",
+     "articles": [
+      "619344fd0405"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 87.16,
+      "unite": "USD le baril",
+      "variation_pct": -1.82,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.629,
+      "unite": "USD par MMBtu",
+      "variation_pct": -0.93,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3526.5,
+      "unite": "USD l'once",
+      "variation_pct": -0.99,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 581.0,
+      "unite": "cents le boisseau",
+      "variation_pct": -1.4,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7201.09,
+      "unite": "points",
+      "variation_pct": -0.5,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 6003.76,
+      "unite": "points",
+      "variation_pct": -1.16,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 8040.49,
+      "unite": "points",
+      "variation_pct": -0.05,
+      "au": "2026-11-24",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0942,
+      "unite": "",
+      "variation_pct": -0.23,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3797,
+      "unite": "dinars",
+      "variation_pct": -0.13,
+      "au": "2026-11-23",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0678,
+      "unite": "dinars",
+      "variation_pct": -0.42,
+      "au": "2026-11-23",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Projet d'implantation industrielle du constructeur BYD en France",
+     "texte": "Le constructeur chinois de véhicules électriques BYD est en négociations exclusives pour reprendre un site industriel à Hambach en Moselle, concrétisant son premier projet d'usine en Europe de l'Ouest.",
+     "articles": [
+      "96f3e509e539",
+      "44b37bc88850"
+     ]
+    },
+    {
+     "titre": "Regain de tension maritime dans le détroit d'Ormuz",
+     "texte": "Deux navires pétroliers ont été victimes d'incendies dans le détroit d'Ormuz, ravivant les inquiétudes géopolitiques et les risques sur les approvisionnements pétroliers.",
+     "articles": [
+      "fca65188042c"
+     ]
+    },
+    {
+     "titre": "Condamnation judiciaire du groupe Huawei aux États-Unis",
+     "texte": "Au terme de huit années de procédure, un jury fédéral américain a reconnu le groupe technologique chinois Huawei coupable de vol de secrets industriels et de fraude bancaire.",
+     "articles": [
+      "859e59d5a9b1",
+      "64b84900a9b5"
+     ]
+    },
+    {
+     "titre": "Arbitrages budgétaires et fiscaux pour la France en 2027",
+     "texte": "La Commission européenne observe une position d'attente face au budget de la France, tandis que le Sénat français a voté un abaissement du plafond d'abattement fiscal des retraités à 1 000 euros.",
+     "articles": [
+      "058a3d2d4700",
+      "fe523eececcc"
+     ]
+    },
+    {
+     "titre": "Suppression d'une équipe de nuit chez Stellantis à Sochaux",
+     "texte": "Le groupe automobile Stellantis va mettre fin à l'équipe de nuit de son site de Sochaux en janvier, entraînant la suppression de 500 postes.",
+     "articles": [
+      "b4741ba7fc4f"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Mouvements de consolidation dans les télécoms d'Afrique du Sud",
+     "texte": "Les discussions relatives à la reprise de Telkom par MTN suscitent des analyses concurrentielles poussées, alors que Cell C annonce le rachat de Melon Mobile.",
+     "articles": [
+      "13805823b7ff",
+      "d01816372f46"
+     ]
+    },
+    {
+     "titre": "Dynamique du marché des smartphones sur le continent africain",
+     "texte": "Samsung gagne du terrain sur le marché africain des mobiles, au détriment du groupe Transsion qui fait face à des pressions concurrentielles croissantes.",
+     "articles": [
+      "c5aaac13f74b"
+     ]
+    },
+    {
+     "titre": "Contrôle renforcé de la filière aurifère au Cameroun",
+     "texte": "Le Contrôle supérieur de l'État du Cameroun a engagé des vérifications approfondies pour faire face aux réseaux de trafic d'or.",
+     "articles": [
+      "9c8964d20e96"
+     ]
+    },
+    {
+     "titre": "Conséquences de la liste grise du GAFI sur le Cameroun",
+     "texte": "La Banque mondiale a souligné les implications économiques pour le Cameroun liées à son maintien sur la liste grise du GAFI.",
+     "articles": [
+      "c412e1af8001"
+     ]
+    },
+    {
+     "titre": "Poursuite du développement du groupe EDK au Sénégal",
+     "texte": "L'entreprise sénégalaise EDK poursuit sa croissance et son changement d'échelle opérationnelle en dépit du niveau de sa dette.",
+     "articles": [
+      "60222c48f0f1"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Pression des modèles d'IA chinois sur les acteurs américains",
+     "texte": "Les modèles d'intelligence artificielle open source développés en Chine gagnent des parts de marché auprès des entreprises grâce à des coûts inférieurs et un déploiement sur serveurs internes.",
+     "articles": [
+      "284e26e6940e"
+     ]
+    },
+    {
+     "titre": "Régulation et réticences face aux agents d'IA de paiement",
+     "texte": "La FCA britannique met en garde contre l'émergence des agents d'IA financiers, alors que la majorité des consommateurs hésite encore à leur déléguer des transactions.",
+     "articles": [
+      "58730b2e5535",
+      "8fb549a374eb",
+      "d8d166ddd232"
+     ]
+    },
+    {
+     "titre": "Intégration de l'IA native de Farsight dans Capital IQ Pro",
+     "texte": "La plateforme S&P Capital IQ Pro intègre désormais la solution d'intelligence artificielle spécialisée développée par Farsight pour le secteur financier.",
+     "articles": [
+      "78cbfe149b7b",
+      "5413411fd49c"
+     ]
+    },
+    {
+     "titre": "Enjeux de cybersécurité pour les PME tunisiennes",
+     "texte": "Face à la recrudescence des cyberattaques, les petites et moyennes entreprises en Tunisie doivent revoir leurs dispositifs de protection informatique.",
+     "articles": [
+      "fe5af15bc5bc"
+     ]
+    },
+    {
+     "titre": "Nette hausse de la fraude monétique APP au Royaume-Uni",
+     "texte": "Les pertes liées à la fraude par paiement poussé autorisé (APP) ont augmenté de 22 % au Royaume-Uni au premier semestre 2026, s'établissant à 316 millions de livres.",
+     "articles": [
+      "7aee06110f68"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "01560fce738c": {
+   "titre": "21 Actualités PME : 156 dossiers de restructuration financière approuvés pour près de 354 millions de dinars Il y a 25 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/pme-156-dossiers-de-restructuration-financiere-approuves-pour-pres-de-354-millions-de-dinars/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T20:14:20.206719+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0223ac501e7a": {
+   "titre": "Important incendie au complexe chimique de Skhira : la Protection civile en état d’alerte à Bir Ali",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/24/important-incendie-au-complexe-chimique-de-skhira-la-protection-civile-en-etat-dalerte-a-bir-ali/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T19:35:58+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "028d15013bac": {
+   "titre": "PLF 2027 : 27 députés refusent de cautionner les choix du gouvernement",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/24/plf-2027-27-deputes-refusent-de-cautionner-les-choix-du-gouvernement/1430396/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T18:33:37+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "058a3d2d4700": {
+   "titre": "La Commission européenne se montre indulgente sur la situation budgétaire française",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/24/la-commission-europeenne-se-montre-indulgente-sur-la-situation-budgetaire-francaise_6814840_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T19:42:05+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "084f75fa7111": {
+   "titre": "PLF 2027 | Un pas vers le sauvetage ou le naufrage de l’économie tunisienne ?",
+   "source": "Kapitalis",
+   "url": "https://kapitalis.com/tunisie/2026/11/25/plf-2027-un-pas-vers-le-sauvetage-ou-le-naufrage-de-leconomie-tunisienne/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T08:08:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "12bd32503fd3": {
+   "titre": "Budget 2027/ Cour des comptes : La mission de la Cour des comptes constitue un...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Politique/20840753-budget-2027-cour",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T20:14:20.206719+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "13805823b7ff": {
+   "titre": "Le projet de rachat de Telkom par MTN s'accompagne d'un coût sur le plan de la concurrence",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/25/mtn-telkom-deal-sa-telecoms-market/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/25/mtn-telkom-deal-sa-telecoms-market/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-25T08:15:28+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "MTN’s proposed Telkom takeover comes with a competition cost"
+  },
+  "2351199ca474": {
+   "titre": "One Tech à l’équilibre, et BNA glisse",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/one-tech-a-lequilibre-et-bna-glisse/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T21:23:58+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "284e26e6940e": {
+   "titre": "Le succès des IA chinoises auprès des entreprises met les leaders Anthropic et OpenAI sous pression",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/25/le-succes-des-ia-chinoises-aupres-des-entreprises-met-les-leaders-anthropic-et-openai-sous-pression_6815050_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T06:30:05+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "4278a8fe48ba": {
+   "titre": "27 Actualités Tunisie: Les transferts de la diaspora dépassent les 8 milliards de dinars au 20 novembre Il y a 28 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-les-transferts-de-la-diaspora-depassent-les-8-milliards-de-dinars-au-20-novembre/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T07:40:46.549093+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "44b37bc88850": {
+   "titre": "Le constructeur automobile chinois BYD va s’implanter en France",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/24/le-constructeur-automobile-chinois-byd-va-s-implanter-en-france_6814850_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T21:35:09+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "44e6a1ae4ad1": {
+   "titre": "Restructuration financière des PME : 156 dossiers approuvés pour un montant global de 354...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20840986-restructuration",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T20:14:20.206719+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4b35184541b5": {
+   "titre": "Examen du budget 2027 du ministère de l’Emploi : Les sociétés communautaires au cœur du débat",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/24/examen-du-budget-2027-du-ministere-de-lemploi-les-societes-communautaires-au-coeur-du-debat/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T21:00:16+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4b8dca360075": {
+   "titre": "Skhira : un important incendie maîtrisé dans une unité de production de l’usine Siape",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/24/skhira-un-important-incendie-maitrise-dans-une-unite-de-production-de-lusine-siape/1430452/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T21:44:17+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5413411fd49c": {
+   "titre": "L'avantage de l'IA commence par savoir ce qu'il ne faut pas automatiser",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/blogposting/33560/the-ai-advantage-starts-with-knowing-what-not-to-automate",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T15:58:42+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "The AI advantage starts with knowing what not to automate"
+  },
+  "58730b2e5535": {
+   "titre": "Les Britanniques réticents à laisser des agents d'IA effectuer des paiements pour eux",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/newsarticle/48808/brits-wary-about-letting-ai-agents-make-payments-for-them",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T01:01:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Brits wary about letting AI agents make payments for them"
+  },
+  "60222c48f0f1": {
+   "titre": "Sénégal : comment EDK est en train de changer de dimension malgré le poids de sa dette",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1864230/economie-entreprises/senegal-comment-edk-est-en-train-de-changer-de-dimension-malgre-le-poids-de-sa-dette/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T18:28:58+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "619344fd0405": {
+   "titre": "L’ancien gouverneur de la BCT, Marouane El Abassi, au conseil d’administration de Bank ABC",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/24/lancien-gouverneur-de-la-bct-marouane-el-abassi-au-conseil-dadministration-de-bank-abc/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T20:14:20.206719+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "64b84900a9b5": {
+   "titre": "Le groupe chinois Huawei reconnu coupable de vol de secrets industriels aux États-Unis",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261124-le-groupe-chinois-huawei-reconnu-coupable-de-vol-de-secret-industriel-aux-%C3%A9tats-unis",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T00:01:24+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "78cbfe149b7b": {
+   "titre": "Farsight lance une intégration alimentée par l'IA dans Capital IQ Pro",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/pressarticle/111777/farsight-launches-ai-powered-integration-in-capital-iq-pro",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T21:13:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Farsight launches AI-powered integration in Capital IQ Pro"
+  },
+  "7aee06110f68": {
+   "titre": "Les pertes liées à la fraude APP continuent d'augmenter au Royaume-Uni",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/newsarticle/48799/uk-app-fraud-losses-continue-to-rise",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T01:01:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "UK APP fraud losses continue to rise"
+  },
+  "859e59d5a9b1": {
+   "titre": "Le chinois Huawei reconnu coupable de vol de secrets industriels aux Etats-Unis, après huit ans de procédure",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/international/article/2026/11/25/le-geant-chinois-huawei-reconnu-coupable-de-vol-de-secrets-industriels-aux-etats-unis-apres-huit-ans-de-procedure_6814902_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T00:49:03+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "87b0abae31af": {
+   "titre": "71 Actualités Tunisie : Les recettes touristiques et les transferts de la diaspora dépassent les 15 milliards de dinars",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-les-recettes-touristiques-et-les-transferts-de-la-diaspora-depassent-les-15-milliards-de-dinars/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T20:14:20.206719+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8fb549a374eb": {
+   "titre": "Alors que Muse de Meta arrive au Royaume-Uni, la FCA émet un avertissement aux entreprises tech sur l'IA agentique",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/newsarticle/48807/as-metas-muse-arrives-in-the-uk-fca-issues-agentic-ai-warning-to-tech-firms",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T20:48:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "As Meta's Muse arrives in the UK, FCA issues agentic AI warning to tech firms"
+  },
+  "96f3e509e539": {
+   "titre": "Le constructeur automobile chinois BYD choisit la France pour sa première usine d'Europe de l'Ouest",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261124-le-constructeur-automobile-chinois-byd-choisit-la-france-pour-sa-premi%C3%A8re-usine-d-europe-de-l-ouest",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T23:29:26+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9b0034228d62": {
+   "titre": "130 Economie Tunindex à 19 499 points : l’épargne a changé de camp Il y a 10 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunindex-a-19-499-points-lepargne-a-change-de-camp/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T07:40:46.549093+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9c8964d20e96": {
+   "titre": "Trafic d’or au Cameroun : les coulisses de la grande traque lancée par le Contrôle supérieur de l’État",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1864504/politique/trafic-dor-au-cameroun-les-coulisses-de-la-grande-traque-lancee-par-le-controle-superieur-de-letat/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T07:02:26+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "b4741ba7fc4f": {
+   "titre": "Stellantis supprime l’équipe de nuit de l’usine de Sochaux, 500 emplois concernés dès janvier",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie-francaise/article/2026/11/25/stellantis-supprime-l-equipe-de-nuit-de-l-usine-de-sochaux-500-emplois-concernes-des-janvier_6815054_1656968.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T07:42:51+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "b4e08e751b7b": {
+   "titre": "29 Economie 17,3 milliards de dollars : le mur de court terme caché derrière la dette tunisienne Il y a 40 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/173-milliards-de-dollars-le-mur-de-court-terme-cache-derriere-la-dette-tunisienne/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T20:14:20.206719+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b5b70f142df2": {
+   "titre": "Examen du budget de l’État : Plus de 11.000 milliards de millimes pour l’enseignement",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/24/examen-du-budget-de-letat-plus-de-11-000-milliards-de-millimes-pour-lenseignement/",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T20:50:43+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c412e1af8001": {
+   "titre": "Cameroun : Selon la Banque mondiale, le maintien du pays sur la liste grise du G",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/cameroun-selon-la-banque-mondiale-le-maintien-du-pays-sur-la-liste-grise-du-gafi-a-rencheri-le-cout-du-financement-des-pme_65923",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T18:37:24+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c5aaac13f74b": {
+   "titre": "Smartphones en Afrique : Samsung gagne du terrain, Transsion sous pression",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/25/smartphones-en-afrique-samsung-gagne-du-terrain-transsion-sous-pression/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T07:40:46.549093+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d01816372f46": {
+   "titre": "TechCabal Daily – Cell C choisit Melon",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/25/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-cell-c-picks-a-melon/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/25/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-cell-c-picks-a-melon/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-25T07:13:03+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "👨🏿‍🚀TechCabal Daily – Cell C picks a Melon"
+  },
+  "d8d166ddd232": {
+   "titre": "Analyse approfondie : Le benchmark d'achat d'IA de Visa montre que les agents achètent toujours même lorsqu'ils se trompent",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/blogposting/33527/deep-dive-visas-ai-shopping-benchmark-shows-agents-still-buy-when-they-get-it-wrong",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T16:42:28+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Deep Dive: Visa’s AI shopping benchmark shows agents still buy when they get it wrong"
+  },
+  "ec7035087d75": {
+   "titre": "16 Actualités parlementaires Budget 2027 : les missions de l’ISIE et du CNRD examinées ce mercredi Il y a 5 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/budget-2027-les-missions-de-lisie-et-du-cnrd-examinees-ce-mercredi/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T07:40:46.549093+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fca65188042c": {
+   "titre": "40 Actualités Deux pétroliers en feu à Ormuz selon Téhéran, des frappes en débat à Washington Il y a 50 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/ormuz-deux-petroliers-en-feu-iran-frappes-americaines/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T07:40:46.549093+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fd92d28d2137": {
+   "titre": "Mobiserve et Orange Tunisie signent un accord de partenariat pour accélérer le recours à l’énergie solaire",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/mobiserve-et-orange-tunisie-signent-un-accord-de-partenariat-pour-accelerer-le-recours-a-lenergie-solaire_65924",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T20:32:14+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fe523eececcc": {
+   "titre": "Budget 2027 : le Sénat abaisse le plafond de l’abattement fiscal de 10 % des retraités, refusant sa suppression totale",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/24/budget-2027-le-senat-abaisse-le-plafond-de-l-abattement-fiscal-de-10-des-retraites-refusant-sa-suppression-totale_6814837_823448.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T19:15:05+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "fe5af15bc5bc": {
+   "titre": "Risques émergents 2026 | Cyberattaques : pourquoi les PME tunisiennes doivent repenser leur protection",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/24/576865/risques-emergents-2026-cyberattaques-pourquoi-les-pme-tunisiennes-doivent-repenser-leur-protection/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T07:40:46.549093+00:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
