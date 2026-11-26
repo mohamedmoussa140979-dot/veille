@@ -1,0 +1,766 @@
+{
+ "version": 1,
+ "id": "2026-11-26-matin",
+ "date": "2026-11-26",
+ "edition": "matin",
+ "genere_le": "2026-11-26T08:56:47+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19499.64,
+   "variation_pct": 0.91,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-24"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3797,
+   "variation_pct": -0.13,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-23"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 90.71,
+   "variation_pct": 0.08,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-26"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "Le projet de loi de finances 2027 avance en commission avec quatorze nouvelles mesures adoptées, sur fond de pression continue du déficit des caisses de retraite de 1,54 milliard de dinars.",
+   "articles": [
+    "02bd579f135e",
+    "a5dfcf68f70e",
+    "dfc323de3f1a",
+    "52c63a29d23b",
+    "3839ba2bc9e7"
+   ]
+  },
+  {
+   "texte": "La Bourse de Tunis enregistre une progression de 1,36 %, tirée par la solide performance des grandes capitalisations bancaires.",
+   "articles": [
+    "e470cbb6b74b",
+    "3d7065dfd0d9"
+   ]
+  },
+  {
+   "texte": "Sur le continent africain, l'OCDE et l'UA appellent à 93 milliards de dollars d'emprunts productifs, tandis qu'Afreximbank vise 240 milliards d'euros d'affacturage.",
+   "articles": [
+    "77a94b5a7a92",
+    "a743ab334ced"
+   ]
+  },
+  {
+   "texte": "Les paiements par carte dépassent pour la première fois l'argent liquide en zone euro, alors que le Sénat français approuve un effort fiscal de 5 milliards d'euros imposé aux grandes sociétés.",
+   "articles": [
+    "89ebca0a2537",
+    "e37f43644668",
+    "669488ab5b86"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Adoption en commission de la version remaniée du PLF 2027",
+     "texte": "Les commissions des finances de l'ARP et du CNRD ont validé la version amendée du projet de loi de finances 2027. Le texte intègre quatorze nouvelles dispositions portant sur la fiscalité, l'amnistie douanière et les régimes applicables aux véhicules familiaux.",
+     "articles": [
+      "02bd579f135e",
+      "a5dfcf68f70e",
+      "dfc323de3f1a",
+      "52c63a29d23b"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": "Dispositions sur les voitures familiales et amnistie douanière : assouplissement fiscal potentiel pour certains ménages et régularisations."
+    },
+    {
+     "titre": "Appel à l'accélération de la transition énergétique en Tunisie",
+     "texte": "Face à un déficit énergétique structurel estimé à 68 %, la Tunisie doit intensifier d'urgence ses investissements dans les énergies renouvelables pour sécuriser son approvisionnement.",
+     "articles": [
+      "311b9f629ff8"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Projet de création d'une banque postale pour la bancarisation régionale",
+     "texte": "Les autorités tunisiennes étudient le lancement d'une banque postale afin de renforcer l'inclusion financière de masse et de dynamiser le développement socio-économique dans les régions.",
+     "articles": [
+      "6e1ba9db2680"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": "Création d'une banque postale : élargissement des services bancaires de proximité pour les ménages."
+    },
+    {
+     "titre": "Un déficit de 1,54 milliard de dinars pèse sur le système de retraite",
+     "texte": "Le déficit annuel des caisses de retraite atteint 1,54 milliard de dinars, accentuant les déséquilibres budgétaires et les besoins de financement de l'État.",
+     "articles": [
+      "3839ba2bc9e7"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Réunion du Conseil d'administration de la Banque Centrale de Tunisie",
+     "texte": "Le Conseil d'administration de la Banque Centrale de Tunisie s'est réuni le 25 novembre 2026 pour analyser l'évolution des indicateurs économiques et monétaires.",
+     "articles": [
+      "e607cc763587"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-24",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19499.64,
+      "variation_pct": 0.91,
+      "variation_annee_pct": 44.98,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 14772.19,
+      "variation_pct": 1.07,
+      "variation_annee_pct": 52.77,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "siame",
+      "libelle": "SIAME",
+      "valeur": 3.5,
+      "variation_pct": 5.42,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "nbl",
+      "libelle": "NEW BODY LINE",
+      "valeur": 2.34,
+      "variation_pct": 3.54,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "scb",
+      "libelle": "CIMENTS DE BIZERTE",
+      "valeur": 0.6,
+      "variation_pct": 3.45,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "bhl",
+      "libelle": "BH LEASING",
+      "valeur": 4.47,
+      "variation_pct": -4.49,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tair",
+      "libelle": "TUNISAIR",
+      "valeur": 0.32,
+      "variation_pct": -3.03,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "plast",
+      "libelle": "OFFICE PLAST",
+      "valeur": 1.25,
+      "variation_pct": -1.57,
+      "au": "2026-11-24",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Hausse du Tunindex portée par le secteur bancaire",
+     "texte": "La Bourse de Tunis poursuit sa progression avec un Tunindex en hausse de 1,36 % à 19 764,53 points. La tendance a été tirée par les valeurs bancaires majeures telles que la BIAT et la BT, dans un volume global de 9,5 MDT.",
+     "articles": [
+      "e470cbb6b74b",
+      "3d7065dfd0d9"
+     ]
+    },
+    {
+     "titre": "Implantation du siège régional de United ATS à Tunis",
+     "texte": "Le groupe spécialisé dans l'aviation civile United ATS a choisi la capitale tunisienne pour établir son nouveau siège régional.",
+     "articles": [
+      "95787c49b600",
+      "205c70491cc5"
+     ]
+    },
+    {
+     "titre": "Tunisair représentée à l'Assemblée générale de l'AFRAA à Libreville",
+     "texte": "La compagnie nationale Tunisair a pris part aux travaux de la 58e Assemblée générale de l'Association des compagnies aériennes africaines consacrée aux enjeux stratégiques du transport aérien sur le continent.",
+     "articles": [
+      "2c454784be05",
+      "219f6ffebfec"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 90.71,
+      "unite": "USD le baril",
+      "variation_pct": 0.08,
+      "au": "2026-11-26",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.624,
+      "unite": "USD par MMBtu",
+      "variation_pct": -0.93,
+      "au": "2026-11-26",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3595.7,
+      "unite": "USD l'once",
+      "variation_pct": 0.87,
+      "au": "2026-11-26",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 586.5,
+      "unite": "cents le boisseau",
+      "variation_pct": -0.17,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7182.78,
+      "unite": "points",
+      "variation_pct": -0.25,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 5894.46,
+      "unite": "points",
+      "variation_pct": -1.82,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 7980.57,
+      "unite": "points",
+      "variation_pct": -0.75,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0977,
+      "unite": "",
+      "variation_pct": -0.05,
+      "au": "2026-11-26",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3797,
+      "unite": "dinars",
+      "variation_pct": -0.13,
+      "au": "2026-11-23",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0678,
+      "unite": "dinars",
+      "variation_pct": -0.42,
+      "au": "2026-11-23",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "La carte bancaire surpasse les espèces dans la zone euro",
+     "texte": "En zone euro, le volume des règlements par carte bancaire a franchi un cap historique en dépassant pour la première fois l'utilisation des espèces.",
+     "articles": [
+      "89ebca0a2537",
+      "e37f43644668"
+     ]
+    },
+    {
+     "titre": "Nouvelles exigences environnementales européennes sur les emballages",
+     "texte": "L'Union européenne met en application un cadre réglementaire renforcé pour les emballages, imposant de nouvelles contraintes d'adaptation aux exportateurs commercialisant sur son marché.",
+     "articles": [
+      "af0df273b0bb"
+     ]
+    },
+    {
+     "titre": "Adoption par le Sénat français d'une surtaxe sur les grandes entreprises",
+     "texte": "Dans le cadre du budget 2027, la haute assemblée française a approuvé une contribution de 5 milliards d'euros prélevée sur les grandes entreprises pour réduire le déficit public.",
+     "articles": [
+      "669488ab5b86"
+     ]
+    },
+    {
+     "titre": "Débat sur l'interventionnisme public américain au profit de Nvidia",
+     "texte": "L'intervention du gouvernement américain en faveur du fabricant de puces Nvidia suscite des réserves parmi les analystes, qui pointent les risques d'un soutien public ciblé sur les marchés financiers.",
+     "articles": [
+      "4d41440117e8"
+     ]
+    },
+    {
+     "titre": "Lancement du collectif des « millionnaires patriotes » en France",
+     "texte": "Des personnalités fortunées et entrepreneurs ont officialisé le lancement en France de l'organisation des « millionnaires patriotes », revendiquant une hausse de la fiscalité sur les hauts patrimoines.",
+     "articles": [
+      "f943a0c2c13b"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Recommandations de l'OCDE et de l'UA pour l'endettement africain",
+     "texte": "L'OCDE et l'Union africaine préconisent d'orienter 93 milliards de dollars d'emprunts vers des investissements productifs pour renforcer la durabilité des finances publiques des pays africains.",
+     "articles": [
+      "77a94b5a7a92"
+     ]
+    },
+    {
+     "titre": "Les fonds de pension africains totalisent 455 milliards de dollars",
+     "texte": "Les encours sous gestion de l'industrie des fonds de pension en Afrique atteignent désormais 455 milliards de dollars, soulignant leur rôle croissant dans le financement continental.",
+     "articles": [
+      "dab51b9aed5d"
+     ]
+    },
+    {
+     "titre": "Maintien du taux directeur à 23 % par la Banque centrale du Nigeria",
+     "texte": "En dépit d'un ralentissement de l'inflation, la Banque centrale du Nigeria a opté pour le maintien du statut quo concernant son taux d'intérêt directeur, fixé à 23 %.",
+     "articles": [
+      "59765f8a12f3"
+     ]
+    },
+    {
+     "titre": "Afreximbank cible 240 milliards d'euros en affacturage pour les PME",
+     "texte": "L'institution multilatérale Afreximbank ambitionne de développer le marché de l'affacturage à hauteur de 240 milliards d'euros afin d'élargir l'accès aux liquidités des PME africaines.",
+     "articles": [
+      "a743ab334ced"
+     ]
+    },
+    {
+     "titre": "Fitch confirme la note souveraine du Gabon à « CCC- »",
+     "texte": "L'agence de notation Fitch a reconduit la note de crédit du Gabon à « CCC- », tout en notant une perspective de redressement graduel des comptes publics.",
+     "articles": [
+      "f2030b76262d"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Avancées dans la gouvernance de l'IA appliquée au secteur financier",
+     "texte": "Le Royaume-Uni a reconduit ses référents IA issus des banques Starling et Lloyds, tandis que Zytra AI a déployé FinProof, un nouvel outil d'évaluation de la sécurité de l'IA destiné aux services financiers.",
+     "articles": [
+      "a9813ae08be9",
+      "6927b9457544"
+     ]
+    },
+    {
+     "titre": "Autorisation américaine pour les centres de données spatiaux de SpaceX",
+     "texte": "Les autorités de régulation américaines ont donné leur accord à SpaceX pour le déploiement d'un million de satellites destinés à héberger des infrastructures de calcul dans l'espace.",
+     "articles": [
+      "0a2535a52123",
+      "412ac50bcfd7"
+     ]
+    },
+    {
+     "titre": "Cybersécurité et projets d'introduction en Bourse dans la tech africaine",
+     "texte": "Alors que SA Home Loans a subi un incident de fuite de données, Dangote Refinery prépare son entrée sur la Bourse du Nigeria et la fintech Raenest décroche six licences aux États-Unis.",
+     "articles": [
+      "b89f3d8236fc"
+     ]
+    },
+    {
+     "titre": "Partenariat solaire entre Orange Tunisie et Mobiserve",
+     "texte": "Orange Tunisie et Mobiserve ont scellé une alliance stratégique pour accélérer le déploiement de solutions d'énergie solaire sur les infrastructures télécoms.",
+     "articles": [
+      "035cdafdb7fa"
+     ]
+    },
+    {
+     "titre": "Partenariat tuniso-suédois autour de l'innovation numérique",
+     "texte": "Tunisie Telecom, Ericsson et l'ambassade de Suède ont clôturé les journées d'innovation et de jeu vidéo tuniso-suédoises, réaffirmant leur soutien à l'écosystème technologique local.",
+     "articles": [
+      "fac9371e767a"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "02bd579f135e": {
+   "titre": "L’ARP et le CNRD adoptent en commission le texte amendé",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/larp-et-le-cnrd-adoptent-en-commission-le-texte-amende/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T08:35:25+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "035cdafdb7fa": {
+   "titre": "Mobiserve et Orange Tunisie signent un accord de partenariat pour accélérer le recours à l’énergie solaire",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/26/mobiserve-et-orange-tunisie-signent-un-accord-de-partenariat-pour-accelerer-le-recours-a-lenergie-solaire/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T07:39:17.970770+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0a2535a52123": {
+   "titre": "SpaceX pourra lancer un million de satellites pour ses centres de données dans l'espace",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261125-spacex-pourra-lancer-un-million-satellites-centres-de-donnees-espace",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T23:22:27+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "205c70491cc5": {
+   "titre": "Aviation civile: United ATS ouvre son siège régional à Tunis",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/25/aviation-civile-united-ats-ouvre-son-siege-regional-a-tunis/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T20:09:17.087910+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "219f6ffebfec": {
+   "titre": "Tunisair participe à la 58e Assemblée générale de l’AFRAA à Libreville",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/25/tunisair-participe-a-la-58e-assemblee-generale-de-lafraa-a-libreville/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T19:47:34+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2c454784be05": {
+   "titre": "Tunisia-Afrique-Aviation: Tunisair participe à la 58e Assemblée Générale de l'AFRAA à Libreville",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20845192-",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T20:09:17.087910+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "311b9f629ff8": {
+   "titre": "Tunisie : face à un déficit énergétique de 68 %, l’urgence d’accélérer les renouvelables",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/25/578027/tunisie-face-a-un-deficit-energetique-de-68-lurgence-daccelerer-les-renouvelables/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T07:39:17.970770+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3839ba2bc9e7": {
+   "titre": "33 Economie Retraites : le déficit annuel de 1,54 milliard de dinars qui pèse sur le budget... Il y a 37 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/retraites-le-deficit-annuel-de-154-milliard-de-dinars-qui-pese-sur-le-budget-de-letat/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T20:09:17.087910+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3d7065dfd0d9": {
+   "titre": "138 Economie Bourse de Tunis : le marché avance à deux vitesses Il y a 9 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/bourse-de-tunis-le-marche-avance-a-deux-vitesses/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T07:39:17.970770+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "412ac50bcfd7": {
+   "titre": "Les USA autorisent SpaceX à déployer un million de satellites pour des centres de données spatiaux",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20845200-les-usa-autorisent",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T20:09:17.087910+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4d41440117e8": {
+   "titre": "« Le sauvetage de Nvidia est bien plus dangereux que celui des banques après la crise de 2008 »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/25/le-sauvetage-de-nvidia-est-bien-plus-dangereux-que-celui-des-banques-apres-la-crise-de-2008_6815165_3232.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T19:58:15+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "52c63a29d23b": {
+   "titre": "PLF 2027 : l'ARP et le CNRD adoptent en commission le texte amendé",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20846092-plf-2027-l-arp-et",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T07:39:17.970770+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "59765f8a12f3": {
+   "titre": "Nigeria : Malgré le recul de l’inflation, la Banque centrale maintient son taux directeur à 23 %",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/nigeria-malgre-le-recul-de-linflation-la-banque-centrale-maintient-son-taux-directeur-a-23-_65931",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T09:15:52+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "669488ab5b86": {
+   "titre": "Budget 2027 : le Sénat approuve l’effort de cinq milliards d’euros demandé aux grandes entreprises",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/26/budget-2027-le-senat-approuve-l-effort-de-cinq-milliards-d-euros-demande-aux-grandes-entreprises_6815197_823448.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T00:50:44+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "6927b9457544": {
+   "titre": "Zytra AI lance une plateforme de gouvernance de l'IA",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/pressarticle/111788/zytra-ai-launches-ai-governance-platform",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T17:40:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Zytra AI launches AI governance platform"
+  },
+  "6e1ba9db2680": {
+   "titre": "Projet de création d’une banque postale : Mieux servir la « bancarisation de masse »",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/25/projet-de-creation-dune-banque-postale-mieux-servir-la-bancarisation-de-masse/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T21:30:31+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "77a94b5a7a92": {
+   "titre": "Afrique : L’OCDE et l’UA préconisent 93 milliards USD d’emprunts productifs pour réduire le poids de la dette",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/premium/afrique-locde-et-lua-preconisent-93-milliards-usd-demprunts-productifs-pour-reduire-le-poids-de-la-dette_65957",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T18:52:25+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "89ebca0a2537": {
+   "titre": "Zone euro : la carte bancaire dépasse les espèces pour la première fois",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/25/578028/zone-euro-la-carte-bancaire-depasse-les-especes-pour-la-premiere-fois/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T07:39:17.970770+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "95787c49b600": {
+   "titre": "Aviation civile : La Tunisie accueille le siège régional du groupe United ATS",
+   "source": "Entreprises Magazine",
+   "url": "https://www.entreprises-magazine.com/aviation-civile-la-tunisie-accueille-le-siege-regional-du-groupe-united-ats/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T07:39:17.970770+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a5dfcf68f70e": {
+   "titre": "Projet de Loi de finances 2027 : quatorze nouvelles mesures adoptées en commission avant leur examen en plénière",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/25/578031/projet-de-loi-de-finances-2027-quatorze-nouvelles-mesures-adoptees-en-commission-avant-leur-examen-en-pleniere/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T07:39:17.970770+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a743ab334ced": {
+   "titre": "Afrique : Afreximbank vise 240 milliards d’euros d’affacturage pour financer les PME",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/afrique-afreximbank-vise-240-milliards-deuros-daffacturage-pour-financer-les-pme_65896",
+   "url_traduite": null,
+   "publie_le": "2026-11-23T17:28:57+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a9813ae08be9": {
+   "titre": "Le Royaume-Uni reconduit des dirigeants de Starling et Lloyds en tant que champions de l'IA",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/newsarticle/48815/uk-reappoints-starling-and-lloyds-execs-as-ai-champions",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T01:01:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "UK reappoints Starling and Lloyds execs as AI champions"
+  },
+  "af0df273b0bb": {
+   "titre": "Emballages: les nouvelles règles européennes commencent à s’appliquer, ce que les exportateurs doivent savoir",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/09/07/emballages-les-nouvelles-regles-europeennes-commencent-a-sappliquer-ce-que-les-exportateurs-doivent-savoir/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T07:39:17.970770+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b89f3d8236fc": {
+   "titre": "TechCabal Daily – Une violation de données à domicile",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/26/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-a-house-breach/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/26/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-a-house-breach/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-26T07:39:43+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "👨🏿‍🚀TechCabal Daily – A house breach"
+  },
+  "dab51b9aed5d": {
+   "titre": "Les fonds de pension africains pèsent 455 milliards USD",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/premium/les-fonds-de-pension-africains-pesent-455-milliards-usd_65946",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T14:22:40+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "dfc323de3f1a": {
+   "titre": "42 Economie Loi de finances 2027 : voiture familiale, amnistie douanière, fiscalité… ce que les commissions ont retenu Il y a 48 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/loi-finances-2027-voiture-famille-amnistie-douaniere-nouvelles-mesures/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T07:39:17.970770+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e37f43644668": {
+   "titre": "Actualités Zone euro : les paiements par carte dépassent le cash pour la première fois depuis... Il y a quelques instants",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/zone-euro-les-paiements-par-carte-depassent-le-cash-pour-la-premiere-fois-depuis-2016/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T07:39:17.970770+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e470cbb6b74b": {
+   "titre": "La Biat en ascension, et la BT sur une note positive",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/la-biat-en-ascension-et-la-bt-sur-une-note-positive/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T08:27:17+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e607cc763587": {
+   "titre": "CommuniquÃ© de presse du Conseil d'Administration de la BCT rÃ©uni le 25 Novembre 2026",
+   "source": "BCT",
+   "url": "https://www.bct.gov.tn/bct/siteprod/actualites.jsp?id=1293",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T00:00:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f2030b76262d": {
+   "titre": "Gabon : Fitch maintient sa note souveraine à ‘’CCC-‘’, malgré une amélioration attendue des finances publiques",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/gabon-fitch-maintient-sa-note-souveraine-a-ccc--malgre-une-amelioration-attendue-des-finances-publiques_65873",
+   "url_traduite": null,
+   "publie_le": "2026-11-21T15:51:04+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f943a0c2c13b": {
+   "titre": "Les « millionnaires patriotes », ces riches qui veulent payer des impôts, se lancent en France",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/26/les-millionnaires-patriotes-ces-riches-qui-veulent-payer-des-impots-se-lancent-en-france_6815481_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T06:55:01+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "fac9371e767a": {
+   "titre": "Tunisian-Swedish Games and innovation days : La coopération tuniso-suédoise mise sur l’innovation numérique",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/25/tunisian-swedish-games-and-innovation-days-la-cooperation-tuniso-suedoise-mise-sur-linnovation-numerique/",
+   "url_traduite": null,
+   "publie_le": "2026-11-25T21:15:55+01:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
