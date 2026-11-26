@@ -733,3 +733,4 @@
 {"t": "2026-11-26T19:25:15.471186+01:00", "niveau": "info", "code": "edition_produite", "message": "2026-11-26-soir", "ctx": {"sujets": "23", "articles": "65", "modele": "gemini-3-flash-preview"}}
 {"t": "2026-11-26T21:18:15.122613+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
 {"t": "2026-11-26T21:19:48.572399+01:00", "niveau": "info", "code": "collecte_terminee", "message": "56 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "49", "sources_en_erreur": "0", "lus": "2062", "rejetes": "14", "resolutions": "19", "resolutions_echec": "0"}}
+{"t": "2026-11-26T21:50:09.178486+01:00", "niveau": "info", "code": "sante_controle", "message": "14 anomalie(s)", "ctx": {"editions": "9", "alertes": "22"}}
