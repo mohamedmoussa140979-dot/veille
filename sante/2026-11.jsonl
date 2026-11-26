@@ -695,3 +695,7 @@
 {"t": "2026-11-26T09:01:40.365419+01:00", "niveau": "avertissement", "code": "gemini_modele_echec", "message": "gemini-3.8-flash : HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}", "ctx": {"tour": "1"}}
 {"t": "2026-11-26T09:01:42.395077+01:00", "niveau": "avertissement", "code": "gemini_modele_echec", "message": "gemini-3.7-flash : HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}", "ctx": {"tour": "1"}}
 {"t": "2026-11-26T09:02:11.668471+01:00", "niveau": "info", "code": "edition_produite", "message": "2026-11-26-matin", "ctx": {"sujets": "23", "articles": "32", "modele": "gemini-3.6-flash"}}
+{"t": "2026-11-26T09:43:55.823373+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-26T09:44:34.389674+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-26T09:45:13.295389+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-26T09:48:20.859450+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 3, \"flux\": 0}", "ctx": {}}
