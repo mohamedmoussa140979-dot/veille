@@ -782,3 +782,24 @@
 {"t": "2026-11-27T19:15:33.521501+01:00", "niveau": "avertissement", "code": "gemini_modele_echec", "message": "gemini-3.8-flash : HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}", "ctx": {"tour": "1"}}
 {"t": "2026-11-27T19:15:39.005321+01:00", "niveau": "avertissement", "code": "gemini_modele_echec", "message": "gemini-3.7-flash : HTTP 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}", "ctx": {"tour": "1"}}
 {"t": "2026-11-27T19:16:17.426603+01:00", "niveau": "info", "code": "edition_produite", "message": "2026-11-27-soir", "ctx": {"sujets": "25", "articles": "47", "modele": "gemini-3.6-flash"}}
+{"t": "2026-11-27T19:13:50.191389+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-27T19:14:28.070104+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-27T19:15:28.845824+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-27T19:16:09.508658+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-27T19:16:48.388724+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-27T19:17:29.547777+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-27T19:18:18.684445+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 6, \"flux\": 0}", "ctx": {}}
+{"t": "2026-11-27T19:18:19.199605+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "gtx : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:19.745156+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "clients5 : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:20.283484+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "mymemory : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:20.577408+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "gtx : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:21.103357+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "clients5 : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:21.252531+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "mymemory : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:21.609898+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "gtx : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:21.922726+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "clients5 : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:22.073136+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "mymemory : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:22.882072+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "clients5 : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:23.034743+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "mymemory : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:23.894096+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "clients5 : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:24.044887+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "mymemory : HTTP 429", "ctx": {}}
+{"t": "2026-11-27T19:18:24.626405+01:00", "niveau": "erreur", "code": "awb_traduction_sans_donnee", "message": "5 traduction(s) sans résultat", "ctx": {}}
