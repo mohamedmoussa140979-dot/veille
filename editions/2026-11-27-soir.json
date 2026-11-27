@@ -1,0 +1,937 @@
+{
+ "version": 1,
+ "id": "2026-11-27-soir",
+ "date": "2026-11-27",
+ "edition": "soir",
+ "genere_le": "2026-11-27T19:12:19+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19933.51,
+   "variation_pct": 0.85,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-26"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3973,
+   "variation_pct": 0.77,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-25"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 90.11,
+   "variation_pct": -0.58,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-27"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "Aggravation des déséquilibres économiques en Tunisie sous l'impact du déficit énergétique et de la hausse des cours mondiaux du pétrole, conduisant la Banque centrale à maintenir son taux directeur à 7 %.",
+   "articles": [
+    "8af21f4e7ca4",
+    "bc595b041a01",
+    "421390e4f23f",
+    "52c17141b73a",
+    "e3b66679c84f",
+    "5f1996769f63"
+   ]
+  },
+  {
+   "texte": "Basculement de l'économie française en récession technique et vives réactions internationales face aux propositions de surtaxes douanières américaines.",
+   "articles": [
+    "ea568b007328",
+    "fbe02d388027",
+    "8a3383eacf4e",
+    "1c05f81a8855"
+   ]
+  },
+  {
+   "texte": "Mobilisation des acteurs économiques tunisiens pour développer leurs investissements en Afrique subsaharienne et consolider les échanges avec la Libye.",
+   "articles": [
+    "150d06524c4f",
+    "87e6bb11fc08",
+    "26e4a05a990b",
+    "1dc431246d69",
+    "10ef53ff254f"
+   ]
+  },
+  {
+   "texte": "Actions du CMF tunisien entre contrôle des acteurs non agréés et renforcement du cadre financier, tandis que l'UBCI obtient un prêt de 10 millions d'euros de la BERD.",
+   "articles": [
+    "1a6c937661f4",
+    "8cc47247b836",
+    "be52ea58657f",
+    "2e2df8cfb0e8"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Examen du projet de loi de finances 2027 en séance plénière",
+     "texte": "Les commissions des finances de l'Assemblée des représentants du peuple et du Conseil national des régions et des districts ont soumis leur rapport sur le projet de loi de finances 2027 aux travaux de la séance plénière. Près d'une trentaine de députés ont affiché leur opposition au texte proposé.",
+     "articles": [
+      "58e75f642042",
+      "6950c427f5f6",
+      "4f345d4868c7",
+      "0d2fc239c169",
+      "0f47f335c160",
+      "572a74fdd4c2",
+      "ef88a4dae222"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Tensions financières à la CNAM et risques sur la chaîne du médicament",
+     "texte": "Les impayés accumulés par la CNAM auprès des pharmacies privées fragilisent la situation financière des officines et font peser un risque sur la continuité de l'approvisionnement en médicaments. Ce blocage persiste malgré le bilan excédentaire affiché par la caisse.",
+     "articles": [
+      "05cb0080bcdb",
+      "1a606e7ff259",
+      "eab7174f7b28"
+     ],
+     "rubrique": "presse",
+     "impact_menage": "Risque de pénuries de certains médicaments dans les officines privées"
+    },
+    {
+     "titre": "Sensibilité du budget tunisien à la remontée des cours du pétrole",
+     "texte": "La hausse du cours du pétrole Brent vers 96,57 dollars le baril, accentuée par les tensions géopolitiques autour du détroit d'Ormuz, ravive la vulnérabilité énergétique de la Tunisie. Cette poussée des prix accroît la pression sur les équilibres budgétaires du pays.",
+     "articles": [
+      "8af21f4e7ca4",
+      "5f1996769f63"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": "Risque de pressions accrues sur les subventions énergétiques et les prix à la consommation"
+    },
+    {
+     "titre": "Maintien du taux directeur de la BCT face au creusement du déficit courant",
+     "texte": "La Banque centrale de Tunisie a maintenu son taux directeur à 7 %, tout en pointant du doigt l'aggravation des déséquilibres macroéconomiques. Sur les dix premiers mois de l'année, le déficit courant s'est détérioré et a plus que doublé sous le poids de la facture énergétique.",
+     "articles": [
+      "bc595b041a01",
+      "52c17141b73a"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Statu quo de la Banque centrale de Tunisie sur les conditions financières",
+     "texte": "La décision de la BCT de laisser le taux directeur inchangé préserve la grille des taux applicables au crédit et à la collecte de l'épargne. Cette mesure proroge les paramètres actuels de financement pour les ménages et les agents économiques.",
+     "articles": [
+      "421390e4f23f",
+      "e3b66679c84f"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": "Taux directeur fixe à 7 % : stabilité des mensualités des remboursements de crédits à taux variable"
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-26",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19933.51,
+      "variation_pct": 0.85,
+      "variation_annee_pct": 48.21,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 15294.75,
+      "variation_pct": 1.31,
+      "variation_annee_pct": 58.17,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "ubci",
+      "libelle": "UBCI",
+      "valeur": 44.41,
+      "variation_pct": 4.49,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tjari",
+      "libelle": "ATTIJARI BANK",
+      "valeur": 83.3,
+      "variation_pct": 4.26,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tre",
+      "libelle": "TUNIS RE",
+      "valeur": 8.96,
+      "variation_pct": 3.58,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "bhass",
+      "libelle": "BH ASSURANCE",
+      "valeur": 68.0,
+      "variation_pct": -10.5,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "bl",
+      "libelle": "BEST LEASE",
+      "valeur": 2.35,
+      "variation_pct": -4.47,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "cell",
+      "libelle": "CELLCOM",
+      "valeur": 1.3,
+      "variation_pct": -4.41,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Mise en garde du CMF concernant deux sociétés de gestion non agréées",
+     "texte": "Le Conseil des marchés financiers a relevé l'exercice de l'activité de gestion de portefeuilles de valeurs mobilières pour le compte de tiers sans agrément par Flat6Labs Tunisia et Flat6Labs Investment Tunisia.",
+     "articles": [
+      "1a6c937661f4",
+      "8cc47247b836"
+     ]
+    },
+    {
+     "titre": "Renforcement de la formation des acteurs financiers par le CMF",
+     "texte": "Le CMF a mis en œuvre un programme de renforcement des compétences des intervenants de la place en matière de lutte contre le blanchiment d'argent et le financement du terrorisme.",
+     "articles": [
+      "be52ea58657f"
+     ]
+    },
+    {
+     "titre": "Octroi d'un prêt de 10 millions d'euros par la BERD à l'UBCI",
+     "texte": "La Banque européenne pour la reconstruction et le développement a alloué une ligne de crédit de 10 millions d'euros à l'UBCI afin de soutenir le financement des entreprises en Tunisie.",
+     "articles": [
+      "2e2df8cfb0e8"
+     ]
+    },
+    {
+     "titre": "Tunisie Leasing & Factoring conserve sa participation dans Tuninvest Sicar",
+     "texte": "Le conseil d'administration de Tunisie Leasing & Factoring a rejeté la perspective d'une cession de ses actions et décidé de conserver sa part de 36,51 % dans le capital de Tuninvest Sicar en raison de son caractère stratégique.",
+     "articles": [
+      "7c416b24a096",
+      "d3641776f2dd",
+      "a0163ab4b7a9",
+      "ce97f5b900d4",
+      "92dfe46deb31"
+     ]
+    },
+    {
+     "titre": "Haussée hebdomadaire de la Bourse de Tunis",
+     "texte": "L'indice de la Bourse de Tunis a enregistré une progression de 4 % au terme de la semaine boursière.",
+     "articles": [
+      "7565c9b34594"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 90.11,
+      "unite": "USD le baril",
+      "variation_pct": -0.58,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.51,
+      "unite": "USD par MMBtu",
+      "variation_pct": -4.05,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3678.3,
+      "unite": "USD l'once",
+      "variation_pct": 3.19,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 590.75,
+      "unite": "cents le boisseau",
+      "variation_pct": 0.55,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7297.49,
+      "unite": "points",
+      "variation_pct": 1.6,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 6089.2,
+      "unite": "points",
+      "variation_pct": 1.24,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 8156.09,
+      "unite": "points",
+      "variation_pct": 0.58,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0939,
+      "unite": "",
+      "variation_pct": -0.33,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3973,
+      "unite": "dinars",
+      "variation_pct": 0.77,
+      "au": "2026-11-25",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0729,
+      "unite": "dinars",
+      "variation_pct": -0.19,
+      "au": "2026-11-25",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Contraction de l'activité économique et entrée de la France en récession",
+     "texte": "L'économie française a reculé de 0,2 % au troisième trimestre 2026 après un ajustement à la baisse du trimestre précédent, marquant deux trimestres consécutifs de repli de l'activité.",
+     "articles": [
+      "ea568b007328",
+      "8a3383eacf4e"
+     ]
+    },
+    {
+     "titre": "Protestations internationales contre l'augmentation des douanes américaines",
+     "texte": "La Chine, le Brésil, le Japon et l'Union européenne ont vivement réagi à la menace de nouveaux droits de douane américains pouvant atteindre 20 %. Pékin presse le gouvernement américain d'abandonner ces mesures tarifaires.",
+     "articles": [
+      "fbe02d388027",
+      "1c05f81a8855"
+     ]
+    },
+    {
+     "titre": "Progression des cours mondiaux du pétrole",
+     "texte": "Les cours du pétrole brut poursuivent leur trajectoire haussière sur les marchés internationaux et se rapprochent de la barre des 100 dollars le baril.",
+     "articles": [
+      "55b572d7f242"
+     ]
+    },
+    {
+     "titre": "Revalorisation du Smic et recommandations des experts en France",
+     "texte": "Le salaire minimum augmentera de 1,6 % en France au 1er décembre. Le groupe d'experts rattaché au Smic a toutefois déconseillé les hausses indifférenciées et suggéré une révision des allègements de cotisations sociales pour contrer le tassement des salaires.",
+     "articles": [
+      "219aa87ec80f"
+     ]
+    },
+    {
+     "titre": "Contestation de la gouvernance du groupe Nvidia par un actionnaire",
+     "texte": "Un actionnaire de Nvidia a fermement critiqué la conduite et la gestion du dirigeant de la société, affirmant que son maintien présentait des risques opérationnels et de sécurité.",
+     "articles": [
+      "7785790d17f6"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Élargissement du déficit commercial entre l'Afrique et la Chine",
+     "texte": "Le solde commercial déficitaire du continent africain vis-à-vis des échanges avec la Chine a dépassé le seuil des 100 milliards de dollars.",
+     "articles": [
+      "633df39e158f"
+     ]
+    },
+    {
+     "titre": "Orienter la dette africaine vers l'investissement productif",
+     "texte": "Face au niveau d'endettement des pays africains, l'Union africaine et l'OCDE préconisent une stratégie axée sur la canalisation des financements vers des projets à forte valeur productive.",
+     "articles": [
+      "279f25fa43eb"
+     ]
+    },
+    {
+     "titre": "Croissance des bénéfices trimestriels d'Attijariwafa Bank",
+     "texte": "Le groupe Attijariwafa Bank a publié un résultat net consolidé en hausse de 10,3 % au cours du troisième trimestre de l'année 2026.",
+     "articles": [
+      "dda4ac6c60e8"
+     ]
+    },
+    {
+     "titre": "Réflexion stratégique sur l'implantation des entreprises tunisiennes en Afrique subsaharienne",
+     "texte": "Une conférence tenue à l'ENA a analysé les leviers de développement et les marchés cibles destinés à renforcer les investissements directs tunisiens en Afrique subsaharienne.",
+     "articles": [
+      "26e4a05a990b",
+      "1dc431246d69",
+      "10ef53ff254f"
+     ]
+    },
+    {
+     "titre": "Participation tunisienne au Forum économique de Fezzan en Libye",
+     "texte": "Une délégation d'affaires conduite par le TABC a participé aux travaux du Forum économique international de Fezzan à Sebha afin d'encourager la coopération transfrontalière et commerciale.",
+     "articles": [
+      "150d06524c4f",
+      "87e6bb11fc08"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Distinction d'Orange Tunisie dans un indice mondial des startups",
+     "texte": "Orange Tunisie figure comme l'unique entreprise tunisienne retenue au sein du classement Corporate Startup Activity Index 2026 publié par la plateforme StartupBlink.",
+     "articles": [
+      "4dbeb14c7a66",
+      "36d3677cf312"
+     ]
+    },
+    {
+     "titre": "Intégration d'Arabic.AI dans le réseau IA de l'État émirati",
+     "texte": "L'entreprise Arabic.AI s'est associée à l'initiative gouvernementale émiratie FedAI en tant que partenaire fondateur aux côtés de groupes technologiques mondiaux.",
+     "articles": [
+      "2096a66e4f8b"
+     ]
+    },
+    {
+     "titre": "Adhésion de la Banque de Suède au système de règlement T2",
+     "texte": "La Banque centrale de Suède a conclu un accord avec la Banque centrale européenne en vue de rejoindre la plateforme de règlement brut en temps réel T2 de l'Eurosystème.",
+     "articles": [
+      "d60dc1d563a1"
+     ]
+    },
+    {
+     "titre": "Projets de restructuration d'effectifs liés à l'IA chez SAP",
+     "texte": "L'éditeur de logiciels SAP étudie une réduction d'effectif pouvant concerner 10 000 emplois dans le cadre de son redéploiement stratégique vers l'intelligence artificielle.",
+     "articles": [
+      "741b274b0fc2"
+     ]
+    },
+    {
+     "titre": "Réouverture des opérations de retrait chez Binance",
+     "texte": "La plateforme de cryptomonnaies Binance a rétabli son service de retrait après l'interruption causée par un piratage s'élevant à 6,3 milliards de dollars le mois précédent.",
+     "articles": [
+      "1990d4fcd7f0"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "05cb0080bcdb": {
+   "titre": "Appel à une « intervention urgente » pour garantir la continuité de l’approvisionnement en médicaments !",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/appel-a-une-intervention-urgente-pour-garantir-la-continuite-de-lapprovisionnement-en-medicaments/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T14:25:38+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0d2fc239c169": {
+   "titre": "Projet de la loi de finances 2027: Le rapport de la commission des finances et du budget...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Titres-de-l-actualité/20851832-projet-de-la-loi-de",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:12:49.643314+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0f47f335c160": {
+   "titre": "50 A la une Tunisie : calendrier fixé pour la loi de finances 2027 et neuf projets de loi... Il y a 57 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-calendrier-fixe-pour-la-loi-de-finances-2027-et-neuf-projets-de-loi-urgents-declaration/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:32:12.558375+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "10ef53ff254f": {
+   "titre": "Investissement en Afrique Subsaharienne : l’ENA explore les débouchés des entreprises tunisiennes",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/investissement-en-afrique-subsaharienne-lena-explore-les-debouches-des-entreprises-tunisiennes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T08:53:19+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "150d06524c4f": {
+   "titre": "Coopération : Participation tunisienne à la première édition du Forum économique...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20852133-coopération",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1990d4fcd7f0": {
+   "titre": "Les retraits sur Binance de nouveau disponibles après une perte de 6,3 milliards de dollars lors d'une cyberattaque",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/newsarticle/48826/binance-withdrawals-back-online-after-63-bn-loss-in-cyberattack",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:08:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Binance withdrawals back online after $6.3 bn loss in cyberattack"
+  },
+  "1a606e7ff259": {
+   "titre": "La crise de la Cnam menace la continuité d’approvisionnement en médicaments",
+   "source": "Kapitalis",
+   "url": "https://kapitalis.com/tunisie/2026/11/27/la-crise-de-la-cnam-menace-la-continuite-dapprovisionnement-en-medicaments/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T11:17:25+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1a6c937661f4": {
+   "titre": "Le CMF constate l'exercice sans agrément de l'activité de gestion de portefeuilles de valeurs mobilières pour le compte de tiers par deux sociétés dans un nouveau local",
+   "source": "CMF",
+   "url": "https://www.cmf.tn/?q=%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D8%B9%D8%A7%D9%8A%D9%86-%D9%85%D9%85%D8%A7%D8%B1%D8%B3%D8%A9-%D8%B4%D8%B1%D9%83%D8%AA%D9%8A%D9%86-%D9%84%D9%86%D8%B4%D8%A7%D8%B7-%D8%A7%D9%84%D8%AA%D8%B5%D8%B1%D9%81-%D9%81%D9%8A-%D9%85%D8%AD%D8%A7%D9%81%D8%B8-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D8%A7%D9%82-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%84%D9%81%D8%A7%D8%A6%D8%AF%D8%A9-%D8%A7%D9%84%D8%BA%D9%8A%D8%B1-%D8%AF%D9%88%D9%86-%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5",
+   "url_traduite": "https://www-cmf-tn.translate.goog/?q=%D9%87%D9%8A%D8%A6%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D8%B9%D8%A7%D9%8A%D9%86-%D9%85%D9%85%D8%A7%D8%B1%D8%B3%D8%A9-%D8%B4%D8%B1%D9%83%D8%AA%D9%8A%D9%86-%D9%84%D9%86%D8%B4%D8%A7%D8%B7-%D8%A7%D9%84%D8%AA%D8%B5%D8%B1%D9%81-%D9%81%D9%8A-%D9%85%D8%AD%D8%A7%D9%81%D8%B8-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D8%A7%D9%82-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D9%84%D9%81%D8%A7%D8%A6%D8%AF%D8%A9-%D8%A7%D9%84%D8%BA%D9%8A%D8%B1-%D8%AF%D9%88%D9%86-%D8%AA%D8%B1%D8%AE%D9%8A%D8%B5&_x_tr_sl=ar&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-27T16:57:00+01:00",
+   "langue": "ar",
+   "payant": false,
+   "titre_origine": "هيئة السوق المالية تعاين ممارسة شركتين لنشاط التصرف في محافظ الأوراق المالية لفائدة الغير دون ترخيص في محل جديد"
+  },
+  "1c05f81a8855": {
+   "titre": "Nouveaux droits de douane US : Les pays visés s’indignent",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/nouveaux-droits-de-douane-us-les-pays-vises-sindignent/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T08:45:12+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "1dc431246d69": {
+   "titre": "Investissement tunisien en Afrique : cap sur les marchés subsahariens",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/27/578116/investissement-tunisien-en-afrique-cap-sur-les-marches-subsahariens/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T11:06:56.346043+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2096a66e4f8b": {
+   "titre": "Arabic.AI rejoint l'écosystème FedAI du gouvernement des Émirats arabes unis en tant que partenaire fondateur",
+   "source": "Wamda",
+   "url": "https://www.wamda.com/2026/11/arabicai-joins-uae-governments-fedai-ecosystem-founding-partner",
+   "url_traduite": "https://www-wamda-com.translate.goog/2026/11/arabicai-joins-uae-governments-fedai-ecosystem-founding-partner?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-27T15:31:30+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Arabic.AI joins UAE government&#039;s FedAI ecosystem as founding partner"
+  },
+  "219aa87ec80f": {
+   "titre": "Le groupe d’experts sur le smic s’inquiète de la « smicardisation » du pays",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/27/le-groupe-d-experts-sur-le-smic-s-inquiete-de-la-smicardisation-du-pays_6815906_823448.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T18:00:06+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "26e4a05a990b": {
+   "titre": "Les clés et ambitions de l’expansion de la Tunisie en Afrique subsaharienne décryptées à l’ENA",
+   "source": "Entreprises Magazine",
+   "url": "https://www.entreprises-magazine.com/les-cles-et-ambitions-de-lexpansion-de-la-tunisie-en-afrique-subsaharienne-decryptees-a-lena/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:32:12.558375+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "279f25fa43eb": {
+   "titre": "Dette africaine : L'OCDE et l'Union africaine misent sur l'investissement productif",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/dette-africaine-l-ocde-et-l-union-africaine-misent-sur-l-investissement-productif_65987",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T08:00:16+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2e2df8cfb0e8": {
+   "titre": "Tunisie : La BERD accorde un prêt de 10 millions d’euros à l’UBCI",
+   "source": "Entreprises Magazine",
+   "url": "https://www.entreprises-magazine.com/tunisie-la-berd-accorde-un-pret-de-10-millions-deuros-a-lubci/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T09:25:56.614864+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "36d3677cf312": {
+   "titre": "47 A la une Tunis, 27 novembre 2026 Orange Tunisie, seule entreprise tunisienne dans le Corporate Startup Activity Index... Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunis-27-novembre-2026-orange-tunisie-seule-entreprise-tunisienne-dans-le-corporate-startup-activity-index-2026-de-startupblink-une-reconnaissance-internationale-de-son-engagement-en-faveur-des-st/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:12:49.643314+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "421390e4f23f": {
+   "titre": "21 A la une Crédit, épargne, immobilier : ce que le maintien du taux directeur de la BCT à 7 % change pour les Tunisiens Il y a 12 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/bct-taux-directeur-7-pour-cent-consequences-credit-epargne-tunisie/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:32:12.558375+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4dbeb14c7a66": {
+   "titre": "Orange Tunisie, seule entreprise tunisienne du Corporate Startup Activity Index 2026 de StartupBlink",
+   "source": "AGENCE ECOFIN",
+   "url": "https://www.agenceecofin.com/actualites/2711-143872-orange-tunisie-seule-entreprise-tunisienne-du-corporate-startup-activity-index-2026-de-startupblink",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:25:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4f345d4868c7": {
+   "titre": "Projet de la loi de finances 2027: Le rapport de la commission des finances et du budget des deux chambres soumis à la séance plénière du lundi prochain",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Politique/20851832-projet-de-la-loi-de",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:12:49.643314+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "52c17141b73a": {
+   "titre": "La BCT parle électricité : le courant manque, le déficit courant double",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/la-bct-parle-electricite-le-courant-manque-le-deficit-courant-double/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:32:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "55b572d7f242": {
+   "titre": "Le pétrole se rapproche des 100 dollars",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/le-petrole-se-rapproche-des-100-dollars_65995",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T12:34:17+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "572a74fdd4c2": {
+   "titre": "53 A la une Tunisie : près de 30 députés opposés à la loi de finances 2027, Zaghdoud réclame... Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-pres-de-30-deputes-opposes-a-la-loi-de-finances-2027-zaghdoud-reclame-des-garanties-declaration/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T11:06:56.346043+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "58e75f642042": {
+   "titre": "79 A la une Tunisie : loi de finances 2027, vote, délais et procédure en cas de désaccord (Rapport) Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-loi-de-finances-2027-vote-delais-et-procedure-en-cas-de-desaccord-rapport/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5f1996769f63": {
+   "titre": "Crise d'Ormuz : La Tunisie face au plus grand choc énergétique jamais enregistré",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/crise-d-ormuz-la-tunisie-face-au-plus-grand-choc-energetique-jamais-enregistre_65990",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T10:05:46+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "633df39e158f": {
+   "titre": "L'Afrique creuse son déficit commercial avec la Chine à plus de 100 milliards de dollars",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/l-afrique-creuse-son-deficit-commercial-avec-la-chine-a-plus-de-100-milliards-de-dollars_65996",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:50:30+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6950c427f5f6": {
+   "titre": "ARP et CNRD, lundi en plénière pour le budget de l’Etat",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/le-rapport-de-la-commission-des-finances-et-du-budget-des-deux-chambres-soumis-a-la-seance-pleniere-du-lundi-prochain/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T16:46:37+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "741b274b0fc2": {
+   "titre": "SAP pourrait supprimer 10 000 emplois pour faire place à l'IA",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/newsarticle/48827/sap-may-cut-10000-jobs-to-make-room-for-ai",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:37:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "SAP may cut 10,000 jobs to make room for AI"
+  },
+  "7565c9b34594": {
+   "titre": "Bourse de Tunis : +4 % sur la semaine po...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-analyse-marche/bourse-de-tunis-4-sur-la-semaine-pour-le-tunindex-retour-au-dessus-des-20-000-points",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7785790d17f6": {
+   "titre": "Charles Ferguson, investisseur et actionnaire de Nvidia : « Jensen Huang est déconnecté de la réalité et son ego est totalement hors de contrôle »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/27/jensen-huang-le-pdg-de-nvidia-est-deconnecte-de-la-realite-et-son-ego-est-totalement-hors-de-controle_6815895_3232.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:00:01+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "7c416b24a096": {
+   "titre": "Tunisie Leasing & Factoring décide de conserver sa participation stratégique dans Tuninvest",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/tunisie-leasing-factoring-decide-de-conserver-sa-participation-strategique-dans-tuninvest_66005",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:36:39+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "87e6bb11fc08": {
+   "titre": "La Tunisie, via TABC, au Forum économique de Fezzan en Libye",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/participation-tunisienne-a-la-premiere-edition-du-forum-economique-international-de-fezzan-a-sebha-en-libye/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T16:43:27+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8a3383eacf4e": {
+   "titre": "La France entre en récession après deux trimestres de recul du PIB",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/27/la-france-entre-en-recession-apres-deux-trimestres-de-recul-du-pib_6815824_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T10:25:50+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "8af21f4e7ca4": {
+   "titre": "Ormuz et Ras Tanura : le Brent à 96,57 dollars, le risque budgétaire tunisien ravivé",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/27/578155/ormuz-et-ras-tanura-le-brent-a-9657-dollars-le-risque-budgetaire-tunisien-ravive/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:32:12.558375+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8cc47247b836": {
+   "titre": "Le CMF constate l’exercice sans agrément de l’activité de gestion de portefeuilles de valeurs mobilières pour le compte de tiers par les sociétés « Flat6Labs Tunisia» et « Flat6Labs Investment Tunisia » dans de nouveaux locaux",
+   "source": "CMF",
+   "url": "https://www.cmf.tn/?q=le-cmf-constate-l%E2%80%99exercice-sans-agr%C3%A9ment-de-l%E2%80%99activit%C3%A9-de-gestion-de-portefeuilles-de-valeurs",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T16:53:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "92dfe46deb31": {
+   "titre": "TUNISIE LEASING ET FACTORING - Avis et communiqués - Communiqué de Presse",
+   "source": "BVMT · Publications des sociétés",
+   "url": "https://tunis-stockexchange.com/tunisie-leasing-et-factoring-avis-et-communiqu%C3%A9s-communiqu%C3%A9-de-presse-27-11-26",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T00:00:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a0163ab4b7a9": {
+   "titre": "Tunisie Leasing et Factoring garde ses 36,51% dans Tuninvest Sicar",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/27/tunisie-leasing-et-factoring-garde-ses-3651-dans-tuninvest-sicar/1431144/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:01:32+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "bc595b041a01": {
+   "titre": "BCT : les déséquilibres économiques s’accentuent",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/27/578147/bct-les-desequilibres-economiques-saccentuent/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:32:12.558375+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "be52ea58657f": {
+   "titre": "Le CMF renforce les capacités des intervenants du marché financier en matière de lutte contre le blanchiment d’argent, le financement du terrorisme et de...",
+   "source": "Entreprises Magazine",
+   "url": "https://www.entreprises-magazine.com/le-cmf-renforce-les-capacites-des-intervenants-du-marche-financier-en-matiere-de-lutte-contre-le-blanchiment-dargent-le-financement-du-terrorisme-et-de-la-proliferation-des-armes/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T09:25:56.614864+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ce97f5b900d4": {
+   "titre": "Communiqué de presse : Tunisie Leasing et Factoring",
+   "source": "CMF",
+   "url": "https://www.cmf.tn/?q=communiqu%C3%A9-de-presse-tunisie-leasing-et-factoring-13",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T16:23:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d3641776f2dd": {
+   "titre": "Tunisie Leasing et Factoring renonce, po...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-fusions-acquisitions/tunisie-leasing-et-factoring-tunisie-leasing-et-factoring-renonce-pour-l-heure-a-ceder-sa-participation-dans-tuninvest",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d60dc1d563a1": {
+   "titre": "La Suède va rejoindre le système de règlement brut en temps réel T2 de l'Eurosystème",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/newsarticle/48829/sweden-to-join-eurosystems-t2-rtgs-system",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:29:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Sweden to join Eurosystem's T2 RTGS system"
+  },
+  "dda4ac6c60e8": {
+   "titre": "Banques : Hausse de 10,3% du bénéfice consolidé du Groupe Attijariwafa Bank au troisième trimestre 2026",
+   "source": "Financial Afrik",
+   "url": "https://www.financialafrik.com/2026/11/26/banques-hausse-de-103-du-benefice-consolide-du-groupe-attijariwafa-bank-au-troisieme-trimestre-2026/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T11:12:24+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "e3b66679c84f": {
+   "titre": "La Banque Centrale de Tunisie maintient son taux directeur à 7 %",
+   "source": "Entreprises Magazine",
+   "url": "https://www.entreprises-magazine.com/la-banque-centrale-de-tunisie-maintient-son-taux-directeur-a-7-4/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T11:06:56.346043+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ea568b007328": {
+   "titre": "43 A la une France-Élection : ils se battent pour diriger un pays en « récession », ce que dit l’Insee... Il y a 37 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/france-election-ils-se-battent-pour-diriger-un-pays-en-recession-ce-que-dit-linsee-est-terrible/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "eab7174f7b28": {
+   "titre": "Un excédent d'un milliard de dinars et des pharmacies impayées : Le paradoxe de la CNAM",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/un-excedent-d-un-milliard-de-dinars-et-des-pharmacies-impayees-le-paradoxe-de-la-cnam_65911",
+   "url_traduite": null,
+   "publie_le": "2026-11-24T13:37:07+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ef88a4dae222": {
+   "titre": "Projet de Loi de finances 2027 : nouvell...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/economie-actualites-economiques/projet-de-loi-de-finances-2027-nouvelles-mesures-adoptees-en-commission-par-united-advisers",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T09:25:56.614864+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fbe02d388027": {
+   "titre": "La Chine appelle les Etats-Unis à retirer les droits de douane supplémentaires proposés",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20852045-la-chine-appelle",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:12:49.643314+00:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
