@@ -757,3 +757,6 @@
 {"t": "2026-11-27T09:47:48.187923+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
 {"t": "2026-11-27T09:49:10.849452+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
 {"t": "2026-11-27T09:49:18.086144+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 5, \"flux\": 0}", "ctx": {}}
+{"t": "2026-11-27T10:26:40.557371+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "GET www.lapresse.tn : ConnectionError: HTTPSConnectionPool(host='www.lapresse.tn', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.lapresse.tn", "ctx": {"source": "la-presse"}}
+{"t": "2026-11-27T10:26:57.782856+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-27T10:29:13.777378+01:00", "niveau": "info", "code": "collecte_terminee", "message": "63 nouveau(x), 1 alerte(s)", "ctx": {"sources_ok": "48", "sources_en_erreur": "1", "lus": "2067", "rejetes": "13", "resolutions": "17", "resolutions_echec": "0"}}
