@@ -803,3 +803,7 @@
 {"t": "2026-11-27T19:18:23.894096+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "clients5 : HTTP 429", "ctx": {}}
 {"t": "2026-11-27T19:18:24.044887+01:00", "niveau": "avertissement", "code": "awb_traduction_service", "message": "mymemory : HTTP 429", "ctx": {}}
 {"t": "2026-11-27T19:18:24.626405+01:00", "niveau": "erreur", "code": "awb_traduction_sans_donnee", "message": "5 traduction(s) sans résultat", "ctx": {}}
+{"t": "2026-11-27T21:12:33.189934+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "GET www.lapresse.tn : ConnectionError: HTTPSConnectionPool(host='www.lapresse.tn', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.lapresse.tn", "ctx": {"source": "la-presse"}}
+{"t": "2026-11-27T21:12:38.814177+01:00", "niveau": "avertissement", "code": "http_ssl_repli", "message": "certificat invalide", "ctx": {"hote": "www.tap.info.tn"}}
+{"t": "2026-11-27T21:12:49.243129+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "france24-eco"}}
+{"t": "2026-11-27T21:13:38.412093+01:00", "niveau": "info", "code": "collecte_terminee", "message": "38 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "47", "sources_en_erreur": "2", "lus": "2030", "rejetes": "16", "resolutions": "8", "resolutions_echec": "0"}}
