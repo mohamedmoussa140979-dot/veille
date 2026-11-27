@@ -1,0 +1,660 @@
+{
+ "version": 1,
+ "id": "2026-11-27-matin",
+ "date": "2026-11-27",
+ "edition": "matin",
+ "genere_le": "2026-11-27T08:55:01+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19764.53,
+   "variation_pct": 1.36,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-25"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.3973,
+   "variation_pct": 0.77,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-25"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 92.62,
+   "variation_pct": 2.18,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-27"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "La Banque Centrale de Tunisie maintient son taux directeur à 7 %, tandis que le pays préconise la conversion de sa dette extérieure en financements climatiques.",
+   "articles": [
+    "355fd63eed67",
+    "cb934908be4c",
+    "86468fff6837"
+   ]
+  },
+  {
+   "texte": "Les caisses sociales tunisiennes enregistrent un déficit de 2,5 milliards de dinars, ce qui pèse lourdement sur la prise en charge des soins de santé.",
+   "articles": [
+    "f141a31e7d19"
+   ]
+  },
+  {
+   "texte": "Sur les marchés internationaux, le cours du pétrole se redresse en raison de craintes d'approvisionnement et l'or franchit à nouveau la barre des 3 600 dollars l'once.",
+   "articles": [
+    "9f32b508e922",
+    "94e295e19be9"
+   ]
+  },
+  {
+   "texte": "En Afrique, la dette publique du Mozambique s'élève à 72,2 % du PIB en 2025, tandis que près d'une banque sur quatre s'avère déficitaire dans l'UMOA.",
+   "articles": [
+    "8d46a2c30ee7",
+    "fc7a4ef1be01"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Reconversion de la dette et réforme de la finance internationale",
+     "texte": "La Tunisie préconise la transformation de sa dette extérieure en financements axés sur le climat et le développement durable. Elle appelle également à réformer l'architecture financière mondiale pour soutenir les investissements stratégiques des pays en développement.",
+     "articles": [
+      "355fd63eed67",
+      "cb934908be4c"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Fragilités normatives du billet de trésorerie en Tunisie",
+     "texte": "Le cadre réglementaire régissant les billets de trésorerie en Tunisie présente des vulnérabilités qui nécessitent une refonte urgente.",
+     "articles": [
+      "b326ce1d7446"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": null
+    },
+    {
+     "titre": "Discussions autour du coût fiscal du PLF 2027",
+     "texte": "Le projet de loi de finances 2027 prévoit de nouveaux avantages fiscaux dont la charge financière pour le budget de l'État suscite des interrogations.",
+     "articles": [
+      "e84e8c7573c1"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Déficit de 2,5 milliards de dinars des caisses de retraite et de santé",
+     "texte": "Les régimes de retraite et de couverture maladie font face à un déficit cumulé de 2,5 milliards de dinars, ce qui fragilise la prise en charge des soins.",
+     "articles": [
+      "f141a31e7d19"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": "Déficit de 2,5 Mrd TND des caisses : risque de dégradation de la prise en charge et des remboursements de soins."
+    },
+    {
+     "titre": "Maintien du taux directeur de la BCT à 7 %",
+     "texte": "La Banque Centrale de Tunisie a décidé de laisser son taux directeur inchangé à 7 % à l'issue de l'évaluation de la conjoncture par son conseil d'administration.",
+     "articles": [
+      "86468fff6837"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": "Taux directeur inchangé à 7 % : pas de modification du coût des remboursements pour les crédits à taux variable."
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-25",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19764.53,
+      "variation_pct": 1.36,
+      "variation_annee_pct": 46.95,
+      "au": "2026-11-25",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 15096.65,
+      "variation_pct": 2.2,
+      "variation_annee_pct": 56.12,
+      "au": "2026-11-25",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "sotet",
+      "libelle": "SOTETEL",
+      "valeur": 23.84,
+      "variation_pct": 4.56,
+      "au": "2026-11-25",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tinv",
+      "libelle": "TUNINVEST - SICAR",
+      "valeur": 47.75,
+      "variation_pct": 4.37,
+      "au": "2026-11-25",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "bt",
+      "libelle": "BANQUE DE TUNISIE",
+      "valeur": 9.1,
+      "variation_pct": 3.88,
+      "au": "2026-11-25",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "plast",
+      "libelle": "OFFICE PLAST",
+      "valeur": 1.2,
+      "variation_pct": -4.0,
+      "au": "2026-11-25",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "smd",
+      "libelle": "SANIMED",
+      "valeur": 0.32,
+      "variation_pct": -3.03,
+      "au": "2026-11-25",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tgh",
+      "libelle": "TAWASOL",
+      "valeur": 0.71,
+      "variation_pct": -2.74,
+      "au": "2026-11-25",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Progression du Tunindex tirée par un seul secteur",
+     "texte": "La dynamique récente de l'indice de la Bourse de Tunis s'appuie principalement sur les performances d'un secteur d'activité unique.",
+     "articles": [
+      "af0ac3124c8a"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 92.62,
+      "unite": "USD le baril",
+      "variation_pct": 2.18,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.592,
+      "unite": "USD par MMBtu",
+      "variation_pct": -1.8,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3683.5,
+      "unite": "USD l'once",
+      "variation_pct": 3.34,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 564.0,
+      "unite": "cents le boisseau",
+      "variation_pct": -0.27,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7182.78,
+      "unite": "points",
+      "variation_pct": -0.25,
+      "au": "2026-11-25",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 6014.74,
+      "unite": "points",
+      "variation_pct": 2.04,
+      "au": "2026-11-26",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 8108.74,
+      "unite": "points",
+      "variation_pct": 1.61,
+      "au": "2026-11-26",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0982,
+      "unite": "",
+      "variation_pct": 0.06,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.3973,
+      "unite": "dinars",
+      "variation_pct": 0.77,
+      "au": "2026-11-25",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.0729,
+      "unite": "dinars",
+      "variation_pct": -0.19,
+      "au": "2026-11-25",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Pression accrue sur l'industrie européenne du luxe à Shanghaï",
+     "texte": "À Shanghaï, les consommateurs se tournent davantage vers des marques locales chinoises et la seconde main, pesant sur les ventes des maisons de luxe européennes.",
+     "articles": [
+      "aab2202dabe5",
+      "6cffe5787307"
+     ]
+    },
+    {
+     "titre": "Rebond des prix du pétrole sur fond d'inquiétudes d'offre",
+     "texte": "Les cours du pétrole repartent à la hausse face aux craintes de tensions sur l'approvisionnement mondial.",
+     "articles": [
+      "9f32b508e922"
+     ]
+    },
+    {
+     "titre": "L'or repasse au-dessus de 3 600 dollars l'once",
+     "texte": "La valeur de l'or s'établit à nouveau au-dessus du seuil des 3 600 dollars l'once, tout en restant exposée à des volatilités.",
+     "articles": [
+      "94e295e19be9"
+     ]
+    },
+    {
+     "titre": "Notation de Nvidia sous pression de gouvernance",
+     "texte": "Des interrogations relatives à la gouvernance interne créent des tensions sur la notation financière de l'entreprise Nvidia.",
+     "articles": [
+      "88b0b03a453d"
+     ]
+    },
+    {
+     "titre": "Plaidoyer pour une politique monétaire axée sur le climat à la BCE",
+     "texte": "Une proposition académique invite la Banque centrale européenne à employer des taux différenciés afin d'intégrer les objectifs de transition écologique dans son action.",
+     "articles": [
+      "090a2d0f5e9d"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Déficit d'un quart des établissements bancaires dans l'UMOA",
+     "texte": "Près de 25 % des banques opérant dans l'UMOA enregistrent des pertes financières, mettant en relief des inégalités de rentabilité.",
+     "articles": [
+      "fc7a4ef1be01"
+     ]
+    },
+    {
+     "titre": "Insuffisance des revenus pétroliers pour le développement de la CEMAC",
+     "texte": "La manne pétrolière ne produit pas l'effet d'entraînement escompté sur la croissance économique des pays membres de la CEMAC.",
+     "articles": [
+      "435703d11bf5"
+     ]
+    },
+    {
+     "titre": "Dette publique du Mozambique à 72,2 % du PIB",
+     "texte": "Le niveau d'endettement souverain du Mozambique grimpe à 72,2 % du produit intérieur brut pour l'année 2025.",
+     "articles": [
+      "8d46a2c30ee7"
+     ]
+    },
+    {
+     "titre": "Projet agricole de 15 000 hectares en Mauritanie",
+     "texte": "La Mauritanie lance l'initiative Maurital Agri sur 15 000 hectares pour consolider sa sécurité alimentaire.",
+     "articles": [
+      "9bf7730f0c47"
+     ]
+    },
+    {
+     "titre": "Fragilités de la filière oléicole au Maroc",
+     "texte": "Le prix de l'olive retombé à 2,5 dirhams le kilo illustre les difficultés structurelles de la filière au Maroc.",
+     "articles": [
+      "a6e2b490d01e"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Mouvements stratégiques et incidents dans la fintech africaine",
+     "texte": "Visa implante un bureau au Cameroun et Mukuru s'associe à PayPal, tandis qu'EasyEquities doit bloquer des comptes d'utilisateurs après une brèche de sécurité.",
+     "articles": [
+      "d809015a8343"
+     ]
+    },
+    {
+     "titre": "Projets de croissance externe de Ramp en Europe",
+     "texte": "La fintech américaine Ramp signale son ouverture à de nouvelles opérations d'acquisition sur le marché européen.",
+     "articles": [
+      "ac54c03c8590"
+     ]
+    },
+    {
+     "titre": "Demandes d'agréments bancaires par MoonPay et Highnote",
+     "texte": "Les entreprises MoonPay et Highnote ont soumis des requêtes pour obtenir des licences de banques nationales aux États-Unis.",
+     "articles": [
+      "9c03837b94cb"
+     ]
+    },
+    {
+     "titre": "Utilisation de l'intelligence artificielle de Palantir par l'OTAN",
+     "texte": "L'OTAN a testé la coordination d'opérations militaires de défense guidées par le système d'intelligence artificielle de Palantir.",
+     "articles": [
+      "f9161345d7aa"
+     ]
+    },
+    {
+     "titre": "Inquiétudes autour des pratiques d'achat sur Whatnot",
+     "texte": "La plateforme de live shopping Whatnot suscite l'attention des associations de consommateurs en raison des risques d'achats compulsifs sur sa chaîne d'enchères.",
+     "articles": [
+      "1b40c9c01d98"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "090a2d0f5e9d": {
+   "titre": "Jézabel Couppey-Soubeyran, économiste : « Pour mettre la politique monétaire au service de la transition écologique, c’est un “pic-vert” qu’il faut à la tête de la BCE »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/27/jezabel-couppey-soubeyran-economiste-pour-mettre-la-politique-monetaire-au-service-de-la-transition-ecologique-c-est-un-pic-vert-qu-il-faut-a-la-tete-de-la-bce_6815809_3232.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T07:00:09+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "1b40c9c01d98": {
+   "titre": "« On est vraiment sur de l’achat compulsif » : Whatnot, la plateforme de téléachat 2.0 au rythme effréné",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/pixels/article/2026/11/27/on-est-vraiment-sur-de-l-achat-compulsif-whatnot-la-plateforme-de-teleachat-2-0-au-rythme-effrene_6815812_4408996.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T08:00:04+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "355fd63eed67": {
+   "titre": "La Tunisie plaide pour convertir sa dette extérieure en financements climatiques",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/26/la-tunisie-plaide-pour-convertir-sa-dette-exterieure-en-financements-climatiques/1431006/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T22:04:21+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "435703d11bf5": {
+   "titre": "Afrique centrale : pourquoi la manne pétrolière ne suffit pas à faire décoller la Cemac",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1861153/economie-entreprises/afrique-centrale-pourquoi-la-manne-petroliere-ne-suffit-pas-a-faire-decoller-la-cemac/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T08:31:24+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "6cffe5787307": {
+   "titre": "A Shanghaï, le boom de la seconde main bouscule le marché du luxe",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/27/a-shanghai-le-boom-de-la-seconde-main-bouscule-le-marche-du-luxe_6815800_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T06:00:22+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "86468fff6837": {
+   "titre": "Taux directeur : la BCT maintient le statu quo à 7 %",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/26/taux-directeur-la-bct-maintient-le-statu-quo-a-7/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T19:25:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "88b0b03a453d": {
+   "titre": "Les problèmes de gouvernance mettent le rating de Nvidia sous pression",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/27/les-problemes-de-gouvernance-mettent-le-rating-de-nvidia-sous-pression/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T07:38:05.322597+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8d46a2c30ee7": {
+   "titre": "Mozambique : la dette publique atteint 72,2% du PIB en 2025",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20850686-mozambique-la",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T07:38:05.322597+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "94e295e19be9": {
+   "titre": "83 Actualités L’or rebondit au-dessus de 3 600 dollars l’once, mais reste sous pression Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/lor-rebondit-au-dessus-de-3-600-dollars-lonce-mais-reste-sous-pression/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T07:38:05.322597+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9bf7730f0c47": {
+   "titre": "Maurital Agri : la Mauritanie mise sur 15 000 hectares pour renforcer sa sécurité alimentaire",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/26/578107/maurital-agri-la-mauritanie-mise-sur-15-000-hectares-pour-renforcer-sa-securite-alimentaire/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T20:17:27.741538+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9c03837b94cb": {
+   "titre": "MoonPay et Highnote déposent des demandes d'agrément bancaire national",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/newsarticle/48823/moonpay-and-highnote-file-for-national-bank-charters",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T01:01:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "MoonPay and Highnote file for national bank charters"
+  },
+  "9f32b508e922": {
+   "titre": "42 Actualités Le pétrole repart à la hausse sur fond de craintes pour l’approvisionnement Il y a 32 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/le-petrole-repart-a-la-hausse-sur-fond-de-craintes-pour-lapprovisionnement/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T07:38:05.322597+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a6e2b490d01e": {
+   "titre": "Maroc : à 2,5 DH le kilo, les olives révèlent les fragilités d’une filière",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/26/578106/maroc-a-25-dh-le-kilo-les-olives-revelent-les-fragilites-dune-filiere/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T20:17:27.741538+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "aab2202dabe5": {
+   "titre": "Dans les rues de Shanghaï, l’essor des marques chinoises menace les champions européens du luxe",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/27/dans-les-rues-de-shanghai-l-essor-des-marques-chinoises-menace-les-champions-europeens-du-luxe_6815807_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T06:30:07+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "ac54c03c8590": {
+   "titre": "« Ne jamais dire jamais » : le géant américain de la fintech Ramp ouvert à d'autres acquisitions en Europe",
+   "source": "Sifted",
+   "url": "https://sifted.eu/articles/ramp-europe-expansion-interview/",
+   "url_traduite": "https://sifted-eu.translate.goog/articles/ramp-europe-expansion-interview/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-27T06:00:58+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "'Never say never': US fintech giant Ramp on more European acquisitions"
+  },
+  "af0ac3124c8a": {
+   "titre": "150 Economie Tunindex : une envolée bâtie sur un seul secteur Il y a 10 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunindex-une-envolee-batie-sur-un-seul-secteur/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T07:38:05.322597+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "b326ce1d7446": {
+   "titre": "Le billet de trésorerie en Tunisie: entre fragilité normative et besoin urgent de réforme",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/27/le-billet-de-tresorerie-en-tunisie-entre-fragilite-normative-et-besoin-urgent-de-reforme/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T07:38:05.322597+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "cb934908be4c": {
+   "titre": "À Paris, la Tunisie appelle à réformer le système financier international",
+   "source": "La Presse",
+   "url": "https://www.lapresse.tn/2026/11/26/a-paris-la-tunisie-appelle-a-reformer-le-systeme-financier-international/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T19:35:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d809015a8343": {
+   "titre": "TechCabal Quotidien – La Visa loca",
+   "source": "TechCabal",
+   "url": "https://techcabal.com/2026/11/27/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-la-visa-loca/",
+   "url_traduite": "https://techcabal-com.translate.goog/2026/11/27/%f0%9f%91%a8%f0%9f%8f%bf%f0%9f%9a%80techcabal-daily-la-visa-loca/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr",
+   "publie_le": "2026-11-27T07:06:53+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "👨🏿‍🚀TechCabal Daily – La Visa loca"
+  },
+  "e84e8c7573c1": {
+   "titre": "PLF 2027 : des avantages fiscaux supplémentaires, mais à quel coût pour l’État ?",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/26/578112/plf-2027-des-avantages-fiscaux-supplementaires-mais-a-quel-cout-pour-letat/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T20:17:27.741538+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f141a31e7d19": {
+   "titre": "42 Economie Retraites et santé : 2,5 milliards de dinars de déficit qui coulent sur les soins Il y a 56 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/retraites-et-sante-25-milliards-de-dinars-de-deficit-qui-coulent-sur-les-soins/",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T20:17:27.741538+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f9161345d7aa": {
+   "titre": "Le virage au forceps des alliés de l’OTAN vers des opérations militaires dopées à l’IA de Palantir",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/international/article/2026/11/26/le-virage-au-forceps-des-allies-de-l-otan-vers-des-operations-militaires-dopees-a-l-ia-de-palantir_6815581_3210.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-26T18:35:04+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "fc7a4ef1be01": {
+   "titre": "UMOA : Près d’une banque sur 4 perd de l’argent, le revers caché du classement des plus rentables",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/premium/umoa-pres-dune-banque-sur-4-perd-de-largent-le-revers-cache-du-classement-des-plus-rentables_65749",
+   "url_traduite": null,
+   "publie_le": "2026-11-16T14:18:23+01:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
