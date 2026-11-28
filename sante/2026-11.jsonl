@@ -808,3 +808,9 @@
 {"t": "2026-11-27T21:12:49.243129+01:00", "niveau": "avertissement", "code": "source_en_erreur", "message": "HTTP 403", "ctx": {"source": "france24-eco"}}
 {"t": "2026-11-27T21:13:38.412093+01:00", "niveau": "info", "code": "collecte_terminee", "message": "38 nouveau(x), 0 alerte(s)", "ctx": {"sources_ok": "47", "sources_en_erreur": "2", "lus": "2030", "rejetes": "16", "resolutions": "8", "resolutions_echec": "0"}}
 {"t": "2026-11-27T21:51:28.805912+01:00", "niveau": "info", "code": "sante_controle", "message": "18 anomalie(s)", "ctx": {"editions": "11", "alertes": "24"}}
+{"t": "2026-11-28T09:30:32.710950+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-28T09:31:38.826235+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "GET api.gdeltproject.org : ConnectTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries excee", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-28T09:32:45.149593+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "GET api.gdeltproject.org : ConnectTimeout: HTTPSConnectionPool(host='api.gdeltproject.org', port=443): Max retries excee", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-28T09:33:57.553855+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-28T09:34:38.278928+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur", "message": "HTTP 429", "ctx": {"flux": "gdelt"}}
+{"t": "2026-11-28T09:35:15.995432+01:00", "niveau": "avertissement", "code": "awb_flux_en_erreur_resume", "message": "{\"gnews\": 0, \"gdelt\": 5, \"flux\": 0}", "ctx": {}}
