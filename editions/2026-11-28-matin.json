@@ -1,0 +1,1073 @@
+{
+ "version": 1,
+ "id": "2026-11-28-matin",
+ "date": "2026-11-28",
+ "edition": "matin",
+ "genere_le": "2026-11-28T10:17:49+01:00",
+ "modele": "gemini-3.6-flash",
+ "chiffres": [
+  {
+   "cle": "tunindex",
+   "libelle": "TUNINDEX",
+   "valeur": 19933.51,
+   "variation_pct": 0.85,
+   "source_url": "https://tunis-stockexchange.com/emetteurs",
+   "au": "2026-11-26"
+  },
+  {
+   "cle": "eur_tnd_bct",
+   "libelle": "EUR/TND (BCT)",
+   "valeur": 3.4013,
+   "variation_pct": 0.12,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+   "au": "2026-11-26"
+  },
+  {
+   "cle": "brent",
+   "libelle": "Brent",
+   "valeur": 90.84,
+   "variation_pct": 0.22,
+   "source_url": "https://finance.yahoo.com/quote/BZ%3DF",
+   "au": "2026-11-27"
+  },
+  {
+   "cle": "tmm",
+   "libelle": "TMM",
+   "valeur": 7.0,
+   "variation_pct": null,
+   "source_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+   "au": "2026-10-01"
+  }
+ ],
+ "essentiel": [
+  {
+   "texte": "S&P maintient la note souveraine de la France à A+ mais abaisse sa perspective à négative suite à l'entrée du pays en récession.",
+   "articles": [
+    "a1a628012a65",
+    "2467188ac2a4",
+    "c8718c09d16f",
+    "ea568b007328",
+    "8a3383eacf4e"
+   ]
+  },
+  {
+   "texte": "Le Tunindex s'adjuge 4% en une semaine et franchit les 20 000 points, tandis que la BERD octroie un financement de 10 millions d'euros à l'UBCI.",
+   "articles": [
+    "a817ec665165",
+    "6bfdf02aa84c",
+    "fb4e57a548bd",
+    "189619e5a828",
+    "7565c9b34594",
+    "c1602a7be371",
+    "2e2df8cfb0e8"
+   ]
+  },
+  {
+   "texte": "La Tunisie et l'ONU signent un accord de partenariat stratégique de 444 millions de dollars, au moment où s'ouvrent les débats pléniers sur la loi de finances 2027.",
+   "articles": [
+    "57b57be1f178",
+    "918defeed77d",
+    "17428b82ed52",
+    "9c205fc50a81",
+    "58e75f642042",
+    "6950c427f5f6",
+    "79d80dc8224d",
+    "4f345d4868c7",
+    "0d2fc239c169",
+    "80c754d73257",
+    "7348fc583655",
+    "ab409052fd39",
+    "dcd9c827f062",
+    "4cef8c4b3fec",
+    "0f47f335c160",
+    "572a74fdd4c2"
+   ]
+  },
+  {
+   "texte": "Le déficit commercial de l'Afrique avec la Chine dépasse la barre des 100 milliards de dollars.",
+   "articles": [
+    "633df39e158f"
+   ]
+  }
+ ],
+ "chapitres": [
+  {
+   "cle": "eco-tunisie",
+   "titre": "Économie tunisienne",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Trois entreprises publiques concentrent 71% des pertes du secteur",
+     "texte": "Trois entités publiques génèrent à elles seules 71% de la totalité des déficits enregistrés par le secteur public tunisien.",
+     "articles": [
+      "ccea224129e8"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Signature d'un cadre de partenariat stratégique Tunisie-ONU de 444 millions de dollars",
+     "texte": "La Tunisie et l'Organisation des Nations Unies ont conclu un accord de coopération pour la période 2027-2031. Mobilisant 444 millions de dollars, ce programme vise à stimuler l'emploi, l'investissement et la transition écologique.",
+     "articles": [
+      "57b57be1f178",
+      "9c205fc50a81",
+      "79d80dc8224d",
+      "80c754d73257",
+      "7348fc583655",
+      "ab409052fd39",
+      "dcd9c827f062",
+      "4cef8c4b3fec"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    },
+    {
+     "titre": "Ouverture des débats parlementaires sur le projet de loi de finances 2027",
+     "texte": "L'Assemblée des représentants du peuple et le Conseil national des régions et des districts se réunissent en plénière commune pour analyser le rapport sur le budget de l'État et programmer le calendrier des votes de la loi de finances 2027.",
+     "articles": [
+      "918defeed77d",
+      "17428b82ed52",
+      "58e75f642042",
+      "6950c427f5f6",
+      "4f345d4868c7",
+      "0d2fc239c169",
+      "0f47f335c160",
+      "572a74fdd4c2"
+     ],
+     "rubrique": "statistiques",
+     "impact_menage": null
+    },
+    {
+     "titre": "Appel des professionnels au maintien des exonérations fiscales sur le solaire",
+     "texte": "La CONECT et la Chambre nationale du photovoltaïque de l'UTICA demandent la réintroduction des articles 49 et 50 dans le projet de loi de finances 2027. Elles avertissent qu'une suppression des allègements fiscaux et douaniers nuirait au développement des énergies renouvelables.",
+     "articles": [
+      "cb539989a7fd",
+      "3beac8d463f0",
+      "d3ae29bd4ca7",
+      "2d61a66a7f17",
+      "f62ca044dd70",
+      "5668eff75e31"
+     ],
+     "rubrique": "reglementation",
+     "impact_menage": "Rejet des allègements fiscaux : le coût d'installation des équipements solaires pour les particuliers risque d'augmenter."
+    },
+    {
+     "titre": "Condamnation de l'homme d'affaires Maher Chaabane",
+     "texte": "L'homme d'affaires Maher Chaabane a été condamné par la justice tunisienne à des peines de prison allant de 15 à 25 ans. Les poursuites portent sur l'obtention de crédits bancaires auprès d'un établissement public.",
+     "articles": [
+      "14245d491ca9",
+      "ed792c7582ad",
+      "ed3e36106f88",
+      "12154b6cbb4c"
+     ],
+     "rubrique": "presse",
+     "impact_menage": null
+    }
+   ]
+  },
+  {
+   "cle": "bourse-entreprises",
+   "titre": "Bourse, entreprises et acteurs économiques",
+   "tableau": {
+    "titre": "Bourse de Tunis",
+    "source": "Bourse de Tunis",
+    "seance": "2026-11-26",
+    "provisoire": false,
+    "lignes": [
+     {
+      "cle": "tunindex",
+      "libelle": "TUNINDEX",
+      "valeur": 19933.51,
+      "variation_pct": 0.85,
+      "variation_annee_pct": 48.21,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "banques",
+      "libelle": "Indice des Banques",
+      "valeur": 15294.75,
+      "variation_pct": 1.31,
+      "variation_annee_pct": 58.17,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "hausses": [
+     {
+      "cle": "ubci",
+      "libelle": "UBCI",
+      "valeur": 44.41,
+      "variation_pct": 4.49,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tjari",
+      "libelle": "ATTIJARI BANK",
+      "valeur": 83.3,
+      "variation_pct": 4.26,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "tre",
+      "libelle": "TUNIS RE",
+      "valeur": 8.96,
+      "variation_pct": 3.58,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ],
+    "baisses": [
+     {
+      "cle": "bhass",
+      "libelle": "BH ASSURANCE",
+      "valeur": 68.0,
+      "variation_pct": -10.5,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "bl",
+      "libelle": "BEST LEASE",
+      "valeur": 2.35,
+      "variation_pct": -4.47,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     },
+     {
+      "cle": "cell",
+      "libelle": "CELLCOM",
+      "valeur": 1.3,
+      "variation_pct": -4.41,
+      "au": "2026-11-26",
+      "source_url": "https://tunis-stockexchange.com/emetteurs"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "Le Tunindex clôture la semaine au-dessus des 20 000 points",
+     "texte": "L'indice phare de la Bourse de Tunis a progressé de 4% sur la semaine, terminant à 20 005,39 points. La bourse affiche ainsi un rendement annuel de 48,7% depuis le début de l'année.",
+     "articles": [
+      "a817ec665165",
+      "6bfdf02aa84c",
+      "fb4e57a548bd",
+      "189619e5a828",
+      "7565c9b34594",
+      "c1602a7be371"
+     ]
+    },
+    {
+     "titre": "Tunisie Leasing et Factoring conserve sa participation dans Tuninvest",
+     "texte": "Le conseil d'administration de Tunisie Leasing & Factoring a décidé de ne pas céder sa participation de 36,51% dans Tuninvest SICAR, estimant cet actif stratégique pour son activité.",
+     "articles": [
+      "3a017ca15946",
+      "7c416b24a096",
+      "d3641776f2dd",
+      "a0163ab4b7a9",
+      "ce97f5b900d4"
+     ]
+    },
+    {
+     "titre": "Démenti d'Amen Invest concernant des opérations frauduleuses",
+     "texte": "L'intermédiaire en bourse Amen Invest a démenti toute implication dans une collecte non autorisée de fonds circulant sous son enseigne.",
+     "articles": [
+      "385409843fbf"
+     ]
+    },
+    {
+     "titre": "Impact des coupures électriques sur le secteur des composants automobiles",
+     "texte": "Selon la Tunisian Automotive Association, 97% des entreprises du secteur des composants automobiles ont subi les répercussions des coupures d'électricité survenues au cours de l'été 2026.",
+     "articles": [
+      "005d5a720269"
+     ]
+    },
+    {
+     "titre": "La BERD accorde un prêt de 10 millions d'euros à l'UBCI",
+     "texte": "La Banque européenne pour la reconstruction et le développement a octroyé une ligne de crédit de 10 millions d'euros à l'UBCI afin de soutenir ses activités de financement.",
+     "articles": [
+      "2e2df8cfb0e8"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "international",
+   "titre": "Économie et marchés internationaux",
+   "tableau": {
+    "titre": "Marchés internationaux",
+    "lignes": [
+     {
+      "cle": "brent",
+      "libelle": "Brent",
+      "valeur": 90.84,
+      "unite": "USD le baril",
+      "variation_pct": 0.22,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/BZ%3DF"
+     },
+     {
+      "cle": "gaz",
+      "libelle": "Gaz naturel",
+      "valeur": 3.491,
+      "unite": "USD par MMBtu",
+      "variation_pct": -4.57,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/NG%3DF"
+     },
+     {
+      "cle": "or",
+      "libelle": "Or",
+      "valeur": 3668.5,
+      "unite": "USD l'once",
+      "variation_pct": 2.91,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/GC%3DF"
+     },
+     {
+      "cle": "ble",
+      "libelle": "Blé",
+      "valeur": 591.0,
+      "unite": "cents le boisseau",
+      "variation_pct": 0.6,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/ZW%3DF"
+     },
+     {
+      "cle": "sp500",
+      "libelle": "S&P 500",
+      "valeur": 7297.49,
+      "unite": "points",
+      "variation_pct": 1.6,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/%5EGSPC"
+     },
+     {
+      "cle": "eurostoxx50",
+      "libelle": "Euro Stoxx 50",
+      "valeur": 6089.2,
+      "unite": "points",
+      "variation_pct": 1.24,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/%5ESTOXX50E"
+     },
+     {
+      "cle": "cac40",
+      "libelle": "CAC 40",
+      "valeur": 8156.09,
+      "unite": "points",
+      "variation_pct": 0.58,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/%5EFCHI"
+     },
+     {
+      "cle": "masi",
+      "libelle": "MASI",
+      "valeur": null,
+      "unite": "points",
+      "variation_pct": null,
+      "au": null,
+      "source_url": null
+     },
+     {
+      "cle": "eurusd",
+      "libelle": "EUR/USD",
+      "valeur": 1.0939,
+      "unite": "",
+      "variation_pct": -0.33,
+      "au": "2026-11-27",
+      "source_url": "https://finance.yahoo.com/quote/EURUSD%3DX"
+     },
+     {
+      "cle": "eur_tnd",
+      "libelle": "EUR/TND (BCT)",
+      "valeur": 3.4013,
+      "unite": "dinars",
+      "variation_pct": 0.12,
+      "au": "2026-11-26",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     },
+     {
+      "cle": "usd_tnd",
+      "libelle": "USD/TND (BCT)",
+      "valeur": 3.061,
+      "unite": "dinars",
+      "variation_pct": -0.39,
+      "au": "2026-11-26",
+      "source_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp"
+     }
+    ]
+   },
+   "sujets": [
+    {
+     "titre": "S&P abaisse la perspective souveraine de la France à négative",
+     "texte": "L'agence S&P a maintenu la note de la France à A+ mais a assorti cette évaluation d'une perspective négative. Cette décision intervient après deux trimestres consécutifs de repli du PIB matérialisant une entrée en récession.",
+     "articles": [
+      "a1a628012a65",
+      "2467188ac2a4",
+      "c8718c09d16f",
+      "ea568b007328",
+      "8a3383eacf4e"
+     ]
+    },
+    {
+     "titre": "Difficultés d'adaptation du secteur agricole français face au climat",
+     "texte": "L'agriculture en France peine à opérer sa mutation structurelle face au réchauffement climatique, restant dépendante de mécanismes de gestion de crise à court terme.",
+     "articles": [
+      "5419c47c37c6"
+     ]
+    },
+    {
+     "titre": "Wall Street termine en hausse une séance écourtée, portée par l'IA",
+     "texte": "Wall Street termine en hausse une séance écourtée, portée par l'IA",
+     "articles": [
+      "7f9f100e8885"
+     ]
+    },
+    {
+     "titre": "BYD acquiert une usine automobile en France",
+     "texte": "Le constructeur chinois BYD reprend le site industriel d'Ineos en Moselle pour y assembler des véhicules SUV hybrides à compter de 2027 et vise une forte hausse de ses volumes de production.",
+     "articles": [
+      "aa60d14f6b7b"
+     ]
+    },
+    {
+     "titre": "Recommandations du groupe d'experts sur l'évolution du Smic",
+     "texte": "À la suite de la hausse de 1,6% du salaire minimum en France, le groupe d'experts préconise une révision des allègements de charges patronales afin de limiter le tassement des salaires.",
+     "articles": [
+      "219aa87ec80f"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "afrique",
+   "titre": "Économie africaine",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Recul de la présence des filiales françaises sur le continent africain",
+     "texte": "Les filiales des groupes français implantées en Afrique font face à un repli net de leurs activités et de leurs parts de marché.",
+     "articles": [
+      "f2ea3fb8ee66"
+     ]
+    },
+    {
+     "titre": "Saham Bank présente sa feuille de route au Maroc",
+     "texte": "L'établissement marocain Saham Bank accélère sa transformation autour du digital, de la banque privée et du renforcement des activités de bancassurance.",
+     "articles": [
+      "0978d0957e3b"
+     ]
+    },
+    {
+     "titre": "Creusement du déficit commercial entre l'Afrique et la Chine",
+     "texte": "Le déséquilibre des échanges commerciaux entre le continent africain et la Chine s'est accentué pour dépasser 100 milliards de dollars au détriment des pays africains.",
+     "articles": [
+      "633df39e158f"
+     ]
+    },
+    {
+     "titre": "Développement d'une filière industrielle de défense au Maroc",
+     "texte": "Le Maroc a engagé une stratégie de développement industriel axée sur la fabrication et l'exportation d'équipements de défense sur le continent.",
+     "articles": [
+      "5cb1530cfbc1"
+     ]
+    },
+    {
+     "titre": "L'IFC détaille l'effet de levier de ses investissements",
+     "texte": "La Société financière internationale indique parvenir à mobiliser 3,40 dollars de capitaux privés pour chaque dollar investi directement dans ses projets.",
+     "articles": [
+      "72272a0f0ecb"
+     ]
+    }
+   ]
+  },
+  {
+   "cle": "technologie",
+   "titre": "Technologie",
+   "tableau": null,
+   "sujets": [
+    {
+     "titre": "Risques liés aux intelligences artificielles sans garde-fous",
+     "texte": "La diffusion d'intelligences artificielles dépouillées de leurs restrictions de sécurité suscite des inquiétudes quant à leur réutilisation dans des activités illicites.",
+     "articles": [
+      "ea3737d3c67c"
+     ]
+    },
+    {
+     "titre": "OpenAI porte des accusations contre Apple",
+     "texte": "OpenAI accuse Apple de violation de secrets commerciaux et de pressions sur les sous-traitants, alimentant les tensions juridiques entre les deux entités.",
+     "articles": [
+      "6eb5eb2f9051"
+     ]
+    },
+    {
+     "titre": "Contestation de la gouvernance de Nvidia par un actionnaire",
+     "texte": "Un investisseur et actionnaire de Nvidia remet ouvertement en cause la gestion et les prises de décision du dirigeant du groupe Jensen Huang.",
+     "articles": [
+      "7785790d17f6"
+     ]
+    },
+    {
+     "titre": "La Suède intègre le système de règlement T2 de l'Eurosystème",
+     "texte": "La Banque centrale de Suède a conclu un accord avec la Banque centrale européenne pour utiliser la plateforme de règlement brut en temps réel T2.",
+     "articles": [
+      "d60dc1d563a1"
+     ]
+    },
+    {
+     "titre": "Adoption de l'IA par les établissements bancaires africains",
+     "texte": "Selon une étude sectorielle, 56% des banques en Afrique ayant noué des partenariats avec des spécialistes en IA surpassent leurs objectifs financiers.",
+     "articles": [
+      "fa6a45eda877"
+     ]
+    }
+   ]
+  }
+ ],
+ "articles": {
+  "005d5a720269": {
+   "titre": "Composants automobiles: 97 % des entreprises affectées par les coupures d’électricité en été!",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/composants-automobiles-97-des-entreprises-affectees-par-les-coupures-delectricite-en-ete/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T09:27:56+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0978d0957e3b": {
+   "titre": "Banque privée, digital, bancassurance : la nouvelle feuille de route de Saham Bank au Maroc",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1864841/economie-entreprises/banque-privee-digital-bancassurance-la-nouvelle-feuille-de-route-de-saham-bank-au-maroc/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:11:28+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "0d2fc239c169": {
+   "titre": "Projet de la loi de finances 2027: Le rapport de la commission des finances et du budget...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Titres-de-l-actualité/20851832-projet-de-la-loi-de",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:12:49.643314+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "0f47f335c160": {
+   "titre": "50 A la une Tunisie : calendrier fixé pour la loi de finances 2027 et neuf projets de loi... Il y a 57 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-calendrier-fixe-pour-la-loi-de-finances-2027-et-neuf-projets-de-loi-urgents-declaration/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:32:12.558375+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "12154b6cbb4c": {
+   "titre": "Maher Chaâbane condamné à quinze ans de prison dans une affaire de crédits bancaires",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/27/maher-chaabane-condamne-a-quinze-ans-de-prison-dans-une-affaire-de-credits-bancaires/1431055/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T10:34:37+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "14245d491ca9": {
+   "titre": "15 ans de prison pour l’homme d’affaires Maher Chaabane",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/15-ans-de-prison-pour-lhomme-daffaires-maher-chaabane/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:29:23+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "17428b82ed52": {
+   "titre": "Loi de finances 2027 : reprise lundi des débats en plénière commune entre l’ARP et le CNRD",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Politique/20852888-loi-de-finances",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T20:11:51.610559+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "189619e5a828": {
+   "titre": "Bourse : Le marché termine la séance de vendredi en territoire positif",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20852733-bourse-le-marché",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T20:11:51.610559+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "219aa87ec80f": {
+   "titre": "Le groupe d’experts sur le smic s’inquiète de la « smicardisation » du pays",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/27/le-groupe-d-experts-sur-le-smic-s-inquiete-de-la-smicardisation-du-pays_6815906_823448.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T18:00:06+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "2467188ac2a4": {
+   "titre": "Après l'entrée de la France en récession, l'agence S&P menace de dégrader sa note souveraine",
+   "source": "France 24 · Éco et tech",
+   "url": "https://www.france24.com/fr/%C3%A9co-tech/20261127-apr%C3%A8s-entr%C3%A9e-france-r%C3%A9cession-agence-standard-and-poor-s-menace-d%C3%A9grader-note-souveraine",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T22:57:18+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2d61a66a7f17": {
+   "titre": "Transition énergétique : le photovoltaïque dénonce le rejet des exonérations fiscales",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/27/578176/transition-energetique-le-photovoltaique-denonce-le-rejet-des-exonerations-fiscales/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "2e2df8cfb0e8": {
+   "titre": "Tunisie : La BERD accorde un prêt de 10 millions d’euros à l’UBCI",
+   "source": "Entreprises Magazine",
+   "url": "https://www.entreprises-magazine.com/tunisie-la-berd-accorde-un-pret-de-10-millions-deuros-a-lubci/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T09:25:56.614864+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "385409843fbf": {
+   "titre": "Collecte frauduleuse : AMEN INVEST démen...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-divers/collecte-frauduleuse-amen-invest-dement-tout-lien-avec-un-faux-intermediaire-et-saisit-la-justice",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:32:12.558375+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3a017ca15946": {
+   "titre": "TLF- Tuninvest Sicar : Pas de cession",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/tlf-tuninvest-sicar-pas-de-cession/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T20:58:21+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "3beac8d463f0": {
+   "titre": "Energie solaire : La CONECT appelle l’ARP à rétablir les allégements fiscaux et douaniers",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/energie-solaire-la-conect-appelle-larp-a-retablir-les-allegements-fiscaux-et-douaniers/",
+   "url_traduite": null,
+   "publie_le": "2026-11-28T08:04:41+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4cef8c4b3fec": {
+   "titre": "Tunisie-ONU : un cadre de coopération stratégique de 444 millions de dollars pour la...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Titres-de-l-actualité/20851834-tunisie-onu-un",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:32:12.558375+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "4f345d4868c7": {
+   "titre": "Projet de la loi de finances 2027: Le rapport de la commission des finances et du budget des deux chambres soumis à la séance plénière du lundi prochain",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Politique/20851832-projet-de-la-loi-de",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:12:49.643314+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5419c47c37c6": {
+   "titre": "Pourquoi l’agriculture française tarde à s’adapter au changement climatique : « On le voyait arriver, mais pas aussi brutalement »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/28/pourquoi-l-agriculture-francaise-tarde-a-s-adapter-au-changement-climatique-on-le-voyait-arriver-mais-pas-aussi-brutalement_6816070_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-28T06:00:20+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "5668eff75e31": {
+   "titre": "La Chambre nationale du photovoltaïque appelle à la soumission en plénière des avantages fiscaux liés à l’énergie solaire et au stockage",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/la-chambre-nationale-du-photovoltaique-appelle-a-la-soumission-en-pleniere-des-avantages-fiscaux-lies-a-lenergie-solaire-et-au-stockage/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:07:55+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "572a74fdd4c2": {
+   "titre": "53 A la une Tunisie : près de 30 députés opposés à la loi de finances 2027, Zaghdoud réclame... Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-pres-de-30-deputes-opposes-a-la-loi-de-finances-2027-zaghdoud-reclame-des-garanties-declaration/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T11:06:56.346043+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "57b57be1f178": {
+   "titre": "Coopération 2027-2031 | La Tunisie et l’Onu renforcent leur partenariat",
+   "source": "Kapitalis",
+   "url": "https://kapitalis.com/tunisie/2026/11/27/cooperation-2027-2031-la-tunisie-et-lonu-renforcent-leur-partenariat/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T23:45:15+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "58e75f642042": {
+   "titre": "79 A la une Tunisie : loi de finances 2027, vote, délais et procédure en cas de désaccord (Rapport) Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-loi-de-finances-2027-vote-delais-et-procedure-en-cas-de-desaccord-rapport/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "5cb1530cfbc1": {
+   "titre": "74 A la une Le Maroc passe d’importateur à producteur et exportateur d’armes : Un plan unique en Afrique Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/le-maroc-passe-dimportateur-a-producteur-et-exportateur-darmes-un-plan-unique-en-afrique/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:32:12.558375+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "633df39e158f": {
+   "titre": "L'Afrique creuse son déficit commercial avec la Chine à plus de 100 milliards de dollars",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/l-afrique-creuse-son-deficit-commercial-avec-la-chine-a-plus-de-100-milliards-de-dollars_65996",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:50:30+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6950c427f5f6": {
+   "titre": "ARP et CNRD, lundi en plénière pour le budget de l’Etat",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/le-rapport-de-la-commission-des-finances-et-du-budget-des-deux-chambres-soumis-a-la-seance-pleniere-du-lundi-prochain/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T16:46:37+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6bfdf02aa84c": {
+   "titre": "Le Tunindex a inscrit une progression notable de 4%, à 20 005,39 points",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/le-tunindex-a-inscrit-une-progression-notable-de-4-a-20-00539-points/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T21:02:53+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "6eb5eb2f9051": {
+   "titre": "OpenAI accuse Apple de vol de secrets et de pressions sur ses fournisseurs",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/27/openai-accuse-apple-de-vol-de-secrets-et-de-pressions-sur-ses-fournisseurs_6815936_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T22:49:34+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "72272a0f0ecb": {
+   "titre": "Makhtar Diop (IFC) : « Nous sommes à 3,40 dollars mobilisés pour chaque dollar investi »",
+   "source": "Jeune Afrique",
+   "url": "https://www.jeuneafrique.com/1865655/economie-entreprises/makhtar-diop-ifc-nous-sommes-a-340-dollars-mobilises-pour-chaque-dollar-investi/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T12:41:30+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "7348fc583655": {
+   "titre": "Tunisie-ONU : un cadre de coopération stratégique de 444 millions de dollars pour la période 2027-2031",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/tunisie-onu-un-cadre-de-cooperation-strategique-de-444-millions-de-dollars-pour-la-periode-2027-2031/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T14:54:40+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7565c9b34594": {
+   "titre": "Bourse de Tunis : +4 % sur la semaine po...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-analyse-marche/bourse-de-tunis-4-sur-la-semaine-pour-le-tunindex-retour-au-dessus-des-20-000-points",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7785790d17f6": {
+   "titre": "Charles Ferguson, investisseur et actionnaire de Nvidia : « Jensen Huang est déconnecté de la réalité et son ego est totalement hors de contrôle »",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/idees/article/2026/11/27/jensen-huang-le-pdg-de-nvidia-est-deconnecte-de-la-realite-et-son-ego-est-totalement-hors-de-controle_6815895_3232.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:00:01+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "79d80dc8224d": {
+   "titre": "Le Cadre de coopération Tunisie–ONU 2027-2031 est la feuille de route de l'action...",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Politique/20851859-le-cadre-de",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:12:49.643314+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7c416b24a096": {
+   "titre": "Tunisie Leasing & Factoring décide de conserver sa participation stratégique dans Tuninvest",
+   "source": "Ilboursa.com",
+   "url": "https://www.ilboursa.com/marches/tunisie-leasing-factoring-decide-de-conserver-sa-participation-strategique-dans-tuninvest_66005",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:36:39+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "7f9f100e8885": {
+   "titre": "Wall Street termine en hausse une séance écourtée, portée par l'IA",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Monde/20852954-wall-street-termine",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T20:11:51.610559+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "80c754d73257": {
+   "titre": "Le Cadre de coopération Tunisie–ONU 2027-2031 est la feuille de route de l’action onusienne en Tunisie, selon la coordinatrice de l’ONU à Tunis",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/le-cadre-de-cooperation-tunisie-onu-2027-2031-est-la-feuille-de-route-de-laction-onusienne-en-tunisie-selon-la-coordinatrice-de-lonu-a-tunis/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:00:40+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "8a3383eacf4e": {
+   "titre": "La France entre en récession après deux trimestres de recul du PIB",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/27/la-france-entre-en-recession-apres-deux-trimestres-de-recul-du-pib_6815824_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T10:25:50+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "918defeed77d": {
+   "titre": "70 Actualités parlementaires Loi de finances 2027 : le calendrier des débats et des votes se précise Il y a 2 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/loi-de-finances-2027-le-calendrier-des-debats-et-des-votes-se-precise/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T20:11:51.610559+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "9c205fc50a81": {
+   "titre": "Tunisie-ONU : un cadre de coopération 2027-2031 de 444 millions de dollars",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/27/578174/tunisie-onu-un-cadre-de-cooperation-2027-2031-de-444-millions-de-dollars/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a0163ab4b7a9": {
+   "titre": "Tunisie Leasing et Factoring garde ses 36,51% dans Tuninvest Sicar",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/27/tunisie-leasing-et-factoring-garde-ses-3651-dans-tuninvest-sicar/1431144/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:01:32+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a1a628012a65": {
+   "titre": "Dette : S&P maintient la note de la France mais menace de la dégrader",
+   "source": "African Manager",
+   "url": "https://africanmanager.com/dette-sp-maintient-la-note-de-la-france-mais-menace-de-la-degrader/",
+   "url_traduite": null,
+   "publie_le": "2026-11-28T07:55:14+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "a817ec665165": {
+   "titre": "145 Economie Semaine boursière : le marché monte en puissance pendant que ses volumes se retirent Il y a 11 heures",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/semaine-boursiere-le-marche-monte-en-puissance-pendant-que-ses-volumes-se-retirent/",
+   "url_traduite": null,
+   "publie_le": "2026-11-28T09:01:52.263736+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "aa60d14f6b7b": {
+   "titre": "Comment BYD a remporté la bataille entre constructeurs chinois pour racheter l’usine d’Ineos Automotive en Moselle",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/economie/article/2026/11/27/comment-byd-a-remporte-la-bataille-entre-constructeurs-chinois-pour-racheter-l-usine-d-ineos-automotive-en-moselle_6815921_3234.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T19:22:02+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "ab409052fd39": {
+   "titre": "Emploi, investissement, économie verte: ce que vise le nouveau partenariat Tunisie–ONU",
+   "source": "Managers",
+   "url": "https://managers.tn/2026/11/27/emploi-investissement-economie-verte-ce-que-vise-le-nouveau-partenariat-tunisie-onu/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:32:12.558375+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c1602a7be371": {
+   "titre": "Bourse de Tunis : UBCI et SOTETEL signent les plus fortes hausses",
+   "source": "Web Manager Center",
+   "url": "https://www.webmanagercenter.com/2026/11/26/578092/bourse-de-tunis-ubci-et-sotetel-signent-les-plus-fortes-hausses/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T09:25:56.614864+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "c8718c09d16f": {
+   "titre": "L’agence S&P menace de dégrader encore la note de la France, entrée en récession",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/politique/article/2026/11/27/l-agence-s-p-menace-de-degrader-encore-la-note-de-la-france-entree-en-recession_6815934_823448.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T22:18:33+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "cb539989a7fd": {
+   "titre": "Energie solaire : La CONECT appelle l'ARP à rétablir les allégements fiscaux et douaniers",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20853686-energie-solaire",
+   "url_traduite": null,
+   "publie_le": "2026-11-28T09:01:52.263736+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ccea224129e8": {
+   "titre": "49 Economie 71% des pertes : trois entités plombent le secteur public tunisien Il y a 52 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/71-des-pertes-trois-entites-plombent-le-secteur-public-tunisien/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ce97f5b900d4": {
+   "titre": "Communiqué de presse : Tunisie Leasing et Factoring",
+   "source": "CMF",
+   "url": "https://www.cmf.tn/?q=communiqu%C3%A9-de-presse-tunisie-leasing-et-factoring-13",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T16:23:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d3641776f2dd": {
+   "titre": "Tunisie Leasing et Factoring renonce, po...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/bourse-fusions-acquisitions/tunisie-leasing-et-factoring-tunisie-leasing-et-factoring-renonce-pour-l-heure-a-ceder-sa-participation-dans-tuninvest",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d3ae29bd4ca7": {
+   "titre": "Énergie solaire : les professionnels montent au créneau après le rejet des allègements fiscaux",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/27/energie-solaire-les-professionnels-montent-au-creneau-apres-le-rejet-des-allegements-fiscaux/1431160/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T20:19:56+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "d60dc1d563a1": {
+   "titre": "La Suède va rejoindre le système de règlement brut en temps réel T2 de l'Eurosystème",
+   "source": "Finextra",
+   "url": "https://www.finextra.com/newsarticle/48829/sweden-to-join-eurosystems-t2-rtgs-system",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:29:00+01:00",
+   "langue": "en",
+   "payant": false,
+   "titre_origine": "Sweden to join Eurosystem's T2 RTGS system"
+  },
+  "dcd9c827f062": {
+   "titre": "Tunisie-ONU : un cadre de coopération stratégique de 444 millions de dollars pour la période 2027-2031",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Politique/20851834-tunisie-onu-un",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T13:32:12.558375+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ea3737d3c67c": {
+   "titre": "Plongée dans le monde des IA débridées, ces intelligences artificielles déchaînées pouvant servir des desseins illégaux",
+   "source": "Le Monde · Économie",
+   "url": "https://www.lemonde.fr/pixels/article/2026/11/28/plongee-dans-le-monde-des-ia-debridees-ces-intelligences-artificielles-dechainees-pouvant-servir-des-desseins-illegaux_6816059_4408996.html",
+   "url_traduite": null,
+   "publie_le": "2026-11-28T05:00:26+01:00",
+   "langue": "fr",
+   "payant": true
+  },
+  "ea568b007328": {
+   "titre": "43 A la une France-Élection : ils se battent pour diriger un pays en « récession », ce que dit l’Insee... Il y a 37 minutes",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/france-election-ils-se-battent-pour-diriger-un-pays-en-recession-ce-que-dit-linsee-est-terrible/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ed3e36106f88": {
+   "titre": "Maher Chaâbane condamné à 25 ans de prison dans une affaire de crédits bancaires",
+   "source": "Business News",
+   "url": "https://businessnews.com.tn/2026/11/27/maher-chaabane-condamne-a-25-ans-de-prison-dans-une-affaire-de-credits-bancaires/1431097/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T10:39:00+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "ed792c7582ad": {
+   "titre": "54 Société Tunisie : 15 ans de prison pour Maher Chaabane et plus de 500 millions de... Il y a 1 heure",
+   "source": "Tunisie Numérique",
+   "url": "https://www.tunisienumerique.com/tunisie-15-ans-de-prison-pour-maher-chaabane-et-plus-de-500-millions-de-dinars-damendes-dans-une-affaire-de-credits-bancaires/",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T11:06:56.346043+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f2ea3fb8ee66": {
+   "titre": "Filiales françaises en Afrique : la chut...",
+   "source": "Tustex",
+   "url": "https://www.tustex.com/international/filiales-francaises-en-afrique-la-chute-des-dividendes-accelere-le-redeploiement-vers-les-marches",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T17:22:17.355246+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "f62ca044dd70": {
+   "titre": "PLF 2027 : La Chambre nationale du photovoltaïque appelle à la soumission en plénière des avantages fiscaux liés à l’énergie solaire et au stockage",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20851855-plf-2027-la",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:12:49.643314+00:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fa6a45eda877": {
+   "titre": "IA : 56% des banques africaines qui collaborent avec des prestataires dépassent leurs objectifs financiers",
+   "source": "Sika Finance",
+   "url": "https://www.sikafinance.com/marches/ia-56-des-banques-africaines-qui-collaborent-avec-des-prestataires-depassent-leurs-objectifs-financiers_66001",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T15:21:05+01:00",
+   "langue": "fr",
+   "payant": false
+  },
+  "fb4e57a548bd": {
+   "titre": "Bourse : Le Tunindex a inscrit une progression notable de 4%, à 20 005,39 points",
+   "source": "TAP",
+   "url": "https://www.tap.info.tn/fr/Portail-Economie/20852748-bourse-le",
+   "url_traduite": null,
+   "publie_le": "2026-11-27T20:11:51.610559+00:00",
+   "langue": "fr",
+   "payant": false
+  }
+ }
+}
